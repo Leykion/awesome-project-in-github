@@ -60,7 +60,7 @@ export function loadConfig(): PipelineConfig {
     ],
     llmEvalThreshold: 40,
     llmEvalBatchSize: 20,
-    readmeTruncateChars: 8000,
+    readmeTruncateChars: 3000,
   };
 }
 
