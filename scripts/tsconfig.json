@@ -3,10 +3,7 @@
   "compilerOptions": {
     "module": "ESNext",
     "moduleResolution": "bundler",
-    "outDir": "./dist",
-    "rootDir": ".",
     "types": ["node"]
   },
-  "include": ["./**/*.ts"],
-  "references": [{ "path": "../packages/shared" }]
+  "include": ["./**/*.ts"]
 }
