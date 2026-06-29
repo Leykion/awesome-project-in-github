@@ -92,9 +92,7 @@ export async function enrichMetadata(config: PipelineConfig): Promise<EnrichMeta
 
   // 2. REST API 补全：对需要详细元数据的仓库逐个补全
   // 筛选条件：新发现（id 为 0）或缺少 badges 信息的仓库
-  const needsEnrichment = repos.filter(
-    (r) => r.id === 0 || r.contributorCount === null,
-  );
+  const needsEnrichment = repos.filter((r) => r.id === 0 || r.contributorCount === null);
 
   // 限制每次运行最多补全 200 个仓库（每个约 14 次 REST 调用，200 × 14 = 2800，安全范围内）
   const maxRestPerRun = 200;
