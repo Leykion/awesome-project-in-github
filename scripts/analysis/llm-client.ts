@@ -27,15 +27,17 @@ export function createLLMClient(config: LLMConfig) {
           return response.choices[0]?.message?.content ?? "";
         } catch (err: unknown) {
           if (attempt === maxRetries) throw err;
-          const isRateLimit =
-            err instanceof Error &&
-            "status" in err &&
-            (err as unknown as { status: number }).status === 429;
-          const isServer =
-            err instanceof Error &&
-            "status" in err &&
-            (err as unknown as { status: number }).status >= 500;
-          if (!isRateLimit && !isServer) throw err;
+          const status =
+            err instanceof Error && "status" in err
+              ? (err as unknown as { status: number }).status
+              : 0;
+          const isRateLimit = status === 429;
+          const isServer = status >= 500;
+          const isNetwork =
+            err instanceof TypeError ||
+            (err instanceof Error &&
+              /premature close|ECONNRESET|ETIMEDOUT|fetch failed/i.test(err.message));
+          if (!isRateLimit && !isServer && !isNetwork) throw err;
           const delay = 2 ** attempt * 1000;
           console.warn(`LLM API attempt ${attempt} failed, retrying in ${delay}ms...`);
           await new Promise((resolve) => setTimeout(resolve, delay));
