@@ -131,7 +131,7 @@ export function mapGraphQLNodeToEnriched(
     trendingSince: null,
     trendingLanguage: null,
     homepageUrl: node.homepageUrl || null,
-    topics: node.repositoryTopics.nodes.map((t) => t.topic.name),
+    topics: node.repositoryTopics?.nodes?.map((t: { topic: { name: string } }) => t.topic.name) ?? [],
     licenseSpdx: node.licenseInfo?.spdxId ?? null,
     licenseName: node.licenseInfo?.name ?? null,
     isFork: node.isFork,

@@ -23,7 +23,7 @@ export class RateLimiter {
   };
 
   /** 安全阈值：剩余配额低于此比例时触发等待 */
-  private readonly safetyThreshold = 0.1;
+  private readonly safetyThreshold = 0.2;
 
   /**
    * 从响应头更新速率限制状态
