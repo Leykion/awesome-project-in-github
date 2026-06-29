@@ -6,6 +6,5 @@
     "lib": ["ES2022", "DOM", "DOM.Iterable"],
     "types": ["@types/react", "@types/react-dom"]
   },
-  "include": ["src/**/*.ts", "src/**/*.tsx", "src/**/*.astro"],
-  "references": [{ "path": "../shared" }]
+  "include": ["src/**/*.ts", "src/**/*.tsx", "src/**/*.astro"]
 }
