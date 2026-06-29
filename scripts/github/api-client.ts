@@ -242,7 +242,8 @@ export class GitHubApiClient {
    */
   async batchQueryGraphQL(fullNames: string[]): Promise<EnrichedRepo[]> {
     const results: EnrichedRepo[] = [];
-    const batchSize = 100;
+    // 每批 30 个仓库，避免 GitHub GraphQL 资源节点限制（100 个仓库容易触发 "Resource limits exceeded"）
+    const batchSize = 30;
 
     for (let i = 0; i < fullNames.length; i += batchSize) {
       const batch = fullNames.slice(i, i + batchSize);
