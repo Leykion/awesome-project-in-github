@@ -40,7 +40,7 @@ export function createLLMClient(config: LLMConfig) {
             (err instanceof Error &&
               /premature close|ECONNRESET|ETIMEDOUT|fetch failed/i.test(err.message));
           if (!isRateLimit && !isServer && !isNetwork) throw err;
-          const delay = 2 ** attempt * 1000;
+          const delay = 2 ** attempt * 3000;
           console.warn(`LLM API attempt ${attempt} failed, retrying in ${delay}ms...`);
           await new Promise((resolve) => setTimeout(resolve, delay));
         }

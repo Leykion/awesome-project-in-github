@@ -62,7 +62,14 @@ export async function aiCurate(config: PipelineConfig): Promise<AiCurateResult> 
       `[AiCurate] 处理批次 ${Math.floor(i / batchSize) + 1}/${Math.ceil(candidates.length / batchSize)} (${batch.length} 个仓库)`,
     );
 
-    for (const repo of batch) {
+    for (let j = 0; j < batch.length; j++) {
+      const repo = batch[j];
+
+      // 请求间隔 1.5 秒，避免触发 DeepSeek 隐性频率限制
+      if (j > 0) {
+        await new Promise((resolve) => setTimeout(resolve, 1500));
+      }
+
       try {
         // 获取 README 内容
         const readme = await apiClient.fetchReadme(
