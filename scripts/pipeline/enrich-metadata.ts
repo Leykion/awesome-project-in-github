@@ -148,13 +148,11 @@ export async function enrichMetadata(config: PipelineConfig): Promise<EnrichMeta
         badges: { ...repo.badges },
       };
 
-      const enriched = await apiClient.enrichRepoMetadata(tempEnriched, config.readmeTruncateChars);
+      const enriched = await apiClient.enrichRepoMetadata(tempEnriched);
 
       // 回写补全的字段
       repo.contributorCount = enriched.contributorCount;
       repo.releasesLast6m = enriched.releasesLast6m;
-      repo.avgIssueCloseDays = enriched.avgIssueCloseDays;
-      repo.readmeSizeBytes = enriched.readmeSizeBytes;
       repo.badges = enriched.badges;
       repo.lastSyncedAt = now;
       restEnriched++;

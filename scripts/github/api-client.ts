@@ -169,25 +169,44 @@ export class GitHubApiClient {
   }
 
   /**
-   * REST API: 检查仓库内容中是否存在特定文件/目录
-   * @param owner - 仓库所有者
-   * @param name - 仓库名称
-   * @param paths - 要检查的路径列表
+   * REST API: 检查仓库根目录中是否存在特定文件/目录
+   * 用 1-2 次 API 调用替代逐个 HEAD 请求
    */
   async checkPaths(owner: string, name: string, paths: string[]): Promise<Record<string, boolean>> {
     const results: Record<string, boolean> = {};
+    for (const p of paths) {
+      results[p] = false;
+    }
 
-    for (const path of paths) {
+    // 获取根目录内容（1 次 API 调用）
+    await this.rateLimiter.waitIfNeeded("rest");
+    const rootUrl = `https://api.github.com/repos/${owner}/${name}/contents/`;
+    const rootResp = await fetch(rootUrl, { headers: this.restHeaders() });
+    this.rateLimiter.updateFromHeaders("rest", rootResp.headers);
+
+    if (!rootResp.ok) return results;
+
+    const rootItems = (await rootResp.json()) as { name: string; type: string }[];
+    const rootNames = new Set(rootItems.map((item) => item.name));
+
+    // 匹配根目录下的路径
+    for (const p of paths) {
+      if (!p.includes("/")) {
+        results[p] = rootNames.has(p);
+      }
+    }
+
+    // .github/workflows 需要额外检查 .github 目录（仅在 .github 存在时，1 次 API 调用）
+    if (paths.includes(".github/workflows") && rootNames.has(".github")) {
       await this.rateLimiter.waitIfNeeded("rest");
+      const ghUrl = `https://api.github.com/repos/${owner}/${name}/contents/.github`;
+      const ghResp = await fetch(ghUrl, { headers: this.restHeaders() });
+      this.rateLimiter.updateFromHeaders("rest", ghResp.headers);
 
-      const url = `https://api.github.com/repos/${owner}/${name}/contents/${path}`;
-      const response = await fetch(url, {
-        method: "HEAD",
-        headers: this.restHeaders(),
-      });
-
-      this.rateLimiter.updateFromHeaders("rest", response.headers);
-      results[path] = response.ok;
+      if (ghResp.ok) {
+        const ghItems = (await ghResp.json()) as { name: string }[];
+        results[".github/workflows"] = ghItems.some((item) => item.name === "workflows");
+      }
     }
 
     return results;
@@ -319,37 +338,31 @@ export class GitHubApiClient {
   /**
    * REST API: 补全单个仓库的完整元数据（badges、贡献者、release 等）
    * @param repo - 已有的基础仓库数据
-   * @param readmeTruncateChars - README 截断字符数
    */
-  async enrichRepoMetadata(repo: EnrichedRepo, readmeTruncateChars: number): Promise<EnrichedRepo> {
+  async enrichRepoMetadata(repo: EnrichedRepo): Promise<EnrichedRepo> {
     const { owner, name } = repo;
 
-    // 并行获取多个元数据
-    const [contributorCount, releasesLast6m, avgIssueCloseDays, readme, pathChecks] =
-      await Promise.all([
-        this.fetchContributorCount(owner, name),
-        this.fetchRecentReleaseCount(owner, name),
-        this.fetchAvgIssueCloseDays(owner, name),
-        this.fetchReadme(owner, name, readmeTruncateChars),
-        this.checkPaths(owner, name, [
-          "examples",
-          ".github/workflows",
-          "tests",
-          "test",
-          "Dockerfile",
-          "setup.py",
-          "pyproject.toml",
-          "package.json",
-          "mcp.json",
-        ]),
-      ]);
+    // 并行获取元数据（checkPaths 内部只需 1-2 次调用）
+    const [contributorCount, releasesLast6m, pathChecks] = await Promise.all([
+      this.fetchContributorCount(owner, name),
+      this.fetchRecentReleaseCount(owner, name),
+      this.checkPaths(owner, name, [
+        "examples",
+        ".github/workflows",
+        "tests",
+        "test",
+        "Dockerfile",
+        "setup.py",
+        "pyproject.toml",
+        "package.json",
+        "mcp.json",
+      ]),
+    ]);
 
     return {
       ...repo,
       contributorCount,
       releasesLast6m,
-      avgIssueCloseDays,
-      readmeSizeBytes: readme ? new TextEncoder().encode(readme).length : null,
       badges: {
         hasExamples: pathChecks.examples ?? false,
         hasCi: pathChecks[".github/workflows"] ?? false,
