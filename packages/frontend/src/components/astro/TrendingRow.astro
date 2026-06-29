@@ -1,0 +1,117 @@
+---
+// packages/frontend/src/components/astro/TrendingRow.astro
+// 水平行组件：用于趋势排行列表
+// 排名数字：64px，font-data，Top 3 为 accent 色
+// 三列网格：[排名 80px] [信息区 1fr] [指标区 200px]
+// hover 效果：translateY(-1px)，背景色 -> elevated
+
+import { formatGrowth, formatNumber } from "@gitpulse/shared";
+
+interface Props {
+  /** 排名 (1-25) */
+  rank: number;
+  /** 仓库所有者 */
+  owner: string;
+  /** 仓库名称 */
+  name: string;
+  /** 仓库描述 */
+  description: string | null;
+  /** 主要编程语言 */
+  language: string | null;
+  /** 语言颜色 */
+  languageColor: string | null;
+  /** 总 star 数 */
+  stars: number;
+  /** 本周期 star 增长 */
+  starsGained: number | null;
+  /** 总 fork 数 */
+  forks: number;
+}
+
+const { rank, owner, name, description, language, languageColor, stars, starsGained, forks } =
+  Astro.props;
+
+const isTop3 = rank <= 3;
+---
+
+<a
+  href={`/repo/${owner}/${name}`}
+  class="trending-row group grid items-center rounded-[var(--radius-md)] border border-[var(--color-border)] bg-[var(--color-surface)] px-[var(--space-4)] py-[var(--space-3)] transition-all"
+  style={`grid-template-columns: 80px 1fr 200px; transition-duration: var(--duration-fast); transition-timing-function: var(--ease-out-expo);`}
+>
+  <!-- 排名数字 -->
+  <div class="flex items-center justify-center">
+    <span
+      class="font-[var(--font-data)] font-bold leading-none"
+      style={`font-size: var(--text-rank); color: ${isTop3 ? 'var(--color-accent)' : 'var(--color-border)'};`}
+    >
+      {rank}
+    </span>
+  </div>
+
+  <!-- 信息区 -->
+  <div class="min-w-0 px-[var(--space-3)]">
+    <div class="flex items-center gap-[var(--space-1)] mb-[var(--space-1)]">
+      <span class="text-[var(--text-sm)] text-[var(--color-text-secondary)] truncate">{owner}</span>
+      <span class="text-[var(--text-sm)] text-[var(--color-text-tertiary)]">/</span>
+      <span class="text-[var(--text-base)] font-semibold text-[var(--color-text-primary)] truncate">{name}</span>
+    </div>
+    <p class="text-[var(--text-sm)] text-[var(--color-text-secondary)] truncate">
+      {description || '暂无描述'}
+    </p>
+    {language && (
+      <span class="inline-flex items-center gap-[var(--space-1)] text-[var(--text-xs)] text-[var(--color-text-tertiary)] mt-[var(--space-1)]">
+        <span
+          class="inline-block w-2.5 h-2.5 rounded-full"
+          style={`background-color: ${languageColor || 'var(--color-text-tertiary)'};`}
+        ></span>
+        {language}
+      </span>
+    )}
+  </div>
+
+  <!-- 指标区 -->
+  <div class="flex flex-col items-end gap-[var(--space-1)]">
+    <span class="inline-flex items-center gap-[var(--space-1)] text-[var(--text-sm)] text-[var(--color-text-secondary)]">
+      <svg class="w-4 h-4" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true">
+        <path d="M8 .25a.75.75 0 0 1 .673.418l1.882 3.815 4.21.612a.75.75 0 0 1 .416 1.279l-3.046 2.97.719 4.192a.75.75 0 0 1-1.088.791L8 12.347l-3.766 1.98a.75.75 0 0 1-1.088-.79l.72-4.194L.818 6.374a.75.75 0 0 1 .416-1.28l4.21-.611L7.327.668A.75.75 0 0 1 8 .25Z" />
+      </svg>
+      <span class="font-[var(--font-data)]">{formatNumber(stars)}</span>
+    </span>
+    {starsGained !== null && (
+      <span
+        class:list={[
+          'text-[var(--text-sm)] font-[var(--font-data)] font-medium',
+          starsGained > 0 ? 'text-[var(--color-positive)]' : 'text-[var(--color-decline)]',
+        ]}
+      >
+        {formatGrowth(starsGained)}
+      </span>
+    )}
+    <span class="text-[var(--text-xs)] text-[var(--color-text-tertiary)] font-[var(--font-data)]">
+      {formatNumber(forks)} forks
+    </span>
+  </div>
+</a>
+
+<style>
+  .trending-row:hover {
+    transform: translateY(-1px);
+    background-color: var(--color-elevated);
+  }
+
+  /* 移动端响应式：单列堆叠 */
+  @media (max-width: 639px) {
+    .trending-row {
+      grid-template-columns: 48px 1fr !important;
+    }
+    .trending-row > div:last-child {
+      grid-column: 1 / -1;
+      flex-direction: row;
+      align-items: center;
+      justify-content: flex-start;
+      gap: var(--space-3);
+      padding-top: var(--space-2);
+    }
+  }
+</style>

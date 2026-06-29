@@ -1,0 +1,42 @@
+{
+  "name": "gitpulse-ai",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22.0.0"
+  },
+  "packageManager": "pnpm@9.15.0",
+  "scripts": {
+    "dev": "pnpm --filter frontend dev",
+    "build": "pnpm --filter @gitpulse/shared build && pnpm --filter frontend build",
+    "deploy": "pnpm build && pnpm deploy:frontend",
+    "deploy:frontend": "pnpm --filter frontend exec wrangler pages deploy ./dist --project-name=gitpulse-ai",
+    "pipeline:fetch": "tsx scripts/pipeline/fetch-trending.ts",
+    "pipeline:enrich": "tsx scripts/pipeline/enrich-metadata.ts",
+    "pipeline:score": "tsx scripts/pipeline/score-repos.ts",
+    "pipeline:curate": "tsx scripts/pipeline/ai-curate.ts",
+    "pipeline:collections": "tsx scripts/pipeline/generate-collections.ts",
+    "pipeline:cleanup": "tsx scripts/pipeline/cleanup-stale.ts",
+    "pipeline:search-index": "tsx scripts/pipeline/build-search-index.ts",
+    "pipeline:all": "tsx scripts/pipeline.ts",
+    "typecheck": "pnpm -r typecheck && tsc --noEmit -p scripts/tsconfig.json",
+    "lint": "biome check .",
+    "lint:fix": "biome check --write .",
+    "test": "pnpm -r test && vitest run"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^1.9.0",
+    "@types/node": "^22.0.0",
+    "tsx": "^4.0.0",
+    "typescript": "^5.7.0",
+    "vitest": "^3.0.0",
+    "wrangler": "^4.0.0"
+  },
+  "dependencies": {
+    "@gitpulse/shared": "workspace:*",
+    "cheerio": "^1.0.0",
+    "openai": "^4.73.0",
+    "zod": "^3.23.0"
+  }
+}

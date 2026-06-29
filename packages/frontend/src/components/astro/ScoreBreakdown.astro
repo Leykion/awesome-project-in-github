@@ -1,0 +1,110 @@
+---
+// packages/frontend/src/components/astro/ScoreBreakdown.astro
+// 评分分解显示组件（透明度组件）
+// 综合得分 = 0.30 * 增长速度 + 0.20 * 项目成熟度 + 0.20 * 社区健康 + 0.20 * AI 相关性 + 0.10 * 代码质量
+
+import { SCORING_WEIGHTS } from "@gitpulse/shared";
+
+interface Props {
+  scores: {
+    growth: number;
+    maturity: number;
+    community: number;
+    relevance: number;
+    quality: number;
+    composite: number;
+  };
+  tier: "star" | "notable" | "tracked";
+}
+
+const { scores, tier } = Astro.props;
+
+const dimensions = [
+  {
+    key: "growth" as const,
+    label: "增长速度",
+    weight: SCORING_WEIGHTS.growth,
+    color: "var(--color-accent)",
+  },
+  {
+    key: "maturity" as const,
+    label: "项目成熟度",
+    weight: SCORING_WEIGHTS.maturity,
+    color: "var(--color-info)",
+  },
+  {
+    key: "community" as const,
+    label: "社区健康",
+    weight: SCORING_WEIGHTS.community,
+    color: "var(--color-positive)",
+  },
+  {
+    key: "relevance" as const,
+    label: "AI 相关性",
+    weight: SCORING_WEIGHTS.relevance,
+    color: "var(--color-cat-llm)",
+  },
+  {
+    key: "quality" as const,
+    label: "代码质量",
+    weight: SCORING_WEIGHTS.quality,
+    color: "var(--color-cat-devtools)",
+  },
+];
+
+const tierConfig: Record<string, { label: string; color: string }> = {
+  star: { label: "Star", color: "var(--color-accent)" },
+  notable: { label: "Notable", color: "var(--color-info)" },
+  tracked: { label: "Tracked", color: "var(--color-text-tertiary)" },
+};
+
+const { label: tierLabel, color: tierColor } = tierConfig[tier];
+---
+
+<div class="rounded-[var(--radius-lg)] border border-[var(--color-border)] bg-[var(--color-surface)] p-[var(--space-4)]">
+  <!-- 综合得分头部 -->
+  <div class="flex items-center justify-between mb-[var(--space-4)]">
+    <div class="flex items-center gap-[var(--space-3)]">
+      <span
+        class="text-[var(--text-2xl)] font-bold font-[var(--font-data)]"
+        style={`color: ${tierColor};`}
+      >
+        {Math.round(scores.composite)}
+      </span>
+      <div class="flex flex-col">
+        <span class="text-[var(--text-sm)] font-medium text-[var(--color-text-primary)]">综合得分</span>
+        <span
+          class="text-[var(--text-xs)] font-medium"
+          style={`color: ${tierColor};`}
+        >
+          {tierLabel}
+        </span>
+      </div>
+    </div>
+  </div>
+
+  <!-- 各维度分解 -->
+  <div class="flex flex-col gap-[var(--space-3)]">
+    {dimensions.map((dim) => (
+      <div>
+        <div class="flex items-center justify-between mb-[var(--space-1)]">
+          <span class="text-[var(--text-xs)] text-[var(--color-text-secondary)]">
+            {dim.label}
+            <span class="text-[var(--color-text-tertiary)] ml-[var(--space-1)]">
+              ({Math.round(dim.weight * 100)}%)
+            </span>
+          </span>
+          <span class="text-[var(--text-xs)] font-[var(--font-data)] text-[var(--color-text-primary)]">
+            {Math.round(scores[dim.key])}
+          </span>
+        </div>
+        <div class="h-1.5 rounded-full bg-[var(--color-elevated)] overflow-hidden">
+          <div
+            class="h-full rounded-full transition-all"
+            style={`width: ${scores[dim.key]}%; background-color: ${dim.color}; transition-duration: var(--duration-normal); transition-timing-function: var(--ease-out-expo);`}
+          ></div>
+        </div>
+      </div>
+    ))}
+  </div>
+</div>

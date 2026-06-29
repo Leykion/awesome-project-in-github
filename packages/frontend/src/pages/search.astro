@@ -1,0 +1,45 @@
+---
+// packages/frontend/src/pages/search.astro
+// 搜索页：SearchBar React Island + 客户端 Fuse.js 搜索
+
+import { SearchBar } from "../components/react/SearchBar";
+import BaseLayout from "../layouts/BaseLayout.astro";
+import { loadSearchIndex } from "../lib/data-loader";
+
+const searchIndex = await loadSearchIndex();
+---
+
+<BaseLayout title="搜索 - GitPulse AI" description="搜索 AI 开源项目，使用 Fuse.js 实现客户端模糊搜索">
+  <div class="mx-auto px-[var(--space-4)] py-[var(--space-8)]" style={`max-width: var(--max-width)`}>
+    <div class="max-w-2xl mx-auto">
+      <!-- 页面标题 -->
+      <h1 class="font-[var(--font-display)] text-[var(--text-2xl)] font-semibold text-[var(--color-text-primary)] mb-[var(--space-6)] text-center">
+        搜索 AI 项目
+      </h1>
+
+      <!-- 搜索栏（React Island） -->
+      <SearchBar client:load searchIndex={searchIndex} />
+
+      <!-- 搜索提示 -->
+      <div class="mt-[var(--space-8)] text-center">
+        <p class="text-[var(--text-sm)] text-[var(--color-text-tertiary)]">
+          输入至少 2 个字符开始搜索，支持项目名称、描述、话题标签等
+        </p>
+
+        {searchIndex.length === 0 && (
+          <div class="mt-[var(--space-6)]">
+            <p class="text-[var(--text-base)] text-[var(--color-text-secondary)]">
+              搜索索引尚未构建，请等待数据同步完成
+            </p>
+          </div>
+        )}
+
+        {searchIndex.length > 0 && (
+          <p class="mt-[var(--space-2)] text-[var(--text-xs)] text-[var(--color-text-tertiary)]">
+            已收录 {searchIndex.length} 个项目
+          </p>
+        )}
+      </div>
+    </div>
+  </div>
+</BaseLayout>

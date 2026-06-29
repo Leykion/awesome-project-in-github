@@ -1,0 +1,235 @@
+---
+// packages/frontend/src/pages/index.astro
+// 首页：Hero + StatsBar + 分类标签 + 今日热门 + AI 精选 + 分类导航
+
+import CategoryCard from "../components/astro/CategoryCard.astro";
+import DataFreshness from "../components/astro/DataFreshness.astro";
+import EmptyState from "../components/astro/EmptyState.astro";
+import FeaturedCard from "../components/astro/FeaturedCard.astro";
+import RepoCard from "../components/astro/RepoCard.astro";
+import StatsBar from "../components/astro/StatsBar.astro";
+import BaseLayout from "../layouts/BaseLayout.astro";
+import { CATEGORY_ICONS, CATEGORY_NAMES, CATEGORY_SLUGS } from "../lib/constants";
+import {
+  loadCategories,
+  loadFeaturedCollections,
+  loadRepositories,
+  loadStats,
+  loadTrending,
+} from "../lib/data-loader";
+import { timeAgo } from "../lib/format";
+
+const trendingDaily = await loadTrending("daily");
+const categories = await loadCategories();
+const stats = await loadStats();
+const featuredCollections = await loadFeaturedCollections();
+const repositories = await loadRepositories();
+
+// 从趋势数据汇总今日新增 Stars
+const todayStars = trendingDaily.reduce((sum, item) => sum + (item.starsGained ?? 0), 0);
+
+// 获取今日热门项目（前 9 个）
+const hotProjects = trendingDaily.slice(0, 9);
+
+// 关联仓库详细数据，用于 RepoCard 渲染
+const repoMap = new Map(repositories.map((r) => [r.fullName, r]));
+
+// 获取最近 3 个已发布的精选合集
+const publishedCollections = featuredCollections
+  .filter((c) => c.isPublished)
+  .sort((a, b) => {
+    if (a.isPinned !== b.isPinned) return a.isPinned ? -1 : 1;
+    return new Date(b.updatedAt).getTime() - new Date(a.updatedAt).getTime();
+  })
+  .slice(0, 3);
+
+// 分类导航数据（按 sortOrder 排序）
+const sortedCategories = [...categories].sort((a, b) => a.sortOrder - b.sortOrder);
+---
+
+<BaseLayout title="GitPulse AI - 发现 AI 开源世界的下一个趋势">
+  <!-- Hero 区域 -->
+  <section class="relative overflow-hidden py-[var(--space-16)] px-[var(--space-4)]">
+    <!-- Amber 径向渐变光晕背景 -->
+    <div
+      class="absolute inset-0 pointer-events-none"
+      style="background: radial-gradient(ellipse at 50% 0%, rgba(245, 158, 11, 0.15) 0%, transparent 70%);"
+    ></div>
+
+    <div class="relative mx-auto text-center" style={`max-width: var(--max-width)`}>
+      <h1 class="font-[var(--font-display)] text-[var(--text-3xl)] sm:text-[var(--text-4xl)] font-bold text-[var(--color-text-primary)] mb-[var(--space-3)]">
+        发现 AI 开源世界的下一个趋势
+      </h1>
+      <p class="text-[var(--text-base)] text-[var(--color-text-secondary)] mb-[var(--space-8)] max-w-2xl mx-auto">
+        追踪 GitHub 上最具影响力的 AI 开源项目，由 AI 智能策展，助你把握技术前沿
+      </p>
+
+      <!-- 统计数据栏 -->
+      <StatsBar
+        totalRepos={stats.totalReposTracked}
+        todayStars={todayStars}
+        categoryCount={Object.keys(stats.categoryCounts).length || sortedCategories.length}
+        lastUpdate={timeAgo(stats.lastSyncAt)}
+      />
+    </div>
+  </section>
+
+  <!-- 分类标签区域 -->
+  <section class="px-[var(--space-4)] mb-[var(--space-8)]">
+    <div class="mx-auto" style={`max-width: var(--max-width)`}>
+      <div class="flex items-center gap-[var(--space-2)] overflow-x-auto pb-[var(--space-2)] scrollbar-none">
+        <!-- "全部" 标签 -->
+        <a
+          href="/trending/daily"
+          class="shrink-0 inline-flex items-center rounded-[var(--radius-full)] px-[var(--space-4)] py-[var(--space-2)] text-[var(--text-sm)] font-medium bg-[var(--color-accent)] text-[var(--color-ink)] transition-colors"
+        >
+          全部
+        </a>
+        <!-- 9 个分类标签 -->
+        {CATEGORY_SLUGS.map((slug) => (
+          <a
+            href={`/category/${slug}`}
+            class="shrink-0 inline-flex items-center gap-[var(--space-1)] rounded-[var(--radius-full)] px-[var(--space-4)] py-[var(--space-2)] text-[var(--text-sm)] font-medium bg-[var(--color-elevated)] text-[var(--color-text-secondary)] hover:text-[var(--color-accent)] transition-colors"
+          >
+            <span>{CATEGORY_ICONS[slug]}</span>
+            {CATEGORY_NAMES[slug]}
+          </a>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- "今日热门" 项目卡片网格 -->
+  <section class="px-[var(--space-4)] mb-[var(--space-12)]">
+    <div class="mx-auto" style={`max-width: var(--max-width)`}>
+      <div class="flex items-center justify-between mb-[var(--space-6)]">
+        <h2 class="font-[var(--font-display)] text-[var(--text-xl)] font-semibold text-[var(--color-text-primary)]">
+          今日热门
+        </h2>
+        <a
+          href="/trending/daily"
+          class="text-[var(--text-sm)] text-[var(--color-accent)] hover:underline"
+        >
+          查看更多
+        </a>
+      </div>
+
+      {hotProjects.length === 0 ? (
+        <EmptyState
+          message="数据初始化中，请稍后访问。GitHub Actions 数据同步将在下次定时运行后填充数据。"
+          illustration="📊"
+        />
+      ) : (
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-[var(--space-4)]">
+          {hotProjects.map((item) => {
+            const repo = repoMap.get(item.fullName);
+            return (
+              <RepoCard
+                owner={item.fullName.split('/')[0]}
+                name={item.fullName.split('/')[1]}
+                description={repo?.description ?? null}
+                language={repo?.language ?? item.language}
+                languageColor={repo?.languageColor ?? null}
+                stars={item.starsTotal}
+                starsGained={item.starsGained}
+                licenseSpdx={repo?.licenseSpdx ?? null}
+                pushedAt={repo?.pushedAt ?? null}
+                openIssues={repo?.openIssues ?? 0}
+                hasCi={repo?.badges?.hasCi ?? false}
+                hasReleases={repo?.badges?.hasReleases ?? false}
+                isArchived={repo?.isArchived ?? false}
+              />
+            );
+          })}
+        </div>
+      )}
+    </div>
+  </section>
+
+  <!-- "AI 精选" 编辑性区域 -->
+  {publishedCollections.length > 0 && (
+    <section class="px-[var(--space-4)] mb-[var(--space-12)]">
+      <div class="mx-auto" style={`max-width: var(--max-width)`}>
+        <div class="flex items-center justify-between mb-[var(--space-6)]">
+          <h2 class="font-[var(--font-display)] text-[var(--text-xl)] font-semibold text-[var(--color-text-primary)]">
+            AI 精选
+          </h2>
+          <a
+            href="/featured"
+            class="text-[var(--text-sm)] text-[var(--color-accent)] hover:underline"
+          >
+            查看全部
+          </a>
+        </div>
+
+        <div class="grid grid-cols-1 lg:grid-cols-[1fr_1fr] gap-[var(--space-4)]">
+          {/* 大特色卡片 */}
+          {publishedCollections[0] && (
+            <div class="lg:row-span-2">
+              <FeaturedCard
+                title={publishedCollections[0].title}
+                slug={publishedCollections[0].slug}
+                description={publishedCollections[0].description}
+                coverEmoji={publishedCollections[0].coverEmoji}
+                collectionType={publishedCollections[0].collectionType}
+                repoCount={publishedCollections[0].repos.length}
+                publishedAt={publishedCollections[0].publishedAt}
+                isPinned={publishedCollections[0].isPinned}
+              />
+            </div>
+          )}
+          {/* 侧边精选列表 */}
+          {publishedCollections.slice(1).map((collection) => (
+            <FeaturedCard
+              title={collection.title}
+              slug={collection.slug}
+              description={collection.description}
+              coverEmoji={collection.coverEmoji}
+              collectionType={collection.collectionType}
+              repoCount={collection.repos.length}
+              publishedAt={collection.publishedAt}
+              isPinned={collection.isPinned}
+            />
+          ))}
+        </div>
+      </div>
+    </section>
+  )}
+
+  <!-- 分类导航网格 -->
+  <section class="px-[var(--space-4)] mb-[var(--space-12)]">
+    <div class="mx-auto" style={`max-width: var(--max-width)`}>
+      <h2 class="font-[var(--font-display)] text-[var(--text-xl)] font-semibold text-[var(--color-text-primary)] mb-[var(--space-6)]">
+        探索分类
+      </h2>
+      <div class="grid grid-cols-2 sm:grid-cols-3 gap-[var(--space-4)]">
+        {sortedCategories.map((cat) => (
+          <CategoryCard
+            slug={cat.slug}
+            name={cat.name}
+            icon={cat.icon}
+            repoCount={cat.repoCount}
+          />
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- 数据新鲜度指示 -->
+  <section class="px-[var(--space-4)] mb-[var(--space-8)]">
+    <div class="mx-auto text-center" style={`max-width: var(--max-width)`}>
+      <DataFreshness lastSyncAt={stats.lastSyncAt} />
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  /* 隐藏滚动条（用于分类标签横向滚动） */
+  .scrollbar-none::-webkit-scrollbar {
+    display: none;
+  }
+  .scrollbar-none {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+</style>

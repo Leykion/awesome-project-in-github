@@ -1,0 +1,109 @@
+---
+// packages/frontend/src/components/astro/RepoCard.astro
+// 垂直卡片组件：用于首页项目网格
+
+import { formatGrowth, formatNumber } from "@gitpulse/shared";
+import { computeHealthBadge } from "@gitpulse/shared";
+import HealthBadge from "./HealthBadge.astro";
+import LicenseBadge from "./LicenseBadge.astro";
+
+interface Props {
+  owner: string;
+  name: string;
+  description: string | null;
+  language: string | null;
+  languageColor: string | null;
+  stars: number;
+  starsGained: number | null;
+  licenseSpdx: string | null;
+  pushedAt: string | null;
+  openIssues: number;
+  hasCi: boolean;
+  hasReleases: boolean;
+  isArchived: boolean;
+}
+
+const {
+  owner,
+  name,
+  description,
+  language,
+  languageColor,
+  stars,
+  starsGained,
+  licenseSpdx,
+  pushedAt,
+  openIssues,
+  hasCi,
+  hasReleases,
+  isArchived,
+} = Astro.props;
+
+const healthStatus = computeHealthBadge({ pushedAt, openIssues, hasCi, hasReleases, isArchived });
+---
+
+<a
+  href={`/repo/${owner}/${name}`}
+  class="group block rounded-[var(--radius-lg)] border border-[var(--color-border)] bg-[var(--color-surface)] p-[var(--space-4)] transition-all"
+  style={`transition-duration: var(--duration-normal); transition-timing-function: var(--ease-out-expo);`}
+>
+  <!-- 仓库名称 -->
+  <div class="flex items-center gap-[var(--space-1)] mb-[var(--space-2)]">
+    <span class="text-[var(--text-sm)] text-[var(--color-text-secondary)] truncate">{owner}</span>
+    <span class="text-[var(--text-sm)] text-[var(--color-text-tertiary)]">/</span>
+    <span class="text-[var(--text-sm)] font-semibold text-[var(--color-text-primary)] truncate">{name}</span>
+  </div>
+
+  <!-- 描述 -->
+  <p class="text-[var(--text-sm)] text-[var(--color-text-secondary)] leading-[var(--leading-normal)] mb-[var(--space-3)] line-clamp-2 min-h-[2.5em]">
+    {description || '暂无描述'}
+  </p>
+
+  <!-- 底部指标行 -->
+  <div class="flex items-center justify-between gap-[var(--space-2)] flex-wrap">
+    <div class="flex items-center gap-[var(--space-3)]">
+      <!-- 语言标识 -->
+      {language && (
+        <span class="inline-flex items-center gap-[var(--space-1)] text-[var(--text-xs)] text-[var(--color-text-secondary)]">
+          <span
+            class="inline-block w-2.5 h-2.5 rounded-full"
+            style={`background-color: ${languageColor || 'var(--color-text-tertiary)'};`}
+          ></span>
+          {language}
+        </span>
+      )}
+
+      <!-- Star 数 -->
+      <span class="inline-flex items-center gap-[var(--space-1)] text-[var(--text-xs)] text-[var(--color-text-secondary)]">
+        <svg class="w-3.5 h-3.5" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true">
+          <path d="M8 .25a.75.75 0 0 1 .673.418l1.882 3.815 4.21.612a.75.75 0 0 1 .416 1.279l-3.046 2.97.719 4.192a.75.75 0 0 1-1.088.791L8 12.347l-3.766 1.98a.75.75 0 0 1-1.088-.79l.72-4.194L.818 6.374a.75.75 0 0 1 .416-1.28l4.21-.611L7.327.668A.75.75 0 0 1 8 .25Z" />
+        </svg>
+        <span class="font-[var(--font-data)]">{formatNumber(stars)}</span>
+      </span>
+
+      <!-- Star 增长 -->
+      {starsGained !== null && starsGained !== 0 && (
+        <span
+          class:list={[
+            'text-[var(--text-xs)] font-[var(--font-data)]',
+            starsGained > 0 ? 'text-[var(--color-positive)]' : 'text-[var(--color-decline)]',
+          ]}
+        >
+          {formatGrowth(starsGained)}
+        </span>
+      )}
+    </div>
+
+    <div class="flex items-center gap-[var(--space-2)]">
+      <HealthBadge status={healthStatus} />
+      <LicenseBadge spdx={licenseSpdx} />
+    </div>
+  </div>
+</a>
+
+<style>
+  a.group:hover {
+    transform: translateY(-2px);
+    background-color: var(--color-elevated);
+  }
+</style>

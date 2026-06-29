@@ -1,0 +1,61 @@
+---
+// packages/frontend/src/components/astro/Footer.astro
+// 页脚组件：链接、版权、数据新鲜度指示器
+
+import DataFreshness from "./DataFreshness.astro";
+
+interface Props {
+  /** 最后数据同步时间 (ISO 8601)，用于数据新鲜度显示 */
+  lastSyncAt?: string | null;
+}
+
+const { lastSyncAt = null } = Astro.props;
+---
+
+<footer class="border-t border-[var(--color-border)] bg-[var(--color-surface)] py-[var(--space-8)]">
+  <div
+    class="mx-auto px-[var(--space-4)]"
+    style={`max-width: var(--max-width)`}
+  >
+    <!-- 链接区域 -->
+    <div class="flex flex-wrap justify-center gap-[var(--space-6)] mb-[var(--space-6)]">
+      <a
+        href="/trending/daily"
+        class="text-[var(--text-sm)] text-[var(--color-text-secondary)] hover:text-[var(--color-text-primary)] transition-colors"
+      >
+        Trending
+      </a>
+      <a
+        href="/featured"
+        class="text-[var(--text-sm)] text-[var(--color-text-secondary)] hover:text-[var(--color-text-primary)] transition-colors"
+      >
+        Featured
+      </a>
+      <a
+        href="/search"
+        class="text-[var(--text-sm)] text-[var(--color-text-secondary)] hover:text-[var(--color-text-primary)] transition-colors"
+      >
+        Search
+      </a>
+      <a
+        href="/about"
+        class="text-[var(--text-sm)] text-[var(--color-text-secondary)] hover:text-[var(--color-text-primary)] transition-colors"
+      >
+        About
+      </a>
+    </div>
+
+    <!-- 版权与说明 -->
+    <div class="text-center text-[var(--text-sm)] text-[var(--color-text-tertiary)]">
+      <p>GitPulse AI — AI 开源项目趋势追踪与智能策展平台</p>
+      <p class="mt-[var(--space-2)]">数据来源于 GitHub 公开 API，由 AI 辅助策展分析</p>
+    </div>
+
+    <!-- 数据新鲜度指示器 -->
+    {lastSyncAt && (
+      <div class="mt-[var(--space-4)] flex justify-center">
+        <DataFreshness lastSyncAt={lastSyncAt} />
+      </div>
+    )}
+  </div>
+</footer>

@@ -1,0 +1,25 @@
+---
+// packages/frontend/src/components/astro/DataFreshness.astro
+// 数据新鲜度指示器："数据更新于 XX 小时前"
+
+import { timeAgo } from "@gitpulse/shared";
+
+interface Props {
+  /** 最后同步时间 (ISO 8601) */
+  lastSyncAt: string | null;
+}
+
+const { lastSyncAt } = Astro.props;
+
+const freshness = lastSyncAt ? timeAgo(lastSyncAt) : "未知";
+---
+
+<span
+  class="inline-flex items-center gap-[var(--space-1)] text-[var(--text-xs)] text-[var(--color-text-tertiary)]"
+>
+  <span
+    class="inline-block w-1.5 h-1.5 rounded-full"
+    style={`background-color: ${lastSyncAt ? 'var(--color-positive)' : 'var(--color-text-tertiary)'}`}
+  ></span>
+  数据更新于 {freshness}
+</span>

@@ -1,0 +1,134 @@
+---
+// packages/frontend/src/pages/featured/[slug].astro
+// 精选合集详情页
+
+import EmptyState from "../../components/astro/EmptyState.astro";
+import RepoCard from "../../components/astro/RepoCard.astro";
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import { loadFeaturedCollections, loadRepositories } from "../../lib/data-loader";
+
+import type { GetStaticPaths, InferGetStaticPropsType } from "astro";
+
+export const getStaticPaths = (async () => {
+  const collections = await loadFeaturedCollections();
+  return collections.map((c) => ({
+    params: { slug: c.slug },
+    props: { collection: c },
+  }));
+}) satisfies GetStaticPaths;
+
+type Props = InferGetStaticPropsType<typeof getStaticPaths>;
+
+const { collection } = Astro.props as Props;
+const repositories = await loadRepositories();
+
+// 构建仓库查找映射
+const repoMap = new Map(repositories.map((r) => [r.fullName, r]));
+
+// 按合集中的排序顺序获取仓库
+const collectionRepos = collection.repos
+  .sort((a: { sortOrder: number }, b: { sortOrder: number }) => a.sortOrder - b.sortOrder)
+  .map((entry: { fullName: string; editorialNote: string | null }) => ({
+    repo: repoMap.get(entry.fullName),
+    editorialNote: entry.editorialNote,
+    fullName: entry.fullName,
+  }));
+
+const typeLabels: Record<string, string> = {
+  curated: "精选合集",
+  weekly_digest: "周报",
+  category_top: "分类 Top",
+  rising: "新星推荐",
+};
+---
+
+<BaseLayout title={`${collection.title} - GitPulse AI`} description={collection.description}>
+  <div class="mx-auto px-[var(--space-4)] py-[var(--space-8)]" style={`max-width: var(--max-width)`}>
+    <!-- 合集头部 -->
+    <header class="mb-[var(--space-8)]">
+      <div class="flex items-center gap-[var(--space-3)] mb-[var(--space-3)]">
+        <span class="text-4xl">{collection.coverEmoji}</span>
+        <div>
+          <div class="flex items-center gap-[var(--space-2)] mb-[var(--space-1)]">
+            {collection.isPinned && (
+              <span class="inline-flex items-center rounded-[var(--radius-full)] bg-[var(--color-accent-dim)] px-[var(--space-2)] py-0.5 text-[var(--text-xs)] font-medium text-[var(--color-accent)]">
+                置顶
+              </span>
+            )}
+            <span class="text-[var(--text-xs)] text-[var(--color-text-tertiary)]">
+              {typeLabels[collection.collectionType] || collection.collectionType}
+            </span>
+          </div>
+          <h1 class="font-[var(--font-display)] text-[var(--text-2xl)] font-semibold text-[var(--color-text-primary)]">
+            {collection.title}
+          </h1>
+        </div>
+      </div>
+      <p class="text-[var(--text-base)] text-[var(--color-text-secondary)] leading-[var(--leading-relaxed)] max-w-3xl">
+        {collection.description}
+      </p>
+      <div class="flex items-center gap-[var(--space-4)] mt-[var(--space-3)] text-[var(--text-sm)] text-[var(--color-text-tertiary)]">
+        <span class="font-[var(--font-data)]">{collection.repos.length} 个项目</span>
+        {collection.publishedAt && (
+          <span>发布于 {new Date(collection.publishedAt).toLocaleDateString('zh-CN')}</span>
+        )}
+      </div>
+    </header>
+
+    <!-- 返回链接 -->
+    <div class="mb-[var(--space-6)]">
+      <a
+        href="/featured"
+        class="text-[var(--text-sm)] text-[var(--color-accent)] hover:underline"
+      >
+        &larr; 返回精选列表
+      </a>
+    </div>
+
+    <!-- 合集仓库列表 -->
+    {collectionRepos.length === 0 ? (
+      <EmptyState
+        message="该合集暂无项目"
+        illustration="📭"
+      />
+    ) : (
+      <div class="space-y-[var(--space-4)]">
+        {collectionRepos.map((entry: { repo: typeof repositories[number] | undefined; editorialNote: string | null; fullName: string }) => {
+          if (!entry.repo) {
+            return (
+              <div class="rounded-[var(--radius-lg)] border border-[var(--color-border)] bg-[var(--color-surface)] p-[var(--space-4)]">
+                <p class="text-[var(--text-sm)] text-[var(--color-text-tertiary)]">
+                  {entry.fullName}（项目数据尚未同步）
+                </p>
+              </div>
+            );
+          }
+          return (
+            <div>
+              <RepoCard
+                owner={entry.repo.owner}
+                name={entry.repo.name}
+                description={entry.repo.description}
+                language={entry.repo.language}
+                languageColor={entry.repo.languageColor}
+                stars={entry.repo.stars}
+                starsGained={null}
+                licenseSpdx={entry.repo.licenseSpdx}
+                pushedAt={entry.repo.pushedAt}
+                openIssues={entry.repo.openIssues}
+                hasCi={entry.repo.badges.hasCi}
+                hasReleases={entry.repo.badges.hasReleases}
+                isArchived={entry.repo.isArchived}
+              />
+              {entry.editorialNote && (
+                <p class="mt-[var(--space-2)] ml-[var(--space-4)] text-[var(--text-sm)] text-[var(--color-text-secondary)] italic">
+                  {entry.editorialNote}
+                </p>
+              )}
+            </div>
+          );
+        })}
+      </div>
+    )}
+  </div>
+</BaseLayout>

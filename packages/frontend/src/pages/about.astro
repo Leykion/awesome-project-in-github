@@ -1,0 +1,219 @@
+---
+// packages/frontend/src/pages/about.astro
+// 关于页面：评分方法论、AI 分析说明、数据来源、开源与隐私
+
+import { SCORING_WEIGHTS, TIER_THRESHOLDS } from "@gitpulse/shared";
+import BaseLayout from "../layouts/BaseLayout.astro";
+---
+
+<BaseLayout title="关于 - GitPulse AI" description="了解 GitPulse AI 的评分方法论、AI 分析机制、数据来源和隐私声明">
+  <div class="mx-auto px-[var(--space-4)] py-[var(--space-8)]" style={`max-width: var(--max-width)`}>
+    <h1 class="font-[var(--font-display)] text-[var(--text-2xl)] font-semibold text-[var(--color-text-primary)] mb-[var(--space-8)]">
+      关于 GitPulse AI
+    </h1>
+
+    <div class="max-w-3xl space-y-[var(--space-12)]">
+      <!-- 评分方法论 -->
+      <section>
+        <h2 class="text-[var(--text-lg)] font-semibold text-[var(--color-text-primary)] mb-[var(--space-4)]">
+          评分方法论
+        </h2>
+        <p class="text-[var(--text-base)] text-[var(--color-text-secondary)] leading-[var(--leading-relaxed)] mb-[var(--space-4)]">
+          GitPulse AI 使用 5 个维度对每个仓库进行 0-100 分的评估，综合得分由加权平均计算：
+        </p>
+
+        <div class="rounded-[var(--radius-lg)] border border-[var(--color-border)] bg-[var(--color-surface)] p-[var(--space-6)] mb-[var(--space-4)]">
+          <p class="text-[var(--text-sm)] font-[var(--font-data)] text-[var(--color-accent)] mb-[var(--space-4)]">
+            综合得分 = {SCORING_WEIGHTS.growth} * 增长速度 + {SCORING_WEIGHTS.maturity} * 项目成熟度 + {SCORING_WEIGHTS.community} * 社区健康 + {SCORING_WEIGHTS.relevance} * AI 相关性 + {SCORING_WEIGHTS.quality} * 代码质量
+          </p>
+
+          <div class="space-y-[var(--space-4)]">
+            <div>
+              <h3 class="text-[var(--text-sm)] font-semibold text-[var(--color-text-primary)] mb-[var(--space-1)]">
+                增长速度（{Math.round(SCORING_WEIGHTS.growth * 100)}%）
+              </h3>
+              <p class="text-[var(--text-sm)] text-[var(--color-text-secondary)]">
+                基于每日、每周、每月的 Star 增长速度，考虑绝对增长量和相对增长率
+              </p>
+            </div>
+            <div>
+              <h3 class="text-[var(--text-sm)] font-semibold text-[var(--color-text-primary)] mb-[var(--space-1)]">
+                项目成熟度（{Math.round(SCORING_WEIGHTS.maturity * 100)}%）
+              </h3>
+              <p class="text-[var(--text-sm)] text-[var(--color-text-secondary)]">
+                评估项目年龄、发布频率和文档质量
+              </p>
+            </div>
+            <div>
+              <h3 class="text-[var(--text-sm)] font-semibold text-[var(--color-text-primary)] mb-[var(--space-1)]">
+                社区健康（{Math.round(SCORING_WEIGHTS.community * 100)}%）
+              </h3>
+              <p class="text-[var(--text-sm)] text-[var(--color-text-secondary)]">
+                衡量贡献者多样性、Issue 响应速度和社区活跃度
+              </p>
+            </div>
+            <div>
+              <h3 class="text-[var(--text-sm)] font-semibold text-[var(--color-text-primary)] mb-[var(--space-1)]">
+                AI 相关性（{Math.round(SCORING_WEIGHTS.relevance * 100)}%）
+              </h3>
+              <p class="text-[var(--text-sm)] text-[var(--color-text-secondary)]">
+                通过 Topic 标签匹配、README 关键词分析和编程语言信号判断项目与 AI 的相关程度
+              </p>
+            </div>
+            <div>
+              <h3 class="text-[var(--text-sm)] font-semibold text-[var(--color-text-primary)] mb-[var(--space-1)]">
+                代码质量（{Math.round(SCORING_WEIGHTS.quality * 100)}%）
+              </h3>
+              <p class="text-[var(--text-sm)] text-[var(--color-text-secondary)]">
+                检查许可证、测试覆盖和 CI 配置
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- 等级说明 -->
+        <div class="rounded-[var(--radius-lg)] border border-[var(--color-border)] bg-[var(--color-surface)] p-[var(--space-6)]">
+          <h3 class="text-[var(--text-sm)] font-semibold text-[var(--color-text-primary)] mb-[var(--space-3)]">
+            项目等级
+          </h3>
+          <div class="space-y-[var(--space-2)] text-[var(--text-sm)]">
+            <div class="flex items-center gap-[var(--space-3)]">
+              <span class="inline-flex items-center rounded-[var(--radius-full)] bg-[var(--color-accent-dim)] px-[var(--space-2)] py-0.5 text-[var(--text-xs)] font-medium text-[var(--color-accent)] w-20 justify-center">
+                Star
+              </span>
+              <span class="text-[var(--color-text-secondary)]">综合得分 &ge; {TIER_THRESHOLDS.star}，代表最具影响力的项目</span>
+            </div>
+            <div class="flex items-center gap-[var(--space-3)]">
+              <span class="inline-flex items-center rounded-[var(--radius-full)] bg-[var(--color-accent-dim)] px-[var(--space-2)] py-0.5 text-[var(--text-xs)] font-medium text-[var(--color-info)] w-20 justify-center">
+                Notable
+              </span>
+              <span class="text-[var(--color-text-secondary)]">综合得分 {TIER_THRESHOLDS.notable}-{TIER_THRESHOLDS.star - 1}，值得关注的潜力项目</span>
+            </div>
+            <div class="flex items-center gap-[var(--space-3)]">
+              <span class="inline-flex items-center rounded-[var(--radius-full)] bg-[var(--color-elevated)] px-[var(--space-2)] py-0.5 text-[var(--text-xs)] font-medium text-[var(--color-text-tertiary)] w-20 justify-center">
+                Tracked
+              </span>
+              <span class="text-[var(--color-text-secondary)]">综合得分 {TIER_THRESHOLDS.tracked}-{TIER_THRESHOLDS.notable - 1}，处于追踪观察阶段</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 分类定义 -->
+      <section>
+        <h2 class="text-[var(--text-lg)] font-semibold text-[var(--color-text-primary)] mb-[var(--space-4)]">
+          分类体系
+        </h2>
+        <p class="text-[var(--text-base)] text-[var(--color-text-secondary)] leading-[var(--leading-relaxed)] mb-[var(--space-4)]">
+          GitPulse AI 将 AI 开源项目划分为 9 个核心分类，涵盖从底层基础设施到终端应用的完整生态：
+        </p>
+        <div class="rounded-[var(--radius-lg)] border border-[var(--color-border)] bg-[var(--color-surface)] overflow-hidden">
+          <div class="overflow-x-auto">
+            <table class="w-full text-[var(--text-sm)]">
+              <thead>
+                <tr class="border-b border-[var(--color-border)]">
+                  <th class="text-left py-3 px-4 text-[var(--color-text-secondary)] font-semibold">分类</th>
+                  <th class="text-left py-3 px-4 text-[var(--color-text-secondary)] font-semibold">说明</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr class="border-b border-[var(--color-border)]">
+                  <td class="py-2.5 px-4 text-[var(--color-text-primary)] whitespace-nowrap">🔗 LLM Frameworks</td>
+                  <td class="py-2.5 px-4 text-[var(--color-text-secondary)]">构建 LLM 驱动应用的框架和库</td>
+                </tr>
+                <tr class="border-b border-[var(--color-border)]">
+                  <td class="py-2.5 px-4 text-[var(--color-text-primary)] whitespace-nowrap">🗄️ Vector Databases</td>
+                  <td class="py-2.5 px-4 text-[var(--color-text-secondary)]">向量搜索和嵌入存储引擎</td>
+                </tr>
+                <tr class="border-b border-[var(--color-border)]">
+                  <td class="py-2.5 px-4 text-[var(--color-text-primary)] whitespace-nowrap">🤖 AI Agents</td>
+                  <td class="py-2.5 px-4 text-[var(--color-text-secondary)]">自主代理框架和多代理编排系统</td>
+                </tr>
+                <tr class="border-b border-[var(--color-border)]">
+                  <td class="py-2.5 px-4 text-[var(--color-text-primary)] whitespace-nowrap">📊 MLOps & Evaluation</td>
+                  <td class="py-2.5 px-4 text-[var(--color-text-secondary)]">模型训练、部署、评估管道</td>
+                </tr>
+                <tr class="border-b border-[var(--color-border)]">
+                  <td class="py-2.5 px-4 text-[var(--color-text-primary)] whitespace-nowrap">⚡ Model Serving</td>
+                  <td class="py-2.5 px-4 text-[var(--color-text-secondary)]">LLM 推理引擎和模型服务基础设施</td>
+                </tr>
+                <tr class="border-b border-[var(--color-border)]">
+                  <td class="py-2.5 px-4 text-[var(--color-text-primary)] whitespace-nowrap">🛠️ AI Dev Tools</td>
+                  <td class="py-2.5 px-4 text-[var(--color-text-secondary)]">AI 原生开发者生产力工具</td>
+                </tr>
+                <tr class="border-b border-[var(--color-border)]">
+                  <td class="py-2.5 px-4 text-[var(--color-text-primary)] whitespace-nowrap">👁️ Multimodal</td>
+                  <td class="py-2.5 px-4 text-[var(--color-text-secondary)]">视觉、音频和多模态模型工具</td>
+                </tr>
+                <tr class="border-b border-[var(--color-border)]">
+                  <td class="py-2.5 px-4 text-[var(--color-text-primary)] whitespace-nowrap">📋 Datasets & Benchmarks</td>
+                  <td class="py-2.5 px-4 text-[var(--color-text-secondary)]">训练数据、评估基准和排行榜</td>
+                </tr>
+                <tr>
+                  <td class="py-2.5 px-4 text-[var(--color-text-primary)] whitespace-nowrap">💡 AI Applications</td>
+                  <td class="py-2.5 px-4 text-[var(--color-text-secondary)]">AI 驱动的终端用户应用</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+
+      <!-- 数据来源 -->
+      <section>
+        <h2 class="text-[var(--text-lg)] font-semibold text-[var(--color-text-primary)] mb-[var(--space-4)]">
+          数据来源
+        </h2>
+        <div class="space-y-[var(--space-3)] text-[var(--text-base)] text-[var(--color-text-secondary)] leading-[var(--leading-relaxed)]">
+          <p>
+            GitPulse AI 的数据全部来自 GitHub 公开 API，采用双源架构确保数据质量：
+          </p>
+          <ul class="list-disc list-inside space-y-[var(--space-2)] text-[var(--text-sm)]">
+            <li><strong class="text-[var(--color-text-primary)]">主数据源</strong>：GitHub Search API，通过 AI 相关关键词搜索发现新项目</li>
+            <li><strong class="text-[var(--color-text-primary)]">辅助数据源</strong>：GitHub Trending 页面 HTML 解析，捕获当前热门趋势</li>
+            <li><strong class="text-[var(--color-text-primary)]">元数据补全</strong>：GitHub REST/GraphQL API，获取仓库完整元数据</li>
+            <li><strong class="text-[var(--color-text-primary)]">AI 策展</strong>：通过 LLM（OpenAI 兼容协议）生成项目摘要、分类和评估</li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- 更新频率 -->
+      <section>
+        <h2 class="text-[var(--text-lg)] font-semibold text-[var(--color-text-primary)] mb-[var(--space-4)]">
+          更新频率
+        </h2>
+        <div class="space-y-[var(--space-3)] text-[var(--text-base)] text-[var(--color-text-secondary)] leading-[var(--leading-relaxed)]">
+          <p>
+            数据通过 GitHub Actions 定时任务自动更新：
+          </p>
+          <ul class="list-disc list-inside space-y-[var(--space-2)] text-[var(--text-sm)]">
+            <li>趋势数据：每日 UTC 00:00 和 12:00 同步（每天两次）</li>
+            <li>仓库元数据：每次同步时增量更新</li>
+            <li>AI 策展分析：新发现项目在下一个同步周期自动分析</li>
+            <li>星标历史：保留最近 30 天的滚动数据</li>
+            <li>过期清理：超过 30 天未出现在趋势中且星标低于阈值的项目将被移除</li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- 开源与隐私 -->
+      <section>
+        <h2 class="text-[var(--text-lg)] font-semibold text-[var(--color-text-primary)] mb-[var(--space-4)]">
+          开源与隐私
+        </h2>
+        <div class="space-y-[var(--space-3)] text-[var(--text-base)] text-[var(--color-text-secondary)] leading-[var(--leading-relaxed)]">
+          <p>
+            GitPulse AI 是一个纯静态站点，部署在 Cloudflare Pages 上：
+          </p>
+          <ul class="list-disc list-inside space-y-[var(--space-2)] text-[var(--text-sm)]">
+            <li>所有数据处理在构建时完成，无运行时服务器</li>
+            <li>不收集任何用户个人信息</li>
+            <li>不使用第三方分析或追踪服务</li>
+            <li>搜索功能完全在客户端运行（Fuse.js）</li>
+            <li>所有数据文件以 JSON 格式存储在 Git 仓库中，完全可审计</li>
+          </ul>
+        </div>
+      </section>
+    </div>
+  </div>
+</BaseLayout>

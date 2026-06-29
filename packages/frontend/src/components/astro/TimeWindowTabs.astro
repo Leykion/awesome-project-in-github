@@ -1,0 +1,33 @@
+---
+// packages/frontend/src/components/astro/TimeWindowTabs.astro
+// 时间窗口标签页：daily / weekly / monthly
+
+interface Props {
+  /** 当前选中的时间窗口 */
+  active: "daily" | "weekly" | "monthly";
+}
+
+const { active } = Astro.props;
+
+const tabs = [
+  { key: "daily" as const, label: "Daily", href: "/trending/daily" },
+  { key: "weekly" as const, label: "Weekly", href: "/trending/weekly" },
+  { key: "monthly" as const, label: "Monthly", href: "/trending/monthly" },
+];
+---
+
+<div class="flex items-center gap-[var(--space-1)] rounded-[var(--radius-lg)] bg-[var(--color-elevated)] p-[var(--space-1)]">
+  {tabs.map((tab) => (
+    <a
+      href={tab.href}
+      class:list={[
+        'px-[var(--space-4)] py-[var(--space-2)] rounded-[var(--radius-md)] text-[var(--text-sm)] font-medium transition-colors',
+        active === tab.key
+          ? 'bg-[var(--color-accent)] text-[var(--color-ink)]'
+          : 'text-[var(--color-text-secondary)] hover:text-[var(--color-text-primary)]',
+      ]}
+    >
+      {tab.label}
+    </a>
+  ))}
+</div>

@@ -1,0 +1,42 @@
+---
+// packages/frontend/src/components/astro/StatsBar.astro
+// 全站统计栏：4 个指标，等宽分布，计数动画（通过 CSS/data 属性支持）
+
+import { formatNumber } from "@gitpulse/shared";
+
+interface Props {
+  /** 追踪项目数 */
+  totalRepos: number;
+  /** 今日新增 Stars（从趋势数据汇总） */
+  todayStars: number;
+  /** AI 分类数 */
+  categoryCount: number;
+  /** 最近更新（相对时间文本） */
+  lastUpdate: string;
+}
+
+const { totalRepos, todayStars, categoryCount, lastUpdate } = Astro.props;
+
+const stats = [
+  { label: "追踪项目数", value: formatNumber(totalRepos), rawValue: totalRepos },
+  { label: "今日新增 Stars", value: formatNumber(todayStars), rawValue: todayStars },
+  { label: "AI 分类数", value: String(categoryCount), rawValue: categoryCount },
+  { label: "最近更新", value: lastUpdate, rawValue: 0 },
+];
+---
+
+<div class="grid grid-cols-2 sm:grid-cols-4 gap-[var(--space-4)]">
+  {stats.map((stat) => (
+    <div class="flex flex-col items-center text-center">
+      <span
+        class="text-[var(--text-2xl)] font-bold font-[var(--font-data)] text-[var(--color-accent)]"
+        data-count-target={stat.rawValue}
+      >
+        {stat.value}
+      </span>
+      <span class="text-[var(--text-xs)] text-[var(--color-text-tertiary)] mt-[var(--space-1)]">
+        {stat.label}
+      </span>
+    </div>
+  ))}
+</div>

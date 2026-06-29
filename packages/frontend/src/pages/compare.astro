@@ -1,0 +1,104 @@
+---
+// packages/frontend/src/pages/compare.astro
+// 对比页面：最多 3 个仓库对比，纯客户端交互
+// URL 参数：?repos=owner1/name1,owner2/name2
+
+import { CompareTable } from "../components/react/CompareTable";
+import BaseLayout from "../layouts/BaseLayout.astro";
+import { loadRepositories } from "../lib/data-loader";
+
+const repositories = await loadRepositories();
+
+// 构建仓库查找映射
+const repoMap = new Map(repositories.map((r) => [r.fullName, r]));
+
+// 从 URL 参数解析待对比仓库
+const reposParam = Astro.url.searchParams.get("repos") || "";
+const repoNames = reposParam
+  .split(",")
+  .map((s) => s.trim())
+  .filter((s) => s.length > 0)
+  .slice(0, 3); // 最多 3 个
+
+const compareRepos = repoNames
+  .map((name) => repoMap.get(name))
+  .filter((r): r is NonNullable<typeof r> => r !== undefined);
+
+// 所有仓库数据传给客户端，用于添加仓库选择
+const allRepoNames = repositories.map((r) => r.fullName).sort();
+---
+
+<BaseLayout title="项目对比 - GitPulse AI" description="对比多个 AI 开源项目的指标和评分">
+  <div class="mx-auto px-[var(--space-4)] py-[var(--space-8)]" style={`max-width: var(--max-width)`}>
+    <!-- 页面标题 -->
+    <h1 class="font-[var(--font-display)] text-[var(--text-2xl)] font-semibold text-[var(--color-text-primary)] mb-[var(--space-2)]">
+      项目对比
+    </h1>
+    <p class="text-[var(--text-base)] text-[var(--color-text-secondary)] mb-[var(--space-6)]">
+      选择最多 3 个项目进行并排对比
+    </p>
+
+    <!-- 当前对比的仓库标签 -->
+    {compareRepos.length > 0 && (
+      <div class="flex items-center gap-[var(--space-2)] flex-wrap mb-[var(--space-6)]">
+        {compareRepos.map((repo) => (
+          <span class="inline-flex items-center gap-[var(--space-2)] rounded-[var(--radius-full)] bg-[var(--color-elevated)] border border-[var(--color-border)] px-[var(--space-3)] py-[var(--space-1)] text-[var(--text-sm)]">
+            <span class="text-[var(--color-text-primary)] font-medium">{repo.fullName}</span>
+            <a
+              href={`/compare?repos=${repoNames.filter((n) => n !== repo.fullName).join(',')}`}
+              class="text-[var(--color-text-tertiary)] hover:text-[var(--color-decline)] transition-colors"
+              title="移除"
+            >
+              &times;
+            </a>
+          </span>
+        ))}
+        {compareRepos.length < 3 && (
+          <span class="text-[var(--text-sm)] text-[var(--color-text-tertiary)]">
+            还可添加 {3 - compareRepos.length} 个项目
+          </span>
+        )}
+      </div>
+    )}
+
+    <!-- 添加仓库选择 -->
+    {compareRepos.length < 3 && allRepoNames.length > 0 && (
+      <div class="mb-[var(--space-8)]">
+        <label class="block text-[var(--text-sm)] text-[var(--color-text-secondary)] mb-[var(--space-2)]">
+          添加项目到对比：
+        </label>
+        <select
+          id="repo-select"
+          class="w-full max-w-md h-10 px-[var(--space-3)] bg-[var(--color-surface)] text-[var(--color-text-primary)] border border-[var(--color-border)] rounded-[var(--radius-md)] text-[var(--text-sm)]"
+        >
+          <option value="">选择一个项目...</option>
+          {allRepoNames
+            .filter((name) => !repoNames.includes(name))
+            .map((name) => (
+              <option value={name}>{name}</option>
+            ))}
+        </select>
+      </div>
+    )}
+
+    <!-- 对比表格（React Island） -->
+    <div class="rounded-[var(--radius-lg)] border border-[var(--color-border)] bg-[var(--color-surface)] overflow-hidden">
+      <CompareTable client:load repos={compareRepos} />
+    </div>
+  </div>
+</BaseLayout>
+
+<script is:inline>
+  // 客户端交互：选择仓库后跳转到对比页
+  const select = document.getElementById('repo-select');
+  if (select) {
+    select.addEventListener('change', function() {
+      const value = this.value;
+      if (!value) return;
+      const params = new URLSearchParams(window.location.search);
+      const current = params.get('repos') || '';
+      const repos = current ? current + ',' + value : value;
+      window.location.href = '/compare?repos=' + encodeURIComponent(repos);
+    });
+  }
+</script>

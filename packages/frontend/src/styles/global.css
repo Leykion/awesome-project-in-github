@@ -1,0 +1,139 @@
+/* packages/frontend/src/styles/global.css */
+/* Tailwind CSS v4: 使用 CSS-first 配置，不需要 tailwind.config.ts */
+
+@import "tailwindcss";
+
+/* Tailwind v4 主题扩展 */
+@theme {
+  --color-ink: #0b1120;
+  --color-surface: #111827;
+  --color-elevated: #1a2236;
+  --color-border: #2a3550;
+  --color-accent: #e2a93b;
+  --color-accent-dim: rgba(226, 169, 59, 0.15);
+  --color-positive: #4a9e8e;
+  --color-decline: #c75b6a;
+  --color-info: #5b8bd4;
+
+  --font-display: "Avenir Next", "Century Gothic", "Futura", system-ui, sans-serif;
+  --font-body: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  --font-data: "SF Mono", "Cascadia Code", "Fira Code", "JetBrains Mono", monospace;
+}
+
+:root {
+  /* === 颜色系统 === */
+  --color-ink: #0b1120;
+  --color-surface: #111827;
+  --color-elevated: #1a2236;
+  --color-border: #2a3550;
+
+  --color-text-primary: #e8e4dd;
+  --color-text-secondary: #9ba4b5;
+  --color-text-tertiary: #5f6b80;
+
+  --color-accent: #e2a93b;
+  --color-accent-dim: rgba(226, 169, 59, 0.15);
+  --color-positive: #4a9e8e;
+  --color-decline: #c75b6a;
+  --color-info: #5b8bd4;
+
+  /* 分类色 */
+  --color-cat-llm: #7c6fe0;
+  --color-cat-agents: #d47b3e;
+  --color-cat-vector: #4a9e8e;
+  --color-cat-mlops: #5b8bd4;
+  --color-cat-serving: #e2a93b;
+  --color-cat-devtools: #9e7cb8;
+  --color-cat-multimodal: #c75b6a;
+  --color-cat-datasets: #6b8f71;
+  --color-cat-apps: #d4a85b;
+
+  /* 许可证颜色 */
+  --color-license-mit: #22c55e;
+  --color-license-apache: #3b82f6;
+  --color-license-bsd: #14b8a6;
+  --color-license-agpl: #f97316;
+  --color-license-gpl: #f59e0b;
+  --color-license-restrictive: #ef4444;
+  --color-license-none: #6b7280;
+
+  /* 健康徽章颜色 */
+  --color-health-green: #22c55e;
+  --color-health-yellow: #eab308;
+  --color-health-red: #ef4444;
+
+  /* === 字体系统 === */
+  --font-display: "Avenir Next", "Century Gothic", "Futura", system-ui, sans-serif;
+  --font-body: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  --font-data: "SF Mono", "Cascadia Code", "Fira Code", "JetBrains Mono", monospace;
+
+  --text-xs: 0.6875rem;
+  --text-sm: 0.8125rem;
+  --text-base: 1rem;
+  --text-lg: 1.25rem;
+  --text-xl: 1.5625rem;
+  --text-2xl: 1.953rem;
+  --text-3xl: 2.441rem;
+  --text-rank: 4rem;
+
+  --leading-tight: 1.2;
+  --leading-normal: 1.5;
+  --leading-relaxed: 1.7;
+
+  /* === 间距系统 (4px 基数) === */
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-5: 1.25rem;
+  --space-6: 1.5rem;
+  --space-8: 2rem;
+  --space-10: 2.5rem;
+  --space-12: 3rem;
+  --space-16: 4rem;
+  --space-20: 5rem;
+
+  /* === 圆角 === */
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --radius-lg: 12px;
+  --radius-full: 9999px;
+
+  /* === 阴影 === */
+  --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.3);
+  --shadow-md: 0 4px 12px rgba(0, 0, 0, 0.4);
+  --shadow-lg: 0 8px 24px rgba(0, 0, 0, 0.5);
+
+  /* === 动效 === */
+  --ease-out-expo: cubic-bezier(0.22, 1, 0.36, 1);
+  --duration-fast: 150ms;
+  --duration-normal: 250ms;
+  --duration-slow: 400ms;
+
+  /* === 布局 === */
+  --max-width: 1200px;
+  --nav-height: 56px;
+  --sidebar-width: 240px;
+}
+
+/* 暗色模式为默认，浅色模式覆盖 */
+[data-theme="light"] {
+  --color-ink: #fafafa;
+  --color-surface: #ffffff;
+  --color-elevated: #f5f5f5;
+  --color-border: #e5e7eb;
+  --color-text-primary: #1a1a1a;
+  --color-text-secondary: #6b7280;
+  --color-text-tertiary: #9ca3af;
+}
+
+/* 减少动效偏好 */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}

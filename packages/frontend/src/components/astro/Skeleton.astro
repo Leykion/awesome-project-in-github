@@ -1,0 +1,69 @@
+---
+// packages/frontend/src/components/astro/Skeleton.astro
+// 加载骨架屏：background-position 动画，1.5s linear
+
+interface Props {
+  /** 骨架形状 */
+  variant?: "text" | "card" | "circle" | "rect";
+  /** 宽度（CSS 值） */
+  width?: string;
+  /** 高度（CSS 值） */
+  height?: string;
+  /** 重复行数（仅 text 模式） */
+  lines?: number;
+}
+
+const { variant = "rect", width, height, lines = 1 } = Astro.props;
+
+const baseClass = "skeleton-shimmer rounded-[var(--radius-md)]";
+
+const variantStyles: Record<string, string> = {
+  text: "height: 0.8em; border-radius: var(--radius-sm);",
+  card: "height: 180px; border-radius: var(--radius-lg);",
+  circle: "border-radius: var(--radius-full); aspect-ratio: 1;",
+  rect: "",
+};
+
+const style = [
+  variantStyles[variant],
+  width ? `width: ${width};` : "width: 100%;",
+  height ? `height: ${height};` : "",
+]
+  .filter(Boolean)
+  .join(" ");
+---
+
+{variant === 'text' && lines > 1 ? (
+  <div class="flex flex-col gap-[var(--space-2)]">
+    {Array.from({ length: lines }).map((_, i) => (
+      <div
+        class={baseClass}
+        style={`${style} ${i === lines - 1 ? 'width: 60%;' : ''}`}
+      ></div>
+    ))}
+  </div>
+) : (
+  <div class={baseClass} style={style}></div>
+)}
+
+<style>
+  .skeleton-shimmer {
+    background: linear-gradient(
+      90deg,
+      var(--color-elevated) 25%,
+      var(--color-border) 50%,
+      var(--color-elevated) 75%
+    );
+    background-size: 200% 100%;
+    animation: skeleton-shimmer 1.5s linear infinite;
+  }
+
+  @keyframes skeleton-shimmer {
+    0% {
+      background-position: 200% 0;
+    }
+    100% {
+      background-position: -200% 0;
+    }
+  }
+</style>

@@ -1,0 +1,39 @@
+---
+// packages/frontend/src/components/astro/IntegrationBadges.astro
+// 集成能力图标徽章（CI/Docker/PyPI/NPM/MCP）
+
+interface Props {
+  badges: {
+    hasCi: boolean;
+    hasDocker: boolean;
+    hasPypi: boolean;
+    hasNpm: boolean;
+    hasMcp: boolean;
+  };
+}
+
+const { badges } = Astro.props;
+
+const integrations = [
+  { key: "hasCi" as const, label: "CI", icon: "CI" },
+  { key: "hasDocker" as const, label: "Docker", icon: "Docker" },
+  { key: "hasPypi" as const, label: "PyPI", icon: "PyPI" },
+  { key: "hasNpm" as const, label: "NPM", icon: "NPM" },
+  { key: "hasMcp" as const, label: "MCP", icon: "MCP" },
+];
+
+const activeBadges = integrations.filter((i) => badges[i.key]);
+---
+
+{activeBadges.length > 0 && (
+  <div class="flex items-center gap-[var(--space-1)] flex-wrap">
+    {activeBadges.map((badge) => (
+      <span
+        class="inline-flex items-center rounded-[var(--radius-sm)] px-[var(--space-1)] py-0.5 text-[var(--text-xs)] font-medium text-[var(--color-info)] border border-[var(--color-border)]"
+        title={badge.label}
+      >
+        {badge.icon}
+      </span>
+    ))}
+  </div>
+)}

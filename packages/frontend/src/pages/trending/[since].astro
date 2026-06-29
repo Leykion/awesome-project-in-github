@@ -1,0 +1,146 @@
+---
+// packages/frontend/src/pages/trending/[since].astro
+// 趋势列表页：daily / weekly / monthly，含 FilterPanel + TrendingRow
+
+import EmptyState from "../../components/astro/EmptyState.astro";
+import TimeWindowTabs from "../../components/astro/TimeWindowTabs.astro";
+import TrendingRow from "../../components/astro/TrendingRow.astro";
+import { FilterPanel } from "../../components/react/FilterPanel";
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import { CATEGORY_NAMES, CATEGORY_SLUGS } from "../../lib/constants";
+import { loadRepositories, loadTrending } from "../../lib/data-loader";
+
+import type { GetStaticPaths } from "astro";
+
+export const getStaticPaths: GetStaticPaths = () => {
+  return [
+    { params: { since: "daily" } },
+    { params: { since: "weekly" } },
+    { params: { since: "monthly" } },
+  ];
+};
+
+const { since } = Astro.params as { since: "daily" | "weekly" | "monthly" };
+
+const trendingData = await loadTrending(since);
+const repositories = await loadRepositories();
+
+// 构建仓库查找映射
+const repoMap = new Map(repositories.map((r) => [r.fullName, r]));
+
+// 提取可用的过滤选项
+const availableLanguages = [
+  ...new Set(
+    trendingData
+      .map((item) => repoMap.get(item.fullName)?.language ?? item.language)
+      .filter((lang): lang is string => lang !== null),
+  ),
+].sort();
+
+const availableCategories = CATEGORY_SLUGS.map((slug) => ({
+  slug,
+  name: CATEGORY_NAMES[slug] || slug,
+}));
+
+const availableLicenses = [
+  ...new Set(
+    trendingData
+      .map((item) => repoMap.get(item.fullName)?.licenseSpdx)
+      .filter((l): l is string => l !== null && l !== undefined),
+  ),
+].sort();
+
+// 标题映射
+const titleMap: Record<string, string> = {
+  daily: "Daily Trending",
+  weekly: "Weekly Trending",
+  monthly: "Monthly Trending",
+};
+
+// 为趋势条目补充仓库详细数据
+const trendingEntries = trendingData.map((item, index) => {
+  const repo = repoMap.get(item.fullName);
+  const [owner, name] = item.fullName.split("/");
+  return {
+    rank: item.rank ?? index + 1,
+    owner,
+    name,
+    description: repo?.description ?? null,
+    language: repo?.language ?? item.language,
+    languageColor: repo?.languageColor ?? null,
+    stars: item.starsTotal,
+    starsGained: item.starsGained,
+    forks: item.forksTotal,
+  };
+});
+---
+
+<BaseLayout title={`${titleMap[since]} - GitPulse AI`} description={`GitHub AI 开源项目${titleMap[since]}排行榜`}>
+  <div class="mx-auto px-[var(--space-4)] py-[var(--space-8)]" style={`max-width: var(--max-width)`}>
+    <!-- 页面标题 + 时间窗口标签 -->
+    <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-[var(--space-4)] mb-[var(--space-8)]">
+      <h1 class="font-[var(--font-display)] text-[var(--text-2xl)] font-semibold text-[var(--color-text-primary)]">
+        Trending
+      </h1>
+      <TimeWindowTabs active={since} />
+    </div>
+
+    {trendingEntries.length === 0 ? (
+      <EmptyState
+        message="暂无趋势数据。数据将在首次 GitHub Actions 数据同步完成后显示。"
+        illustration="📈"
+        actionText="返回首页"
+        actionHref="/"
+      />
+    ) : (
+      <div class="flex gap-[var(--space-6)]">
+        <!-- 过滤侧栏（桌面端显示） -->
+        <div class="hidden lg:block">
+          <FilterPanel
+            client:load
+            availableLanguages={availableLanguages}
+            availableCategories={availableCategories}
+            availableLicenses={availableLicenses}
+            onFilterChange={() => {}}
+          />
+        </div>
+
+        <!-- 主内容区 -->
+        <div class="flex-1 min-w-0">
+          <!-- 排序控制栏 -->
+          <div class="flex items-center gap-[var(--space-3)] mb-[var(--space-4)] pb-[var(--space-3)] border-b border-[var(--color-border)]">
+            <span class="text-[var(--text-sm)] text-[var(--color-text-tertiary)]">
+              共 {trendingEntries.length} 个项目
+            </span>
+          </div>
+
+          <!-- TrendingRow 列表 -->
+          <div class="flex flex-col gap-[var(--space-2)]" id="trending-list">
+            {trendingEntries.map((entry) => (
+              <TrendingRow
+                rank={entry.rank}
+                owner={entry.owner}
+                name={entry.name}
+                description={entry.description}
+                language={entry.language}
+                languageColor={entry.languageColor}
+                stars={entry.stars}
+                starsGained={entry.starsGained}
+                forks={entry.forks}
+              />
+            ))}
+          </div>
+
+          <!-- 客户端分页提示 -->
+          {trendingEntries.length > 25 && (
+            <div class="mt-[var(--space-6)] text-center">
+              <p class="text-[var(--text-sm)] text-[var(--color-text-tertiary)]">
+                显示前 25 个项目
+              </p>
+            </div>
+          )}
+        </div>
+      </div>
+    )}
+  </div>
+</BaseLayout>

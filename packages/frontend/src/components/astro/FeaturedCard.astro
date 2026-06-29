@@ -1,0 +1,80 @@
+---
+// packages/frontend/src/components/astro/FeaturedCard.astro
+// 精选合集卡片：编辑性布局（双列：视觉面板 + 编辑内容）
+
+interface Props {
+  /** 合集标题 */
+  title: string;
+  /** 合集 slug */
+  slug: string;
+  /** 合集说明 */
+  description: string;
+  /** 封面 emoji */
+  coverEmoji: string;
+  /** 合集类型 */
+  collectionType: "curated" | "weekly_digest" | "category_top" | "rising";
+  /** 包含的仓库数 */
+  repoCount: number;
+  /** 发布时间 */
+  publishedAt: string | null;
+  /** 是否置顶 */
+  isPinned: boolean;
+}
+
+const { title, slug, description, coverEmoji, collectionType, repoCount, publishedAt, isPinned } =
+  Astro.props;
+
+const typeLabels: Record<string, string> = {
+  curated: "精选合集",
+  weekly_digest: "周报",
+  category_top: "分类 Top",
+  rising: "新星推荐",
+};
+---
+
+<a
+  href={`/featured/${slug}`}
+  class="featured-card group grid grid-cols-1 sm:grid-cols-[140px_1fr] rounded-[var(--radius-lg)] border border-[var(--color-border)] bg-[var(--color-surface)] overflow-hidden transition-all"
+  style={`transition-duration: var(--duration-normal); transition-timing-function: var(--ease-out-expo);`}
+>
+  <!-- 视觉面板 -->
+  <div class="flex items-center justify-center bg-[var(--color-elevated)] p-[var(--space-6)] sm:p-[var(--space-8)]">
+    <span class="text-5xl">{coverEmoji}</span>
+  </div>
+
+  <!-- 编辑内容 -->
+  <div class="p-[var(--space-4)]">
+    <div class="flex items-center gap-[var(--space-2)] mb-[var(--space-2)]">
+      {isPinned && (
+        <span class="inline-flex items-center rounded-[var(--radius-full)] bg-[var(--color-accent-dim)] px-[var(--space-2)] py-0.5 text-[var(--text-xs)] font-medium text-[var(--color-accent)]">
+          置顶
+        </span>
+      )}
+      <span class="text-[var(--text-xs)] text-[var(--color-text-tertiary)]">
+        {typeLabels[collectionType] || collectionType}
+      </span>
+    </div>
+
+    <h3 class="text-[var(--text-base)] font-semibold text-[var(--color-text-primary)] mb-[var(--space-1)] line-clamp-1">
+      {title}
+    </h3>
+
+    <p class="text-[var(--text-sm)] text-[var(--color-text-secondary)] leading-[var(--leading-normal)] mb-[var(--space-3)] line-clamp-2">
+      {description}
+    </p>
+
+    <div class="flex items-center gap-[var(--space-3)] text-[var(--text-xs)] text-[var(--color-text-tertiary)]">
+      <span class="font-[var(--font-data)]">{repoCount} 个项目</span>
+      {publishedAt && (
+        <span>{new Date(publishedAt).toLocaleDateString('zh-CN')}</span>
+      )}
+    </div>
+  </div>
+</a>
+
+<style>
+  .featured-card:hover {
+    transform: translateY(-2px);
+    background-color: var(--color-elevated);
+  }
+</style>

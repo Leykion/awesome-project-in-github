@@ -1,0 +1,112 @@
+---
+// packages/frontend/src/layouts/BaseLayout.astro
+// HTML 骨架：meta 标签、导航栏、页脚、SEO（JSON-LD / Open Graph / Twitter Card）
+
+interface Props {
+  title: string;
+  description?: string;
+}
+
+const { title, description = "GitPulse AI — 发现 AI 开源世界的下一个趋势" } = Astro.props;
+
+const canonicalURL = new URL(Astro.url.pathname, Astro.site);
+const ogImageURL = new URL("/og-image.png", Astro.site);
+
+// JSON-LD 结构化数据（WebSite schema）
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  name: "GitPulse AI",
+  url: Astro.site?.toString() ?? "https://gitpulse.dev",
+  description: "面向 AI 开发者的 GitHub 热门开源项目发现与评估平台",
+  potentialAction: {
+    "@type": "SearchAction",
+    target: {
+      "@type": "EntryPoint",
+      urlTemplate: `${Astro.site?.toString() ?? "https://gitpulse.dev"}search?q={search_term_string}`,
+    },
+    "query-input": "required name=search_term_string",
+  },
+};
+
+import "../styles/global.css";
+---
+
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content={description} />
+    <title>{title}</title>
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="sitemap" href="/sitemap-index.xml" />
+    <link rel="canonical" href={canonicalURL.toString()} />
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={canonicalURL.toString()} />
+    <meta property="og:image" content={ogImageURL.toString()} />
+    <meta property="og:site_name" content="GitPulse AI" />
+    <meta property="og:locale" content="zh_CN" />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={title} />
+    <meta name="twitter:description" content={description} />
+    <meta name="twitter:image" content={ogImageURL.toString()} />
+
+    <!-- JSON-LD 结构化数据 -->
+    <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />
+
+    <script is:inline>
+      (function() {
+        const saved = localStorage.getItem('gitpulse-theme');
+        const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+        const theme = saved || (prefersDark ? 'dark' : 'light');
+        if (theme === 'light') document.documentElement.setAttribute('data-theme', 'light');
+      })();
+    </script>
+  </head>
+  <body class="min-h-screen bg-[var(--color-ink)] text-[var(--color-text-primary)] font-[var(--font-body)]">
+    <!-- 导航栏 -->
+    <nav class="fixed top-0 left-0 right-0 z-50 h-[var(--nav-height)] bg-[var(--color-surface)] border-b border-[var(--color-border)]">
+      <div class="mx-auto flex h-full items-center justify-between px-[var(--space-4)]" style={`max-width: var(--max-width)`}>
+        <a href="/" class="flex items-center gap-[var(--space-2)] font-[var(--font-display)] text-[var(--text-lg)] font-semibold text-[var(--color-accent)]">
+          GitPulse AI
+        </a>
+        <div class="hidden sm:flex items-center gap-[var(--space-6)]">
+          <a href="/trending/daily" class="text-[var(--text-sm)] text-[var(--color-text-secondary)] hover:text-[var(--color-text-primary)] transition-colors">
+            Trending
+          </a>
+          <a href="/category/llm-frameworks" class="text-[var(--text-sm)] text-[var(--color-text-secondary)] hover:text-[var(--color-text-primary)] transition-colors">
+            Categories
+          </a>
+          <a href="/featured" class="text-[var(--text-sm)] text-[var(--color-text-secondary)] hover:text-[var(--color-text-primary)] transition-colors">
+            Featured
+          </a>
+          <a href="/search" class="text-[var(--text-sm)] text-[var(--color-text-secondary)] hover:text-[var(--color-text-primary)] transition-colors">
+            Search
+          </a>
+          <a href="/about" class="text-[var(--text-sm)] text-[var(--color-text-secondary)] hover:text-[var(--color-text-primary)] transition-colors">
+            About
+          </a>
+        </div>
+      </div>
+    </nav>
+
+    <!-- 主内容区域 -->
+    <main class="pt-[var(--nav-height)]">
+      <slot />
+    </main>
+
+    <!-- 页脚 -->
+    <footer class="border-t border-[var(--color-border)] bg-[var(--color-surface)] py-[var(--space-8)]">
+      <div class="mx-auto px-[var(--space-4)] text-center text-[var(--text-sm)] text-[var(--color-text-tertiary)]" style={`max-width: var(--max-width)`}>
+        <p>GitPulse AI — AI 开源项目趋势追踪与智能策展平台</p>
+        <p class="mt-[var(--space-2)]">数据来源于 GitHub 公开 API，由 AI 辅助策展分析</p>
+      </div>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,63 @@
+---
+// packages/frontend/src/components/astro/Header.astro
+// 导航栏组件：56px 固定高度，毛玻璃背景
+
+interface Props {
+  /** 当前激活的导航链接 */
+  activeNav?: "trending" | "categories" | "featured" | "search" | "about";
+}
+
+const { activeNav } = Astro.props;
+
+const navLinks = [
+  { href: "/trending/daily", label: "Trending", key: "trending" as const },
+  { href: "/category/llm-frameworks", label: "Categories", key: "categories" as const },
+  { href: "/featured", label: "Featured", key: "featured" as const },
+  { href: "/search", label: "Search", key: "search" as const },
+  { href: "/about", label: "About", key: "about" as const },
+];
+---
+
+<nav
+  class="fixed top-0 left-0 right-0 z-50 border-b border-[var(--color-border)]"
+  style={`height: var(--nav-height); backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px); background-color: color-mix(in srgb, var(--color-surface) 85%, transparent);`}
+>
+  <div
+    class="mx-auto flex h-full items-center justify-between px-[var(--space-4)]"
+    style={`max-width: var(--max-width)`}
+  >
+    <!-- Logo -->
+    <a
+      href="/"
+      class="flex items-center gap-[var(--space-2)] font-[var(--font-display)] text-[var(--text-lg)] font-semibold text-[var(--color-accent)]"
+    >
+      GitPulse AI
+    </a>
+
+    <!-- 桌面端导航链接 -->
+    <div class="hidden sm:flex items-center gap-[var(--space-6)]">
+      {navLinks.map((link) => (
+        <a
+          href={link.href}
+          class:list={[
+            'text-[var(--text-sm)] transition-colors',
+            activeNav === link.key
+              ? 'text-[var(--color-accent)]'
+              : 'text-[var(--color-text-secondary)] hover:text-[var(--color-text-primary)]',
+          ]}
+        >
+          {link.label}
+        </a>
+      ))}
+      <!-- ThemeToggle island 插槽 -->
+      <slot name="theme-toggle" />
+    </div>
+
+    <!-- 移动端汉堡菜单触发器 -->
+    <div class="flex items-center gap-[var(--space-2)] sm:hidden">
+      <slot name="theme-toggle" />
+      <!-- MobileNav island 插槽 -->
+      <slot name="mobile-nav" />
+    </div>
+  </div>
+</nav>

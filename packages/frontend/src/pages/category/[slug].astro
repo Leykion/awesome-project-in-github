@@ -1,0 +1,77 @@
+---
+// packages/frontend/src/pages/category/[slug].astro
+// 分类页面：按分类展示仓库列表
+
+import EmptyState from "../../components/astro/EmptyState.astro";
+import RepoCard from "../../components/astro/RepoCard.astro";
+import CategoryLayout from "../../layouts/CategoryLayout.astro";
+import { loadCategories, loadRepositories } from "../../lib/data-loader";
+
+import type { GetStaticPaths, InferGetStaticPropsType } from "astro";
+
+export const getStaticPaths = (async () => {
+  const categories = await loadCategories();
+  return categories.map((cat) => ({
+    params: { slug: cat.slug },
+    props: { category: cat },
+  }));
+}) satisfies GetStaticPaths;
+
+type Props = InferGetStaticPropsType<typeof getStaticPaths>;
+
+const { category } = Astro.props as Props;
+const repositories = await loadRepositories();
+
+// 过滤出该分类下的仓库，按综合评分降序排列
+const categoryRepos = repositories
+  .filter((r) => r.categorySlug === category.slug)
+  .sort((a, b) => b.scores.composite - a.scores.composite);
+---
+
+<CategoryLayout
+  categoryName={category.name}
+  categoryIcon={category.icon}
+  categoryDescription={category.description}
+>
+  <!-- 排序和过滤控制 -->
+  {categoryRepos.length > 0 && (
+    <div class="flex items-center justify-between mb-[var(--space-6)] pb-[var(--space-3)] border-b border-[var(--color-border)]">
+      <span class="text-[var(--text-sm)] text-[var(--color-text-tertiary)]">
+        共 {categoryRepos.length} 个项目
+      </span>
+      <div class="flex items-center gap-[var(--space-2)]">
+        <span class="text-[var(--text-xs)] text-[var(--color-text-tertiary)]">排序：综合评分</span>
+      </div>
+    </div>
+  )}
+
+  <!-- 仓库卡片列表 -->
+  {categoryRepos.length === 0 ? (
+    <EmptyState
+      message="该分类暂无收录项目"
+      illustration="📂"
+      actionText="浏览全部趋势"
+      actionHref="/trending/daily"
+    />
+  ) : (
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-[var(--space-4)]">
+      {categoryRepos.map((repo) => (
+        <RepoCard
+          owner={repo.owner}
+          name={repo.name}
+          description={repo.description}
+          language={repo.language}
+          languageColor={repo.languageColor}
+          stars={repo.stars}
+          starsGained={null}
+          licenseSpdx={repo.licenseSpdx}
+          pushedAt={repo.pushedAt}
+          openIssues={repo.openIssues}
+          hasCi={repo.badges.hasCi}
+          hasReleases={repo.badges.hasReleases}
+          isArchived={repo.isArchived}
+        />
+      ))}
+    </div>
+  )}
+</CategoryLayout>

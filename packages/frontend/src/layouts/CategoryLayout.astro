@@ -1,0 +1,34 @@
+---
+// packages/frontend/src/layouts/CategoryLayout.astro
+// 分类页面包装器，扩展 BaseLayout 并提供分类上下文
+
+import BaseLayout from "./BaseLayout.astro";
+
+interface Props {
+  categoryName: string;
+  categoryIcon: string;
+  categoryDescription: string;
+}
+
+const { categoryName, categoryIcon, categoryDescription } = Astro.props;
+---
+
+<BaseLayout title={`${categoryName} - GitPulse AI`} description={categoryDescription}>
+  <div class="mx-auto px-[var(--space-4)] py-[var(--space-8)]" style={`max-width: var(--max-width)`}>
+    <!-- 分类头部 -->
+    <header class="mb-[var(--space-8)]">
+      <div class="flex items-center gap-[var(--space-3)]">
+        <span class="text-[var(--text-2xl)]">{categoryIcon}</span>
+        <h1 class="font-[var(--font-display)] text-[var(--text-2xl)] font-semibold text-[var(--color-text-primary)]">
+          {categoryName}
+        </h1>
+      </div>
+      <p class="mt-[var(--space-2)] text-[var(--text-base)] text-[var(--color-text-secondary)]">
+        {categoryDescription}
+      </p>
+    </header>
+
+    <!-- 分类页面内容插槽 -->
+    <slot />
+  </div>
+</BaseLayout>

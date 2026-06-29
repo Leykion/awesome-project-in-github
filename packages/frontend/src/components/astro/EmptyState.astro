@@ -1,0 +1,37 @@
+---
+// packages/frontend/src/components/astro/EmptyState.astro
+// 空状态组件：插图 + 消息 + 可选操作按钮
+
+interface Props {
+  /** 提示消息 */
+  message: string;
+  /** 可选操作按钮文本 */
+  actionText?: string;
+  /** 操作按钮链接 */
+  actionHref?: string;
+  /** 插图 emoji（默认为空盒子） */
+  illustration?: string;
+}
+
+const { message, actionText, actionHref, illustration = "📭" } = Astro.props;
+---
+
+<div class="flex flex-col items-center justify-center py-[var(--space-16)] px-[var(--space-4)] text-center">
+  <!-- 插图 -->
+  <span class="text-6xl mb-[var(--space-6)]">{illustration}</span>
+
+  <!-- 消息 -->
+  <p class="text-[var(--text-base)] text-[var(--color-text-secondary)] leading-[var(--leading-normal)] max-w-md mb-[var(--space-6)]">
+    {message}
+  </p>
+
+  <!-- 操作按钮 -->
+  {actionText && actionHref && (
+    <a
+      href={actionHref}
+      class="inline-flex items-center rounded-[var(--radius-md)] bg-[var(--color-accent)] px-[var(--space-4)] py-[var(--space-2)] text-[var(--text-sm)] font-medium text-[var(--color-ink)] hover:opacity-90 transition-opacity"
+    >
+      {actionText}
+    </a>
+  )}
+</div>

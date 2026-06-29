@@ -1,0 +1,22 @@
+---
+// packages/frontend/src/components/astro/LicenseBadge.astro
+// SPDX 许可证彩色徽章
+
+import { getLicenseColor } from "@gitpulse/shared";
+
+interface Props {
+  /** SPDX 许可证标识符 */
+  spdx: string | null;
+}
+
+const { spdx } = Astro.props;
+
+const { bg, text, label } = getLicenseColor(spdx);
+---
+
+<span
+  class="inline-flex items-center rounded-[var(--radius-full)] px-[var(--space-2)] py-0.5 text-[var(--text-xs)] font-medium"
+  style={`color: ${text}; background-color: ${bg};`}
+>
+  {label}
+</span>

@@ -1,0 +1,54 @@
+---
+// packages/frontend/src/pages/featured.astro
+// 精选合集列表页
+
+import EmptyState from "../components/astro/EmptyState.astro";
+import FeaturedCard from "../components/astro/FeaturedCard.astro";
+import BaseLayout from "../layouts/BaseLayout.astro";
+import { loadFeaturedCollections } from "../lib/data-loader";
+
+const collections = await loadFeaturedCollections();
+
+// 过滤已发布的合集，置顶优先，按更新时间降序排列
+const publishedCollections = collections
+  .filter((c) => c.isPublished)
+  .sort((a, b) => {
+    if (a.isPinned !== b.isPinned) return a.isPinned ? -1 : 1;
+    return new Date(b.updatedAt).getTime() - new Date(a.updatedAt).getTime();
+  });
+---
+
+<BaseLayout title="AI 精选 - GitPulse AI" description="AI 精选合集，由 AI 策展引擎自动生成的开源项目推荐">
+  <div class="mx-auto px-[var(--space-4)] py-[var(--space-8)]" style={`max-width: var(--max-width)`}>
+    <!-- 页面标题 -->
+    <h1 class="font-[var(--font-display)] text-[var(--text-2xl)] font-semibold text-[var(--color-text-primary)] mb-[var(--space-2)]">
+      AI 精选
+    </h1>
+    <p class="text-[var(--text-base)] text-[var(--color-text-secondary)] mb-[var(--space-8)]">
+      由 AI 策展引擎自动生成的开源项目推荐合集
+    </p>
+
+    <!-- 合集列表 -->
+    {publishedCollections.length === 0 ? (
+      <EmptyState
+        message="暂无精选合集，合集将在 AI 策展系统运行后自动生成"
+        illustration="✨"
+      />
+    ) : (
+      <div class="grid grid-cols-1 sm:grid-cols-2 gap-[var(--space-4)]">
+        {publishedCollections.map((collection) => (
+          <FeaturedCard
+            title={collection.title}
+            slug={collection.slug}
+            description={collection.description}
+            coverEmoji={collection.coverEmoji}
+            collectionType={collection.collectionType}
+            repoCount={collection.repos.length}
+            publishedAt={collection.publishedAt}
+            isPinned={collection.isPinned}
+          />
+        ))}
+      </div>
+    )}
+  </div>
+</BaseLayout>
