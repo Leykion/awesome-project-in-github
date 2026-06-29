@@ -103,6 +103,14 @@ export async function enrichMetadata(config: PipelineConfig): Promise<EnrichMeta
   );
 
   for (const repo of toEnrich) {
+    // 配额不足时提前停止，剩余仓库下次运行再处理
+    if (rateLimiter.getRemaining("rest") < 200) {
+      console.log(
+        `[EnrichMetadata] REST 配额不足 (${rateLimiter.getRemaining("rest")}), 停止补全，剩余下次处理`,
+      );
+      break;
+    }
+
     try {
       // 构建一个临时 EnrichedRepo 用于 enrichRepoMetadata 调用
       const tempEnriched: EnrichedRepo = {

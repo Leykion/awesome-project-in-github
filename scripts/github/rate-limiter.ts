@@ -22,8 +22,12 @@ export class RateLimiter {
     graphql: { remaining: 5000, limit: 5000, resetAt: 0 },
   };
 
-  /** 安全阈值：剩余配额低于此比例时触发等待 */
-  private readonly safetyThreshold = 0.2;
+  /** 安全阈值：剩余配额低于此数量时触发等待 */
+  private readonly safetyMinimum: Record<ApiEndpoint, number> = {
+    rest: 100, // 留 100 次给其他阶段
+    search: 3,
+    graphql: 200,
+  };
 
   /**
    * 从响应头更新速率限制状态
@@ -52,7 +56,7 @@ export class RateLimiter {
    */
   async waitIfNeeded(endpoint: ApiEndpoint): Promise<void> {
     const state = this.state[endpoint];
-    const threshold = Math.ceil(state.limit * this.safetyThreshold);
+    const threshold = this.safetyMinimum[endpoint];
 
     if (state.remaining <= threshold && state.resetAt > 0) {
       const nowSec = Math.floor(Date.now() / 1000);
