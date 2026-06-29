@@ -8,7 +8,7 @@ export function createLLMClient(config: LLMConfig) {
   const client = new OpenAI({
     apiKey: config.apiKey,
     baseURL: config.baseURL,
-    timeout: 60_000,
+    timeout: 120_000,
     maxRetries: 0,
   });
 
