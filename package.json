@@ -20,7 +20,7 @@
     "pipeline:cleanup": "tsx scripts/pipeline/cleanup-stale.ts",
     "pipeline:search-index": "tsx scripts/pipeline/build-search-index.ts",
     "pipeline:all": "tsx scripts/pipeline.ts",
-    "typecheck": "pnpm -r typecheck && tsc --noEmit -p scripts/tsconfig.json",
+    "typecheck": "pnpm --filter @gitpulse/shared build && pnpm -r typecheck && tsc --noEmit -p scripts/tsconfig.json",
     "lint": "biome check .",
     "lint:fix": "biome check --write .",
     "test": "pnpm -r test && vitest run"
