@@ -133,7 +133,14 @@ export async function aiCurate(config: PipelineConfig): Promise<AiCurateResult> 
         );
       } catch (err) {
         const message = err instanceof Error ? err.message : String(err);
-        console.error(`[AiCurate] LLM 分析失败: ${repo.fullName} - ${message}`);
+        const errName = err instanceof Error ? err.constructor.name : typeof err;
+        const status =
+          err instanceof Error && "status" in err
+            ? (err as unknown as { status: number }).status
+            : "N/A";
+        console.error(
+          `[AiCurate] LLM 分析失败: ${repo.fullName} [error=${errName}, status=${status}] - ${message}`,
+        );
 
         // 使用后备策略
         repo.curation = generateFallbackCurationFromRepo(repo);

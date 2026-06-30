@@ -4,6 +4,38 @@
 import OpenAI from "openai";
 import type { LLMConfig } from "../lib/config";
 
+function classifyError(err: unknown): {
+  type: "rate_limit" | "server" | "network" | "timeout" | "unknown";
+  status: number;
+  detail: string;
+} {
+  const status =
+    err instanceof Error && "status" in err
+      ? (err as unknown as { status: number }).status
+      : 0;
+
+  if (status === 429) {
+    return { type: "rate_limit", status, detail: "rate limited by API" };
+  }
+  if (status >= 500) {
+    return { type: "server", status, detail: `server error ${status}` };
+  }
+
+  const message = err instanceof Error ? err.message : String(err);
+
+  if (/ETIMEDOUT|timeout/i.test(message)) {
+    return { type: "timeout", status, detail: message };
+  }
+  if (
+    err instanceof TypeError ||
+    /premature close|ECONNRESET|ECONNREFUSED|fetch failed|socket hang up|UND_ERR_SOCKET/i.test(message)
+  ) {
+    return { type: "network", status, detail: message };
+  }
+
+  return { type: "unknown", status, detail: message };
+}
+
 export function createLLMClient(config: LLMConfig) {
   const client = new OpenAI({
     apiKey: config.apiKey,
@@ -14,8 +46,11 @@ export function createLLMClient(config: LLMConfig) {
 
   return {
     async analyze(systemPrompt: string, userPrompt: string): Promise<string> {
-      const maxRetries = 3;
+      const maxRetries = 5;
+      const inputChars = systemPrompt.length + userPrompt.length;
+
       for (let attempt = 1; attempt <= maxRetries; attempt++) {
+        const startTime = Date.now();
         try {
           const response = await client.chat.completions.create({
             model: config.model,
@@ -26,22 +61,28 @@ export function createLLMClient(config: LLMConfig) {
               { role: "user", content: userPrompt },
             ],
           });
+          const elapsed = Date.now() - startTime;
+          if (attempt > 1) {
+            console.log(`  LLM API succeeded on attempt ${attempt} (${elapsed}ms)`);
+          }
           return response.choices[0]?.message?.content ?? "";
         } catch (err: unknown) {
+          const elapsed = Date.now() - startTime;
+          const { type, status, detail } = classifyError(err);
+
+          console.warn(
+            `  LLM API attempt ${attempt}/${maxRetries} failed [type=${type}, status=${status}, elapsed=${elapsed}ms, inputChars=${inputChars}]: ${detail}`,
+          );
+
           if (attempt === maxRetries) throw err;
-          const status =
-            err instanceof Error && "status" in err
-              ? (err as unknown as { status: number }).status
-              : 0;
-          const isRateLimit = status === 429;
-          const isServer = status >= 500;
-          const isNetwork =
-            err instanceof TypeError ||
-            (err instanceof Error &&
-              /premature close|ECONNRESET|ETIMEDOUT|fetch failed/i.test(err.message));
-          if (!isRateLimit && !isServer && !isNetwork) throw err;
-          const delay = 2 ** attempt * 3000;
-          console.warn(`LLM API attempt ${attempt} failed, retrying in ${delay}ms...`);
+
+          const isRetryable = type !== "unknown";
+          if (!isRetryable) throw err;
+
+          // 网络/超时错误使用更长的退避
+          const baseDelay = type === "rate_limit" ? 5000 : 3000;
+          const delay = 2 ** attempt * baseDelay + Math.floor(Math.random() * 1000);
+          console.warn(`  Retrying in ${delay}ms...`);
           await new Promise((resolve) => setTimeout(resolve, delay));
         }
       }
