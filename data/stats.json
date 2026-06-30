@@ -1,11 +1,11 @@
 {
   "totalReposTracked": 435,
-  "totalCurations": 188,
+  "totalCurations": 193,
   "categoryCounts": {
-    "ai-applications": 36,
+    "ai-applications": 38,
     "ai-dev-tools": 35,
-    "ai-agents": 24,
-    "llm-frameworks": 11,
+    "ai-agents": 26,
+    "llm-frameworks": 12,
     "mlops-evaluation": 6,
     "multimodal": 6,
     "model-serving": 10,
@@ -28,7 +28,7 @@
     "C++": 61,
     "Kotlin": 39
   },
-  "lastSyncAt": "2026-06-30T09:38:35.460Z",
-  "lastCurationAt": "2026-06-30T09:38:35.460Z",
+  "lastSyncAt": "2026-06-30T10:05:27.407Z",
+  "lastCurationAt": "2026-06-30T10:05:27.407Z",
   "syncHealth": "healthy"
 }
