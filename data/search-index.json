@@ -5,10 +5,10 @@
     "description": "SimpleX - the first messaging network operating without user identifiers of any kind - 100% private by design! iOS, Android and desktop apps 📱!",
     "topics": "chat protocol e2ee privacy haskell security messaging encryption double-ratchet",
     "language": "Haskell",
-    "categorySlug": "ai-applications",
-    "stars": 17229,
+    "categorySlug": "",
+    "stars": 17258,
     "licenseSpdx": "AGPL-3.0",
-    "oneLiner": "The first messaging network with zero user identifiers, offering 100% private by design communication."
+    "oneLiner": "The first messaging platform operating without any user identifiers, delivering 100% privacy by design with audited end-to-end encryption."
   },
   {
     "id": 1075372545,
@@ -17,9 +17,9 @@
     "topics": "",
     "language": "Shell",
     "categorySlug": "ai-agents",
-    "stars": 120200,
+    "stars": 120434,
     "licenseSpdx": "MIT",
-    "oneLiner": "A curated collection of personality-driven AI agents that transform your coding assistant into a full-fledged, specialized team."
+    "oneLiner": "A massively-starred collection of personality-driven AI agent personas installable into Claude Code, Cursor, and other AI coding tools — a virtual agency in markdown form."
   },
   {
     "id": 72523920,
@@ -28,7 +28,7 @@
     "topics": "cuda cudnn cublas cusolver nccl python numpy cupy curand cusparse gpu cutensor scipy nvtx nvrtc tensor cusparselt rocm",
     "language": "Python",
     "categorySlug": "mlops-evaluation",
-    "stars": 11963,
+    "stars": 11968,
     "licenseSpdx": "MIT",
     "oneLiner": "CuPy brings NumPy/SciPy to the GPU with drop-in compatibility and multi-platform support."
   },
@@ -39,7 +39,7 @@
     "topics": "",
     "language": "Swift",
     "categorySlug": "",
-    "stars": 4734,
+    "stars": 4792,
     "licenseSpdx": "GPL-3.0",
     "oneLiner": "FluidVoice - Fastest macOS Offline Dictation app - Voice to Text fully Local. One ⭐ takes us a long way :)) "
   },
@@ -50,7 +50,7 @@
     "topics": "osint social-network identification socmint sherlock investigation python python3 open-source cybersecurity scraping osint-python redteam osint-framework cli reconnaissance infosec pentesting information-gathering username",
     "language": "Python",
     "categorySlug": "",
-    "stars": 34693,
+    "stars": 34700,
     "licenseSpdx": "MIT",
     "oneLiner": "🕵️‍♂️ Collect a dossier on a person by username from 3000+ sites"
   },
@@ -61,9 +61,9 @@
     "topics": "driver-assistance-systems robotics advanced-driver-assistance-systems",
     "language": "Python",
     "categorySlug": "ai-applications",
-    "stars": 62890,
+    "stars": 62892,
     "licenseSpdx": "MIT",
-    "oneLiner": "An open-source operating system that turns your car into a self-driving vehicle."
+    "oneLiner": "The world's most deployed open-source autonomous driving system, running real AI on 300+ consumer car models."
   },
   {
     "id": 32484381,
@@ -72,7 +72,7 @@
     "topics": "free-for-developers awesome-list",
     "language": "HTML",
     "categorySlug": "",
-    "stars": 127170,
+    "stars": 127217,
     "licenseSpdx": "",
     "oneLiner": ""
   },
@@ -83,7 +83,7 @@
     "topics": "authentication authorization identity openid-connect passwordless social-login oauth2 typescript email sms jwt login mfa password rbac signup sso totp logto saml",
     "language": "TypeScript",
     "categorySlug": "ai-applications",
-    "stars": 12985,
+    "stars": 13002,
     "licenseSpdx": "MPL-2.0",
     "oneLiner": "Modern open-source auth infrastructure for SaaS and AI apps with multi-tenancy and enterprise SSO"
   },
@@ -94,9 +94,9 @@
     "topics": "ai ai-agent anthropic berkshire-hathaway charlie-munger china-stock claude claude-code financial-analysis fintech fundamental-analysis investment investment-research llm mcp portfolio-management stock-analysis stock-market value-investing warren-buffett",
     "language": "Python",
     "categorySlug": "ai-agents",
-    "stars": 7330,
+    "stars": 7397,
     "licenseSpdx": "MIT",
-    "oneLiner": "A value investing research framework that turns Claude Code into a multi-agent analyst team with real track record of beating the market."
+    "oneLiner": "A multi-agent adversarial framework that encodes four legendary investors' philosophies into AI-driven research workflows, with real-world outperformance claims that make it more than just another financial AI demo."
   },
   {
     "id": 1208221543,
@@ -105,7 +105,7 @@
     "topics": "",
     "language": "Python",
     "categorySlug": "",
-    "stars": 12366,
+    "stars": 12427,
     "licenseSpdx": "MIT",
     "oneLiner": ""
   },
@@ -116,7 +116,7 @@
     "topics": "ai ai-agent ai-tools ctf cybersecurity openclaw penetration-testing penetration-testing-tools security-tools skill",
     "language": "Python",
     "categorySlug": "ai-agents",
-    "stars": 1384,
+    "stars": 1402,
     "licenseSpdx": "MIT",
     "oneLiner": "An AI agent that turns natural language into automated penetration testing with a goal-driven state-space search engine and anti-hallucination safeguards."
   },
@@ -127,7 +127,7 @@
     "topics": "ai-agents claude claude-code decision-making deliberation gemini multi-llm ollama openai prompt-engineering",
     "language": "Shell",
     "categorySlug": "",
-    "stars": 2276,
+    "stars": 2295,
     "licenseSpdx": "MIT",
     "oneLiner": ""
   },
@@ -138,7 +138,7 @@
     "topics": "backtesting multi-agent quantitative-finance trading ai-agent algorithmic-trading fintech llm mcp python",
     "language": "Python",
     "categorySlug": "ai-agents",
-    "stars": 15576,
+    "stars": 15636,
     "licenseSpdx": "MIT",
     "oneLiner": "An LLM-powered multi-agent trading platform that turns natural language into actionable trading strategies."
   },
@@ -149,7 +149,7 @@
     "topics": "",
     "language": "TypeScript",
     "categorySlug": "ai-applications",
-    "stars": 17798,
+    "stars": 17803,
     "licenseSpdx": "AGPL-3.0",
     "oneLiner": "An open-source, offline-first desktop app for managing markdown knowledge bases with AI agent integration"
   },
@@ -160,7 +160,7 @@
     "topics": "encryption encryption-decryption encryption-algorithms veracrypt idrix veracrypt-source",
     "language": "C",
     "categorySlug": "",
-    "stars": 10609,
+    "stars": 10615,
     "licenseSpdx": "NOASSERTION",
     "oneLiner": ""
   },
@@ -171,7 +171,7 @@
     "topics": "agent agentic-ai ai claude copilot cursor elevenlabs ffmpeg flux image-generation open-source openai python remotion stable-diffusion text-to-speech text-to-video video-generation video-production",
     "language": "Python",
     "categorySlug": "ai-applications",
-    "stars": 29502,
+    "stars": 29644,
     "licenseSpdx": "AGPL-3.0",
     "oneLiner": "The first open-source, agentic video production system that turns AI coding assistants into a full video production studio."
   },
@@ -182,9 +182,9 @@
     "topics": "claude-code code-analysis code-intelligence developer-tools knowledge-graph mcp mcp-server model-context-protocol sqlite tree-sitter codex cursor windsurf aider gemini-cli graph-visualization kilocode opencode ast cypher",
     "language": "C",
     "categorySlug": "ai-dev-tools",
-    "stars": 22382,
+    "stars": 22549,
     "licenseSpdx": "MIT",
-    "oneLiner": "The fastest code intelligence engine for AI agents, indexing entire codebases in milliseconds with a single zero-dependency binary."
+    "oneLiner": "A blazing-fast, zero-dependency C binary that turns any codebase into a persistent knowledge graph for AI coding agents via MCP, backed by peer-reviewed research."
   },
   {
     "id": 1207222725,
@@ -193,7 +193,7 @@
     "topics": "",
     "language": "TypeScript",
     "categorySlug": "",
-    "stars": 23582,
+    "stars": 23629,
     "licenseSpdx": "Apache-2.0",
     "oneLiner": "A format specification for describing a visual identity to coding agents. DESIGN.md gives agents a persistent, structured understanding of a design system."
   },
@@ -204,7 +204,7 @@
     "topics": "",
     "language": "Go",
     "categorySlug": "ai-dev-tools",
-    "stars": 4437,
+    "stars": 4462,
     "licenseSpdx": "MIT",
     "oneLiner": "A local git proxy that runs AI-driven validation in an isolated worktree and only pushes clean code with automatic PR creation."
   },
@@ -215,7 +215,7 @@
     "topics": "ai ai-agents ai-tools automation boilerplate claude claude-code clone developer-tools nextjs react reverse-engineering shadcn-ui skills tailwindcss template typescript web-scraping website-clone",
     "language": "TypeScript",
     "categorySlug": "ai-dev-tools",
-    "stars": 23840,
+    "stars": 23889,
     "licenseSpdx": "MIT",
     "oneLiner": "Clone any website with one command using AI coding agents"
   },
@@ -226,7 +226,7 @@
     "topics": "",
     "language": "Python",
     "categorySlug": "",
-    "stars": 3926,
+    "stars": 3949,
     "licenseSpdx": "MIT",
     "oneLiner": ""
   },
@@ -237,9 +237,9 @@
     "topics": "aigc llm quant quantitative-trading a-stock ai-agent quantitative-finance",
     "language": "Python",
     "categorySlug": "ai-applications",
-    "stars": 52310,
+    "stars": 52394,
     "licenseSpdx": "MIT",
-    "oneLiner": "LLM-powered multi-market stock analysis with automated decision dashboards and zero-cost scheduling."
+    "oneLiner": "A highly popular LLM-driven stock analysis system that automates multi-market insights and notifications for investors."
   },
   {
     "id": 1183888342,
@@ -248,7 +248,7 @@
     "topics": "claude-code codex ghostty terminal cli cursor-agent opencode orchestration worktrees parallel-agents pi ade ide mobile-app agent-ide ai-agents devtools yc-backed",
     "language": "TypeScript",
     "categorySlug": "ai-dev-tools",
-    "stars": 9488,
+    "stars": 9546,
     "licenseSpdx": "MIT",
     "oneLiner": "Orca is the first open-source ADE that lets you run multiple coding agents in parallel, each in its own worktree, with a mobile companion for remote control."
   },
@@ -259,7 +259,7 @@
     "topics": "agent-infrastructure ai-agent ai-search automation bilibili claude-code cli cursor free-api llm-tools mcp python reddit-scraper twitter-scraper web-scraper xiaohongshu youtube-transcript",
     "language": "Python",
     "categorySlug": "ai-agents",
-    "stars": 46656,
+    "stars": 46782,
     "licenseSpdx": "MIT",
     "oneLiner": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees."
   },
@@ -270,7 +270,7 @@
     "topics": "agent ai web ai-agents javascript typescript browser-automation mcp",
     "language": "TypeScript",
     "categorySlug": "ai-agents",
-    "stars": 20742,
+    "stars": 20754,
     "licenseSpdx": "MIT",
     "oneLiner": "A JavaScript library that lets you control any web interface with natural language, no extensions or headless browsers needed."
   },
@@ -281,7 +281,7 @@
     "topics": "ai-agents claude-code cybersecurity incident-response mitre-attack penetration-testing red-team security cloud-security malware-analysis devsecops ethical-hacking infosec llm mcp osint security-automation threat-intelligence nist-csf threat-hunting",
     "language": "Python",
     "categorySlug": "ai-dev-tools",
-    "stars": 23334,
+    "stars": 23378,
     "licenseSpdx": "Apache-2.0",
     "oneLiner": "817 structured cybersecurity skills for AI agents · Mapped to 6 frameworks: MITRE ATT&CK, NIST CSF 2.0, MITRE ATLAS, D3FEND, NIST AI RMF & MITRE F3 (Fight Fraud) · agentskills.io standard · Works with Claude Code, GitHub Copilot, Codex CLI, Cursor, Gemini CLI & 20+ platforms · 29 security domains · Apache 2.0"
   },
@@ -292,7 +292,7 @@
     "topics": "ai-video macos mcp swift video-editor claude seedance2",
     "language": "Swift",
     "categorySlug": "ai-applications",
-    "stars": 9620,
+    "stars": 9641,
     "licenseSpdx": "GPL-3.0",
     "oneLiner": "A native macOS video editor with built-in generative AI and agentic MCP integration."
   },
@@ -303,9 +303,9 @@
     "topics": "agents ai react",
     "language": "TypeScript",
     "categorySlug": "ai-agents",
-    "stars": 3164,
+    "stars": 3180,
     "licenseSpdx": "",
-    "oneLiner": "A unified framework that lets you define actions once and use them across UI, agents, APIs, MCP, A2A, and CLI, making agents native to your application."
+    "oneLiner": "A framework where every action is simultaneously a UI handler, agent tool, API endpoint, and CLI command — making agents native citizens of your app, not guests."
   },
   {
     "id": 1219009070,
@@ -314,9 +314,9 @@
     "topics": "",
     "language": "Python",
     "categorySlug": "ai-dev-tools",
-    "stars": 1635,
+    "stars": 1638,
     "licenseSpdx": "Apache-2.0",
-    "oneLiner": "Official AWS plugins that give AI coding agents direct, secure access to build and manage applications on AWS."
+    "oneLiner": "The first official AWS toolkit that gives AI coding agents native AWS knowledge and capabilities via MCP, bridging popular AI assistants with cloud infrastructure."
   },
   {
     "id": 679343504,
@@ -325,9 +325,9 @@
     "topics": "ai cognitive-architecture vector-database ai-agents graph-database ai-memory cognitive-memory knowledge knowledge-graph graph-rag contributions-welcome good-first-issue good-first-pr help-wanted open-source context-engineering agent-memory agent-skills memory-management",
     "language": "Python",
     "categorySlug": "ai-agents",
-    "stars": 25949,
+    "stars": 26011,
     "licenseSpdx": "Apache-2.0",
-    "oneLiner": "Cognee is the open-source AI memory platform for agents. Give your AI agents persistent long-term memory across sessions with a self-hosted knowledge graph engine."
+    "oneLiner": "An open-source knowledge graph memory platform that gives AI agents persistent, contextual long-term memory across sessions"
   },
   {
     "id": 651517185,
@@ -336,7 +336,7 @@
     "topics": "",
     "language": "Python",
     "categorySlug": "",
-    "stars": 54417,
+    "stars": 54451,
     "licenseSpdx": "NOASSERTION",
     "oneLiner": "小红书笔记 | 评论爬虫、抖音视频 | 评论爬虫、快手视频 | 评论爬虫、B 站视频 ｜ 评论爬虫、微博帖子 ｜ 评论爬虫、百度贴吧帖子 ｜ 百度贴吧评论回复爬虫  | 知乎问答文章｜评论爬虫"
   },
@@ -347,9 +347,9 @@
     "topics": "docker java pdf pdf-converter pdf-manipulation pdf-merger pdf-tools pdf-web-apps pdf-ocr pdfmerger pdf-editor hacktoberfest self-hosted",
     "language": "Java",
     "categorySlug": "ai-applications",
-    "stars": 85350,
+    "stars": 85363,
     "licenseSpdx": "NOASSERTION",
-    "oneLiner": "The most popular open-source PDF platform that lets you edit, convert, and automate PDFs entirely on your own infrastructure."
+    "oneLiner": "An open-source, all-in-one PDF platform with AI-powered tools for seamless editing, conversion, and automation across devices."
   },
   {
     "id": 1130564872,
@@ -358,9 +358,9 @@
     "topics": "ai dashboard geopolitics monitoring news osint opensource palantir situation",
     "language": "TypeScript",
     "categorySlug": "ai-applications",
-    "stars": 61022,
+    "stars": 61033,
     "licenseSpdx": "NOASSERTION",
-    "oneLiner": "An open-source, AI-powered global intelligence dashboard for real-time situational awareness across news, geopolitics, and infrastructure."
+    "oneLiner": "An open-source, AI-enhanced dashboard for comprehensive real-time global intelligence and infrastructure monitoring."
   },
   {
     "id": 1141782198,
@@ -369,18 +369,18 @@
     "topics": "ai voice-clone qwen3-tts voice-ai whisper qwen3-tts-ui cuda mlx",
     "language": "TypeScript",
     "categorySlug": "ai-dev-tools",
-    "stars": 36174,
+    "stars": 36218,
     "licenseSpdx": "MIT",
     "oneLiner": "The open-source AI voice studio. Clone, dictate, create."
   },
   {
     "id": 48769241,
     "fullName": "penpot/penpot",
-    "description": "Penpot: The open-source design tool for design and code collaboration",
+    "description": "Penpot: The open-source design platform for Product teams that need scalable collaboration.",
     "topics": "ux-design ux-experience prototyping clojure clojurescript ui design",
     "language": "Clojure",
     "categorySlug": "ai-applications",
-    "stars": 54673,
+    "stars": 54683,
     "licenseSpdx": "MPL-2.0",
     "oneLiner": "The leading open-source design platform for collaborative UI/UX design and prototyping with full self-hosting ownership."
   },
@@ -391,7 +391,7 @@
     "topics": "",
     "language": "Swift",
     "categorySlug": "",
-    "stars": 45141,
+    "stars": 45217,
     "licenseSpdx": "Apache-2.0",
     "oneLiner": "A tool for creating and running Linux containers using lightweight virtual machines on a Mac. It is written in Swift, and optimized for Apple silicon. "
   },
@@ -401,10 +401,10 @@
     "description": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
     "topics": "ai-prompts claude claude-code reddit twitter hackernews polymarket research youtube ai-skill bluesky clawhub deep-research instagram openclaw recency social-media tiktok trends web-search",
     "language": "Python",
-    "categorySlug": "ai-agents",
-    "stars": 47822,
+    "categorySlug": "ai-dev-tools",
+    "stars": 47852,
     "licenseSpdx": "MIT",
-    "oneLiner": "An AI agent that searches Reddit, X, YouTube, HN, and Polymarket in parallel, scoring results by real engagement to deliver grounded, recency-focused summaries."
+    "oneLiner": "An agent skill that bridges Reddit, X, YouTube, TikTok, HN, and Polymarket into a single engagement-scored research search no other AI can provide alone"
   },
   {
     "id": 157616880,
@@ -413,7 +413,7 @@
     "topics": "iptv m3u playlist tv streams",
     "language": "TypeScript",
     "categorySlug": "",
-    "stars": 129498,
+    "stars": 129527,
     "licenseSpdx": "Unlicense",
     "oneLiner": "The world's largest open collection of IPTV channel playlists, maintained by a massive community."
   },
@@ -424,7 +424,7 @@
     "topics": "agent-skill-repository product-management agent-skills agentic-skills claude-code-marketplace claude-code-plugins claude-cowork-plugin",
     "language": "",
     "categorySlug": "",
-    "stars": 21846,
+    "stars": 21863,
     "licenseSpdx": "MIT",
     "oneLiner": ""
   },
@@ -435,7 +435,7 @@
     "topics": "assistant learning note-taking notebook notes-app self-learning",
     "language": "TypeScript",
     "categorySlug": "",
-    "stars": 34087,
+    "stars": 34095,
     "licenseSpdx": "MIT",
     "oneLiner": "An Open Source implementation of Notebook LM with more flexibility and features"
   },
@@ -446,7 +446,7 @@
     "topics": "shortvideo automation chatgpt moviepy python tiktok ai",
     "language": "Python",
     "categorySlug": "ai-applications",
-    "stars": 94387,
+    "stars": 94427,
     "licenseSpdx": "MIT",
     "oneLiner": "利用AI大模型，一键生成高清短视频 Generate short videos with one click using AI LLM."
   },
@@ -457,7 +457,7 @@
     "topics": "agent ai coding lowcode nocode skill skills vibecoding claude claude-code codex design frontend",
     "language": "JavaScript",
     "categorySlug": "ai-agents",
-    "stars": 53644,
+    "stars": 53706,
     "licenseSpdx": "MIT",
     "oneLiner": "Taste-Skill - gives your AI good taste. stops the AI from generating boring, generic slop "
   },
@@ -468,7 +468,7 @@
     "topics": "",
     "language": "JavaScript",
     "categorySlug": "",
-    "stars": 3811,
+    "stars": 3818,
     "licenseSpdx": "",
     "oneLiner": ""
   },
@@ -479,7 +479,7 @@
     "topics": "ai anthropic awesome chatbot chatgpt claude claude-code codex deep-learning education gemini generative-ai google llm machine-learning nlp open-source openai prompt-engineering ai-agents",
     "language": "JavaScript",
     "categorySlug": "ai-applications",
-    "stars": 47306,
+    "stars": 47330,
     "licenseSpdx": "CC0-1.0",
     "oneLiner": "Extracted system prompts from Anthropic - Claude Fable 5, Opus 4.8, Claude Code, Claude Design. OpenAI - ChatGPT 5.5 Thinking, GPT 5.5 Instant, Codex. Google - Gemini 3.5 Flash, 3.1 Pro, Antigravity. xAI - Grok, Cursor, Copilot, VS Code, Perplexity, and more. Updated regularly."
   },
@@ -490,7 +490,7 @@
     "topics": "langchain openai autogen-extension autogen markdown microsoft-office pdf",
     "language": "Python",
     "categorySlug": "llm-frameworks",
-    "stars": 161599,
+    "stars": 161662,
     "licenseSpdx": "MIT",
     "oneLiner": "Python tool for converting files and office documents to Markdown."
   },
@@ -501,9 +501,9 @@
     "topics": "agent agent-orchestration ai ai-agents claude-code cli codex coding-agents developer-tools devtools multiplexer rust terminal terminal-multiplexer terminal-ui tmux tui workspace-manager",
     "language": "Rust",
     "categorySlug": "ai-dev-tools",
-    "stars": 8778,
+    "stars": 8847,
     "licenseSpdx": "NOASSERTION",
-    "oneLiner": "A terminal multiplexer rebuilt for AI agents, giving each agent a real terminal with state visibility and persistent sessions."
+    "oneLiner": "A terminal multiplexer with AI agent awareness, enabling developers to run and monitor multiple coding agents in one place."
   },
   {
     "id": 1217040185,
@@ -512,7 +512,7 @@
     "topics": "",
     "language": "TypeScript",
     "categorySlug": "",
-    "stars": 14177,
+    "stars": 14202,
     "licenseSpdx": "MIT",
     "oneLiner": "OpenAI-compatible proxy that stacks the free tiers of 16 LLM providers (~1.7B tokens/month) behind one /v1 endpoint — plus any custom OpenAI-compatible endpoint. Smart routing, automatic failover, encrypted keys. Personal experimentation only."
   },
@@ -522,10 +522,10 @@
     "description": "⌥  AI Coding agent for the terminal — hash-anchored edits, optimized tool harness, LSP, Python, browser, subagents, and more",
     "topics": "bun cli typescript ai-agent coding-assistant llm ai-coding-agent anthropic claude mcp multi-provider openai rust terminal tui",
     "language": "TypeScript",
-    "categorySlug": "ai-agents",
-    "stars": 15282,
+    "categorySlug": "ai-dev-tools",
+    "stars": 15298,
     "licenseSpdx": "MIT",
-    "oneLiner": "A terminal-native AI coding agent with an IDE-like tool harness, supporting 40+ LLM providers and 32 built-in tools."
+    "oneLiner": "A Rust-powered terminal coding agent with deep LSP/DAP integration, 40+ LLM providers, and hash-anchored edits — bringing IDE intelligence directly to the CLI."
   },
   {
     "id": 722844356,
@@ -534,7 +534,7 @@
     "topics": "ai-vtuber ai-waifu ai neuro-sama chatbots live2d live2d-web llm ollama ai-companion",
     "language": "Python",
     "categorySlug": "llm-frameworks",
-    "stars": 12198,
+    "stars": 12200,
     "licenseSpdx": "NOASSERTION",
     "oneLiner": "Talk to any LLM with hands-free voice interaction, voice interruption, and Live2D taking face running locally across platforms"
   },
@@ -545,7 +545,7 @@
     "topics": "",
     "language": "Python",
     "categorySlug": "",
-    "stars": 26233,
+    "stars": 26248,
     "licenseSpdx": "Apache-2.0",
     "oneLiner": ""
   },
@@ -556,7 +556,7 @@
     "topics": "agent finance llm multiagent trading",
     "language": "Python",
     "categorySlug": "ai-agents",
-    "stars": 89960,
+    "stars": 89995,
     "licenseSpdx": "Apache-2.0",
     "oneLiner": "TradingAgents: Multi-Agents LLM Financial Trading Framework"
   },
@@ -567,7 +567,7 @@
     "topics": "",
     "language": "Python",
     "categorySlug": "",
-    "stars": 70428,
+    "stars": 70449,
     "licenseSpdx": "Apache-2.0",
     "oneLiner": "🚀🤖 Crawl4AI: Open-source LLM Friendly Web Crawler & Scraper. Don't be shy, join here: https://discord.gg/jP8KfhDhyN"
   },
@@ -578,7 +578,7 @@
     "topics": "",
     "language": "Python",
     "categorySlug": "",
-    "stars": 8706,
+    "stars": 8756,
     "licenseSpdx": "Apache-2.0",
     "oneLiner": ""
   },
@@ -589,7 +589,7 @@
     "topics": "depixelization mosaic-removal jav-restoration",
     "language": "Python",
     "categorySlug": "",
-    "stars": 5187,
+    "stars": 5190,
     "licenseSpdx": "AGPL-3.0",
     "oneLiner": ""
   },
@@ -600,7 +600,7 @@
     "topics": "wordlist-generator wordlist dictionary-attack password password-strength weak-passwords",
     "language": "Python",
     "categorySlug": "",
-    "stars": 6031,
+    "stars": 6050,
     "licenseSpdx": "GPL-3.0",
     "oneLiner": ""
   },
@@ -611,7 +611,7 @@
     "topics": "",
     "language": "Python",
     "categorySlug": "",
-    "stars": 44322,
+    "stars": 44328,
     "licenseSpdx": "Apache-2.0",
     "oneLiner": ""
   },
@@ -622,7 +622,7 @@
     "topics": "youtube-dl python sponsorblock yt-dlp youtube-downloader cli downloader",
     "language": "Python",
     "categorySlug": "",
-    "stars": 174388,
+    "stars": 174413,
     "licenseSpdx": "Unlicense",
     "oneLiner": "A feature-rich command-line audio/video downloader"
   },
@@ -633,7 +633,7 @@
     "topics": "osint reconnaissance linux cli sherlock python3 redteam tools information-gathering hacktoberfest python cybersecurity cti forensics infosec pentesting",
     "language": "Python",
     "categorySlug": "",
-    "stars": 85909,
+    "stars": 85912,
     "licenseSpdx": "MIT",
     "oneLiner": ""
   },
@@ -644,7 +644,7 @@
     "topics": "",
     "language": "Python",
     "categorySlug": "",
-    "stars": 29415,
+    "stars": 29425,
     "licenseSpdx": "NOASSERTION",
     "oneLiner": ""
   },
@@ -655,7 +655,7 @@
     "topics": "agent agentic agentic-framework agentic-workflow ai ai-agents deep-research langchain langgraph llm multi-agent nodejs podcast python langmanus typescript harness superagent",
     "language": "Python",
     "categorySlug": "ai-agents",
-    "stars": 75575,
+    "stars": 75606,
     "licenseSpdx": "MIT",
     "oneLiner": "ByteDance's open-source super agent harness that orchestrates sub-agents, memory, and sandboxes for long-horizon autonomous tasks."
   },
@@ -666,7 +666,7 @@
     "topics": "",
     "language": "Python",
     "categorySlug": "ai-agents",
-    "stars": 11546,
+    "stars": 11577,
     "licenseSpdx": "Apache-2.0",
     "oneLiner": "A security scanner that detects vulnerabilities and malicious patterns in AI agent skills before installation."
   },
@@ -677,7 +677,7 @@
     "topics": "large-language-models nlp knowledge-curation naacl report-generation retrieval-augmented-generation emnlp2024 agentic-rag deep-research",
     "language": "Python",
     "categorySlug": "",
-    "stars": 29685,
+    "stars": 29690,
     "licenseSpdx": "MIT",
     "oneLiner": ""
   },
@@ -690,7 +690,7 @@
     "categorySlug": "mlops-evaluation",
     "stars": 66511,
     "licenseSpdx": "BSD-3-Clause",
-    "oneLiner": "The gold standard Python library for accessible and reliable machine learning."
+    "oneLiner": "A foundational Python library for machine learning with a focus on simplicity, consistency, and broad algorithmic coverage."
   },
   {
     "id": 638951438,
@@ -699,9 +699,9 @@
     "topics": "open-source langchain openai playground prompt-engineering llama-index llm llm-evaluation llm-observability llmops hacktoberfest hacktoberfest2025 evaluation",
     "language": "Python",
     "categorySlug": "mlops-evaluation",
-    "stars": 20079,
+    "stars": 20099,
     "licenseSpdx": "Apache-2.0",
-    "oneLiner": "An open-source platform for tracing, evaluating, and optimizing LLM applications with production-grade dashboards."
+    "oneLiner": "Enterprise-grade open-source LLM observability and evaluation platform with comprehensive tracing and production dashboards"
   },
   {
     "id": 1864194,
@@ -710,7 +710,7 @@
     "topics": "frappe erpnext python javascript web-framework full-stack email multitenant rest-api webhooks socket-io security postgres mariadb low-code cms",
     "language": "Python",
     "categorySlug": "",
-    "stars": 10350,
+    "stars": 10349,
     "licenseSpdx": "MIT",
     "oneLiner": ""
   },
@@ -721,7 +721,7 @@
     "topics": "",
     "language": "Python",
     "categorySlug": "mlops-evaluation",
-    "stars": 7164,
+    "stars": 7165,
     "licenseSpdx": "Apache-2.0",
     "oneLiner": "A battle-tested, lightweight RL post-training framework for scaling LLMs, powering frontier GLM models."
   },
@@ -732,7 +732,7 @@
     "topics": "extract-data layout-analysis ocr parser pdf pdf-converter python document-analysis pdf-parser pdf-extractor-llm pdf-extractor-pretrain pdf-extractor-rag ai4science docx pptx xlsx",
     "language": "Python",
     "categorySlug": "ai-dev-tools",
-    "stars": 72508,
+    "stars": 72536,
     "licenseSpdx": "NOASSERTION",
     "oneLiner": "MinerU turns messy PDFs and Office docs into clean, LLM-ready markdown/JSON with advanced layout analysis."
   },
@@ -743,7 +743,7 @@
     "topics": "machine-translation speaker-recognition asr tts generative-ai deeplearning neural-networks speaker-diariazation speech-translation speech-synthesis",
     "language": "Python",
     "categorySlug": "multimodal",
-    "stars": 17671,
+    "stars": 17670,
     "licenseSpdx": "Apache-2.0",
     "oneLiner": "A scalable generative AI framework built for researchers and developers working on Large Language Models, Multimodal, and Speech AI (Automatic Speech Recognition and Text-to-Speech)"
   },
@@ -754,7 +754,7 @@
     "topics": "computer-vision image-processing python yolo instance-segmentation object-detection tracking video-processing coco pascal-voc deep-learning metrics machine-learning pytorch tensorflow classification oriented-bounding-box low-code hacktoberfest",
     "language": "Python",
     "categorySlug": "ai-dev-tools",
-    "stars": 45762,
+    "stars": 45808,
     "licenseSpdx": "MIT",
     "oneLiner": "A low-code, model-agnostic toolkit that accelerates computer vision development from annotation to deployment."
   },
@@ -765,7 +765,7 @@
     "topics": "demo eagle gpt4 huggingface llama llama3 llava lmm lvlm mllm llm large-language-models nvdia",
     "language": "Python",
     "categorySlug": "llm-frameworks",
-    "stars": 2963,
+    "stars": 2969,
     "licenseSpdx": "Apache-2.0",
     "oneLiner": "Eagle: Frontier Vision-Language Models with Data-Centric Strategies"
   },
@@ -776,7 +776,7 @@
     "topics": "amd cuda inference kv-cache llm pytorch rocm vllm fast speed",
     "language": "Python",
     "categorySlug": "model-serving",
-    "stars": 9971,
+    "stars": 9972,
     "licenseSpdx": "Apache-2.0",
     "oneLiner": "The fastest KV cache layer for LLM inference, supercharging throughput and reducing latency for production-scale deployments."
   },
@@ -787,7 +787,7 @@
     "topics": "ai cli llm local-llm command-line-tool gguf gpu huggingface inference ollama python vram apple-silicon benchmarks",
     "language": "Python",
     "categorySlug": "llm-frameworks",
-    "stars": 5456,
+    "stars": 5460,
     "licenseSpdx": "MIT",
     "oneLiner": "Find the local LLM that actually runs and performs best on your hardware. Ranked by real, recency-aware benchmarks, not parameter count. One command, run it instantly."
   },
@@ -798,7 +798,7 @@
     "topics": "30-days-of-python python flask github heroku matplotlib mongodb numpy pandas python3 data data-science database fullstack ml",
     "language": "Python",
     "categorySlug": "",
-    "stars": 66773,
+    "stars": 66799,
     "licenseSpdx": "",
     "oneLiner": ""
   },
@@ -808,10 +808,10 @@
     "description": "Music Assistant is a free, opensource Media library manager that connects to your streaming services and a wide range of connected speakers. The server is the beating heart, the core of Music Assistant and must run on an always-on device like a Raspberry Pi, a NAS or an Intel NUC or alike.",
     "topics": "",
     "language": "Python",
-    "categorySlug": "ai-applications",
+    "categorySlug": "",
     "stars": 2782,
     "licenseSpdx": "Apache-2.0",
-    "oneLiner": "An open-source media library manager that seamlessly integrates with Home Assistant to unify streaming services and speaker control."
+    "oneLiner": "A media library server that bridges streaming services and speakers for home automation, with deep Home Assistant integration."
   },
   {
     "id": 1134543109,
@@ -820,7 +820,7 @@
     "topics": "",
     "language": "TypeScript",
     "categorySlug": "",
-    "stars": 24445,
+    "stars": 24466,
     "licenseSpdx": "",
     "oneLiner": "The open agent skills tool - npx skills"
   },
@@ -830,10 +830,10 @@
     "description": "Never stop coding. Free AI gateway: one endpoint, 160+ providers (50+ free), connect Claude Code, Codex, Cursor, Cline & Copilot to FREE Claude/GPT/Gemini. RTK+Caveman stacked compression saves 15-95% tokens, smart auto-fallback, MCP/A2A, multimodal APIs, Desktop/PWA.",
     "topics": "a2a ai-agents ai-gateway anthropic claude claude-code cline codex copilot cursor deepseek free-ai gemini gemini-cli llm-gateway mcp openai openai-proxy qwen token-saver",
     "language": "TypeScript",
-    "categorySlug": "model-serving",
-    "stars": 8193,
+    "categorySlug": "ai-dev-tools",
+    "stars": 8289,
     "licenseSpdx": "MIT",
-    "oneLiner": "A free AI gateway that unifies 236 providers with smart routing and up to 95% token compression."
+    "oneLiner": "A free AI gateway that aggregates 236+ providers through one endpoint with stacked compression saving up to 95% on tokens for AI coding tools."
   },
   {
     "id": 1168753718,
@@ -842,7 +842,7 @@
     "topics": "backlink-analysis keyword-research mcp seo seo-tools site-audit google-search-console-mcp",
     "language": "TypeScript",
     "categorySlug": "ai-applications",
-    "stars": 3868,
+    "stars": 3874,
     "licenseSpdx": "MIT",
     "oneLiner": "Open-source SEO tool with AI agent integration via MCP, offering a pay-as-you-go alternative to Semrush and Ahrefs."
   },
@@ -852,10 +852,10 @@
     "description": "An open source design system that's fully customizable and agent ready",
     "topics": "",
     "language": "TypeScript",
-    "categorySlug": "ai-dev-tools",
-    "stars": 1498,
+    "categorySlug": "",
+    "stars": 1583,
     "licenseSpdx": "MIT",
-    "oneLiner": "Meta's battle-tested design system, now open source and built for both humans and AI agents."
+    "oneLiner": "A Meta-born React design system uniquely engineered so that AI coding assistants build with the same components and reference docs as human developers."
   },
   {
     "id": 937970237,
@@ -864,7 +864,7 @@
     "topics": "auto-publish douyin electron-app electron-react kuaishou tool xiaohongshu kwai published shipinhao douyin-api",
     "language": "TypeScript",
     "categorySlug": "",
-    "stars": 22263,
+    "stars": 22268,
     "licenseSpdx": "MIT",
     "oneLiner": ""
   },
@@ -875,7 +875,7 @@
     "topics": "",
     "language": "TypeScript",
     "categorySlug": "",
-    "stars": 27247,
+    "stars": 27249,
     "licenseSpdx": "MIT",
     "oneLiner": ""
   },
@@ -897,9 +897,9 @@
     "topics": "ai crawler markdown scraper html-to-markdown llm scraping web-crawler ai-scraping webscraping web-scraping web-data web-data-extraction ai-agents data-extraction ai-crawler ai-search web-scraper web-search",
     "language": "TypeScript",
     "categorySlug": "ai-dev-tools",
-    "stars": 141913,
+    "stars": 141995,
     "licenseSpdx": "AGPL-3.0",
-    "oneLiner": "The open-source API that turns the web into clean, LLM-ready data at scale."
+    "oneLiner": "The go-to open-source API that turns the entire web into clean, LLM-ready data for AI agents and RAG pipelines"
   },
   {
     "id": 180190854,
@@ -908,7 +908,7 @@
     "topics": "appwrite docker backend-as-a-service javascript flutter serverless backend firebase self-hosted selfhosted android ios swift web nextjs react reactnative react-native hosting supabase",
     "language": "TypeScript",
     "categorySlug": "",
-    "stars": 56449,
+    "stars": 56452,
     "licenseSpdx": "BSD-3-Clause",
     "oneLiner": ""
   },
@@ -930,7 +930,7 @@
     "topics": "animation animation-js motion react reactanimations spring",
     "language": "TypeScript",
     "categorySlug": "",
-    "stars": 32597,
+    "stars": 32599,
     "licenseSpdx": "MIT",
     "oneLiner": ""
   },
@@ -941,9 +941,9 @@
     "topics": "budget-tracker collaborative open-source packing-list real-time self-hosted travel travel-planner trip-planner webapplication opensource routes travel-app traveling trip poi wanderlog wanderlust tripit",
     "language": "TypeScript",
     "categorySlug": "ai-applications",
-    "stars": 8500,
+    "stars": 8525,
     "licenseSpdx": "AGPL-3.0",
-    "oneLiner": "A self-hosted, real-time collaborative travel planner with maps, budgets, and AI, designed as an open-source alternative to commercial trip planning apps."
+    "oneLiner": "A polished, self-hosted travel planner with real-time collaboration that rivals commercial trip planning apps while keeping your data on your own server."
   },
   {
     "id": 1179264259,
@@ -952,7 +952,7 @@
     "topics": "",
     "language": "TypeScript",
     "categorySlug": "",
-    "stars": 118326,
+    "stars": 118367,
     "licenseSpdx": "MIT",
     "oneLiner": ""
   },
@@ -963,7 +963,7 @@
     "topics": "open-source developer-tools ai agent cli",
     "language": "TypeScript",
     "categorySlug": "ai-dev-tools",
-    "stars": 34596,
+    "stars": 34597,
     "licenseSpdx": "Apache-2.0",
     "oneLiner": "An open-source coding agent that pioneered AI-assisted development across multiple IDEs and CLI."
   },
@@ -974,7 +974,7 @@
     "topics": "strapi nodejs api dashboard javascript graphql rest cms headless-cms jamstack customizable hacktoberfest mysql content-management cms-framework content-management-system typescript no-code posgresql",
     "language": "TypeScript",
     "categorySlug": "ai-applications",
-    "stars": 72579,
+    "stars": 72577,
     "licenseSpdx": "NOASSERTION",
     "oneLiner": "The leading open-source headless CMS with auto-generated APIs, a visual content builder, and built-in AI features for content automation."
   },
@@ -985,7 +985,7 @@
     "topics": "ai animation ffmpeg framework gsap html mcp puppeteer rendering typescript video",
     "language": "TypeScript",
     "categorySlug": "ai-dev-tools",
-    "stars": 32302,
+    "stars": 32324,
     "licenseSpdx": "Apache-2.0",
     "oneLiner": "Write HTML, render video—a framework built for AI agents to create deterministic MP4s from web technologies."
   },
@@ -995,10 +995,10 @@
     "description": "Crawlee—A web scraping and browser automation library for Node.js to build reliable crawlers. In JavaScript and TypeScript. Extract data for AI, LLMs, RAG, or GPTs. Download HTML, PDF, JPG, PNG, and other files from websites. Works with Puppeteer, Playwright, Cheerio, JSDOM, and raw HTTP. Both headful and headless mode. With proxy rotation.",
     "topics": "web-scraping web-crawling npm headless-chrome puppeteer automation apify scraping crawling crawler headless scraper web-crawler javascript nodejs playwright typescript",
     "language": "TypeScript",
-    "categorySlug": "ai-dev-tools",
-    "stars": 24339,
+    "categorySlug": "",
+    "stars": 24355,
     "licenseSpdx": "Apache-2.0",
-    "oneLiner": "A production-ready Node.js web scraping library with anti-blocking and multi-backend support, ideal for feeding data into AI systems."
+    "oneLiner": "A battle-tested, multi-strategy web scraping library that makes building reliable, anti-bot-evading crawlers straightforward — increasingly valuable as a data source for AI pipelines."
   },
   {
     "id": 108761645,
@@ -1007,7 +1007,7 @@
     "topics": "automatic-api airtable no-code no-code-database postgresql sqlite airtable-alternative low-code spreadsheet rest-api restful-api swagger hacktoberfest no-code-platform",
     "language": "TypeScript",
     "categorySlug": "ai-applications",
-    "stars": 63682,
+    "stars": 63691,
     "licenseSpdx": "NOASSERTION",
     "oneLiner": "A free, self-hostable Airtable alternative that turns any database into a smart spreadsheet."
   },
@@ -1017,10 +1017,10 @@
     "description": "The open and composable observability and data visualization platform. Visualize metrics, logs, and traces from multiple sources like Prometheus, Loki, Elasticsearch, InfluxDB, Postgres and many more. ",
     "topics": "grafana monitoring analytics metrics influxdb prometheus elasticsearch alerting data-visualization go dashboard business-intelligence mysql postgres hacktoberfest",
     "language": "TypeScript",
-    "categorySlug": "ai-applications",
-    "stars": 75206,
+    "categorySlug": "",
+    "stars": 75213,
     "licenseSpdx": "AGPL-3.0",
-    "oneLiner": "The open-source standard for observability dashboards and data visualization."
+    "oneLiner": "The leading open-source platform for composable observability and real-time data visualization from multiple sources."
   },
   {
     "id": 568098118,
@@ -1029,7 +1029,7 @@
     "topics": "django docker kanban project-management python react jira jira-alternative linear postgresql redis issue-tracker product-management work-management vite boards bug-tracker gantt project-planning typescipt",
     "language": "TypeScript",
     "categorySlug": "ai-applications",
-    "stars": 53571,
+    "stars": 53575,
     "licenseSpdx": "AGPL-3.0",
     "oneLiner": "An open-source, modern project management platform that rivals proprietary tools like Jira and Linear."
   },
@@ -1051,7 +1051,7 @@
     "topics": "editor oss videoeditor",
     "language": "TypeScript",
     "categorySlug": "",
-    "stars": 60647,
+    "stars": 60672,
     "licenseSpdx": "MIT",
     "oneLiner": "The open-source CapCut alternative"
   },
@@ -1061,10 +1061,10 @@
     "description": "Memory and context engine + app that is extremely fast, scalable, and can be run fully locally. The Memory API for the AI era.",
     "topics": "cloudflare-pages cloudflare-workers drizzle-orm tailwindcss typescript cloudflare-kv postgres remix vite agent-memory ai-memory memory",
     "language": "TypeScript",
-    "categorySlug": "llm-frameworks",
-    "stars": 27958,
+    "categorySlug": "ai-applications",
+    "stars": 27964,
     "licenseSpdx": "MIT",
-    "oneLiner": "A top-ranked, fast, and scalable memory engine that gives AI persistent context across conversations."
+    "oneLiner": "The #1 AI memory engine that enables persistent, context-aware interactions with advanced features and local deployment options."
   },
   {
     "id": 1182081931,
@@ -1073,7 +1073,7 @@
     "topics": "claude-code claude-skills understandcode codex codex-skills knowledge-graph opencode-skills antigravity-skills gemini-cli-skills pi-agent business-knowledge knowledge-base memory karpathy-llm-wiki codebase-analysis developer-tools-ai-agent vibe-coding",
     "language": "TypeScript",
     "categorySlug": "ai-dev-tools",
-    "stars": 69633,
+    "stars": 69664,
     "licenseSpdx": "MIT",
     "oneLiner": "Graphs that teach > graphs that impress. Turn any code into an interactive knowledge graph you can explore, search, and ask questions about. Works with Claude Code, Codex, Cursor, Copilot, Gemini CLI, and more."
   },
@@ -1084,7 +1084,7 @@
     "topics": "",
     "language": "TypeScript",
     "categorySlug": "ai-dev-tools",
-    "stars": 56298,
+    "stars": 56326,
     "licenseSpdx": "MIT",
     "oneLiner": "A local, auto-syncing code knowledge graph that supercharges AI coding agents with surgical context and fewer tokens."
   },
@@ -1097,7 +1097,7 @@
     "categorySlug": "ai-agents",
     "stars": 35653,
     "licenseSpdx": "MIT",
-    "oneLiner": "The frontend stack for agents and Generative UI, enabling multi-platform agentic applications with the AG-UI Protocol."
+    "oneLiner": "The industry-standard frontend SDK and AG-UI Protocol for building agent-native apps with generative UI across every platform."
   },
   {
     "id": 1200802466,
@@ -1105,10 +1105,10 @@
     "description": "Hivemind turns your traces into reusable skills across agents",
     "topics": "ai ai-agents ai-memory anthropic artificial-intelligence claude claude-agent-sdk claude-agents claude-code-plugin claude-skills codex embeddings long-term-memory memory-engine openclaw openclaw-skills postgres rag",
     "language": "TypeScript",
-    "categorySlug": "llm-frameworks",
-    "stars": 1409,
+    "categorySlug": "ai-agents",
+    "stars": 1410,
     "licenseSpdx": "Apache-2.0",
-    "oneLiner": "Hivemind turns your traces into reusable skills across agents"
+    "oneLiner": "A shared brain that mines agent traces for reusable skills and propagates them across your entire team's AI agents"
   },
   {
     "id": 56899284,
@@ -1116,10 +1116,10 @@
     "description": "The open-source, cross-platform API client for GraphQL, REST, WebSockets, SSE and gRPC. With Cloud, Local and Git storage.",
     "topics": "electron-app rest-api api-client curl http-client graphql api-design api grpc websockets",
     "language": "TypeScript",
-    "categorySlug": "ai-dev-tools",
+    "categorySlug": "",
     "stars": 39825,
     "licenseSpdx": "Apache-2.0",
-    "oneLiner": "A mature, open-source API client with multi-protocol support and flexible storage, but not AI-focused."
+    "oneLiner": "An open-source, cross-platform API client with flexible storage and collaboration features for modern API development."
   },
   {
     "id": 28457823,
@@ -1128,9 +1128,9 @@
     "topics": "learn-to-code nonprofits programming nodejs react d3 careers education teachers javascript certification curriculum math community freecodecamp",
     "language": "TypeScript",
     "categorySlug": "",
-    "stars": 450786,
+    "stars": 450798,
     "licenseSpdx": "BSD-3-Clause",
-    "oneLiner": "The world's most popular free, self-paced coding curriculum with certifications."
+    "oneLiner": "A massive open-source platform democratizing free coding education worldwide."
   },
   {
     "id": 157554479,
@@ -1138,10 +1138,10 @@
     "description": "Meshery, the cloud native manager",
     "topics": "meshery management-plane hacktoberfest kubernetes docker gsoc control-plane cloud-native golang cncf reactjs gitops infrastructure-as-code visualization kubernetes-operator opa internal-developer-platform platform-engineering webassembly kanvas",
     "language": "TypeScript",
-    "categorySlug": "mlops-evaluation",
+    "categorySlug": "",
     "stars": 11320,
     "licenseSpdx": "Apache-2.0",
-    "oneLiner": "The cloud-native manager for designing, managing, and operating Kubernetes infrastructure and service meshes."
+    "oneLiner": "A CNCF cloud native management platform — notable open-source project but not an AI/ML tool"
   },
   {
     "id": 1073224021,
@@ -1150,7 +1150,7 @@
     "topics": "compound engineering",
     "language": "TypeScript",
     "categorySlug": "ai-dev-tools",
-    "stars": 22318,
+    "stars": 22328,
     "licenseSpdx": "MIT",
     "oneLiner": "A plugin that makes AI coding assistants compound engineering knowledge instead of accumulating technical debt."
   },
@@ -1160,10 +1160,10 @@
     "description": "Fast, easy and reliable testing for anything that runs in a browser.",
     "topics": "cypress end-to-end-testing angular-testing-library component-testing cypress-cloud cypress-schematic react-testing-library svelte-testing-library testing-framework testing-library testing-tool vue-testing-library test-replay",
     "language": "TypeScript",
-    "categorySlug": "ai-dev-tools",
-    "stars": 50434,
+    "categorySlug": "",
+    "stars": 50435,
     "licenseSpdx": "MIT",
-    "oneLiner": "The leading end-to-end testing framework for modern web apps, offering a fast, reliable, and developer-friendly experience."
+    "oneLiner": "A robust, developer-friendly end-to-end testing framework for modern web applications."
   },
   {
     "id": 37448451,
@@ -1183,7 +1183,7 @@
     "topics": "template ui compiler",
     "language": "JavaScript",
     "categorySlug": "",
-    "stars": 87470,
+    "stars": 87473,
     "licenseSpdx": "MIT",
     "oneLiner": "A compiler-first frontend framework that delivers reactive, efficient web apps without a virtual DOM."
   },
@@ -1194,7 +1194,7 @@
     "topics": "ai-slides anthropic claude claude-code claude-skill generative-ui html presentation slides vibe-coding",
     "language": "JavaScript",
     "categorySlug": "",
-    "stars": 24062,
+    "stars": 24078,
     "licenseSpdx": "MIT",
     "oneLiner": ""
   },
@@ -1205,7 +1205,7 @@
     "topics": "ai-image-generation ai-video-generation generative-ai muapi text-to-video creative-tools flux-1 image-to-video javascript kling-ai open-source sora-alternative wan-video ai-art-generator midjourney-alternative uncensored flux lipsync text-to-image seedance2",
     "language": "JavaScript",
     "categorySlug": "multimodal",
-    "stars": 21871,
+    "stars": 21896,
     "licenseSpdx": "MIT",
     "oneLiner": "Unrestricted Open-source alternative to AI video platforms — Free AI image & video generation studio with 200+ models (Flux, Midjourney, Kling, Sora, Veo). No content filters. Self-hosted, MIT licensed."
   },
@@ -1216,7 +1216,7 @@
     "topics": "ai-agent anthropic automation career claude claude-code cli golang interview-prep job-search open-source resume careerops beginner-friendly first-timers-only good-first-issue",
     "language": "JavaScript",
     "categorySlug": "ai-agents",
-    "stars": 56769,
+    "stars": 56787,
     "licenseSpdx": "MIT",
     "oneLiner": "AI-powered job search system built on Claude Code. 14 skill modes, Go dashboard, PDF generation, batch processing."
   },
@@ -1227,7 +1227,7 @@
     "topics": "formatter printer prettier ast javascript flow typescript css scss less jsx vue graphql json markdown yaml html angular",
     "language": "JavaScript",
     "categorySlug": "ai-dev-tools",
-    "stars": 52107,
+    "stars": 52111,
     "licenseSpdx": "MIT",
     "oneLiner": "The de facto opinionated code formatter for JavaScript and beyond, with massive adoption and robust tooling."
   },
@@ -1249,7 +1249,7 @@
     "topics": "database-schema editor mariadb postgresql sql sql-server sqlite svg react indexeddb tailwindcss javascript diagram-editor erd erdiagram oracle-database oracle-db",
     "language": "JavaScript",
     "categorySlug": "",
-    "stars": 37858,
+    "stars": 37870,
     "licenseSpdx": "AGPL-3.0",
     "oneLiner": ""
   },
@@ -1260,7 +1260,7 @@
     "topics": "brand branding brands brand-assets icons logos svg svg-icons design design-assets logo brand-colors branding-assets company-brands icon-pack icon-packs iconset svg-images svg-files",
     "language": "JavaScript",
     "categorySlug": "",
-    "stars": 25330,
+    "stars": 25329,
     "licenseSpdx": "CC0-1.0",
     "oneLiner": "A massive, community-driven collection of free SVG brand icons with excellent documentation and CDN support."
   },
@@ -1282,7 +1282,7 @@
     "topics": "ai-writing claude-code claude-skills creative-writing novel-writing openclaw writing-assistant ai-agent chinese-novel skill web-novel",
     "language": "JavaScript",
     "categorySlug": "ai-dev-tools",
-    "stars": 3423,
+    "stars": 3434,
     "licenseSpdx": "MIT",
     "oneLiner": "A modular AI skill package that transforms Claude Code and similar tools into a professional Chinese web novel writing assistant."
   },
@@ -1304,7 +1304,7 @@
     "topics": "nodejs javascript node js runtime mit linux macos windows",
     "language": "JavaScript",
     "categorySlug": "",
-    "stars": 118048,
+    "stars": 118051,
     "licenseSpdx": "NOASSERTION",
     "oneLiner": "The most popular JavaScript runtime for server-side development, known for its performance and ecosystem."
   },
@@ -1337,7 +1337,7 @@
     "topics": "react server-rendering universal node components browser nextjs vercel static-site-generator hybrid ssg static blog compiler",
     "language": "JavaScript",
     "categorySlug": "",
-    "stars": 140299,
+    "stars": 140308,
     "licenseSpdx": "MIT",
     "oneLiner": ""
   },
@@ -1348,7 +1348,7 @@
     "topics": "javascript internal-tools self-hosted reactjs no-code typescript low-code low-code-framework internal-project internal-tool docker web-development-tools hacktoberfest nodejs low-code-development-platform kubernetes internal-applications ai-app-builder workflow-automation",
     "language": "JavaScript",
     "categorySlug": "ai-applications",
-    "stars": 38118,
+    "stars": 38119,
     "licenseSpdx": "AGPL-3.0",
     "oneLiner": "An open-source low-code platform that combines visual app building with AI-powered agent and workflow creation."
   },
@@ -1359,7 +1359,7 @@
     "topics": "react-components react material-design material-ui design-system",
     "language": "JavaScript",
     "categorySlug": "",
-    "stars": 98498,
+    "stars": 98501,
     "licenseSpdx": "MIT",
     "oneLiner": "A mature, battle-tested React UI library implementing Google's Material Design with extensive community support."
   },
@@ -1381,7 +1381,7 @@
     "topics": "javascript 3d virtual-reality augmented-reality webgl webgl2 webgpu webxr webaudio canvas svg html5",
     "language": "JavaScript",
     "categorySlug": "ai-applications",
-    "stars": 113412,
+    "stars": 113411,
     "licenseSpdx": "MIT",
     "oneLiner": "The most popular JavaScript 3D library for creating immersive web-based 3D experiences"
   },
@@ -1392,7 +1392,7 @@
     "topics": "java interview redis mysql system-design redisson agent context-engineering mcp skills springai ai deepseek",
     "language": "JavaScript",
     "categorySlug": "ai-dev-tools",
-    "stars": 156719,
+    "stars": 156717,
     "licenseSpdx": "Apache-2.0",
     "oneLiner": "Java 面试 & 后端通用面试指南，覆盖计算机基础、数据库、分布式、高并发、系统设计与 AI 应用开发"
   },
@@ -1403,7 +1403,7 @@
     "topics": "nuclei-templates nuclei bugbounty security nuclei-checks exploits exploit-development vulnerability-detection fingerprint hacktoberfest",
     "language": "JavaScript",
     "categorySlug": "",
-    "stars": 12566,
+    "stars": 12568,
     "licenseSpdx": "MIT",
     "oneLiner": ""
   },
@@ -1414,7 +1414,7 @@
     "topics": "javascript nodejs express server",
     "language": "JavaScript",
     "categorySlug": "",
-    "stars": 69243,
+    "stars": 69244,
     "licenseSpdx": "MIT",
     "oneLiner": "Fast, unopinionated, minimalist web framework for node."
   },
@@ -1427,7 +1427,7 @@
     "categorySlug": "",
     "stars": 43134,
     "licenseSpdx": "MPL-2.0",
-    "oneLiner": "A Firefox-based browser designed for productivity and a calmer internet experience"
+    "oneLiner": "A Firefox-based browser focused on productivity and calm UX, not primarily an AI project."
   },
   {
     "id": 3678731,
@@ -1438,7 +1438,7 @@
     "categorySlug": "",
     "stars": 65850,
     "licenseSpdx": "MIT",
-    "oneLiner": "A battle-tested module bundler that revolutionized JavaScript asset management with its plugin architecture."
+    "oneLiner": "The foundational JavaScript module bundler that shaped modern web build tooling, though now facing competition from faster next-generation alternatives"
   },
   {
     "id": 304344049,
@@ -1446,10 +1446,10 @@
     "description": "web development, streamlined",
     "topics": "svelte",
     "language": "JavaScript",
-    "categorySlug": "ai-dev-tools",
-    "stars": 20633,
+    "categorySlug": "",
+    "stars": 20632,
     "licenseSpdx": "MIT",
-    "oneLiner": "A streamlined web development framework that simplifies building fast, modern web applications with Svelte."
+    "oneLiner": "A streamlined framework for building high-performance Svelte web applications with server-side rendering and easy deployment to multiple platforms."
   },
   {
     "id": 1097346685,
@@ -1458,7 +1458,7 @@
     "topics": "",
     "language": "JavaScript",
     "categorySlug": "",
-    "stars": 42410,
+    "stars": 42439,
     "licenseSpdx": "Apache-2.0",
     "oneLiner": "The design language that makes your AI harness better at design."
   },
@@ -1469,7 +1469,7 @@
     "topics": "ai-coding chinese claude-code cursor mcp skills superpowers tdd agent-skills agentic-coding code-review kiro npm-package prompt-engineering trae gemini-cli",
     "language": "JavaScript",
     "categorySlug": "ai-dev-tools",
-    "stars": 6161,
+    "stars": 6167,
     "licenseSpdx": "MIT",
     "oneLiner": "🦸 AI 编程超能力 · 中文增强版 — superpowers（116k+ ⭐）完整汉化 + 6 个中国原创 skills，让 Claude Code / Copilot CLI / Hermes Agent / Cursor / Windsurf / Kiro / Gemini CLI 等 16 款 AI 编程工具真正会干活"
   },
@@ -1480,9 +1480,9 @@
     "topics": "aliyun-drive baidu baidu-netdisk quark-netdisk tianyi-netdisk xunlei-netdisk yidong-netdisk tampermonkey tampermonkey-script tampermonkey-userscript userscript baidunetdisk baiduyun 123pan uc-netdisk motrix aria2 aliyunpan baidupan guangya-netdisk",
     "language": "JavaScript",
     "categorySlug": "",
-    "stars": 17364,
+    "stars": 17365,
     "licenseSpdx": "AGPL-3.0",
-    "oneLiner": ""
+    "oneLiner": "A multi-cloud storage download link extractor implemented as a JavaScript userscript."
   },
   {
     "id": 217150613,
@@ -1490,10 +1490,10 @@
     "description": "Acode - powerful text/code editor for android",
     "topics": "code-editor android-application cordova",
     "language": "JavaScript",
-    "categorySlug": "ai-dev-tools",
-    "stars": 5797,
+    "categorySlug": "",
+    "stars": 5799,
     "licenseSpdx": "MIT",
-    "oneLiner": "A feature-rich, open-source code editor for Android with plugin support and live preview."
+    "oneLiner": "A feature-rich and extensible code editor for Android, enabling full coding workflows on mobile devices."
   },
   {
     "id": 10614101,
@@ -1513,7 +1513,7 @@
     "topics": "channels database tv",
     "language": "JavaScript",
     "categorySlug": "datasets-benchmarks",
-    "stars": 1505,
+    "stars": 1503,
     "licenseSpdx": "Unlicense",
     "oneLiner": "A community-driven, editable CSV database of TV channels with an API, powering IPTV applications."
   },
@@ -1524,7 +1524,7 @@
     "topics": "javascript react frontend declarative ui library",
     "language": "JavaScript",
     "categorySlug": "ai-dev-tools",
-    "stars": 246193,
+    "stars": 246200,
     "licenseSpdx": "MIT",
     "oneLiner": "The industry-standard declarative UI library that revolutionized frontend development with its component model and virtual DOM."
   },
@@ -1535,9 +1535,9 @@
     "topics": "",
     "language": "Rust",
     "categorySlug": "ai-applications",
-    "stars": 33959,
+    "stars": 33972,
     "licenseSpdx": "GPL-3.0",
-    "oneLiner": "A private, Rust-powered personal AI super intelligence that blends local memory with managed services."
+    "oneLiner": "A privacy-first personal AI platform with local memory and managed services, built in Rust for performance and simplicity."
   },
   {
     "id": 436658287,
@@ -1546,7 +1546,7 @@
     "topics": "database distributed distributed-database document-database realtime-database cloud-database backend-as-a-service database-as-a-service serverless web developer-tools devtools sql nosql graph-database surreal surrealdb iot-database",
     "language": "Rust",
     "categorySlug": "",
-    "stars": 32555,
+    "stars": 32558,
     "licenseSpdx": "NOASSERTION",
     "oneLiner": ""
   },
@@ -1557,7 +1557,7 @@
     "topics": "",
     "language": "Rust",
     "categorySlug": "",
-    "stars": 3864,
+    "stars": 3866,
     "licenseSpdx": "AGPL-3.0",
     "oneLiner": ""
   },
@@ -1568,7 +1568,7 @@
     "topics": "email email-validation email-verification hacktoberfest email-validation-api email-verification-api email-verifier",
     "language": "Rust",
     "categorySlug": "",
-    "stars": 9069,
+    "stars": 9071,
     "licenseSpdx": "NOASSERTION",
     "oneLiner": ""
   },
@@ -1579,9 +1579,9 @@
     "topics": "ai anthropic claude-code developer-tools llm macos menu-bar-app prompt-compression proxy react rust tauri token-optimization typescript codex openai",
     "language": "Rust",
     "categorySlug": "ai-dev-tools",
-    "stars": 374,
+    "stars": 376,
     "licenseSpdx": "MIT",
-    "oneLiner": "A macOS menu bar app that cuts Claude Code and Codex token costs by ~50% via local, reversible prompt compression."
+    "oneLiner": "A macOS menu bar app that halves token costs for Claude Code and Codex through local prompt compression."
   },
   {
     "id": 593773927,
@@ -1601,7 +1601,7 @@
     "topics": "file-manager distributed-systems cross-platform encryption storage rust typescript open-source",
     "language": "Rust",
     "categorySlug": "",
-    "stars": 38463,
+    "stars": 38464,
     "licenseSpdx": "NOASSERTION",
     "oneLiner": ""
   },
@@ -1623,7 +1623,7 @@
     "topics": "arrow big-data dataframe datafusion olap python query-engine rust sql",
     "language": "Rust",
     "categorySlug": "",
-    "stars": 8927,
+    "stars": 8925,
     "licenseSpdx": "Apache-2.0",
     "oneLiner": ""
   },
@@ -1658,7 +1658,7 @@
     "categorySlug": "vector-databases",
     "stars": 32827,
     "licenseSpdx": "Apache-2.0",
-    "oneLiner": "A high-performance, Rust-based vector database for production-scale AI similarity search with advanced filtering."
+    "oneLiner": "A Rust-powered, production-grade vector database with advanced filtering, built for massive-scale AI search and recommendation workloads."
   },
   {
     "id": 53548867,
@@ -1666,10 +1666,10 @@
     "description": "dbt enables data analysts and engineers to transform their data using the same practices that software engineers use to build applications.",
     "topics": "dbt-viewpoint slack pypa data-modeling business-intelligence analytics elt",
     "language": "Rust",
-    "categorySlug": "mlops-evaluation",
-    "stars": 13328,
+    "categorySlug": "",
+    "stars": 13326,
     "licenseSpdx": "Apache-2.0",
-    "oneLiner": "dbt Core v2.0 is a ground-up Rust rewrite of the leading data transformation tool, delivering unprecedented performance and scalability for analytics engineering."
+    "oneLiner": "A pioneering data transformation framework that brings software engineering rigor to analytics, now rewritten in Rust for performance."
   },
   {
     "id": 90793418,
@@ -1678,7 +1678,7 @@
     "topics": "command-line tool filesystem search regex rust cli terminal hacktoberfest",
     "language": "Rust",
     "categorySlug": "",
-    "stars": 43540,
+    "stars": 43544,
     "licenseSpdx": "Apache-2.0",
     "oneLiner": ""
   },
@@ -1700,7 +1700,7 @@
     "topics": "llama llamacpp llm-inference ollama-api command-line-tool gguf inference-server local-ai machine-learning api-server developer-tools huggingface huggingface-models huggingface-transformers openai-compatible rust rust-crate transformers webgpu webgpu-shaders",
     "language": "Rust",
     "categorySlug": "",
-    "stars": 5574,
+    "stars": 5576,
     "licenseSpdx": "Apache-2.0",
     "oneLiner": ""
   },
@@ -1711,7 +1711,7 @@
     "topics": "bundler javascript compiler web rust build-tool esm jsx loaders typescript web-performance rspack webpack module-bundler rstack",
     "language": "Rust",
     "categorySlug": "",
-    "stars": 12790,
+    "stars": 12791,
     "licenseSpdx": "MIT",
     "oneLiner": ""
   },
@@ -1744,7 +1744,7 @@
     "topics": "matrix-org rust sdk",
     "language": "Rust",
     "categorySlug": "",
-    "stars": 2173,
+    "stars": 2174,
     "licenseSpdx": "Apache-2.0",
     "oneLiner": ""
   },
@@ -1766,7 +1766,7 @@
     "topics": "google-workspace agent-skills ai-agent automation cli discovery-api google-admin google-api google-calendar google-chat google-docs google-drive google-sheets oauth2 rust gemini-cli-extension",
     "language": "Rust",
     "categorySlug": "ai-agents",
-    "stars": 29200,
+    "stars": 29208,
     "licenseSpdx": "Apache-2.0",
     "oneLiner": "A dynamic CLI for all Google Workspace APIs with built-in AI agent skills, auto-generated from Google's Discovery Service."
   },
@@ -1777,7 +1777,7 @@
     "topics": "rust tauri no-electron chatgpt youtube gemini claude desktop hight-performance linux macos package windows",
     "language": "Rust",
     "categorySlug": "ai-applications",
-    "stars": 58660,
+    "stars": 58680,
     "licenseSpdx": "GPL-3.0",
     "oneLiner": "🤱🏻 Turn any webpage into a desktop app with one command."
   },
@@ -1787,10 +1787,10 @@
     "description": "Turso is an in-process SQL database, compatible with SQLite.",
     "topics": "database embedded-database sql sqlite3 webassembly",
     "language": "Rust",
-    "categorySlug": "vector-databases",
-    "stars": 22480,
+    "categorySlug": "",
+    "stars": 22481,
     "licenseSpdx": "MIT",
-    "oneLiner": "A Rust-based, SQLite-compatible embedded database optimized for edge computing and serverless architectures."
+    "oneLiner": "A modern, Rust-based, distributed SQLite-compatible database designed for edge and WebAssembly."
   },
   {
     "id": 523043277,
@@ -1801,7 +1801,7 @@
     "categorySlug": "ai-dev-tools",
     "stars": 48313,
     "licenseSpdx": "MIT",
-    "oneLiner": "A Rust-powered Python linter and formatter that is 10-100x faster than existing tools."
+    "oneLiner": "A Rust-powered Python linter and formatter that replaces an entire ecosystem of tools at 10-100x the speed."
   },
   {
     "id": 535010087,
@@ -1810,7 +1810,7 @@
     "topics": "minecraft openstreetmap osm overpass-api rust tauri maps",
     "language": "Rust",
     "categorySlug": "",
-    "stars": 16561,
+    "stars": 16565,
     "licenseSpdx": "Apache-2.0",
     "oneLiner": "Generate any location from the real world in Minecraft with a high level of detail."
   },
@@ -1832,7 +1832,7 @@
     "topics": "",
     "language": "Rust",
     "categorySlug": "",
-    "stars": 37556,
+    "stars": 37564,
     "licenseSpdx": "Apache-2.0",
     "oneLiner": "Browser automation CLI for AI agents"
   },
@@ -1843,7 +1843,7 @@
     "topics": "remote-control remote-desktop teamviewer anydesk vnc rdp rust p2p flutter flutter-apps dart rust-lang wayland linux android flatpak ios macos windows",
     "language": "Rust",
     "categorySlug": "",
-    "stars": 117370,
+    "stars": 117379,
     "licenseSpdx": "AGPL-3.0",
     "oneLiner": "An open-source remote desktop application designed for self-hosting, as an alternative to TeamViewer."
   },
@@ -1854,7 +1854,7 @@
     "topics": "influxdb monitoring database time-series metrics go react rust",
     "language": "Rust",
     "categorySlug": "",
-    "stars": 31594,
+    "stars": 31597,
     "licenseSpdx": "Apache-2.0",
     "oneLiner": ""
   },
@@ -1864,10 +1864,10 @@
     "description": "15MB, lightweight, cross-platform database client. Supports MySQL, PostgreSQL, SQLite, Redis, MongoDB, DuckDB, ClickHouse, SQL Server and more.15MB，轻量级跨平台数据库客户端、数据库管理工具。支持 MySQL、PostgreSQL、SQLite、Redis、MongoDB、DuckDB、ClickHouse、SQL Server 等。",
     "topics": "clickhouse database database-client database-management gui mongodb mysql postgresql redis rust sql-server sqlite tauri vue",
     "language": "Rust",
-    "categorySlug": "ai-applications",
-    "stars": 7849,
+    "categorySlug": "ai-dev-tools",
+    "stars": 7868,
     "licenseSpdx": "Apache-2.0",
-    "oneLiner": "A 15MB, cross-platform database client with AI assistant, supporting 60+ databases via desktop or Docker."
+    "oneLiner": "A 15MB multi-database client with an AI assistant, offering broad compatibility in a lightweight package."
   },
   {
     "id": 552877440,
@@ -1876,7 +1876,7 @@
     "topics": "payments rust orchestration hacktoberfest beginner-friendly featured high-performance open-source restful-api sdk works-with-react finance payment payment-gateway payment-integration payment-processing fintech payments-platform adyen stripe",
     "language": "Rust",
     "categorySlug": "",
-    "stars": 43171,
+    "stars": 43170,
     "licenseSpdx": "Apache-2.0",
     "oneLiner": ""
   },
@@ -1887,7 +1887,7 @@
     "topics": "ripgrep recursively-search search regex gitignore grep command-line-tool command-line cli rust",
     "language": "Rust",
     "categorySlug": "",
-    "stars": 65606,
+    "stars": 65613,
     "licenseSpdx": "Unlicense",
     "oneLiner": ""
   },
@@ -1898,7 +1898,7 @@
     "topics": "ai claude cli coding-agent llm mcp openai rust terminal tui",
     "language": "Rust",
     "categorySlug": "ai-dev-tools",
-    "stars": 8000,
+    "stars": 8007,
     "licenseSpdx": "MIT",
     "oneLiner": "Coding Agent Harness"
   },
@@ -1920,9 +1920,9 @@
     "topics": "rust electron openvpn nodejs vpn wireguard",
     "language": "Rust",
     "categorySlug": "",
-    "stars": 7320,
+    "stars": 7321,
     "licenseSpdx": "GPL-3.0",
-    "oneLiner": "A privacy-first, cross-platform VPN client built with Rust, offering advanced features like quantum-resistant tunnels and multi-hop."
+    "oneLiner": "An open-source, privacy-centric VPN client with cutting-edge security features and broad platform compatibility."
   },
   {
     "id": 599431918,
@@ -1930,10 +1930,10 @@
     "description": "⚓ A collection of high-performance JavaScript tools.",
     "topics": "compiler javascript linter minifier parser typescript transpiler",
     "language": "Rust",
-    "categorySlug": "ai-dev-tools",
-    "stars": 21781,
+    "categorySlug": "",
+    "stars": 21783,
     "licenseSpdx": "MIT",
-    "oneLiner": "A Rust-powered, high-performance JavaScript toolchain unifying parsing, linting, formatting, and minification."
+    "oneLiner": "A blazing-fast Rust-powered JavaScript/TypeScript toolchain (parser, linter, transformer, minifier, formatter) that is reshaping the JS build ecosystem."
   },
   {
     "id": 931888694,
@@ -1942,7 +1942,7 @@
     "topics": "speech-to-text tauri-v2 accessibility cross-platform",
     "language": "Rust",
     "categorySlug": "ai-applications",
-    "stars": 25255,
+    "stars": 25259,
     "licenseSpdx": "MIT",
     "oneLiner": "A free, offline, privacy-first speech-to-text app that transcribes your voice into any text field with a simple keyboard shortcut."
   },
@@ -1953,7 +1953,7 @@
     "topics": "quic http3 network-programming protocol rust",
     "language": "Rust",
     "categorySlug": "",
-    "stars": 11619,
+    "stars": 11620,
     "licenseSpdx": "BSD-2-Clause",
     "oneLiner": ""
   },
@@ -1975,7 +1975,7 @@
     "topics": "low-code open-source platform python typescript postgresql self-hostable",
     "language": "Rust",
     "categorySlug": "ai-applications",
-    "stars": 16984,
+    "stars": 16985,
     "licenseSpdx": "NOASSERTION",
     "oneLiner": "An open-source developer platform that turns scripts into webhooks, workflows, and UIs, offering a fast, self-hostable alternative to Retool and Temporal."
   },
@@ -1986,7 +1986,7 @@
     "topics": "rust memes realtime tags does-anyone-read-these tagsoftags p2p holepunching multipath quic",
     "language": "Rust",
     "categorySlug": "",
-    "stars": 10908,
+    "stars": 10912,
     "licenseSpdx": "Apache-2.0",
     "oneLiner": "A Rust library that replaces IP addresses with public keys for simple, reliable peer-to-peer connections using QUIC and NAT traversal."
   },
@@ -1997,9 +1997,9 @@
     "topics": "ai-tools claude-code desktop-app open-source rust tauri typescript codex mcp provider-management wsl-support minimax opencode skills skills-management omo openclaw openclaw-ui hermes hermes-agent",
     "language": "Rust",
     "categorySlug": "ai-dev-tools",
-    "stars": 111159,
+    "stars": 111212,
     "licenseSpdx": "MIT",
-    "oneLiner": "A cross-platform desktop all-in-one manager for multiple AI coding assistants, unifying Claude Code, Codex, Gemini CLI, and more under one interface."
+    "oneLiner": "A massively popular all-in-one desktop manager unifying multiple AI coding assistants (Claude Code, Codex, Gemini CLI, etc.) behind a single cross-platform interface."
   },
   {
     "id": 115110181,
@@ -2019,7 +2019,7 @@
     "topics": "agents ai mcp rust ai-gateway gateway-api kubernetes mcp-gateway reverse-proxy service-mesh api-gateway",
     "language": "Rust",
     "categorySlug": "ai-dev-tools",
-    "stars": 3595,
+    "stars": 3601,
     "licenseSpdx": "Apache-2.0",
     "oneLiner": "Next Generation Agentic Proxy for AI Agents and MCP servers"
   },
@@ -2030,9 +2030,9 @@
     "topics": "document-ocr document-processing ocr ocr-recognition pdf pdf-parser text-extraction",
     "language": "Rust",
     "categorySlug": "ai-dev-tools",
-    "stars": 11273,
+    "stars": 11278,
     "licenseSpdx": "Apache-2.0",
-    "oneLiner": "A fast, open-source document parser with flexible OCR and local execution, designed for LLM and RAG pipelines."
+    "oneLiner": "A blazing-fast, Rust-based document parser with flexible OCR for local AI pipeline integration."
   },
   {
     "id": 671654508,
@@ -2041,9 +2041,9 @@
     "topics": "css formatter javascript jsx linter static-code-analysis typescript web json",
     "language": "Rust",
     "categorySlug": "ai-dev-tools",
-    "stars": 25218,
+    "stars": 25222,
     "licenseSpdx": "Apache-2.0",
-    "oneLiner": "A Rust-based, all-in-one formatter and linter for the web, designed to be faster and simpler than existing toolchains."
+    "oneLiner": "A blazing-fast, all-in-one web toolchain that unifies formatting and linting in Rust."
   },
   {
     "id": 1029972503,
@@ -2052,7 +2052,7 @@
     "topics": "filesearch lua neovim neovim-plugin rust bun fff fzf grep nodejs python",
     "language": "Rust",
     "categorySlug": "ai-dev-tools",
-    "stars": 9384,
+    "stars": 9382,
     "licenseSpdx": "MIT",
     "oneLiner": "The fastest file search SDK with AI-native features like frecency ranking and MCP server integration."
   },
@@ -2063,7 +2063,7 @@
     "topics": "adb android bloatware-removal debloat debloater debloating privacy bloatware-list",
     "language": "Rust",
     "categorySlug": "",
-    "stars": 8211,
+    "stars": 8213,
     "licenseSpdx": "GPL-3.0",
     "oneLiner": "Cross-platform GUI written in Rust using ADB to debloat non-rooted Android devices. Improve your privacy, the security and battery life of your device."
   },
@@ -2073,10 +2073,10 @@
     "description": "Fast Rust bundler for JavaScript/TypeScript with Rollup-compatible API.",
     "topics": "bundler javascript typescript",
     "language": "Rust",
-    "categorySlug": "ai-dev-tools",
+    "categorySlug": "",
     "stars": 13815,
     "licenseSpdx": "MIT",
-    "oneLiner": "A Rust-powered bundler that aims to be the fast, Rollup-compatible backbone for Vite."
+    "oneLiner": "A Rust-powered bundler that combines Rollup compatibility with esbuild-like performance for next-generation JavaScript tooling."
   },
   {
     "id": 763774926,
@@ -2085,7 +2085,7 @@
     "topics": "llm rust uqff",
     "language": "Rust",
     "categorySlug": "llm-frameworks",
-    "stars": 7401,
+    "stars": 7400,
     "licenseSpdx": "MIT",
     "oneLiner": "Fast, flexible LLM inference"
   },
@@ -2096,9 +2096,9 @@
     "topics": "",
     "language": "Rust",
     "categorySlug": "ai-dev-tools",
-    "stars": 94622,
+    "stars": 94636,
     "licenseSpdx": "Apache-2.0",
-    "oneLiner": "OpenAI's official lightweight, local terminal-based coding agent with ChatGPT integration"
+    "oneLiner": "OpenAI's official terminal-native coding agent, combining Rust performance with deep ChatGPT integration for AI-assisted development workflows."
   },
   {
     "id": 149026292,
@@ -2106,10 +2106,10 @@
     "description": "📊 Cube Core is open-source semantic layer for AI, BI and embedded analytics",
     "topics": "analytics cube postgresql mysql bigquery sql rust headless-bi semantic-layer databricks snowflake business-intelligence businessintelligence embedded-analytics bi agentic-analytics conversational-analytics agents ai",
     "language": "Rust",
-    "categorySlug": "mlops-evaluation",
-    "stars": 20299,
+    "categorySlug": "llm-frameworks",
+    "stars": 20297,
     "licenseSpdx": "NOASSERTION",
-    "oneLiner": "Open-source semantic layer that unifies metric definitions across BI, embedded analytics, and AI agents."
+    "oneLiner": "The most popular open-source semantic layer that serves metrics via SQL/REST/GraphQL APIs for AI agents and BI tools"
   },
   {
     "id": 880800549,
@@ -2118,7 +2118,7 @@
     "topics": "auto-scaling-architecture mesh-security-provider permissionless-interoperability layerless-blockchain-creator recursive-cloning-model",
     "language": "Go",
     "categorySlug": "",
-    "stars": 12818,
+    "stars": 12849,
     "licenseSpdx": "MIT",
     "oneLiner": ""
   },
@@ -2129,9 +2129,9 @@
     "topics": "",
     "language": "Go",
     "categorySlug": "ai-dev-tools",
-    "stars": 4503,
+    "stars": 4506,
     "licenseSpdx": "MIT",
-    "oneLiner": "An ecosystem configurator that transforms basic AI coding agents into memory-enhanced, workflow-driven development assistants"
+    "oneLiner": "A universal ecosystem configurator that adds memory, SDD workflows, and teaching personas to 15+ existing AI coding agents"
   },
   {
     "id": 1156994049,
@@ -2151,7 +2151,7 @@
     "topics": "llama llm llms go golang ollama mistral gemma llama3 deepseek gemma3 qwen gpt-oss glm minimax",
     "language": "Go",
     "categorySlug": "model-serving",
-    "stars": 175180,
+    "stars": 175188,
     "licenseSpdx": "MIT",
     "oneLiner": "The easiest way to run open LLMs locally, with broad model support and a developer-friendly API."
   },
@@ -2173,7 +2173,7 @@
     "topics": "",
     "language": "Go",
     "categorySlug": "",
-    "stars": 4051,
+    "stars": 4052,
     "licenseSpdx": "MPL-2.0",
     "oneLiner": ""
   },
@@ -2184,7 +2184,7 @@
     "topics": "agents coding git worktree",
     "language": "Go",
     "categorySlug": "",
-    "stars": 548,
+    "stars": 554,
     "licenseSpdx": "MIT",
     "oneLiner": ""
   },
@@ -2195,7 +2195,7 @@
     "topics": "graph infrastructure-as-code terraform cloud cloud-management",
     "language": "Go",
     "categorySlug": "",
-    "stars": 48812,
+    "stars": 48814,
     "licenseSpdx": "NOASSERTION",
     "oneLiner": ""
   },
@@ -2206,7 +2206,7 @@
     "topics": "trojan vless vmess shadowsocks2022 reality http shadowsocks wireguard tls post-quantum x25519 mixed tunnel ech hysteria2 tun fail2ban xhttp nodes",
     "language": "Go",
     "categorySlug": "ai-applications",
-    "stars": 41922,
+    "stars": 41931,
     "licenseSpdx": "GPL-3.0",
     "oneLiner": "A feature-rich, multi-protocol Xray panel for personal proxy server management with a clean web interface."
   },
@@ -2239,7 +2239,7 @@
     "topics": "agents claude-code coding",
     "language": "Go",
     "categorySlug": "ai-dev-tools",
-    "stars": 24989,
+    "stars": 24992,
     "licenseSpdx": "MIT",
     "oneLiner": "A distributed graph issue tracker that gives AI coding agents persistent, version-controlled memory."
   },
@@ -2250,7 +2250,7 @@
     "topics": "monitoring metrics alerting graphing time-series prometheus hacktoberfest",
     "language": "Go",
     "categorySlug": "",
-    "stars": 64862,
+    "stars": 64868,
     "licenseSpdx": "Apache-2.0",
     "oneLiner": ""
   },
@@ -2283,7 +2283,7 @@
     "topics": "v2ray geosite",
     "language": "Go",
     "categorySlug": "",
-    "stars": 9022,
+    "stars": 9023,
     "licenseSpdx": "MIT",
     "oneLiner": ""
   },
@@ -2294,7 +2294,7 @@
     "topics": "github-api-v4 cli git golang",
     "language": "Go",
     "categorySlug": "",
-    "stars": 45070,
+    "stars": 45076,
     "licenseSpdx": "MIT",
     "oneLiner": ""
   },
@@ -2305,7 +2305,7 @@
     "topics": "go golang postgresql postgres backup archiving s3 aws aws-s3 azure azure-storage mariadb mysql sqlserver greenplum cloud mongodb redis",
     "language": "Go",
     "categorySlug": "",
-    "stars": 4153,
+    "stars": 4154,
     "licenseSpdx": "NOASSERTION",
     "oneLiner": ""
   },
@@ -2316,7 +2316,7 @@
     "topics": "ebpf transparent-proxy dae golang policy-routing sdwan shadowsocks v2ray",
     "language": "Go",
     "categorySlug": "",
-    "stars": 5943,
+    "stars": 5944,
     "licenseSpdx": "AGPL-3.0",
     "oneLiner": ""
   },
@@ -2327,7 +2327,7 @@
     "topics": "agent agentic ai golang llm ollama rag chatbot generative-ai multimodel embeddings knowledge-base openai question-answering reranking vector-search evaluation multi-tenant semantic-search wiki",
     "language": "Go",
     "categorySlug": "llm-frameworks",
-    "stars": 17562,
+    "stars": 17567,
     "licenseSpdx": "NOASSERTION",
     "oneLiner": "An enterprise LLM knowledge platform that turns documents into a queryable RAG, autonomous agent, and self-maintaining Wiki."
   },
@@ -2338,7 +2338,7 @@
     "topics": "docker golang vuejs home-automation home-server raspberry self-hosted iot home-cloud casaos",
     "language": "Go",
     "categorySlug": "",
-    "stars": 36071,
+    "stars": 36077,
     "licenseSpdx": "Apache-2.0",
     "oneLiner": ""
   },
@@ -2349,7 +2349,7 @@
     "topics": "agents ai ai-agents claude go llm openai novel",
     "language": "Go",
     "categorySlug": "ai-agents",
-    "stars": 1180,
+    "stars": 1183,
     "licenseSpdx": "Apache-2.0",
     "oneLiner": "A multi-agent AI engine that autonomously writes complete novels from a single prompt with step-level recovery and adaptive long-form support."
   },
@@ -2360,7 +2360,7 @@
     "topics": "cli git terminal",
     "language": "Go",
     "categorySlug": "",
-    "stars": 79851,
+    "stars": 79853,
     "licenseSpdx": "MIT",
     "oneLiner": ""
   },
@@ -2371,7 +2371,7 @@
     "topics": "",
     "language": "Go",
     "categorySlug": "",
-    "stars": 29281,
+    "stars": 29283,
     "licenseSpdx": "MPL-2.0",
     "oneLiner": ""
   },
@@ -2382,7 +2382,7 @@
     "topics": "search-engine semantic-search semantic-search-engine vector-search vector-search-engine vector-database approximate-nearest-neighbor-search image-search hnsw information-retrieval mlops nearest-neighbor-search neural-search recommender-system similarity-search vectors generative-search hybrid-search weaviate grpc",
     "language": "Go",
     "categorySlug": "vector-databases",
-    "stars": 16472,
+    "stars": 16470,
     "licenseSpdx": "BSD-3-Clause",
     "oneLiner": "A cloud-native vector database that unifies vector search, keyword filtering, and RAG in a single, scalable platform"
   },
@@ -2393,7 +2393,7 @@
     "topics": "fzf go bash zsh fish vim neovim cli unix tmux",
     "language": "Go",
     "categorySlug": "",
-    "stars": 81326,
+    "stars": 81333,
     "licenseSpdx": "MIT",
     "oneLiner": ""
   },
@@ -2404,7 +2404,7 @@
     "topics": "proxy reverse-proxy tunnel nat go firewall frp expose http-proxy p2p",
     "language": "Go",
     "categorySlug": "",
-    "stars": 107671,
+    "stars": 107669,
     "licenseSpdx": "Apache-2.0",
     "oneLiner": ""
   },
@@ -2415,7 +2415,7 @@
     "topics": "go music",
     "language": "Go",
     "categorySlug": "",
-    "stars": 3411,
+    "stars": 3413,
     "licenseSpdx": "AGPL-3.0",
     "oneLiner": ""
   },
@@ -2426,9 +2426,9 @@
     "topics": "llama ai llm stable-diffusion api tts musicgen mamba audio-generation image-generation text-generation rerank distributed libp2p decentralized object-detection mcp agents",
     "language": "Go",
     "categorySlug": "model-serving",
-    "stars": 47238,
+    "stars": 47237,
     "licenseSpdx": "MIT",
-    "oneLiner": "LocalAI is the open-source, hardware-agnostic AI engine that lets you run any model locally with a drop-in OpenAI-compatible API."
+    "oneLiner": "A composable, GPU-optional AI inference engine that unifies LLMs, vision, voice, and image generation behind drop-in OpenAI-compatible APIs on any hardware."
   },
   {
     "id": 192632000,
@@ -2448,7 +2448,7 @@
     "topics": "microservices service-mesh lyft-envoy kubernetes api-management circuit-breaker polyglot-microservices enforce-policies proxies microservice envoy consul nomad request-routing resiliency fault-injection",
     "language": "Go",
     "categorySlug": "",
-    "stars": 38251,
+    "stars": 38255,
     "licenseSpdx": "Apache-2.0",
     "oneLiner": ""
   },
@@ -2459,7 +2459,7 @@
     "topics": "telegraf monitoring time-series metrics golang influxdb json kafka logs modbus mqtt opcua windows-eventlog xpath hacktoberfest t telemetry-collection",
     "language": "Go",
     "categorySlug": "",
-    "stars": 17674,
+    "stars": 17673,
     "licenseSpdx": "MIT",
     "oneLiner": ""
   },
@@ -2470,7 +2470,7 @@
     "topics": "cncf chart kubernetes helm charts",
     "language": "Go",
     "categorySlug": "",
-    "stars": 29931,
+    "stars": 29932,
     "licenseSpdx": "Apache-2.0",
     "oneLiner": ""
   },
@@ -2483,7 +2483,7 @@
     "categorySlug": "ai-agents",
     "stars": 22898,
     "licenseSpdx": "Apache-2.0",
-    "oneLiner": "A Go framework that turns microservices into AI agents with built-in tools, memory, and protocol support"
+    "oneLiner": "Unifies AI agent harnesses with microservices in Go, enabling seamless integration of tools, memory, and multi-agent protocols."
   },
   {
     "id": 950140488,
@@ -2492,7 +2492,7 @@
     "topics": "defense security",
     "language": "Go",
     "categorySlug": "",
-    "stars": 20324,
+    "stars": 20325,
     "licenseSpdx": "MIT",
     "oneLiner": ""
   },
@@ -2503,7 +2503,7 @@
     "topics": "hacktoberfest cloud containers virtual-machines",
     "language": "Go",
     "categorySlug": "",
-    "stars": 5639,
+    "stars": 5640,
     "licenseSpdx": "Apache-2.0",
     "oneLiner": ""
   },
@@ -2514,7 +2514,7 @@
     "topics": "agent agent-framework deepseek ink llm prompt-caching r1 tool-use tui typescript ai-agent ai-coding cli coding-agent developer-tools terminal",
     "language": "Go",
     "categorySlug": "ai-dev-tools",
-    "stars": 25459,
+    "stars": 25470,
     "licenseSpdx": "MIT",
     "oneLiner": "A Go-based terminal AI coding agent optimized for DeepSeek with prefix-cache stability for persistent, low-latency interactions."
   },
@@ -2525,7 +2525,7 @@
     "topics": "go restic backup deduplication dedupe secure-by-default",
     "language": "Go",
     "categorySlug": "",
-    "stars": 34763,
+    "stars": 34765,
     "licenseSpdx": "BSD-2-Clause",
     "oneLiner": "A fast, secure, and efficient backup program with deduplication and multi-backend support."
   },
@@ -2547,7 +2547,7 @@
     "topics": "go golang whatsapp whatsapp-web",
     "language": "Go",
     "categorySlug": "",
-    "stars": 6582,
+    "stars": 6583,
     "licenseSpdx": "MPL-2.0",
     "oneLiner": ""
   },
@@ -2558,9 +2558,9 @@
     "topics": "",
     "language": "Go",
     "categorySlug": "ai-dev-tools",
-    "stars": 3430,
+    "stars": 3433,
     "licenseSpdx": "MIT",
-    "oneLiner": "Local-first analytics and session search for all your AI coding agents in one place."
+    "oneLiner": "A local-first unified dashboard for searching sessions and tracking costs across 20+ AI coding agents — no cloud, no accounts, one binary."
   },
   {
     "id": 20580498,
@@ -2569,9 +2569,9 @@
     "topics": "kubernetes go cncf containers",
     "language": "Go",
     "categorySlug": "",
-    "stars": 123394,
+    "stars": 123399,
     "licenseSpdx": "Apache-2.0",
-    "oneLiner": "The industry-standard container orchestration platform for automating deployment, scaling, and management of containerized applications."
+    "oneLiner": "The industry-standard open-source platform for automating container orchestration at scale, essential for modern cloud-native applications."
   },
   {
     "id": 1214991373,
@@ -2591,7 +2591,7 @@
     "topics": "rtsp rtp rtcp streaming golang go rtsp-server rtsp-proxy rtmp rtmp-server rtmp-proxy rtsp-relay media-server obs-studio hls webrtc webrtc-proxy srt media-over-quic",
     "language": "Go",
     "categorySlug": "ai-applications",
-    "stars": 19316,
+    "stars": 19317,
     "licenseSpdx": "MIT",
     "oneLiner": "A versatile, high-performance live media server that routes and converts streams across multiple protocols with zero dependencies."
   },
@@ -2602,9 +2602,9 @@
     "topics": "stock golang naiveui wails deepseek lmstudio ollama openai ai-tools",
     "language": "Go",
     "categorySlug": "ai-applications",
-    "stars": 6615,
+    "stars": 6622,
     "licenseSpdx": "GPL-3.0",
-    "oneLiner": "A desktop stock analysis tool that integrates multiple LLMs for AI-powered market insights and sentiment analysis."
+    "oneLiner": "An open-source, AI-driven stock analysis tool supporting global markets with multiple AI backend options and local data storage."
   },
   {
     "id": 222258954,
@@ -2624,9 +2624,9 @@
     "topics": "kubernetes self-hosted home-automation homelab edge-ai homeserver local-ai ai-privacy ai-agents model-serving mcp personal-cloud home-cloud home-server",
     "language": "Go",
     "categorySlug": "ai-applications",
-    "stars": 5005,
+    "stars": 5001,
     "licenseSpdx": "AGPL-3.0",
-    "oneLiner": "A Kubernetes-based personal cloud OS that lets you self-host AI models and services to reclaim your data privacy."
+    "oneLiner": "A Kubernetes-powered personal cloud OS that lets you run AI services locally, reclaiming your data privacy from public cloud dependency"
   },
   {
     "id": 1092279475,
@@ -2635,7 +2635,7 @@
     "topics": "ai ai-agents ai-cybersecurity ai-penetration-testing ai-security-tool ctf-tools mcp ai-hacking pentesting-tools",
     "language": "Go",
     "categorySlug": "ai-agents",
-    "stars": 4873,
+    "stars": 4875,
     "licenseSpdx": "Apache-2.0",
     "oneLiner": "An AI-native security testing platform that fuses 100+ tools, a C2 framework, and agent-driven orchestration into a single Go-based system."
   },
@@ -2646,9 +2646,9 @@
     "topics": "anns nearest-neighbor-search faiss vector-search image-search hnsw vector-database embedding-database embedding-store vector-store vector-similarity embedding-similarity distributed golang llm cloud-native diskann rag",
     "language": "Go",
     "categorySlug": "vector-databases",
-    "stars": 45027,
+    "stars": 45028,
     "licenseSpdx": "Apache-2.0",
-    "oneLiner": "The leading open-source, cloud-native vector database for production-scale AI similarity search."
+    "oneLiner": "A production-grade, GPU-accelerated vector database built for billion-scale ANN search with cloud-native horizontal scaling."
   },
   {
     "id": 42332863,
@@ -2657,7 +2657,7 @@
     "topics": "file-browser file-manager file-sharing go material-design self-hosted vue",
     "language": "Go",
     "categorySlug": "ai-applications",
-    "stars": 35305,
+    "stars": 35309,
     "licenseSpdx": "Apache-2.0",
     "oneLiner": "A mature, single-binary web file browser for self-hosted file management."
   },
@@ -2668,7 +2668,7 @@
     "topics": "dns-server go cncf coredns plugin service-discovery",
     "language": "Go",
     "categorySlug": "",
-    "stars": 14146,
+    "stars": 14149,
     "licenseSpdx": "Apache-2.0",
     "oneLiner": ""
   },
@@ -2678,10 +2678,10 @@
     "description": "Fastest enterprise AI gateway (50x faster than LiteLLM) with adaptive load balancer, cluster mode, guardrails, 1000+ models support & <100 µs overhead at 5k RPS.",
     "topics": "gateway llm llm-gateway mcp-client mcp-server guardrails mcp-gateway ai-gateway gateway-services generative-ai llm-cost llm-observability llmops load-balancing token-management model-router",
     "language": "Go",
-    "categorySlug": "model-serving",
+    "categorySlug": "llm-frameworks",
     "stars": 6147,
     "licenseSpdx": "Apache-2.0",
-    "oneLiner": "The fastest enterprise AI gateway with sub-100µs overhead, unifying 23+ LLM providers under a single API."
+    "oneLiner": "A blazing-fast Go-based AI gateway unifying 23+ LLM providers with enterprise-grade load balancing, failover, and guardrails in a single API layer"
   },
   {
     "id": 420503947,
@@ -2690,7 +2690,7 @@
     "topics": "rest-api pubsub notifications curl push-notifications ntfy ntfysh",
     "language": "Go",
     "categorySlug": "ai-applications",
-    "stars": 31019,
+    "stars": 31020,
     "licenseSpdx": "Apache-2.0",
     "oneLiner": "Push notifications via HTTP PUT/POST, no sign-up required."
   },
@@ -2703,7 +2703,7 @@
     "categorySlug": "",
     "stars": 31596,
     "licenseSpdx": "GPL-2.0",
-    "oneLiner": "An early but promising open-source PlayStation 4 emulator with Vulkan support and growing game compatibility."
+    "oneLiner": "A rapidly advancing open-source PlayStation 4 emulator that can already run major commercial titles, representing a significant achievement in modern console emulation."
   },
   {
     "id": 384520418,
@@ -2734,7 +2734,7 @@
     "topics": "",
     "language": "C++",
     "categorySlug": "",
-    "stars": 806,
+    "stars": 807,
     "licenseSpdx": "GPL-3.0",
     "oneLiner": ""
   },
@@ -2745,9 +2745,9 @@
     "topics": "bitcoin c-plus-plus p2p cryptocurrency cryptography",
     "language": "C++",
     "categorySlug": "",
-    "stars": 89584,
+    "stars": 89583,
     "licenseSpdx": "MIT",
-    "oneLiner": "The reference implementation of the Bitcoin protocol, powering the world's largest cryptocurrency network."
+    "oneLiner": "The original, reference implementation of Bitcoin that defines cryptocurrency infrastructure standards."
   },
   {
     "id": 632024122,
@@ -2756,7 +2756,7 @@
     "topics": "computer-vision black-box-testing",
     "language": "C++",
     "categorySlug": "",
-    "stars": 4330,
+    "stars": 4332,
     "licenseSpdx": "LGPL-3.0",
     "oneLiner": ""
   },
@@ -2767,7 +2767,7 @@
     "topics": "dbms olap analytics sql big-data mpp clickhouse hacktoberfest cpp rust ai cloud-native database distributed embedded lakehouse self-hosted",
     "language": "C++",
     "categorySlug": "",
-    "stars": 48374,
+    "stars": 48378,
     "licenseSpdx": "Apache-2.0",
     "oneLiner": ""
   },
@@ -2778,7 +2778,7 @@
     "topics": "vulkan dxbc d3d11 spir-v linux gaming wine d3d9",
     "language": "C++",
     "categorySlug": "",
-    "stars": 17468,
+    "stars": 17469,
     "licenseSpdx": "Zlib",
     "oneLiner": ""
   },
@@ -2811,7 +2811,7 @@
     "topics": "emulation emulator cpp ps2 pcsx2",
     "language": "C++",
     "categorySlug": "",
-    "stars": 15051,
+    "stars": 15050,
     "licenseSpdx": "GPL-3.0",
     "oneLiner": "A mature, high-compatibility PlayStation 2 emulator with cross-platform support and over two decades of development."
   },
@@ -2822,7 +2822,7 @@
     "topics": "cpp fabricmc forge linux minecraft minecraft-launcher modrinth multimc qt qt6 quiltmc prismlauncher cpp20",
     "language": "C++",
     "categorySlug": "",
-    "stars": 9766,
+    "stars": 9767,
     "licenseSpdx": "GPL-3.0",
     "oneLiner": ""
   },
@@ -2844,7 +2844,7 @@
     "topics": "moonlight nvidia gamestream macos-app windows-app linux-app steam-link sdl2 qt",
     "language": "C++",
     "categorySlug": "",
-    "stars": 17705,
+    "stars": 17708,
     "licenseSpdx": "GPL-3.0",
     "oneLiner": ""
   },
@@ -2855,7 +2855,7 @@
     "topics": "music dj audio midi hid windows mac linux qt",
     "language": "C++",
     "categorySlug": "",
-    "stars": 6874,
+    "stars": 6875,
     "licenseSpdx": "NOASSERTION",
     "oneLiner": ""
   },
@@ -2866,7 +2866,7 @@
     "topics": "",
     "language": "C++",
     "categorySlug": "",
-    "stars": 4729,
+    "stars": 4728,
     "licenseSpdx": "AGPL-3.0",
     "oneLiner": ""
   },
@@ -2877,9 +2877,9 @@
     "topics": "ggml",
     "language": "C++",
     "categorySlug": "model-serving",
-    "stars": 118779,
+    "stars": 118790,
     "licenseSpdx": "MIT",
-    "oneLiner": "The de facto standard for running LLMs locally with unmatched performance and model support."
+    "oneLiner": "The foundational C/C++ LLM inference engine that democratized running large language models on consumer hardware through efficient quantization."
   },
   {
     "id": 395341383,
@@ -2899,7 +2899,7 @@
     "topics": "azerothcore trinitycore mangos sunwellcore wow world-of-warcraft emulator game-server server gaming scriptdev2 game modular mmorpg mmorpg-server mmorpg-game hacktoberfest",
     "language": "C++",
     "categorySlug": "",
-    "stars": 8535,
+    "stars": 8534,
     "licenseSpdx": "GPL-2.0",
     "oneLiner": ""
   },
@@ -2910,7 +2910,7 @@
     "topics": "gbdt gbrt gbm distributed-systems xgboost machine-learning",
     "language": "C++",
     "categorySlug": "",
-    "stars": 28516,
+    "stars": 28514,
     "licenseSpdx": "Apache-2.0",
     "oneLiner": ""
   },
@@ -2932,7 +2932,7 @@
     "topics": "chatbot esp32 mcp",
     "language": "C++",
     "categorySlug": "",
-    "stars": 27738,
+    "stars": 27742,
     "licenseSpdx": "MIT",
     "oneLiner": ""
   },
@@ -2943,7 +2943,7 @@
     "topics": "wayland wlroots sway bar statusbar gtk i3status",
     "language": "C++",
     "categorySlug": "",
-    "stars": 11565,
+    "stars": 11567,
     "licenseSpdx": "MIT",
     "oneLiner": ""
   },
@@ -2954,7 +2954,7 @@
     "topics": "dlss xess fsr2 amd intel nvidia upscaler tweak fsr3 framegeneration xefg xell xess-fg xess-sr fsr4 redstone ml-fg",
     "language": "C++",
     "categorySlug": "",
-    "stars": 8997,
+    "stars": 9003,
     "licenseSpdx": "GPL-3.0",
     "oneLiner": ""
   },
@@ -2967,7 +2967,7 @@
     "categorySlug": "",
     "stars": 19240,
     "licenseSpdx": "GPL-3.0",
-    "oneLiner": "A free, open-source reverse engineering platform with a modern GUI, powered by rizin and extensible via plugins."
+    "oneLiner": "A user-friendly GUI for the powerful rizin reverse engineering framework, making complex binary analysis more accessible and collaborative."
   },
   {
     "id": 208325027,
@@ -2976,7 +2976,7 @@
     "topics": "esp32 arduino firmware wifi bluetooth defensive offensive esp8266 iot espressif beacon scanner spammer deauth deauthentication-attack deauthentication command-line esp32-s2 flipper-zero flipperzero",
     "language": "C++",
     "categorySlug": "",
-    "stars": 11395,
+    "stars": 11397,
     "licenseSpdx": "",
     "oneLiner": ""
   },
@@ -2987,7 +2987,7 @@
     "topics": "structure-from-motion multi-view-stereo reconstruction geometry computer-vision",
     "language": "C++",
     "categorySlug": "ai-applications",
-    "stars": 12064,
+    "stars": 12063,
     "licenseSpdx": "NOASSERTION",
     "oneLiner": "The gold-standard open-source pipeline for 3D reconstruction from images."
   },
@@ -3009,7 +3009,7 @@
     "topics": "rag agent-skills embedded faiss hnsw llm-memory search-engine semantic-search similarity-search vector-database local db vector-db",
     "language": "C++",
     "categorySlug": "vector-databases",
-    "stars": 12624,
+    "stars": 12628,
     "licenseSpdx": "Apache-2.0",
     "oneLiner": "A lightning-fast, in-process vector database from Alibaba with hybrid retrieval and full-text search capabilities."
   },
@@ -3019,10 +3019,10 @@
     "description": "The NVIDIA VSS Blueprint is a suite of reference architectures for building GPU-accelerated vision agents and AI-powered video analytics applications.",
     "topics": "llm rag vlm agents skills video-analytics video-search",
     "language": "C++",
-    "categorySlug": "ai-agents",
+    "categorySlug": "ai-applications",
     "stars": 1686,
     "licenseSpdx": "NOASSERTION",
-    "oneLiner": "NVIDIA's reference blueprint for building GPU-accelerated vision agents with VLMs and LLMs for video search, summarization, and analytics."
+    "oneLiner": "NVIDIA's official GPU-accelerated blueprint for building AI vision agents that search, summarize, and analyze video using VLMs, LLMs, and NIM microservices"
   },
   {
     "id": 11577304,
@@ -3031,7 +3031,7 @@
     "topics": "emulation gamecube wii emulator cpp",
     "language": "C++",
     "categorySlug": "",
-    "stars": 15195,
+    "stars": 15196,
     "licenseSpdx": "NOASSERTION",
     "oneLiner": ""
   },
@@ -3064,7 +3064,7 @@
     "topics": "proton",
     "language": "C++",
     "categorySlug": "",
-    "stars": 32034,
+    "stars": 32038,
     "licenseSpdx": "NOASSERTION",
     "oneLiner": ""
   },
@@ -3075,7 +3075,7 @@
     "topics": "tensorflow machine-learning python deep-learning deep-neural-networks neural-network ml distributed",
     "language": "C++",
     "categorySlug": "mlops-evaluation",
-    "stars": 195980,
+    "stars": 195986,
     "licenseSpdx": "Apache-2.0",
     "oneLiner": "The foundational open-source ML framework that democratized deep learning for everyone."
   },
@@ -3108,7 +3108,7 @@
     "topics": "inference deep-learning openvino ai computer-vision diffusion-models generative-ai llm-inference natural-language-processing nlp performance-boost speech-recognition stable-diffusion deploy-ai optimize-ai transformers yolo recommendation-system good-first-issue",
     "language": "C++",
     "categorySlug": "model-serving",
-    "stars": 10458,
+    "stars": 10456,
     "licenseSpdx": "Apache-2.0",
     "oneLiner": "Intel's open-source toolkit for high-performance AI inference optimization and deployment across diverse hardware."
   },
@@ -3130,7 +3130,7 @@
     "topics": "mediapipe c-plus-plus computer-vision deep-learning android video-processing audio-processing mobile-development machine-learning inference graph-framework graph-based calculator framework pipeline-framework stream-processing perception",
     "language": "C++",
     "categorySlug": "multimodal",
-    "stars": 35898,
+    "stars": 35900,
     "licenseSpdx": "Apache-2.0",
     "oneLiner": "Google's production-grade framework for building real-time, on-device multimodal ML pipelines."
   },
@@ -3152,7 +3152,7 @@
     "topics": "ros2 navigation robotics",
     "language": "C++",
     "categorySlug": "",
-    "stars": 4404,
+    "stars": 4405,
     "licenseSpdx": "NOASSERTION",
     "oneLiner": ""
   },
@@ -3163,7 +3163,7 @@
     "topics": "freecad engineering opencascade architecture cad bim fem 3d 3d-printing linux coin windows cam macos",
     "language": "C++",
     "categorySlug": "",
-    "stars": 31815,
+    "stars": 31816,
     "licenseSpdx": "LGPL-2.1",
     "oneLiner": "A mature, open-source parametric 3D CAD modeler with a strong community and Python API."
   },
@@ -3174,7 +3174,7 @@
     "topics": "opencv c-plus-plus computer-vision deep-learning image-processing",
     "language": "C++",
     "categorySlug": "multimodal",
-    "stars": 89468,
+    "stars": 89465,
     "licenseSpdx": "Apache-2.0",
     "oneLiner": "The de facto standard open-source library for computer vision, offering a vast collection of optimized algorithms for image and video analysis."
   },
@@ -3185,7 +3185,7 @@
     "topics": "operating-system c-plus-plus os unix desktop-environment kernel browser",
     "language": "C++",
     "categorySlug": "",
-    "stars": 33558,
+    "stars": 33557,
     "licenseSpdx": "BSD-2-Clause",
     "oneLiner": "A from-scratch graphical Unix-like OS with a 90s aesthetic and modern security features"
   },
@@ -3196,7 +3196,7 @@
     "topics": "esp32 hardware-hacking debugging can-bus i2c jtag spi uart subghz gpio wifi rfid arduino eeprom bluetooth pwm flipperzero radio protocols openocd",
     "language": "C++",
     "categorySlug": "ai-applications",
-    "stars": 4104,
+    "stars": 4105,
     "licenseSpdx": "MIT",
     "oneLiner": "An open-source firmware that turns an ESP32 into a versatile multi-protocol hardware hacking tool with a web-based CLI."
   },
@@ -3206,10 +3206,10 @@
     "description": "Amnezia VPN Client (Desktop+Mobile)",
     "topics": "vpn vpn-client vpn-server openvpn wireguard shadowsocks ikev2 cloak gfw",
     "language": "C++",
-    "categorySlug": "ai-applications",
-    "stars": 12748,
+    "categorySlug": "",
+    "stars": 12750,
     "licenseSpdx": "GPL-3.0",
-    "oneLiner": "A user-friendly, open-source VPN client that makes self-hosting a VPN server as easy as entering your server's IP and credentials."
+    "oneLiner": "A user-friendly VPN client with automated server deployment and censorship-bypass capabilities."
   },
   {
     "id": 15634981,
@@ -3218,7 +3218,7 @@
     "topics": "game-engine godot godotengine open-source multi-platform gamedev game-development",
     "language": "C++",
     "categorySlug": "",
-    "stars": 113350,
+    "stars": 113355,
     "licenseSpdx": "MIT",
     "oneLiner": "A powerful, free, and open-source game engine for creating cross-platform 2D and 3D games."
   },
@@ -3242,7 +3242,7 @@
     "categorySlug": "model-serving",
     "stars": 6408,
     "licenseSpdx": "MIT",
-    "oneLiner": "A lightweight, pure C/C++ inference engine for a vast and growing collection of diffusion models, built on ggml."
+    "oneLiner": "A lightweight C/C++ inference engine for diffusion models, enabling efficient image and video generation without Python dependencies."
   },
   {
     "id": 819733173,
@@ -3251,9 +3251,9 @@
     "topics": "inference kvcache llm rdma sglang vllm disaggregation tokenspeed reinforcement-learning trt-llm",
     "language": "C++",
     "categorySlug": "model-serving",
-    "stars": 5700,
+    "stars": 5698,
     "licenseSpdx": "Apache-2.0",
-    "oneLiner": "A production-grade, KVCache-centric disaggregated serving platform that powers Kimi LLM with 75% more requests under SLO."
+    "oneLiner": "Production-grade disaggregated KVCache serving architecture that enables 75% more LLM requests by decoupling prefill and decode with high-performance RDMA transfers"
   },
   {
     "id": 5973855,
@@ -3262,7 +3262,7 @@
     "topics": "cataclysm c-plus-plus game zombies hacktoberfest",
     "language": "C++",
     "categorySlug": "",
-    "stars": 12540,
+    "stars": 12539,
     "licenseSpdx": "NOASSERTION",
     "oneLiner": "A decade-old, community-driven turn-based survival game with unparalleled depth and simulation."
   },
@@ -3273,7 +3273,7 @@
     "topics": "game-streaming-server game-stream game-streaming remote-desktop moonlight geforce-experience cpp replicator-release-notifications docker winget-pkg homebrew-pkg rtd pacman-pkg replicator-custom-issues flathub-pkg maintainer-wanted",
     "language": "C++",
     "categorySlug": "ai-applications",
-    "stars": 38802,
+    "stars": 38806,
     "licenseSpdx": "GPL-3.0",
     "oneLiner": "The premier open-source, self-hosted game streaming server for Moonlight clients."
   },
@@ -3284,7 +3284,7 @@
     "topics": "header-only cpp11 cpp logging spdlog",
     "language": "C++",
     "categorySlug": "",
-    "stars": 28992,
+    "stars": 28993,
     "licenseSpdx": "NOASSERTION",
     "oneLiner": ""
   },
@@ -3295,9 +3295,9 @@
     "topics": "mlt shotcut gplv3 video-editor cross-platform",
     "language": "C++",
     "categorySlug": "",
-    "stars": 14456,
+    "stars": 14457,
     "licenseSpdx": "GPL-3.0",
-    "oneLiner": "A mature, cross-platform open-source video editor built on Qt and MLT."
+    "oneLiner": "A free, open-source video editor that combines professional features with cross-platform accessibility."
   },
   {
     "id": 601205363,
@@ -3306,9 +3306,9 @@
     "topics": "llama llm metal stable-diffusion tenstorrent accelerator scale-out kernels ai deepseek gpu img-gen video-gen cuda",
     "language": "C++",
     "categorySlug": "model-serving",
-    "stars": 1558,
+    "stars": 1557,
     "licenseSpdx": "Apache-2.0",
-    "oneLiner": "Tenstorrent's open-source software stack for high-performance AI inference on their custom accelerators, with both high-level ops and low-level kernel programming."
+    "oneLiner": "A hardware-optimized inference library for LLMs on Tenstorrent accelerators with detailed performance metrics."
   },
   {
     "id": 33014811,
@@ -3317,7 +3317,7 @@
     "topics": "notepad-official notepad editor windows",
     "language": "C++",
     "categorySlug": "",
-    "stars": 28540,
+    "stars": 28541,
     "licenseSpdx": "NOASSERTION",
     "oneLiner": "A mature, lightweight, and highly popular open-source code editor for Windows."
   },
@@ -3328,7 +3328,7 @@
     "topics": "",
     "language": "C++",
     "categorySlug": "",
-    "stars": 14894,
+    "stars": 14892,
     "licenseSpdx": "NOASSERTION",
     "oneLiner": "A fast, lightweight, and cross-platform BitTorrent client with multiple interfaces."
   },
@@ -3352,7 +3352,7 @@
     "categorySlug": "",
     "stars": 10273,
     "licenseSpdx": "NOASSERTION",
-    "oneLiner": "MAME is the definitive open-source emulation framework for preserving and running vintage arcade games, computers, and consoles."
+    "oneLiner": "The most comprehensive open-source emulator for preserving vintage hardware and software, with groundbreaking accuracy and scale."
   },
   {
     "id": 5050525,
@@ -3394,7 +3394,7 @@
     "topics": "awesome backend computer-science distributed-systems high-level-design interview interview-questions scalability system-design hld",
     "language": "Java",
     "categorySlug": "",
-    "stars": 39255,
+    "stars": 39257,
     "licenseSpdx": "GPL-3.0",
     "oneLiner": ""
   },
@@ -3405,7 +3405,7 @@
     "topics": "pulsar pubsub messaging streaming queuing event-streaming",
     "language": "Java",
     "categorySlug": "",
-    "stars": 15286,
+    "stars": 15285,
     "licenseSpdx": "Apache-2.0",
     "oneLiner": ""
   },
@@ -3427,7 +3427,7 @@
     "topics": "grammar natural-language natural-language-processing style-checker proofreading spellcheck",
     "language": "Java",
     "categorySlug": "",
-    "stars": 14621,
+    "stars": 14622,
     "licenseSpdx": "LGPL-2.1",
     "oneLiner": ""
   },
@@ -3438,9 +3438,9 @@
     "topics": "keycloak oidc saml",
     "language": "Java",
     "categorySlug": "",
-    "stars": 35439,
+    "stars": 35441,
     "licenseSpdx": "Apache-2.0",
-    "oneLiner": "Keycloak is a battle-tested, open-source identity and access management platform that simplifies authentication and authorization for modern applications."
+    "oneLiner": "A comprehensive open-source identity and access management platform that simplifies secure authentication for modern applications."
   },
   {
     "id": 246464565,
@@ -3460,7 +3460,7 @@
     "topics": "android android-tv android-tv-box java rxjava-android retrofit2 kotlin",
     "language": "Java",
     "categorySlug": "",
-    "stars": 30826,
+    "stars": 30827,
     "licenseSpdx": "MIT",
     "oneLiner": ""
   },
@@ -3515,7 +3515,7 @@
     "topics": "bazel build test fast correct scalable multi-language build-system",
     "language": "Java",
     "categorySlug": "",
-    "stars": 25564,
+    "stars": 25563,
     "licenseSpdx": "Apache-2.0",
     "oneLiner": ""
   },
@@ -3537,7 +3537,7 @@
     "topics": "",
     "language": "Java",
     "categorySlug": "",
-    "stars": 9477,
+    "stars": 9476,
     "licenseSpdx": "MIT",
     "oneLiner": ""
   },
@@ -3548,7 +3548,7 @@
     "topics": "lucene solr search nosql java backend search-engine information-retrieval",
     "language": "Java",
     "categorySlug": "",
-    "stars": 1635,
+    "stars": 1634,
     "licenseSpdx": "Apache-2.0",
     "oneLiner": ""
   },
@@ -3559,7 +3559,7 @@
     "topics": "morphe morphe-patches",
     "language": "Java",
     "categorySlug": "",
-    "stars": 4149,
+    "stars": 4151,
     "licenseSpdx": "GPL-3.0",
     "oneLiner": ""
   },
@@ -3570,7 +3570,7 @@
     "topics": "java interview-preparation data-structures algorithms competitive-programming math leetcode-solutions leetcode leetcode-java google-interview faang-interview faang-preparation faang-questions",
     "language": "Java",
     "categorySlug": "",
-    "stars": 23022,
+    "stars": 23024,
     "licenseSpdx": "",
     "oneLiner": ""
   },
@@ -3581,7 +3581,7 @@
     "topics": "software-analysis disassembler reverse-engineering",
     "language": "Java",
     "categorySlug": "",
-    "stars": 70298,
+    "stars": 70300,
     "licenseSpdx": "Apache-2.0",
     "oneLiner": ""
   },
@@ -3592,7 +3592,7 @@
     "topics": "skywalking observability apm service-mesh dapper distributed-tracing web-performance metrics logging prometheus open-telemetry zabbix ebpf telegraf",
     "language": "Java",
     "categorySlug": "",
-    "stars": 24855,
+    "stars": 24854,
     "licenseSpdx": "Apache-2.0",
     "oneLiner": ""
   },
@@ -3603,9 +3603,9 @@
     "topics": "automation integrations java self-hosted typescript workflow ipaas low-code workflow-automation embedded-ipaas no-code zapier n8n workato llm ai-agents ai api mcp hacktoberfest",
     "language": "Java",
     "categorySlug": "ai-agents",
-    "stars": 883,
+    "stars": 887,
     "licenseSpdx": "NOASSERTION",
-    "oneLiner": "An open-source platform that merges AI agent orchestration with workflow automation in a low-code, enterprise-ready environment."
+    "oneLiner": "An open-source iPaaS that makes AI agents first-class citizens in workflow automation rather than bolting them on after the fact."
   },
   {
     "id": 326360794,
@@ -3636,7 +3636,7 @@
     "topics": "intellij intellij-platform ide code-editor intellij-community",
     "language": "Java",
     "categorySlug": "",
-    "stars": 20296,
+    "stars": 20295,
     "licenseSpdx": "NOASSERTION",
     "oneLiner": ""
   },
@@ -3658,7 +3658,7 @@
     "topics": "java azure-services azure-resources media azure azure-sdk hacktoberfest",
     "language": "Java",
     "categorySlug": "",
-    "stars": 2556,
+    "stars": 2557,
     "licenseSpdx": "MIT",
     "oneLiner": ""
   },
@@ -3691,7 +3691,7 @@
     "topics": "hadoop",
     "language": "Java",
     "categorySlug": "",
-    "stars": 15586,
+    "stars": 15585,
     "licenseSpdx": "Apache-2.0",
     "oneLiner": ""
   },
@@ -3702,7 +3702,7 @@
     "topics": "scala kafka java streaming",
     "language": "Java",
     "categorySlug": "",
-    "stars": 33028,
+    "stars": 33032,
     "licenseSpdx": "Apache-2.0",
     "oneLiner": ""
   },
@@ -3724,7 +3724,7 @@
     "topics": "minecraft minecraft-fabric utility-mod minecraft-mod fabricmc",
     "language": "Java",
     "categorySlug": "",
-    "stars": 3585,
+    "stars": 3584,
     "licenseSpdx": "GPL-3.0",
     "oneLiner": ""
   },
@@ -3735,7 +3735,7 @@
     "topics": "awesome design-patterns interview interview-practice interview-questions low-level-design machine-coding object-oriented-programming oops solid-principles uml lld",
     "language": "Java",
     "categorySlug": "",
-    "stars": 25083,
+    "stars": 25087,
     "licenseSpdx": "GPL-3.0",
     "oneLiner": ""
   },
@@ -3757,7 +3757,7 @@
     "topics": "agent agentic agentic-ai ai llm",
     "language": "Java",
     "categorySlug": "ai-agents",
-    "stars": 4169,
+    "stars": 4171,
     "licenseSpdx": "",
     "oneLiner": "A production-focused Java framework for building autonomous LLM agents with runtime control and built-in tools"
   },
@@ -3768,7 +3768,7 @@
     "topics": "owasp appsec security bom vulnerabilities component-analysis nvd software-security software-composition-analysis sca bill-of-materials package-url purl vulnerability-detection ossindex sbom devsecops security-automation cyclonedx hacktoberfest",
     "language": "Java",
     "categorySlug": "ai-applications",
-    "stars": 3975,
+    "stars": 3977,
     "licenseSpdx": "Apache-2.0",
     "oneLiner": "An intelligent SBOM-driven platform for continuous software supply chain risk analysis and vulnerability detection."
   },
@@ -3779,7 +3779,7 @@
     "topics": "selenium webdriver java ruby python javascript dotnet rust",
     "language": "Java",
     "categorySlug": "",
-    "stars": 34240,
+    "stars": 34238,
     "licenseSpdx": "Apache-2.0",
     "oneLiner": ""
   },
@@ -3790,7 +3790,7 @@
     "topics": "spring-cloud java spring microservices cloud-native spring-cloud-core alibaba-oss alibaba dubbo rocketmq nacos aliyun service-discovery service-registry distributed-configuration distributed-messaging distributed-transaction circuit-breaker alibaba-middleware spring-cloud-alibaba",
     "language": "Java",
     "categorySlug": "",
-    "stars": 29117,
+    "stars": 29115,
     "licenseSpdx": "Apache-2.0",
     "oneLiner": ""
   },
@@ -3801,7 +3801,7 @@
     "topics": "rocketmq cloud-native eventing java messaging streaming hacktoberfest",
     "language": "Java",
     "categorySlug": "",
-    "stars": 22485,
+    "stars": 22484,
     "licenseSpdx": "Apache-2.0",
     "oneLiner": ""
   },
@@ -3812,7 +3812,7 @@
     "topics": "algorithms data-structures data-structures-and-algorithms dsa leetcode algo algorithm data-structure book education programming",
     "language": "Java",
     "categorySlug": "",
-    "stars": 128031,
+    "stars": 128028,
     "licenseSpdx": "NOASSERTION",
     "oneLiner": ""
   },
@@ -3823,7 +3823,7 @@
     "topics": "data-integration high-performance offline real-time apache batch cdc change-data-capture data-ingestion elt streaming embeddings llm multimodal",
     "language": "Java",
     "categorySlug": "ai-applications",
-    "stars": 9448,
+    "stars": 9447,
     "licenseSpdx": "Apache-2.0",
     "oneLiner": "A high-performance, multimodal data integration tool with over 160 connectors and support for batch, streaming, and CDC."
   },
@@ -3833,10 +3833,10 @@
     "description": "The world's fastest open query engine for sub-second analytics both on and off the data lakehouse. With the flexibility to support nearly any scenario, StarRocks provides best-in-class performance for multi-dimensional analytics, real-time analytics, and ad-hoc queries. A Linux Foundation project.",
     "topics": "database olap sql analytics big-data realtime-database vectorized distributed-database real-time-analytics mpp join star-schema real-time-updates delta-lake hudi iceberg lakehouse datalake lakehouse-platform cloudnative",
     "language": "Java",
-    "categorySlug": "vector-databases",
-    "stars": 11837,
+    "categorySlug": "",
+    "stars": 11836,
     "licenseSpdx": "Apache-2.0",
-    "oneLiner": "The world's fastest open query engine for sub-second analytics on and off the data lakehouse."
+    "oneLiner": "A blazing-fast open-source OLAP database for sub-second analytics on data lakehouses."
   },
   {
     "id": 334274271,
@@ -3845,7 +3845,7 @@
     "topics": "search search-engine analytics java foss apache2",
     "language": "Java",
     "categorySlug": "vector-databases",
-    "stars": 13293,
+    "stars": 13294,
     "licenseSpdx": "Apache-2.0",
     "oneLiner": "An open-source, enterprise-grade search and observability engine for unstructured data at scale."
   },
@@ -3856,7 +3856,7 @@
     "topics": "java spring-boot spring framework",
     "language": "Java",
     "categorySlug": "",
-    "stars": 81050,
+    "stars": 81055,
     "licenseSpdx": "Apache-2.0",
     "oneLiner": "Spring Boot is the de facto standard for building production-grade Spring applications with minimal configuration."
   },
@@ -3878,7 +3878,7 @@
     "topics": "algorithms coding data-structures leetcode leetcode-patterns dsa",
     "language": "Java",
     "categorySlug": "",
-    "stars": 17105,
+    "stars": 17107,
     "licenseSpdx": "GPL-3.0",
     "oneLiner": ""
   },
@@ -3900,7 +3900,7 @@
     "topics": "elasticsearch java search-engine",
     "language": "Java",
     "categorySlug": "vector-databases",
-    "stars": 77195,
+    "stars": 77196,
     "licenseSpdx": "NOASSERTION",
     "oneLiner": "The industry-standard distributed search and analytics engine, now powering vector search and RAG for AI applications."
   },
@@ -3913,7 +3913,7 @@
     "categorySlug": "",
     "stars": 25521,
     "licenseSpdx": "MIT",
-    "oneLiner": "The leading open-source automation server for CI/CD with a vast plugin ecosystem."
+    "oneLiner": "The de facto open-source automation server for CI/CD with an unmatched plugin ecosystem."
   },
   {
     "id": 166515022,
@@ -3933,7 +3933,7 @@
     "topics": "",
     "language": "Java",
     "categorySlug": "",
-    "stars": 14039,
+    "stars": 14038,
     "licenseSpdx": "Apache-2.0",
     "oneLiner": ""
   },
@@ -3944,7 +3944,7 @@
     "topics": "material-3-expressive ytmusic android android-app download music music-client",
     "language": "Kotlin",
     "categorySlug": "",
-    "stars": 1242,
+    "stars": 1245,
     "licenseSpdx": "GPL-3.0",
     "oneLiner": ""
   },
@@ -3966,7 +3966,7 @@
     "topics": "",
     "language": "Kotlin",
     "categorySlug": "ai-applications",
-    "stars": 4797,
+    "stars": 4802,
     "licenseSpdx": "GPL-3.0",
     "oneLiner": "A Material Design 3 fork of Legado that modernizes the reading experience with Jetpack Compose and exclusive features."
   },
@@ -3977,7 +3977,7 @@
     "topics": "gaming mobile-gaming pc-gaming steam",
     "language": "Kotlin",
     "categorySlug": "ai-applications",
-    "stars": 8509,
+    "stars": 8510,
     "licenseSpdx": "GPL-3.0",
     "oneLiner": "Run your Steam, Epic, GOG, and Amazon PC games natively on Android with cloud saves and community-tuned compatibility."
   },
@@ -3988,7 +3988,7 @@
     "topics": "",
     "language": "Kotlin",
     "categorySlug": "",
-    "stars": 26947,
+    "stars": 26951,
     "licenseSpdx": "Apache-2.0",
     "oneLiner": ""
   },
@@ -3999,7 +3999,7 @@
     "topics": "android jetpack-compose youtube-dl material-design f-droid kotlin youtube-downloader yt-dlp",
     "language": "Kotlin",
     "categorySlug": "",
-    "stars": 27295,
+    "stars": 27299,
     "licenseSpdx": "GPL-3.0",
     "oneLiner": ""
   },
@@ -4021,7 +4021,7 @@
     "topics": "android api gateway sms sms-gateway sim simcard ttl encryption smsgate httpsms textbee",
     "language": "Kotlin",
     "categorySlug": "ai-applications",
-    "stars": 4973,
+    "stars": 4975,
     "licenseSpdx": "Apache-2.0",
     "oneLiner": "An open-source Android app that turns your smartphone into a programmable SMS gateway with local and cloud API access."
   },
@@ -4043,7 +4043,7 @@
     "topics": "android video-streaming media-center home-theater multimedia good-first-issue",
     "language": "Kotlin",
     "categorySlug": "",
-    "stars": 9965,
+    "stars": 9966,
     "licenseSpdx": "GPL-3.0",
     "oneLiner": ""
   },
@@ -4076,7 +4076,7 @@
     "topics": "android kotlin manga manga-downloader manga-reader mangadownloader mangareader tachiyomi tachiyomi-alternative",
     "language": "Kotlin",
     "categorySlug": "",
-    "stars": 21723,
+    "stars": 21726,
     "licenseSpdx": "Apache-2.0",
     "oneLiner": ""
   },
@@ -4087,7 +4087,7 @@
     "topics": "android-tv fire-tv jellyfin jellyfin-client",
     "language": "Kotlin",
     "categorySlug": "ai-applications",
-    "stars": 2446,
+    "stars": 2447,
     "licenseSpdx": "GPL-2.0",
     "oneLiner": "A feature-rich, customizable Android TV client for Jellyfin with a Plex-inspired interface."
   },
@@ -4098,7 +4098,7 @@
     "topics": "android proxy socks5 shadowsocks trojan v2ray v2fly xray vmess vless xtls vpn",
     "language": "Kotlin",
     "categorySlug": "",
-    "stars": 58858,
+    "stars": 58870,
     "licenseSpdx": "GPL-3.0",
     "oneLiner": ""
   },
@@ -4109,7 +4109,7 @@
     "topics": "",
     "language": "Kotlin",
     "categorySlug": "",
-    "stars": 1015,
+    "stars": 1016,
     "licenseSpdx": "AGPL-3.0",
     "oneLiner": ""
   },
@@ -4131,7 +4131,7 @@
     "topics": "anime compose kotlin android bangumi compose-multiplatform macos video windows bittorrent danmaku jetpack-compose kotlin-multiplatform ani bt player torrent ios linux",
     "language": "Kotlin",
     "categorySlug": "",
-    "stars": 18615,
+    "stars": 18617,
     "licenseSpdx": "AGPL-3.0",
     "oneLiner": ""
   },
@@ -4153,7 +4153,7 @@
     "topics": "",
     "language": "Kotlin",
     "categorySlug": "",
-    "stars": 61430,
+    "stars": 61433,
     "licenseSpdx": "GPL-3.0",
     "oneLiner": ""
   },
@@ -4164,7 +4164,7 @@
     "topics": "adfree music musicstreaming streaming streaming-audio youtubemusic kotlin kotlin-android youtubemusicalternative foss material-design material-ui material3 newpipe streaming-apps ytmusic saavn saavn-client youtube-music",
     "language": "Kotlin",
     "categorySlug": "",
-    "stars": 2080,
+    "stars": 2088,
     "licenseSpdx": "GPL-3.0",
     "oneLiner": ""
   },
@@ -4186,7 +4186,7 @@
     "topics": "android jetpack-compose shizuku installer package-manager",
     "language": "Kotlin",
     "categorySlug": "",
-    "stars": 881,
+    "stars": 886,
     "licenseSpdx": "GPL-3.0",
     "oneLiner": ""
   },
@@ -4197,7 +4197,7 @@
     "topics": "",
     "language": "Kotlin",
     "categorySlug": "",
-    "stars": 796,
+    "stars": 798,
     "licenseSpdx": "AGPL-3.0",
     "oneLiner": ""
   },
@@ -4230,7 +4230,7 @@
     "topics": "android kernel root su kernelsu",
     "language": "Kotlin",
     "categorySlug": "",
-    "stars": 17034,
+    "stars": 17036,
     "licenseSpdx": "GPL-3.0",
     "oneLiner": ""
   },
@@ -4263,7 +4263,7 @@
     "topics": "anime manga android",
     "language": "Kotlin",
     "categorySlug": "",
-    "stars": 7442,
+    "stars": 7443,
     "licenseSpdx": "Apache-2.0",
     "oneLiner": ""
   },
@@ -4274,7 +4274,7 @@
     "topics": "ssr v2ray shadowsocks fanqiang proxy goflyway daze brook lightsocks trojan psiphon",
     "language": "Kotlin",
     "categorySlug": "",
-    "stars": 48406,
+    "stars": 48410,
     "licenseSpdx": "",
     "oneLiner": ""
   },
@@ -4285,9 +4285,9 @@
     "topics": "civilization-v android libgdx civilization game civ 4x 4x-strategy-game strategy-game itch",
     "language": "Kotlin",
     "categorySlug": "",
-    "stars": 10905,
+    "stars": 10904,
     "licenseSpdx": "MPL-2.0",
-    "oneLiner": "A polished, open-source Civilization V remake that runs anywhere and is built for modding."
+    "oneLiner": "A community-driven, moddable, and lightweight open-source remake of Civilization V that runs on nearly any device."
   },
   {
     "id": 337594329,
@@ -4296,7 +4296,7 @@
     "topics": "sms dingding bark webhook smtp wechatapp serverchan telegram pushplus pushdear android api app call forward chatgpt mqtt",
     "language": "Kotlin",
     "categorySlug": "",
-    "stars": 26801,
+    "stars": 26805,
     "licenseSpdx": "BSD-2-Clause",
     "oneLiner": ""
   },
@@ -4307,7 +4307,7 @@
     "topics": "kotlin programming-language compiler gradle-plugin maven-plugin kotlin-library intellij-plugin wasm webassembly",
     "language": "Kotlin",
     "categorySlug": "",
-    "stars": 53017,
+    "stars": 53016,
     "licenseSpdx": "",
     "oneLiner": ""
   },
@@ -4329,7 +4329,7 @@
     "topics": "android jetpack-compose chatgpt deepseek llm-ui openrouter app gemini chatbox mcp chatbot-ui web-ui agent",
     "language": "Kotlin",
     "categorySlug": "ai-agents",
-    "stars": 5739,
+    "stars": 5740,
     "licenseSpdx": "NOASSERTION",
     "oneLiner": "RikkaHub is an Android APP that supports for multiple LLM providers."
   },
@@ -4339,10 +4339,10 @@
     "description": "Thunderbird for Android – Open Source Email App for Android (fka K-9 Mail)",
     "topics": "android email communication mozilla",
     "language": "Kotlin",
-    "categorySlug": "ai-applications",
+    "categorySlug": "",
     "stars": 13655,
     "licenseSpdx": "Apache-2.0",
-    "oneLiner": "The official Thunderbird email app for Android, combining privacy, open-source values, and active development."
+    "oneLiner": "A privacy-focused, open-source email app for Android with a legacy from K-9 Mail."
   },
   {
     "id": 1145278219,
@@ -4351,7 +4351,7 @@
     "topics": "ims pixel-ims volte vowifi 5g-plus carrierconfig i18n multilingual",
     "language": "Kotlin",
     "categorySlug": "",
-    "stars": 977,
+    "stars": 979,
     "licenseSpdx": "Apache-2.0",
     "oneLiner": ""
   },
@@ -4362,7 +4362,7 @@
     "topics": "",
     "language": "Kotlin",
     "categorySlug": "",
-    "stars": 324,
+    "stars": 326,
     "licenseSpdx": "GPL-3.0",
     "oneLiner": ""
   },
@@ -4373,7 +4373,7 @@
     "topics": "",
     "language": "Swift",
     "categorySlug": "ai-applications",
-    "stars": 9699,
+    "stars": 9702,
     "licenseSpdx": "AGPL-3.0",
     "oneLiner": "Run unlimited iOS apps without installation using a single containerized launcher"
   },
@@ -4384,7 +4384,7 @@
     "topics": "macos whisper parakeet dictation",
     "language": "Swift",
     "categorySlug": "",
-    "stars": 1436,
+    "stars": 1442,
     "licenseSpdx": "MIT",
     "oneLiner": ""
   },
@@ -4395,7 +4395,7 @@
     "topics": "macos apple code-edit swift swiftui ios open-source ide code-editor app appkit code editor mac xcode",
     "language": "Swift",
     "categorySlug": "",
-    "stars": 22931,
+    "stars": 22930,
     "licenseSpdx": "MIT",
     "oneLiner": ""
   },
@@ -4406,7 +4406,7 @@
     "topics": "linter linting swift static-analysis code-quality hacktoberfest",
     "language": "Swift",
     "categorySlug": "",
-    "stars": 19641,
+    "stars": 19640,
     "licenseSpdx": "MIT",
     "oneLiner": ""
   },
@@ -4417,7 +4417,7 @@
     "topics": "gecko ios web-browser",
     "language": "Swift",
     "categorySlug": "",
-    "stars": 898,
+    "stars": 899,
     "licenseSpdx": "GPL-3.0",
     "oneLiner": ""
   },
@@ -4439,7 +4439,7 @@
     "topics": "dynamicisland macbook macos hacktoberfest",
     "language": "Swift",
     "categorySlug": "",
-    "stars": 2549,
+    "stars": 2564,
     "licenseSpdx": "GPL-3.0",
     "oneLiner": ""
   },
@@ -4472,7 +4472,7 @@
     "topics": "macos swift cocoa mac-app macos-app editor texteditor coteditor",
     "language": "Swift",
     "categorySlug": "",
-    "stars": 8232,
+    "stars": 8230,
     "licenseSpdx": "NOASSERTION",
     "oneLiner": ""
   },
@@ -4483,7 +4483,7 @@
     "topics": "",
     "language": "Swift",
     "categorySlug": "",
-    "stars": 8765,
+    "stars": 8767,
     "licenseSpdx": "Apache-2.0",
     "oneLiner": ""
   },
@@ -4494,7 +4494,7 @@
     "topics": "macos swiftui wine game-porting-toolkit metal game mac",
     "language": "Swift",
     "categorySlug": "",
-    "stars": 15120,
+    "stars": 15119,
     "licenseSpdx": "GPL-3.0",
     "oneLiner": ""
   },
@@ -4516,7 +4516,7 @@
     "topics": "ai codex swift claude-code",
     "language": "Swift",
     "categorySlug": "",
-    "stars": 15550,
+    "stars": 15557,
     "licenseSpdx": "MIT",
     "oneLiner": ""
   },
@@ -4527,9 +4527,9 @@
     "topics": "llm swift apple-foundation-models apple-intelligence apple-neural-engine mlx mcp mcp-server anthropic openai",
     "language": "Swift",
     "categorySlug": "ai-agents",
-    "stars": 6470,
+    "stars": 6477,
     "licenseSpdx": "MIT",
-    "oneLiner": "A native macOS AI agent harness that puts your context, memory, tools, and identity fully under your control, running offline on Apple Silicon."
+    "oneLiner": "A native macOS Swift harness that lets you own your AI agent layer — memory, tools, identity, and execution — fully offline on your Mac."
   },
   {
     "id": 129699403,
@@ -4537,10 +4537,10 @@
     "description": "Your platform team, as a service",
     "topics": "xcode swift objective-c scalability productivity ios gradle",
     "language": "Swift",
-    "categorySlug": "ai-dev-tools",
-    "stars": 5723,
+    "categorySlug": "",
+    "stars": 5724,
     "licenseSpdx": "NOASSERTION",
-    "oneLiner": "A virtual platform team that simplifies and accelerates Xcode project development with caching, selective testing, and insights."
+    "oneLiner": "A virtual platform team for iOS developers that streamlines project management, build caching, and testing to enhance productivity and scalability."
   },
   {
     "id": 1116208194,
@@ -4571,7 +4571,7 @@
     "topics": "utm qemu jailbreak virtual-machines apple vm ios emulation macos",
     "language": "Swift",
     "categorySlug": "",
-    "stars": 34553,
+    "stars": 34555,
     "licenseSpdx": "Apache-2.0",
     "oneLiner": ""
   },
@@ -4582,7 +4582,7 @@
     "topics": "claude codex cursor subscription copilot",
     "language": "Swift",
     "categorySlug": "",
-    "stars": 3056,
+    "stars": 3058,
     "licenseSpdx": "MIT",
     "oneLiner": ""
   },
@@ -4593,7 +4593,7 @@
     "topics": "",
     "language": "Swift",
     "categorySlug": "",
-    "stars": 2024,
+    "stars": 2025,
     "licenseSpdx": "MIT",
     "oneLiner": ""
   },
@@ -4626,7 +4626,7 @@
     "topics": "macos monitor cpu gpu disk network temperature stats battery fans sensors bluetooth menubar clock",
     "language": "Swift",
     "categorySlug": "",
-    "stars": 40104,
+    "stars": 40103,
     "licenseSpdx": "MIT",
     "oneLiner": "A free, open-source macOS menu bar system monitor with extensive hardware and network stats."
   },
@@ -4637,7 +4637,7 @@
     "topics": "macos xcode clipboard-extension clipboard clipmenu swift",
     "language": "Swift",
     "categorySlug": "",
-    "stars": 8734,
+    "stars": 8733,
     "licenseSpdx": "MIT",
     "oneLiner": ""
   },
@@ -4648,7 +4648,7 @@
     "topics": "swift macos utilities",
     "language": "Swift",
     "categorySlug": "",
-    "stars": 14294,
+    "stars": 14293,
     "licenseSpdx": "MIT",
     "oneLiner": ""
   },
@@ -4659,7 +4659,7 @@
     "topics": "",
     "language": "Swift",
     "categorySlug": "",
-    "stars": 70123,
+    "stars": 70126,
     "licenseSpdx": "Apache-2.0",
     "oneLiner": ""
   },
@@ -4681,7 +4681,7 @@
     "topics": "automation macos tart virtualization virtualization-framework apple-silicon ci fair-source",
     "language": "Swift",
     "categorySlug": "",
-    "stars": 5983,
+    "stars": 5982,
     "licenseSpdx": "NOASSERTION",
     "oneLiner": ""
   },
@@ -4702,10 +4702,10 @@
     "description": "LLMs and VLMs with MLX Swift",
     "topics": "",
     "language": "Swift",
-    "categorySlug": "llm-frameworks",
+    "categorySlug": "model-serving",
     "stars": 702,
     "licenseSpdx": "MIT",
-    "oneLiner": "A Swift package for LLM and VLM applications using MLX Swift with fine-tuning support."
+    "oneLiner": "Apple's official Swift package for running LLMs and VLMs natively on Apple Silicon with MLX"
   },
   {
     "id": 261039251,
@@ -4714,7 +4714,7 @@
     "topics": "architecture composition modularity testability swiftui uikit",
     "language": "Swift",
     "categorySlug": "",
-    "stars": 14770,
+    "stars": 14771,
     "licenseSpdx": "MIT",
     "oneLiner": ""
   },
@@ -4758,7 +4758,7 @@
     "topics": "networking urlsession urlrequest httpurlresponse request response swift xcode certificate-pinning public-key-pinning parameter-encoding alamofire cocoapods carthage swift-package-manager",
     "language": "Swift",
     "categorySlug": "",
-    "stars": 42397,
+    "stars": 42395,
     "licenseSpdx": "MIT",
     "oneLiner": ""
   },
@@ -4780,7 +4780,7 @@
     "topics": "hysteria hysteria2 naive-proxy shadowsocks shadowtls sing-box trojan tuic vless vmess",
     "language": "Go",
     "categorySlug": "",
-    "stars": 9340,
+    "stars": 9339,
     "licenseSpdx": "GPL-3.0",
     "oneLiner": ""
   },
@@ -4791,7 +4791,7 @@
     "topics": "agents artificial-intelligence cybersecurity penetration-testing ai-penetration-testing ai-pentesting ai-security bug-bounty ctf-tools cybersecurity-tools ethical-hacking llm-security offensive-security pentesting-tools red-teaming security-automation security code-quality ai-hacking hacking",
     "language": "Python",
     "categorySlug": "ai-agents",
-    "stars": 27713,
+    "stars": 27873,
     "licenseSpdx": "Apache-2.0",
     "oneLiner": "Autonomous AI hackers that dynamically find and fix app vulnerabilities with validated proof-of-concepts."
   },
@@ -4802,7 +4802,7 @@
     "topics": "adk agent-development-kit agents coding-agent gemini generative-ai gemini-enterprise-agent-platform google-cloud",
     "language": "Python",
     "categorySlug": "ai-agents",
-    "stars": 3887,
+    "stars": 3985,
     "licenseSpdx": "Apache-2.0",
     "oneLiner": "A CLI and skill set that turns any coding assistant into an expert at building and deploying AI agents on Google Cloud."
   },
@@ -4813,7 +4813,7 @@
     "topics": "deep-learning artificial-intelligence machine-learning ai computer-vision nlp cnn rnn gan microsoft-for-beginners",
     "language": "Jupyter Notebook",
     "categorySlug": "",
-    "stars": 48974,
+    "stars": 49086,
     "licenseSpdx": "MIT",
     "oneLiner": ""
   },
@@ -4824,7 +4824,7 @@
     "topics": "ai brainstorming coding obra sdlc skills superpowers subagent-driven-development",
     "language": "Shell",
     "categorySlug": "",
-    "stars": 242146,
+    "stars": 242269,
     "licenseSpdx": "MIT",
     "oneLiner": ""
   },
@@ -4835,7 +4835,7 @@
     "topics": "ai-security bug-bounty bugcrowd claude-ai ethical-hacking hackerone penetration-testing recon vulnerability-scanner claude-code",
     "language": "Python",
     "categorySlug": "",
-    "stars": 3774,
+    "stars": 3778,
     "licenseSpdx": "MIT",
     "oneLiner": ""
   },
@@ -4846,7 +4846,7 @@
     "topics": "crawler crawling crawling-python playwright python scraping selectors stealth web-scraper web-scraping web-scraping-python webscraping xpath automation ai ai-scraping data data-extraction mcp mcp-server",
     "language": "Python",
     "categorySlug": "ai-dev-tools",
-    "stars": 67330,
+    "stars": 67356,
     "licenseSpdx": "BSD-3-Clause",
     "oneLiner": "An adaptive web scraping framework that combines stealth, AI parsing, and MCP server support for modern web data extraction."
   },
@@ -4857,7 +4857,7 @@
     "topics": "python code formatter codeformatter gofmt yapf autopep8 pre-commit-hook hacktoberfest",
     "language": "Python",
     "categorySlug": "",
-    "stars": 41646,
+    "stars": 41648,
     "licenseSpdx": "MIT",
     "oneLiner": ""
   },
@@ -4867,10 +4867,10 @@
     "description": "AI agent skills published by NVIDIA",
     "topics": "",
     "language": "Python",
-    "categorySlug": "ai-agents",
-    "stars": 2079,
+    "categorySlug": "ai-dev-tools",
+    "stars": 2085,
     "licenseSpdx": "NOASSERTION",
-    "oneLiner": "NVIDIA's verified, portable skill catalog that teaches AI agents how to optimally use NVIDIA software with governance and standardization."
+    "oneLiner": "Official NVIDIA-verified skill catalog that teaches AI coding agents how to optimally use NVIDIA software, following the open Agent Skills Specification."
   },
   {
     "id": 1159938129,
@@ -4879,7 +4879,7 @@
     "topics": "agent ai fimga pencil ui openpencil claude codex mcp opencode agent-team claude-code react vue vibecoding vibedesign flutter html react-native svelte",
     "language": "TypeScript",
     "categorySlug": "ai-applications",
-    "stars": 3733,
+    "stars": 3743,
     "licenseSpdx": "MIT",
     "oneLiner": "An open-source AI-native vector design tool that turns prompts into UI with concurrent agent teams."
   },
@@ -4901,7 +4901,7 @@
     "topics": "agents ai context-window framework llms memory orchestration prompt-engineering rag 12-factor 12-factor-agents",
     "language": "TypeScript",
     "categorySlug": "",
-    "stars": 23859,
+    "stars": 23874,
     "licenseSpdx": "NOASSERTION",
     "oneLiner": ""
   },
@@ -4912,7 +4912,7 @@
     "topics": "claude claude-api claude-code gui ui anthropic anthropic-ai anthropic-claude react claudecode mobile-first claude-code-ui",
     "language": "TypeScript",
     "categorySlug": "",
-    "stars": 12263,
+    "stars": 12265,
     "licenseSpdx": "AGPL-3.0",
     "oneLiner": ""
   },
@@ -4923,7 +4923,7 @@
     "topics": "gateway sms sms-gateway foss free open-source opensource",
     "language": "TypeScript",
     "categorySlug": "",
-    "stars": 2799,
+    "stars": 2803,
     "licenseSpdx": "MIT",
     "oneLiner": ""
   },
@@ -4945,7 +4945,7 @@
     "topics": "task-manager linux macos time-tracker to-do-list productivity todo flowmodoro pomodoro pomodoro-timer android ios local-first open-source privacy windows habit-tracker issue-tracker time-tracking flowtime",
     "language": "TypeScript",
     "categorySlug": "",
-    "stars": 20390,
+    "stars": 20392,
     "licenseSpdx": "MIT",
     "oneLiner": ""
   },
@@ -4956,7 +4956,7 @@
     "topics": "ai augmentation productivity humans",
     "language": "TypeScript",
     "categorySlug": "",
-    "stars": 16194,
+    "stars": 16195,
     "licenseSpdx": "MIT",
     "oneLiner": ""
   },
@@ -4967,7 +4967,7 @@
     "topics": "agents cloudflare skills workers",
     "language": "TypeScript",
     "categorySlug": "",
-    "stars": 2008,
+    "stars": 2010,
     "licenseSpdx": "Apache-2.0",
     "oneLiner": ""
   },
@@ -4978,9 +4978,9 @@
     "topics": "mcp-server puppeteer chrome-devtools browser chrome debugging devtools mcp",
     "language": "TypeScript",
     "categorySlug": "ai-dev-tools",
-    "stars": 44765,
+    "stars": 44772,
     "licenseSpdx": "Apache-2.0",
-    "oneLiner": "An MCP server that gives AI coding agents full Chrome DevTools control for debugging and automation."
+    "oneLiner": "Official Google MCP server that gives AI coding agents full Chrome DevTools superpowers for browser debugging and automation."
   },
   {
     "id": 1196946534,
@@ -4989,7 +4989,7 @@
     "topics": "",
     "language": "TypeScript",
     "categorySlug": "",
-    "stars": 2646,
+    "stars": 2658,
     "licenseSpdx": "MIT",
     "oneLiner": ""
   },
@@ -5000,7 +5000,7 @@
     "topics": "claude claude-code cursor workflow agent-orchestration ai-agents ai-coding ai-workflow claude-code-plugin claude-code-skills claude-skills codex context-engineering developer-tools gemini-cli hooks productivity self-correction worktrees",
     "language": "JavaScript",
     "categorySlug": "",
-    "stars": 2512,
+    "stars": 2515,
     "licenseSpdx": "",
     "oneLiner": ""
   },
@@ -5011,7 +5011,7 @@
     "topics": "",
     "language": "JavaScript",
     "categorySlug": "",
-    "stars": 914,
+    "stars": 917,
     "licenseSpdx": "MIT",
     "oneLiner": ""
   },
@@ -5022,7 +5022,7 @@
     "topics": "claude-code cursor ai-agents ai-gateway anthropic chatgpt claude cline codex copilot deepseek free-ai gemini gemini-cli llm llm-gateway openai openai-proxy qwen token-saver",
     "language": "JavaScript",
     "categorySlug": "llm-frameworks",
-    "stars": 18912,
+    "stars": 18967,
     "licenseSpdx": "MIT",
     "oneLiner": "A universal AI router that connects coding tools to 40+ providers with auto-fallback and token compression to save costs and avoid limits."
   },
@@ -5033,7 +5033,7 @@
     "topics": "json chinese poetry ci tangshi chinese-poetry",
     "language": "JavaScript",
     "categorySlug": "",
-    "stars": 52126,
+    "stars": 52128,
     "licenseSpdx": "MIT",
     "oneLiner": ""
   },
@@ -5044,7 +5044,7 @@
     "topics": "tradingview tradingview-api realtime-stocks stocks stocks-api stocks-prices trading tradingview-scraper tradingview-indicator bitcoin ethereum cryptocurrency backtesting backtesting-trading-strategies crypto charts tradingview-replay",
     "language": "JavaScript",
     "categorySlug": "",
-    "stars": 4103,
+    "stars": 4104,
     "licenseSpdx": "",
     "oneLiner": ""
   },
@@ -5055,7 +5055,7 @@
     "topics": "generative-ai gpt deep-learning langauge-model llm visualization",
     "language": "JavaScript",
     "categorySlug": "ai-dev-tools",
-    "stars": 8034,
+    "stars": 8040,
     "licenseSpdx": "MIT",
     "oneLiner": "An interactive browser-based tool that visualizes GPT-2's transformer internals in real time for educational purposes"
   },
@@ -5066,7 +5066,7 @@
     "topics": "anthropic architecture-diagram claude-skill dark-mode developer-tools diagram-as-code mermaid-alternative svg system-design html-diagram",
     "language": "JavaScript",
     "categorySlug": "",
-    "stars": 1605,
+    "stars": 1606,
     "licenseSpdx": "MIT",
     "oneLiner": ""
   },
@@ -5077,7 +5077,7 @@
     "topics": "agents ai-agents cad text-to-cad 3mf build123d dxf glb mechanical-engineering opencascade robotics step stl sdf srdf stp urdf",
     "language": "JavaScript",
     "categorySlug": "ai-agents",
-    "stars": 7313,
+    "stars": 7318,
     "licenseSpdx": "MIT",
     "oneLiner": "Agent skills that turn natural language into CAD models and robot descriptions for hardware design."
   },
@@ -5088,7 +5088,7 @@
     "topics": "ai course vibe-coding coding genai low-code no-code programming tutorial vibecoding vscode agent gemini gpt llm nextjs openai workflow mcp deepseek",
     "language": "JavaScript",
     "categorySlug": "",
-    "stars": 17561,
+    "stars": 17567,
     "licenseSpdx": "",
     "oneLiner": ""
   },
@@ -5099,7 +5099,7 @@
     "topics": "",
     "language": "JavaScript",
     "categorySlug": "",
-    "stars": 762,
+    "stars": 763,
     "licenseSpdx": "AGPL-3.0",
     "oneLiner": ""
   },
@@ -5110,7 +5110,7 @@
     "topics": "package-manager npm nodejs javascript tools npm-cli",
     "language": "JavaScript",
     "categorySlug": "",
-    "stars": 9897,
+    "stars": 9899,
     "licenseSpdx": "NOASSERTION",
     "oneLiner": "The essential package manager for JavaScript and Node.js, bundled with Node and used by millions."
   },
@@ -5132,7 +5132,7 @@
     "topics": "zsh-theme fish-theme zsh-prompt fish-prompt shell-prompt oh-my-zsh rust starship zsh powershell fish bash",
     "language": "Rust",
     "categorySlug": "",
-    "stars": 58580,
+    "stars": 58586,
     "licenseSpdx": "ISC",
     "oneLiner": ""
   },
@@ -5143,7 +5143,7 @@
     "topics": "llm skill localai gguf mlx unsloth",
     "language": "Rust",
     "categorySlug": "",
-    "stars": 28892,
+    "stars": 28899,
     "licenseSpdx": "MIT",
     "oneLiner": ""
   },
@@ -5154,7 +5154,7 @@
     "topics": "terminal-emulators rust terminal terminal-emulator serial-port serial",
     "language": "Rust",
     "categorySlug": "",
-    "stars": 27120,
+    "stars": 27131,
     "licenseSpdx": "NOASSERTION",
     "oneLiner": ""
   },
@@ -5164,10 +5164,10 @@
     "description": "Visualize, query, and stream to train on multimodal robotics data.",
     "topics": "visualization computer-vision python robotics rust multimodal cpp",
     "language": "Rust",
-    "categorySlug": "ai-dev-tools",
-    "stars": 11027,
+    "categorySlug": "multimodal",
+    "stars": 11026,
     "licenseSpdx": "Apache-2.0",
-    "oneLiner": "A Rust-powered data layer for physical AI that unifies logging, visualization, and training of multimodal robotics data."
+    "oneLiner": "A purpose-built data layer for physical AI that unifies multimodal robotics data logging, visualization, querying, and training streaming in one performant Rust platform."
   },
   {
     "id": 867192625,
@@ -5176,7 +5176,7 @@
     "topics": "agents docker linux macos sandbox virtualization vm security self-hosted rust windows nodejs typescript local microvm golang python",
     "language": "Rust",
     "categorySlug": "",
-    "stars": 6744,
+    "stars": 6746,
     "licenseSpdx": "Apache-2.0",
     "oneLiner": ""
   },
@@ -5187,7 +5187,7 @@
     "topics": "interpreter coding-agent deepseek kimi qwen rust tui",
     "language": "Rust",
     "categorySlug": "",
-    "stars": 64191,
+    "stars": 64197,
     "licenseSpdx": "Apache-2.0",
     "oneLiner": ""
   },
@@ -5198,7 +5198,7 @@
     "topics": "bigdata cloud-native filesystem object-storage rust s3 minio amazon-s3 objectstorage ai-native multi-cloud ai-storage",
     "language": "Rust",
     "categorySlug": "",
-    "stars": 29321,
+    "stars": 29324,
     "licenseSpdx": "Apache-2.0",
     "oneLiner": ""
   },
@@ -5209,7 +5209,7 @@
     "topics": "rust virtualdom react ui wasm web html css ssr ios android native desktop",
     "language": "Rust",
     "categorySlug": "ai-dev-tools",
-    "stars": 36587,
+    "stars": 36589,
     "licenseSpdx": "Apache-2.0",
     "oneLiner": "A Rust-based fullstack app framework for building web, desktop, and mobile apps with a React-like API and signals-based state management."
   },
@@ -5231,7 +5231,7 @@
     "topics": "command-line tool syntax-highlighting git terminal cli rust hacktoberfest",
     "language": "Rust",
     "categorySlug": "",
-    "stars": 59482,
+    "stars": 59486,
     "licenseSpdx": "Apache-2.0",
     "oneLiner": ""
   },
@@ -5253,7 +5253,7 @@
     "topics": "containerd oci containers docker cncf cri kubernetes hacktoberfest",
     "language": "Go",
     "categorySlug": "",
-    "stars": 20896,
+    "stars": 20902,
     "licenseSpdx": "Apache-2.0",
     "oneLiner": ""
   },
@@ -5264,7 +5264,7 @@
     "topics": "microservice docker marathon mesos consul etcd kubernetes load-balancer reverse-proxy zookeeper letsencrypt golang go traefik",
     "language": "Go",
     "categorySlug": "",
-    "stars": 63789,
+    "stars": 63795,
     "licenseSpdx": "MIT",
     "oneLiner": ""
   },
@@ -5275,7 +5275,7 @@
     "topics": "",
     "language": "Go",
     "categorySlug": "",
-    "stars": 35515,
+    "stars": 35519,
     "licenseSpdx": "NOASSERTION",
     "oneLiner": ""
   },
@@ -5297,7 +5297,7 @@
     "topics": "testify go assertions mocking golang testing toolkit",
     "language": "Go",
     "categorySlug": "",
-    "stars": 26047,
+    "stars": 26055,
     "licenseSpdx": "MIT",
     "oneLiner": ""
   },
@@ -5308,7 +5308,7 @@
     "topics": "http router context middleware api rest-api microservices golang go",
     "language": "Go",
     "categorySlug": "",
-    "stars": 22461,
+    "stars": 22463,
     "licenseSpdx": "MIT",
     "oneLiner": ""
   },
@@ -5319,7 +5319,7 @@
     "topics": "a2a agent ai llm mcp a2a-protocol ag-ui agent-framework ai-agents evaluation go golang graph-workflows model-context-protocol multi-agent observability opentelemetry rag",
     "language": "Go",
     "categorySlug": "ai-agents",
-    "stars": 1446,
+    "stars": 1450,
     "licenseSpdx": "Apache-2.0",
     "oneLiner": "A Go-native, production-ready framework for building observable, self-evolving AI agent systems with graph workflows and multi-protocol support."
   },
@@ -5330,7 +5330,7 @@
     "topics": "saml authentication authorization login oidc sso 2fa fido2 mfa oauth2 openid-connect identity passkeys user multitenancy scim fips-140-3",
     "language": "Go",
     "categorySlug": "",
-    "stars": 14237,
+    "stars": 14239,
     "licenseSpdx": "AGPL-3.0",
     "oneLiner": ""
   },
@@ -5341,7 +5341,7 @@
     "topics": "claude codex gemini",
     "language": "Go",
     "categorySlug": "",
-    "stars": 3776,
+    "stars": 3778,
     "licenseSpdx": "MIT",
     "oneLiner": ""
   },
@@ -5363,7 +5363,7 @@
     "topics": "kubernetes grpc istio gke skaffold sample-application google-cloud samples gcp kustomize terraform",
     "language": "Go",
     "categorySlug": "",
-    "stars": 20512,
+    "stars": 20513,
     "licenseSpdx": "Apache-2.0",
     "oneLiner": ""
   },
@@ -5385,7 +5385,7 @@
     "topics": "whatsapp whatsapp-api whatsapp-api-go golang golang-whatsapp golang-whatsapp-api whatsapp-web-multi-device bot go whatsapp-multi-device rest rest-api",
     "language": "Go",
     "categorySlug": "",
-    "stars": 4167,
+    "stars": 4169,
     "licenseSpdx": "MIT",
     "oneLiner": ""
   },
@@ -5418,7 +5418,7 @@
     "topics": "agentic-coding ai-tools cli llm markdown code-review ai-agents developer-tools",
     "language": "Go",
     "categorySlug": "ai-dev-tools",
-    "stars": 624,
+    "stars": 625,
     "licenseSpdx": "MIT",
     "oneLiner": "A local CLI tool that adds a structured review UI for any AI agent output, enabling human-in-the-loop feedback on plans, code, and web apps."
   },
@@ -5429,7 +5429,7 @@
     "topics": "docker docker-management self-hosted sveltekit typescript go compose docker-compose container-management containers web-ui",
     "language": "Go",
     "categorySlug": "ai-applications",
-    "stars": 5922,
+    "stars": 5944,
     "licenseSpdx": "BSD-3-Clause",
     "oneLiner": "A modern, open-source Docker management UI that combines simplicity with powerful container orchestration features."
   },
@@ -5440,7 +5440,7 @@
     "topics": "ascend inference llm llm-serving llmops mlops model-serving transformer vllm",
     "language": "C++",
     "categorySlug": "model-serving",
-    "stars": 2322,
+    "stars": 2321,
     "licenseSpdx": "Apache-2.0",
     "oneLiner": "A community-maintained plugin that brings vLLM's high-performance LLM serving to Huawei Ascend NPUs."
   },
@@ -5451,7 +5451,7 @@
     "topics": "testing test-framework tdd bdd no-dependencies framework cpp14 cpp",
     "language": "C++",
     "categorySlug": "",
-    "stars": 20462,
+    "stars": 20463,
     "licenseSpdx": "BSL-1.0",
     "oneLiner": ""
   },
@@ -5473,7 +5473,7 @@
     "topics": "",
     "language": "C++",
     "categorySlug": "",
-    "stars": 30441,
+    "stars": 30439,
     "licenseSpdx": "Apache-2.0",
     "oneLiner": ""
   },
@@ -5495,7 +5495,7 @@
     "topics": "",
     "language": "C++",
     "categorySlug": "",
-    "stars": 4606,
+    "stars": 4607,
     "licenseSpdx": "GPL-3.0",
     "oneLiner": ""
   },
@@ -5506,7 +5506,7 @@
     "topics": "c-plus-plus voxel voxel-engine game-engine lua minetest cpp17 luanti",
     "language": "C++",
     "categorySlug": "",
-    "stars": 13103,
+    "stars": 13106,
     "licenseSpdx": "NOASSERTION",
     "oneLiner": ""
   },
@@ -5539,7 +5539,7 @@
     "topics": "simulation game powder powder-toy cellular-automata sandbox",
     "language": "C++",
     "categorySlug": "",
-    "stars": 5172,
+    "stars": 5173,
     "licenseSpdx": "GPL-3.0",
     "oneLiner": ""
   },
@@ -5550,7 +5550,7 @@
     "topics": "",
     "language": "C++",
     "categorySlug": "",
-    "stars": 39189,
+    "stars": 39188,
     "licenseSpdx": "BSD-3-Clause",
     "oneLiner": ""
   },
@@ -5583,7 +5583,7 @@
     "topics": "",
     "language": "C++",
     "categorySlug": "",
-    "stars": 7896,
+    "stars": 7898,
     "licenseSpdx": "MIT",
     "oneLiner": ""
   },
@@ -5594,7 +5594,7 @@
     "topics": "protobuf protocol-buffers protocol-compiler protobuf-runtime protoc serialization marshalling rpc",
     "language": "C++",
     "categorySlug": "",
-    "stars": 71435,
+    "stars": 71436,
     "licenseSpdx": "NOASSERTION",
     "oneLiner": ""
   },
@@ -5671,7 +5671,7 @@
     "topics": "",
     "language": "C++",
     "categorySlug": "",
-    "stars": 38751,
+    "stars": 38752,
     "licenseSpdx": "BSD-3-Clause",
     "oneLiner": ""
   },
@@ -5682,7 +5682,7 @@
     "topics": "guava java",
     "language": "Java",
     "categorySlug": "",
-    "stars": 51501,
+    "stars": 51500,
     "licenseSpdx": "Apache-2.0",
     "oneLiner": ""
   },
@@ -5693,7 +5693,7 @@
     "topics": "agent ai rag llm springai agentic-rag mcp",
     "language": "Java",
     "categorySlug": "",
-    "stars": 2946,
+    "stars": 2947,
     "licenseSpdx": "Apache-2.0",
     "oneLiner": ""
   },
@@ -5704,7 +5704,7 @@
     "topics": "material-design package-manager android apks adb",
     "language": "Java",
     "categorySlug": "",
-    "stars": 8392,
+    "stars": 8393,
     "licenseSpdx": "NOASSERTION",
     "oneLiner": ""
   },
@@ -5759,7 +5759,7 @@
     "topics": "mapstruct pgvector postgresql redis redisson redisstreams rustfs springai springboot gradle itext7 tika rag springboot4",
     "language": "Java",
     "categorySlug": "",
-    "stars": 2580,
+    "stars": 2581,
     "licenseSpdx": "AGPL-3.0",
     "oneLiner": ""
   },
@@ -5770,7 +5770,7 @@
     "topics": "workflow-schedule azkaban airflow task-scheduler job-scheduler cloud-native data-pipelines orchestration workflow workflow-orchestration powerful-data-pipelines",
     "language": "Java",
     "categorySlug": "",
-    "stars": 14342,
+    "stars": 14341,
     "licenseSpdx": "Apache-2.0",
     "oneLiner": ""
   },
@@ -5792,7 +5792,7 @@
     "topics": "orchestration data-orchestration high-availability infrastructure-as-code automation devops java low-code pipeline pipeline-as-code workflow hacktoberfest ai-agents control-plane data-engineering data-orchestrator etl infra-automation infra-ops scheduler",
     "language": "Java",
     "categorySlug": "",
-    "stars": 27169,
+    "stars": 27171,
     "licenseSpdx": "Apache-2.0",
     "oneLiner": ""
   },
@@ -5825,7 +5825,7 @@
     "topics": "javafx minecraft-launcher minecraft",
     "language": "Java",
     "categorySlug": "",
-    "stars": 9502,
+    "stars": 9501,
     "licenseSpdx": "GPL-3.0",
     "oneLiner": ""
   },
@@ -5836,7 +5836,7 @@
     "topics": "java jvm springboot mysql redis",
     "language": "Java",
     "categorySlug": "",
-    "stars": 17088,
+    "stars": 17089,
     "licenseSpdx": "",
     "oneLiner": ""
   },
@@ -5847,7 +5847,7 @@
     "topics": "",
     "language": "Java",
     "categorySlug": "",
-    "stars": 24221,
+    "stars": 24220,
     "licenseSpdx": "Apache-2.0",
     "oneLiner": ""
   },
@@ -5858,7 +5858,7 @@
     "topics": "java android microg google-cloud-messaging maps auth geolocation google cloud-messaging push-notifications kotlin kotlin-android firebase mobile",
     "language": "Java",
     "categorySlug": "",
-    "stars": 13757,
+    "stars": 13759,
     "licenseSpdx": "Apache-2.0",
     "oneLiner": ""
   },
@@ -5902,7 +5902,7 @@
     "topics": "java cloud-bigquery cloud-storage cloud-datastore google-cloud artisanal gcp",
     "language": "Java",
     "categorySlug": "",
-    "stars": 2071,
+    "stars": 2070,
     "licenseSpdx": "Apache-2.0",
     "oneLiner": ""
   },
@@ -5913,7 +5913,7 @@
     "topics": "collaborate",
     "language": "Kotlin",
     "categorySlug": "",
-    "stars": 1359,
+    "stars": 1362,
     "licenseSpdx": "GPL-3.0",
     "oneLiner": ""
   },
@@ -5924,7 +5924,7 @@
     "topics": "android inline-hook root kernel patch magisk magisk-module",
     "language": "Kotlin",
     "categorySlug": "",
-    "stars": 7610,
+    "stars": 7613,
     "licenseSpdx": "GPL-3.0",
     "oneLiner": ""
   },
@@ -5946,7 +5946,7 @@
     "topics": "rime jni opencc ime chinese android",
     "language": "Kotlin",
     "categorySlug": "",
-    "stars": 4442,
+    "stars": 4443,
     "licenseSpdx": "GPL-3.0",
     "oneLiner": ""
   },
@@ -5957,7 +5957,7 @@
     "topics": "",
     "language": "Kotlin",
     "categorySlug": "",
-    "stars": 3701,
+    "stars": 3702,
     "licenseSpdx": "",
     "oneLiner": ""
   },
@@ -5990,7 +5990,7 @@
     "topics": "compose compose-multiplatform download download-manager downloader downloadmanager kotlin linux windows chrome desktop desktop-app firefox compose-desktop kotlin-multiplatform",
     "language": "Kotlin",
     "categorySlug": "",
-    "stars": 16441,
+    "stars": 16440,
     "licenseSpdx": "Apache-2.0",
     "oneLiner": ""
   },
@@ -6012,7 +6012,7 @@
     "topics": "",
     "language": "Kotlin",
     "categorySlug": "",
-    "stars": 23950,
+    "stars": 23949,
     "licenseSpdx": "Apache-2.0",
     "oneLiner": ""
   },
@@ -6023,7 +6023,7 @@
     "topics": "android dhizuku installer root shizuku apk apks miuix md3",
     "language": "Kotlin",
     "categorySlug": "",
-    "stars": 5365,
+    "stars": 5367,
     "licenseSpdx": "GPL-3.0",
     "oneLiner": ""
   },
@@ -6045,7 +6045,7 @@
     "topics": "",
     "language": "Kotlin",
     "categorySlug": "",
-    "stars": 270,
+    "stars": 271,
     "licenseSpdx": "GPL-3.0",
     "oneLiner": ""
   },
@@ -6056,7 +6056,7 @@
     "topics": "android downloader youtube yt-dlp audio video mp3 material-design kotlin youtube-dl youtube-downloader yt-dlp-gui",
     "language": "Kotlin",
     "categorySlug": "ai-applications",
-    "stars": 9087,
+    "stars": 9088,
     "licenseSpdx": "GPL-3.0",
     "oneLiner": "A polished, open-source Android downloader powered by yt-dlp with a clean Material Design interface."
   },
@@ -6067,7 +6067,7 @@
     "topics": "android-app firewall android-firewall dns-over-https internet-freedom anti-surveillance anti-censorship censorship-circumvention censorship-resistance android-application open-source privacy-enhancing-technologies dnscrypt dns android wireguard",
     "language": "Kotlin",
     "categorySlug": "",
-    "stars": 5065,
+    "stars": 5067,
     "licenseSpdx": "Apache-2.0",
     "oneLiner": ""
   },
@@ -6078,7 +6078,7 @@
     "topics": "objective-c keyboard swift iqkeyboardmanager xcode",
     "language": "Swift",
     "categorySlug": "",
-    "stars": 16625,
+    "stars": 16624,
     "licenseSpdx": "MIT",
     "oneLiner": ""
   },
@@ -6089,7 +6089,7 @@
     "topics": "macos software mac mac-osx awesome macosx awesome-list list apple awesome-lists awesome-mac desktop-app desktop-application desktop-apps macos-app app application apps macos-apps",
     "language": "Swift",
     "categorySlug": "",
-    "stars": 106512,
+    "stars": 106516,
     "licenseSpdx": "CC0-1.0",
     "oneLiner": ""
   },
@@ -6111,7 +6111,7 @@
     "topics": "animation bodymovin ios-animation ios transition-animation keyframes ios-transition custom-transitions swift",
     "language": "Swift",
     "categorySlug": "",
-    "stars": 26779,
+    "stars": 26778,
     "licenseSpdx": "Apache-2.0",
     "oneLiner": ""
   },
@@ -6122,7 +6122,7 @@
     "topics": "animation custom-transitions swift ios ios-animation ios-transition material-design transition-animation animations ios-swift ios-lib hero xcode ios-framework carthage swiftpm layout",
     "language": "Swift",
     "categorySlug": "",
-    "stars": 22463,
+    "stars": 22462,
     "licenseSpdx": "MIT",
     "oneLiner": ""
   },
@@ -6166,7 +6166,7 @@
     "topics": "ios ipad ipados mosh shell swift terminal vscode scp sftp-client mobile",
     "language": "Swift",
     "categorySlug": "",
-    "stars": 6808,
+    "stars": 6807,
     "licenseSpdx": "GPL-3.0",
     "oneLiner": ""
   },
@@ -6177,7 +6177,7 @@
     "topics": "swift reactivex reactive ios unidirectional observer functional rxswift",
     "language": "Swift",
     "categorySlug": "",
-    "stars": 24647,
+    "stars": 24646,
     "licenseSpdx": "MIT",
     "oneLiner": ""
   },
@@ -6188,7 +6188,7 @@
     "topics": "gemini lmstudio ollama productivity productivity-tools swift time timeline ai chatgpt claude llm",
     "language": "Swift",
     "categorySlug": "",
-    "stars": 6280,
+    "stars": 6282,
     "licenseSpdx": "MIT",
     "oneLiner": ""
   },
@@ -6199,7 +6199,7 @@
     "topics": "capture recording-app screenshot screenshot-capture cleanshot-alternative swiftui",
     "language": "Swift",
     "categorySlug": "",
-    "stars": 1831,
+    "stars": 1841,
     "licenseSpdx": "BSD-3-Clause",
     "oneLiner": ""
   },
@@ -6210,7 +6210,7 @@
     "topics": "swift kingfisher image cache filters image-processor xcode ios macos",
     "language": "Swift",
     "categorySlug": "",
-    "stars": 24354,
+    "stars": 24352,
     "licenseSpdx": "MIT",
     "oneLiner": ""
   },
@@ -6221,8 +6221,30 @@
     "topics": "swift xcode generator xcodeproject specification yaml xcodeproj cli ci",
     "language": "Swift",
     "categorySlug": "",
-    "stars": 8559,
+    "stars": 8558,
     "licenseSpdx": "MIT",
     "oneLiner": ""
+  },
+  {
+    "id": 1225753223,
+    "fullName": "CoreBunch/Instatic",
+    "description": "Instatic is a modern self-hosted visual CMS - get it running in 1 minute",
+    "topics": "cms css css-framework page-builder static website",
+    "language": "TypeScript",
+    "categorySlug": "",
+    "stars": 1361,
+    "licenseSpdx": "MIT",
+    "oneLiner": "A self-hosted visual CMS that combines editing and static site generation in one server, delivering clean HTML without framework overhead."
+  },
+  {
+    "id": 569959091,
+    "fullName": "modelscope/FunASR",
+    "description": "Industrial-grade speech recognition toolkit: 170x realtime, 50+ languages, speaker diarization, emotion detection, streaming, and OpenAI-compatible API.",
+    "topics": "pytorch speech-recognition paraformer punctuation speaker-diarization voice-activity-detection asr multilingual-asr speech-to-text transcription whisper-alternative audio chinese emotion-recognition mcp-server openai-compatible-api streaming-asr vllm funasr real-time-asr",
+    "language": "Python",
+    "categorySlug": "multimodal",
+    "stars": 18743,
+    "licenseSpdx": "MIT",
+    "oneLiner": "An exceptionally fast, industrial-strength speech recognition toolkit with emotion detection and OpenAI-compatible API, outperforming Whisper in speed."
   }
 ]
