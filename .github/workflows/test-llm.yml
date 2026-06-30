@@ -1,0 +1,23 @@
+name: Test LLM Connectivity
+
+on:
+  workflow_dispatch:
+
+jobs:
+  test-llm:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Run LLM connectivity test
+        run: npx tsx scripts/test-llm-connectivity.ts
+        env:
+          LLM_API_KEY: ${{ secrets.LLM_API_KEY }}
+          LLM_BASE_URL: ${{ secrets.LLM_BASE_URL }}
+          LLM_MODEL: ${{ secrets.LLM_MODEL }}
