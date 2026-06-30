@@ -45,7 +45,8 @@ async function testConnectivity() {
       console.log(`响应体: ${text.slice(0, 500)}`);
       console.log("结果: FAIL (HTTP 错误)");
     } else {
-      const json = await res.json();
+      // biome-ignore lint/suspicious/noExplicitAny: test script
+      const json = (await res.json()) as any;
       const content = json.choices?.[0]?.message?.content ?? "(无内容)";
       console.log(`响应: ${content}`);
       console.log(`usage: ${JSON.stringify(json.usage)}`);
@@ -79,7 +80,11 @@ async function testConnectivity() {
         temperature: 0.2,
         max_tokens: 1024,
         messages: [
-          { role: "system", content: "You are a helpful assistant. Respond with a short JSON object: {\"status\": \"ok\", \"echo\": \"...first 20 chars of input...\"}" },
+          {
+            role: "system",
+            content:
+              'You are a helpful assistant. Respond with a short JSON object: {"status": "ok", "echo": "...first 20 chars of input..."}',
+          },
           { role: "user", content: `Analyze this: ${padding}` },
         ],
       }),
@@ -95,7 +100,8 @@ async function testConnectivity() {
       console.log(`响应体: ${text.slice(0, 500)}`);
       console.log("结果: FAIL (HTTP 错误)");
     } else {
-      const json = await res.json();
+      // biome-ignore lint/suspicious/noExplicitAny: test script
+      const json = (await res.json()) as any;
       const content = json.choices?.[0]?.message?.content ?? "(无内容)";
       console.log(`响应: ${content.slice(0, 200)}`);
       console.log(`usage: ${JSON.stringify(json.usage)}`);
@@ -211,7 +217,8 @@ Please analyze this repository and respond with the JSON evaluation.`;
       console.log(`响应体: ${text.slice(0, 500)}`);
       console.log("结果: FAIL (HTTP 错误)");
     } else {
-      const json = await res.json();
+      // biome-ignore lint/suspicious/noExplicitAny: test script
+      const json = (await res.json()) as any;
       const content = json.choices?.[0]?.message?.content ?? "(无内容)";
       console.log(`响应 (前 300 字符): ${content.slice(0, 300)}`);
       console.log(`usage: ${JSON.stringify(json.usage)}`);
@@ -242,7 +249,7 @@ Please analyze this repository and respond with the JSON evaluation.`;
     });
 
     const response = await client.chat.completions.create({
-      model: MODEL!,
+      model: MODEL as string,
       temperature: 0.2,
       max_tokens: 1024,
       messages: [

@@ -1,18 +1,31 @@
 // scripts/analysis/llm-client.ts
-// 通用 LLM 客户端（OpenAI 兼容协议，重试逻辑）
+// 通用 LLM 客户端（OpenAI 兼容协议，原生 fetch + 重试逻辑）
+// 使用原生 fetch 替代 openai SDK，解决与 DeepSeek API 的兼容性问题
 
-import OpenAI from "openai";
 import type { LLMConfig } from "../lib/config";
 
-function classifyError(err: unknown): {
+interface ChatCompletionResponse {
+  choices: Array<{
+    message: { content: string | null };
+  }>;
+  usage?: {
+    prompt_tokens: number;
+    completion_tokens: number;
+    total_tokens: number;
+  };
+}
+
+function classifyError(
+  err: unknown,
+  httpStatus?: number,
+): {
   type: "rate_limit" | "server" | "network" | "timeout" | "unknown";
   status: number;
   detail: string;
 } {
   const status =
-    err instanceof Error && "status" in err
-      ? (err as unknown as { status: number }).status
-      : 0;
+    httpStatus ??
+    (err instanceof Error && "status" in err ? (err as unknown as { status: number }).status : 0);
 
   if (status === 429) {
     return { type: "rate_limit", status, detail: "rate limited by API" };
@@ -23,12 +36,14 @@ function classifyError(err: unknown): {
 
   const message = err instanceof Error ? err.message : String(err);
 
-  if (/ETIMEDOUT|timeout/i.test(message)) {
+  if (/ETIMEDOUT|timeout|abort/i.test(message)) {
     return { type: "timeout", status, detail: message };
   }
   if (
     err instanceof TypeError ||
-    /premature close|ECONNRESET|ECONNREFUSED|fetch failed|socket hang up|UND_ERR_SOCKET/i.test(message)
+    /premature close|ECONNRESET|ECONNREFUSED|fetch failed|socket hang up|UND_ERR_SOCKET/i.test(
+      message,
+    )
   ) {
     return { type: "network", status, detail: message };
   }
@@ -37,12 +52,7 @@ function classifyError(err: unknown): {
 }
 
 export function createLLMClient(config: LLMConfig) {
-  const client = new OpenAI({
-    apiKey: config.apiKey,
-    baseURL: config.baseURL,
-    timeout: 120_000,
-    maxRetries: 0,
-  });
+  const endpoint = `${config.baseURL.replace(/\/+$/, "")}/chat/completions`;
 
   return {
     async analyze(systemPrompt: string, userPrompt: string): Promise<string> {
@@ -51,24 +61,44 @@ export function createLLMClient(config: LLMConfig) {
 
       for (let attempt = 1; attempt <= maxRetries; attempt++) {
         const startTime = Date.now();
+        let httpStatus: number | undefined;
         try {
-          const response = await client.chat.completions.create({
-            model: config.model,
-            temperature: 0.2,
-            max_tokens: 1024,
-            messages: [
-              { role: "system", content: systemPrompt },
-              { role: "user", content: userPrompt },
-            ],
+          const res = await fetch(endpoint, {
+            method: "POST",
+            headers: {
+              "Content-Type": "application/json",
+              Authorization: `Bearer ${config.apiKey}`,
+            },
+            body: JSON.stringify({
+              model: config.model,
+              temperature: 0.2,
+              max_tokens: 1024,
+              messages: [
+                { role: "system", content: systemPrompt },
+                { role: "user", content: userPrompt },
+              ],
+            }),
+            signal: AbortSignal.timeout(120_000),
           });
+
+          httpStatus = res.status;
+
+          if (!res.ok) {
+            const body = await res.text().catch(() => "(unreadable)");
+            throw new Error(`HTTP ${res.status}: ${body.slice(0, 300)}`);
+          }
+
+          const json = (await res.json()) as ChatCompletionResponse;
+          const content = json.choices?.[0]?.message?.content ?? "";
+
           const elapsed = Date.now() - startTime;
           if (attempt > 1) {
             console.log(`  LLM API succeeded on attempt ${attempt} (${elapsed}ms)`);
           }
-          return response.choices[0]?.message?.content ?? "";
+          return content;
         } catch (err: unknown) {
           const elapsed = Date.now() - startTime;
-          const { type, status, detail } = classifyError(err);
+          const { type, status, detail } = classifyError(err, httpStatus);
 
           console.warn(
             `  LLM API attempt ${attempt}/${maxRetries} failed [type=${type}, status=${status}, elapsed=${elapsed}ms, inputChars=${inputChars}]: ${detail}`,
@@ -79,7 +109,6 @@ export function createLLMClient(config: LLMConfig) {
           const isRetryable = type !== "unknown";
           if (!isRetryable) throw err;
 
-          // 网络/超时错误使用更长的退避
           const baseDelay = type === "rate_limit" ? 5000 : 3000;
           const delay = 2 ** attempt * baseDelay + Math.floor(Math.random() * 1000);
           console.warn(`  Retrying in ${delay}ms...`);
