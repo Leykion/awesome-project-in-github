@@ -7,6 +7,7 @@ import type { LLMConfig } from "../lib/config";
 interface ChatCompletionResponse {
   choices: Array<{
     message: { content: string | null };
+    finish_reason?: string;
   }>;
   usage?: {
     prompt_tokens: number;
@@ -72,7 +73,7 @@ export function createLLMClient(config: LLMConfig) {
             body: JSON.stringify({
               model: config.model,
               temperature: 0.2,
-              max_tokens: 1024,
+              max_tokens: 4096,
               messages: [
                 { role: "system", content: systemPrompt },
                 { role: "user", content: userPrompt },
@@ -90,6 +91,13 @@ export function createLLMClient(config: LLMConfig) {
 
           const json = (await res.json()) as ChatCompletionResponse;
           const content = json.choices?.[0]?.message?.content ?? "";
+          const finishReason = json.choices?.[0]?.finish_reason;
+
+          if (finishReason === "length") {
+            throw new Error(
+              `LLM output truncated (finish_reason=length, tokens=${json.usage?.completion_tokens ?? "?"})`,
+            );
+          }
 
           const elapsed = Date.now() - startTime;
           if (attempt > 1) {
