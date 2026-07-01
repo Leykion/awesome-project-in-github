@@ -74,5 +74,81 @@
     "createdAt": "2026-06-30T05:13:24.628Z",
     "updatedAt": "2026-06-30T05:13:24.628Z",
     "publishedAt": "2026-06-30T05:13:24.628Z"
+  },
+  {
+    "id": 2,
+    "title": "2026-07-01 本周上升最快 Top 10",
+    "slug": "weekly-rising-2026-07-01",
+    "description": "2026-07-01 周度最具增长势头的 AI 开源项目精选",
+    "coverEmoji": "🚀",
+    "collectionType": "weekly_digest",
+    "isPublished": true,
+    "isPinned": false,
+    "sortOrder": 0,
+    "repos": [
+      {
+        "repoId": 888092115,
+        "fullName": "microsoft/markitdown",
+        "editorialNote": "周星标增长 +27786",
+        "sortOrder": 1
+      },
+      {
+        "repoId": 1031912724,
+        "fullName": "farion1231/cc-switch",
+        "editorialNote": "周星标增长 +25262",
+        "sortOrder": 2
+      },
+      {
+        "repoId": 1162099055,
+        "fullName": "Leonxlnx/taste-skill",
+        "editorialNote": "周星标增长 +24412",
+        "sortOrder": 3
+      },
+      {
+        "repoId": 1182081931,
+        "fullName": "Egonex-AI/Understand-Anything",
+        "editorialNote": "周星标增长 +23129",
+        "sortOrder": 4
+      },
+      {
+        "repoId": 770153867,
+        "fullName": "harry0703/MoneyPrinterTurbo",
+        "editorialNote": "周星标增长 +21864",
+        "sortOrder": 5
+      },
+      {
+        "repoId": 1137078255,
+        "fullName": "colbymchenry/codegraph",
+        "editorialNote": "周星标增长 +21519",
+        "sortOrder": 6
+      },
+      {
+        "repoId": 1140843380,
+        "fullName": "mvanhorn/last30days-skill",
+        "editorialNote": "周星标增长 +21268",
+        "sortOrder": 7
+      },
+      {
+        "repoId": 993475914,
+        "fullName": "apple/container",
+        "editorialNote": "周星标增长 +18624",
+        "sortOrder": 8
+      },
+      {
+        "repoId": 787076358,
+        "fullName": "firecrawl/firecrawl",
+        "editorialNote": "周星标增长 +15851",
+        "sortOrder": 9
+      },
+      {
+        "repoId": 1195360525,
+        "fullName": "calesthio/OpenMontage",
+        "editorialNote": "周星标增长 +15353",
+        "sortOrder": 10
+      }
+    ],
+    "createdAt": "2026-07-01T04:58:58.991Z",
+    "updatedAt": "2026-07-01T04:58:58.991Z",
+    "publishedAt": "2026-07-01T04:58:58.991Z"
   }
 ]
