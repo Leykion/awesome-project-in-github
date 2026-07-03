@@ -1,399 +1,399 @@
 [
   {
-    "repoId": 33794,
+    "repoId": 33823,
     "fullName": "usestrix/strix",
     "snapshotDate": "2026-07-03",
     "rank": 1,
-    "starsTotal": 33794,
+    "starsTotal": 33823,
     "starsGained": 2804,
-    "forksTotal": 3491,
+    "forksTotal": 3492,
     "forksGained": null,
     "language": null,
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
-    "repoId": 22962,
+    "repoId": 22972,
     "fullName": "openai/codex-plugin-cc",
     "snapshotDate": "2026-07-03",
     "rank": 2,
-    "starsTotal": 22962,
+    "starsTotal": 22972,
     "starsGained": 629,
     "forksTotal": 1394,
     "forksGained": null,
     "language": null,
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
-    "repoId": 82488,
+    "repoId": 82503,
     "fullName": "JuliusBrussee/caveman",
     "snapshotDate": "2026-07-03",
     "rank": 3,
-    "starsTotal": 82488,
+    "starsTotal": 82503,
     "starsGained": 2851,
     "forksTotal": 4600,
     "forksGained": null,
     "language": null,
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
-    "repoId": 77247,
+    "repoId": 77251,
     "fullName": "elastic/elasticsearch",
     "snapshotDate": "2026-07-03",
     "rank": 4,
-    "starsTotal": 77247,
+    "starsTotal": 77251,
     "starsGained": 77,
     "forksTotal": 25922,
     "forksGained": null,
     "language": null,
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
-    "repoId": 8229,
+    "repoId": 8231,
     "fullName": "actions/checkout",
     "snapshotDate": "2026-07-03",
     "rank": 5,
-    "starsTotal": 8229,
+    "starsTotal": 8231,
     "starsGained": 129,
     "forksTotal": 2530,
     "forksGained": null,
     "language": null,
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
-    "repoId": 45356,
+    "repoId": 45361,
     "fullName": "ChromeDevTools/chrome-devtools-mcp",
     "snapshotDate": "2026-07-03",
     "rank": 6,
-    "starsTotal": 45356,
+    "starsTotal": 45361,
     "starsGained": 404,
-    "forksTotal": 2947,
+    "forksTotal": 2946,
     "forksGained": null,
     "language": null,
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
-    "repoId": 69108,
+    "repoId": 69110,
     "fullName": "ansible/ansible",
     "snapshotDate": "2026-07-03",
     "rank": 7,
-    "starsTotal": 69108,
+    "starsTotal": 69110,
     "starsGained": 50,
     "forksTotal": 24101,
     "forksGained": null,
     "language": null,
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
-    "repoId": 4182,
+    "repoId": 4197,
     "fullName": "facebook/astryx",
     "snapshotDate": "2026-07-03",
     "rank": 8,
-    "starsTotal": 4182,
+    "starsTotal": 4197,
     "starsGained": 1108,
-    "forksTotal": 240,
+    "forksTotal": 242,
     "forksGained": null,
     "language": null,
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
-    "repoId": 9608,
+    "repoId": 9615,
     "fullName": "rommapp/romm",
     "snapshotDate": "2026-07-03",
     "rank": 9,
-    "starsTotal": 9608,
+    "starsTotal": 9615,
     "starsGained": 236,
     "forksTotal": 466,
     "forksGained": null,
     "language": null,
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
-    "repoId": 25992,
+    "repoId": 25995,
     "fullName": "harvard-edge/cs249r_book",
     "snapshotDate": "2026-07-03",
     "rank": 10,
-    "starsTotal": 25992,
+    "starsTotal": 25995,
     "starsGained": 792,
     "forksTotal": 3108,
     "forksGained": null,
     "language": null,
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
-    "repoId": 101362,
+    "repoId": 101364,
     "fullName": "pytorch/pytorch",
     "snapshotDate": "2026-07-03",
     "rank": 11,
-    "starsTotal": 101362,
+    "starsTotal": 101364,
     "starsGained": 290,
     "forksTotal": 28243,
     "forksGained": null,
     "language": null,
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
-    "repoId": 5196,
+    "repoId": 5198,
     "fullName": "apache/maven",
     "snapshotDate": "2026-07-03",
     "rank": 12,
-    "starsTotal": 5196,
+    "starsTotal": 5198,
     "starsGained": 53,
     "forksTotal": 2900,
     "forksGained": null,
     "language": null,
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
-    "repoId": 76675,
+    "repoId": 76691,
     "fullName": "safishamsi/graphify",
     "snapshotDate": "2026-07-03",
     "rank": 13,
-    "starsTotal": 76675,
+    "starsTotal": 76691,
     "starsGained": 937,
-    "forksTotal": 7605,
+    "forksTotal": 7608,
     "forksGained": null,
     "language": null,
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
-    "repoId": 135677,
+    "repoId": 135681,
     "fullName": "anthropics/claude-code",
     "snapshotDate": "2026-07-03",
     "rank": 14,
-    "starsTotal": 135677,
+    "starsTotal": 135681,
     "starsGained": 202,
     "forksTotal": 21846,
     "forksGained": null,
     "language": null,
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
-    "repoId": 10451,
+    "repoId": 10457,
     "fullName": "ogulcancelik/herdr",
     "snapshotDate": "2026-07-03",
     "rank": 15,
-    "starsTotal": 10451,
+    "starsTotal": 10457,
     "starsGained": 571,
     "forksTotal": 623,
     "forksGained": null,
     "language": null,
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
-    "repoId": 245206,
+    "repoId": 245214,
     "fullName": "obra/superpowers",
     "snapshotDate": "2026-07-03",
     "rank": 16,
-    "starsTotal": 245206,
+    "starsTotal": 245214,
     "starsGained": 1205,
     "forksTotal": 21726,
     "forksGained": null,
     "language": null,
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
-    "repoId": 21852,
+    "repoId": 21859,
     "fullName": "agentskills/agentskills",
     "snapshotDate": "2026-07-03",
     "rank": 17,
-    "starsTotal": 21852,
+    "starsTotal": 21859,
     "starsGained": 405,
-    "forksTotal": 1385,
+    "forksTotal": 1386,
     "forksGained": null,
     "language": null,
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
-    "repoId": 105276,
+    "repoId": 105282,
     "fullName": "supabase/supabase",
     "snapshotDate": "2026-07-03",
     "rank": 18,
-    "starsTotal": 105276,
+    "starsTotal": 105282,
     "starsGained": 145,
     "forksTotal": 12958,
     "forksGained": null,
     "language": null,
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
-    "repoId": 7069,
+    "repoId": 7071,
     "fullName": "TencentCloud/CubeSandbox",
     "snapshotDate": "2026-07-03",
     "rank": 19,
-    "starsTotal": 7069,
+    "starsTotal": 7071,
     "starsGained": 314,
     "forksTotal": 588,
     "forksGained": null,
     "language": null,
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
-    "repoId": 126222,
+    "repoId": 126231,
     "fullName": "msitarzewski/agency-agents",
     "snapshotDate": "2026-07-03",
     "rank": 20,
-    "starsTotal": 126222,
+    "starsTotal": 126231,
     "starsGained": 1202,
-    "forksTotal": 20485,
+    "forksTotal": 20487,
     "forksGained": null,
     "language": null,
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
-    "repoId": 9050,
+    "repoId": 9057,
     "fullName": "xbtlin/ai-berkshire",
     "snapshotDate": "2026-07-03",
     "rank": 21,
-    "starsTotal": 9050,
+    "starsTotal": 9057,
     "starsGained": 6989,
-    "forksTotal": 1143,
+    "forksTotal": 1144,
     "forksGained": null,
     "language": null,
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
-    "repoId": 17723,
+    "repoId": 17727,
     "fullName": "simplex-chat/simplex-chat",
     "snapshotDate": "2026-07-03",
     "rank": 22,
-    "starsTotal": 17723,
+    "starsTotal": 17727,
     "starsGained": 6376,
     "forksTotal": 1038,
     "forksGained": null,
     "language": null,
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
-    "repoId": 9503,
+    "repoId": 9506,
     "fullName": "Robbyant/lingbot-map",
     "snapshotDate": "2026-07-03",
     "rank": 23,
-    "starsTotal": 9503,
+    "starsTotal": 9506,
     "starsGained": 2012,
     "forksTotal": 921,
     "forksGained": null,
     "language": null,
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
-    "repoId": 25298,
+    "repoId": 25311,
     "fullName": "DeusData/codebase-memory-mcp",
     "snapshotDate": "2026-07-03",
     "rank": 24,
-    "starsTotal": 25298,
+    "starsTotal": 25311,
     "starsGained": 9873,
-    "forksTotal": 1867,
+    "forksTotal": 1869,
     "forksGained": null,
     "language": null,
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
-    "repoId": 10553,
+    "repoId": 10564,
     "fullName": "diegosouzapw/OmniRoute",
     "snapshotDate": "2026-07-03",
     "rank": 25,
-    "starsTotal": 10553,
+    "starsTotal": 10564,
     "starsGained": 3197,
-    "forksTotal": 1554,
+    "forksTotal": 1556,
     "forksGained": null,
     "language": null,
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
-    "repoId": 14259,
+    "repoId": 14263,
     "fullName": "browser-use/video-use",
     "snapshotDate": "2026-07-03",
     "rank": 26,
-    "starsTotal": 14259,
+    "starsTotal": 14263,
     "starsGained": 3389,
     "forksTotal": 1716,
     "forksGained": null,
     "language": null,
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
-    "repoId": 26752,
+    "repoId": 26753,
     "fullName": "topoteretes/cognee",
     "snapshotDate": "2026-07-03",
     "rank": 27,
-    "starsTotal": 26752,
+    "starsTotal": 26753,
     "starsGained": 4531,
     "forksTotal": 2475,
     "forksGained": null,
     "language": null,
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
-    "repoId": 25175,
+    "repoId": 25182,
     "fullName": "JCodesMore/ai-website-cloner-template",
     "snapshotDate": "2026-07-03",
     "rank": 28,
-    "starsTotal": 25175,
+    "starsTotal": 25182,
     "starsGained": 4843,
     "forksTotal": 3546,
     "forksGained": null,
     "language": null,
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
-    "repoId": 24542,
+    "repoId": 24546,
     "fullName": "google-labs-code/design.md",
     "snapshotDate": "2026-07-03",
     "rank": 29,
-    "starsTotal": 24542,
+    "starsTotal": 24546,
     "starsGained": 6240,
     "forksTotal": 1908,
     "forksGained": null,
     "language": null,
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
-    "repoId": 5018,
+    "repoId": 5021,
     "fullName": "kunchenguid/no-mistakes",
     "snapshotDate": "2026-07-03",
     "rank": 30,
-    "starsTotal": 5018,
+    "starsTotal": 5021,
     "starsGained": 2091,
-    "forksTotal": 291,
+    "forksTotal": 292,
     "forksGained": null,
     "language": null,
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
-    "repoId": 13562,
+    "repoId": 13563,
     "fullName": "logto-io/logto",
     "snapshotDate": "2026-07-03",
     "rank": 31,
-    "starsTotal": 13562,
+    "starsTotal": 13563,
     "starsGained": 1314,
-    "forksTotal": 935,
+    "forksTotal": 934,
     "forksGained": null,
     "language": null,
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
-    "repoId": 11478,
+    "repoId": 11488,
     "fullName": "stablyai/orca",
     "snapshotDate": "2026-07-03",
     "rank": 32,
-    "starsTotal": 11478,
+    "starsTotal": 11488,
     "starsGained": 3574,
     "forksTotal": 757,
     "forksGained": null,
     "language": null,
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
-    "repoId": 32166,
+    "repoId": 32174,
     "fullName": "calesthio/OpenMontage",
     "snapshotDate": "2026-07-03",
     "rank": 33,
-    "starsTotal": 32166,
+    "starsTotal": 32174,
     "starsGained": 10199,
     "forksTotal": 3658,
     "forksGained": null,
     "language": null,
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
     "repoId": 6668,
@@ -402,46 +402,46 @@
     "rank": 34,
     "starsTotal": 6668,
     "starsGained": 321,
-    "forksTotal": 917,
+    "forksTotal": 918,
     "forksGained": null,
     "language": null,
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
-    "repoId": 4496,
+    "repoId": 4498,
     "fullName": "interviewstreet/hiring-agent",
     "snapshotDate": "2026-07-03",
     "rank": 35,
-    "starsTotal": 4496,
+    "starsTotal": 4498,
     "starsGained": 1689,
     "forksTotal": 875,
     "forksGained": null,
     "language": null,
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
-    "repoId": 9012,
+    "repoId": 9015,
     "fullName": "mauriceboe/TREK",
     "snapshotDate": "2026-07-03",
     "rank": 36,
-    "starsTotal": 9012,
+    "starsTotal": 9015,
     "starsGained": 2676,
     "forksTotal": 746,
     "forksGained": null,
     "language": null,
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
-    "repoId": 22066,
+    "repoId": 22077,
     "fullName": "alibaba/page-agent",
     "snapshotDate": "2026-07-03",
     "rank": 37,
-    "starsTotal": 22066,
+    "starsTotal": 22077,
     "starsGained": 1451,
-    "forksTotal": 1906,
+    "forksTotal": 1907,
     "forksGained": null,
     "language": null,
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
     "repoId": 46073,
@@ -453,103 +453,103 @@
     "forksTotal": 1371,
     "forksGained": null,
     "language": null,
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
-    "repoId": 49634,
+    "repoId": 49639,
     "fullName": "Panniantong/Agent-Reach",
     "snapshotDate": "2026-07-03",
     "rank": 39,
-    "starsTotal": 49634,
+    "starsTotal": 49639,
     "starsGained": 28309,
     "forksTotal": 3954,
     "forksGained": null,
     "language": null,
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
-    "repoId": 48636,
+    "repoId": 48641,
     "fullName": "mvanhorn/last30days-skill",
     "snapshotDate": "2026-07-03",
     "rank": 40,
-    "starsTotal": 48636,
+    "starsTotal": 48641,
     "starsGained": 21774,
     "forksTotal": 4024,
     "forksGained": null,
     "language": null,
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
-    "repoId": 130174,
+    "repoId": 130176,
     "fullName": "iptv-org/iptv",
     "snapshotDate": "2026-07-03",
     "rank": 41,
-    "starsTotal": 130174,
+    "starsTotal": 130176,
     "starsGained": 13585,
-    "forksTotal": 7218,
+    "forksTotal": 7219,
     "forksGained": null,
     "language": null,
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
-    "repoId": 22308,
+    "repoId": 22309,
     "fullName": "phuryn/pm-skills",
     "snapshotDate": "2026-07-03",
     "rank": 42,
-    "starsTotal": 22308,
+    "starsTotal": 22309,
     "starsGained": 10418,
-    "forksTotal": 2244,
+    "forksTotal": 2245,
     "forksGained": null,
     "language": null,
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
-    "repoId": 34608,
+    "repoId": 34609,
     "fullName": "lfnovo/open-notebook",
     "snapshotDate": "2026-07-03",
     "rank": 43,
-    "starsTotal": 34608,
+    "starsTotal": 34609,
     "starsGained": 10623,
-    "forksTotal": 3853,
+    "forksTotal": 3854,
     "forksGained": null,
     "language": null,
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
-    "repoId": 47993,
+    "repoId": 47997,
     "fullName": "asgeirtj/system_prompts_leaks",
     "snapshotDate": "2026-07-03",
     "rank": 44,
-    "starsTotal": 47993,
+    "starsTotal": 47997,
     "starsGained": 6834,
     "forksTotal": 7813,
     "forksGained": null,
     "language": null,
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
-    "repoId": 3959,
+    "repoId": 3960,
     "fullName": "openai/plugins",
     "snapshotDate": "2026-07-03",
     "rank": 45,
-    "starsTotal": 3959,
+    "starsTotal": 3960,
     "starsGained": 2606,
     "forksTotal": 463,
     "forksGained": null,
     "language": null,
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
-    "repoId": 3555,
+    "repoId": 3556,
     "fullName": "kenn-io/agentsview",
     "snapshotDate": "2026-07-03",
     "rank": 46,
-    "starsTotal": 3555,
+    "starsTotal": 3556,
     "starsGained": 2371,
     "forksTotal": 280,
     "forksGained": null,
     "language": null,
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
     "repoId": 11031,
@@ -561,79 +561,79 @@
     "forksTotal": 511,
     "forksGained": null,
     "language": null,
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
-    "repoId": 8414,
+    "repoId": 8417,
     "fullName": "t8y2/dbx",
     "snapshotDate": "2026-07-03",
     "rank": 48,
-    "starsTotal": 8414,
+    "starsTotal": 8417,
     "starsGained": 5093,
     "forksTotal": 721,
     "forksGained": null,
     "language": null,
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
-    "repoId": 55376,
+    "repoId": 55378,
     "fullName": "Leonxlnx/taste-skill",
     "snapshotDate": "2026-07-03",
     "rank": 49,
-    "starsTotal": 55376,
+    "starsTotal": 55378,
     "starsGained": 23665,
-    "forksTotal": 3788,
+    "forksTotal": 3789,
     "forksGained": null,
     "language": null,
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
-    "repoId": 46380,
+    "repoId": 46382,
     "fullName": "roboflow/supervision",
     "snapshotDate": "2026-07-03",
     "rank": 50,
-    "starsTotal": 46380,
+    "starsTotal": 46382,
     "starsGained": 6556,
-    "forksTotal": 4112,
+    "forksTotal": 4113,
     "forksGained": null,
     "language": null,
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
-    "repoId": 95441,
+    "repoId": 95442,
     "fullName": "harry0703/MoneyPrinterTurbo",
     "snapshotDate": "2026-07-03",
     "rank": 51,
-    "starsTotal": 95441,
+    "starsTotal": 95442,
     "starsGained": 18098,
     "forksTotal": 13881,
     "forksGained": null,
     "language": null,
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
-    "repoId": 24086,
+    "repoId": 24088,
     "fullName": "mukul975/Anthropic-Cybersecurity-Skills",
     "snapshotDate": "2026-07-03",
     "rank": 52,
-    "starsTotal": 24086,
+    "starsTotal": 24088,
     "starsGained": 10598,
     "forksTotal": 2737,
     "forksGained": null,
     "language": null,
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
-    "repoId": 87999,
+    "repoId": 88000,
     "fullName": "django/django",
     "snapshotDate": "2026-07-03",
     "rank": 53,
-    "starsTotal": 87999,
+    "starsTotal": 88000,
     "starsGained": 88,
     "forksTotal": 33957,
     "forksGained": null,
     "language": "python",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
     "repoId": 88169,
@@ -645,7 +645,7 @@
     "forksTotal": 37810,
     "forksGained": null,
     "language": "python",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
     "repoId": 4625,
@@ -657,19 +657,19 @@
     "forksTotal": 669,
     "forksGained": null,
     "language": "python",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
-    "repoId": 38378,
+    "repoId": 38380,
     "fullName": "Alishahryar1/free-claude-code",
     "snapshotDate": "2026-07-03",
     "rank": 56,
-    "starsTotal": 38378,
+    "starsTotal": 38380,
     "starsGained": 234,
-    "forksTotal": 6079,
+    "forksTotal": 6078,
     "forksGained": null,
     "language": "python",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
     "repoId": 1915,
@@ -681,7 +681,7 @@
     "forksTotal": 225,
     "forksGained": null,
     "language": "python",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
     "repoId": 151041,
@@ -693,19 +693,19 @@
     "forksTotal": 9416,
     "forksGained": null,
     "language": "python",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
-    "repoId": 17656,
+    "repoId": 17658,
     "fullName": "HKUDS/Vibe-Trading",
     "snapshotDate": "2026-07-03",
     "rank": 59,
-    "starsTotal": 17656,
+    "starsTotal": 17658,
     "starsGained": 528,
-    "forksTotal": 2912,
+    "forksTotal": 2913,
     "forksGained": null,
     "language": "python",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
     "repoId": 19806,
@@ -714,22 +714,22 @@
     "rank": 60,
     "starsTotal": 19806,
     "starsGained": 109,
-    "forksTotal": 2719,
+    "forksTotal": 2721,
     "forksGained": null,
     "language": "python",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
-    "repoId": 5168,
+    "repoId": 5170,
     "fullName": "huggingface/speech-to-speech",
     "snapshotDate": "2026-07-03",
     "rank": 61,
-    "starsTotal": 5168,
+    "starsTotal": 5170,
     "starsGained": 173,
-    "forksTotal": 629,
+    "forksTotal": 630,
     "forksGained": null,
     "language": "python",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
     "repoId": 28435,
@@ -741,19 +741,19 @@
     "forksTotal": 2973,
     "forksGained": null,
     "language": "python",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
-    "repoId": 18609,
+    "repoId": 18610,
     "fullName": "allenai/olmocr",
     "snapshotDate": "2026-07-03",
     "rank": 63,
-    "starsTotal": 18609,
+    "starsTotal": 18610,
     "starsGained": 1135,
     "forksTotal": 1528,
     "forksGained": null,
     "language": "python",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
     "repoId": 6308,
@@ -765,19 +765,19 @@
     "forksTotal": 2079,
     "forksGained": null,
     "language": "python",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
-    "repoId": 53760,
+    "repoId": 53762,
     "fullName": "ZhuLinsen/daily_stock_analysis",
     "snapshotDate": "2026-07-03",
     "rank": 65,
-    "starsTotal": 53760,
+    "starsTotal": 53762,
     "starsGained": 4197,
-    "forksTotal": 46578,
+    "forksTotal": 46582,
     "forksGained": null,
     "language": "python",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
     "repoId": 1796,
@@ -789,7 +789,7 @@
     "forksTotal": 238,
     "forksGained": null,
     "language": "python",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
     "repoId": 1753,
@@ -801,19 +801,19 @@
     "forksTotal": 140,
     "forksGained": null,
     "language": "python",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
-    "repoId": 55216,
+    "repoId": 55218,
     "fullName": "NanmiCoder/MediaCrawler",
     "snapshotDate": "2026-07-03",
     "rank": 68,
-    "starsTotal": 55216,
+    "starsTotal": 55218,
     "starsGained": 2484,
     "forksTotal": 11164,
     "forksGained": null,
     "language": "python",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
     "repoId": 62953,
@@ -822,10 +822,10 @@
     "rank": 69,
     "starsTotal": 62953,
     "starsGained": 1421,
-    "forksTotal": 11128,
+    "forksTotal": 11127,
     "forksGained": null,
     "language": "python",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
     "repoId": 17703,
@@ -837,7 +837,7 @@
     "forksTotal": 3485,
     "forksGained": null,
     "language": "python",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
     "repoId": 4687,
@@ -849,7 +849,7 @@
     "forksTotal": 501,
     "forksGained": null,
     "language": "python",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
     "repoId": 12033,
@@ -861,7 +861,7 @@
     "forksTotal": 1091,
     "forksGained": null,
     "language": "python",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
     "repoId": 10360,
@@ -870,10 +870,10 @@
     "rank": 73,
     "starsTotal": 10360,
     "starsGained": 57,
-    "forksTotal": 5088,
+    "forksTotal": 5089,
     "forksGained": null,
     "language": "python",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
     "repoId": 34844,
@@ -885,7 +885,7 @@
     "forksTotal": 2631,
     "forksGained": null,
     "language": "python",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
     "repoId": 2196,
@@ -897,7 +897,7 @@
     "forksTotal": 246,
     "forksGained": null,
     "language": "python",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
     "repoId": 10039,
@@ -909,7 +909,7 @@
     "forksTotal": 1453,
     "forksGained": null,
     "language": "python",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
     "repoId": 699,
@@ -921,31 +921,31 @@
     "forksTotal": 187,
     "forksGained": null,
     "language": "python",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
-    "repoId": 7682,
+    "repoId": 7684,
     "fullName": "virgiliojr94/book-to-skill",
     "snapshotDate": "2026-07-03",
     "rank": 78,
-    "starsTotal": 7682,
+    "starsTotal": 7684,
     "starsGained": 3928,
     "forksTotal": 948,
     "forksGained": null,
     "language": "python",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
-    "repoId": 5528,
+    "repoId": 5529,
     "fullName": "Andyyyy64/whichllm",
     "snapshotDate": "2026-07-03",
     "rank": 79,
-    "starsTotal": 5528,
+    "starsTotal": 5529,
     "starsGained": 3037,
     "forksTotal": 293,
     "forksGained": null,
     "language": "python",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
     "repoId": 2807,
@@ -957,31 +957,31 @@
     "forksTotal": 480,
     "forksGained": null,
     "language": "python",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
-    "repoId": 7260,
+    "repoId": 7261,
     "fullName": "THUDM/slime",
     "snapshotDate": "2026-07-03",
     "rank": 81,
-    "starsTotal": 7260,
+    "starsTotal": 7261,
     "starsGained": 1325,
     "forksTotal": 1028,
     "forksGained": null,
     "language": "python",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
-    "repoId": 95777,
+    "repoId": 95778,
     "fullName": "tailwindlabs/tailwindcss",
     "snapshotDate": "2026-07-03",
     "rank": 82,
-    "starsTotal": 95777,
+    "starsTotal": 95778,
     "starsGained": 88,
     "forksTotal": 5316,
     "forksGained": null,
     "language": "typescript",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
     "repoId": 210000,
@@ -993,7 +993,7 @@
     "forksTotal": 33729,
     "forksGained": null,
     "language": "typescript",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
     "repoId": 187017,
@@ -1005,31 +1005,31 @@
     "forksTotal": 40831,
     "forksGained": null,
     "language": "typescript",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
-    "repoId": 450979,
+    "repoId": 450981,
     "fullName": "freeCodeCamp/freeCodeCamp",
     "snapshotDate": "2026-07-03",
     "rank": 85,
-    "starsTotal": 450979,
+    "starsTotal": 450981,
     "starsGained": 145,
     "forksTotal": 45346,
     "forksGained": null,
     "language": "typescript",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
-    "repoId": 15024,
+    "repoId": 15025,
     "fullName": "Chocobozzz/PeerTube",
     "snapshotDate": "2026-07-03",
     "rank": 86,
-    "starsTotal": 15024,
+    "starsTotal": 15025,
     "starsGained": 215,
     "forksTotal": 1763,
     "forksGained": null,
     "language": "typescript",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
     "repoId": 100473,
@@ -1041,19 +1041,19 @@
     "forksTotal": 27242,
     "forksGained": null,
     "language": "typescript",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
-    "repoId": 22555,
+    "repoId": 22556,
     "fullName": "EveryInc/compound-engineering-plugin",
     "snapshotDate": "2026-07-03",
     "rank": 88,
-    "starsTotal": 22555,
+    "starsTotal": 22556,
     "starsGained": 67,
     "forksTotal": 1671,
     "forksGained": null,
     "language": "typescript",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
     "repoId": 32763,
@@ -1065,19 +1065,19 @@
     "forksTotal": 3406,
     "forksGained": null,
     "language": "typescript",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
-    "repoId": 12271,
+    "repoId": 12272,
     "fullName": "hicccc77/WeFlow",
     "snapshotDate": "2026-07-03",
     "rank": 90,
-    "starsTotal": 12271,
+    "starsTotal": 12272,
     "starsGained": 68,
     "forksTotal": 3134,
     "forksGained": null,
     "language": "typescript",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
     "repoId": 6244,
@@ -1089,7 +1089,7 @@
     "forksTotal": 736,
     "forksGained": null,
     "language": "typescript",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
     "repoId": 6347,
@@ -1101,19 +1101,19 @@
     "forksTotal": 759,
     "forksGained": null,
     "language": "typescript",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
-    "repoId": 37234,
+    "repoId": 37236,
     "fullName": "jamiepine/voicebox",
     "snapshotDate": "2026-07-03",
     "rank": 93,
-    "starsTotal": 37234,
+    "starsTotal": 37236,
     "starsGained": 2945,
     "forksTotal": 4477,
     "forksGained": null,
     "language": "typescript",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
     "repoId": 3995,
@@ -1125,19 +1125,19 @@
     "forksTotal": 450,
     "forksGained": null,
     "language": "typescript",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
-    "repoId": 44885,
+    "repoId": 44886,
     "fullName": "siyuan-note/siyuan",
     "snapshotDate": "2026-07-03",
     "rank": 95,
-    "starsTotal": 44885,
+    "starsTotal": 44886,
     "starsGained": 264,
     "forksTotal": 2860,
     "forksGained": null,
     "language": "typescript",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
     "repoId": 3404,
@@ -1149,7 +1149,7 @@
     "forksTotal": 323,
     "forksGained": null,
     "language": "typescript",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
     "repoId": 75278,
@@ -1158,10 +1158,10 @@
     "rank": 97,
     "starsTotal": 75278,
     "starsGained": 738,
-    "forksTotal": 14172,
+    "forksTotal": 14173,
     "forksGained": null,
     "language": "typescript",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
     "repoId": 61488,
@@ -1173,7 +1173,7 @@
     "forksTotal": 15056,
     "forksGained": null,
     "language": "typescript",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
     "repoId": 2837,
@@ -1185,43 +1185,43 @@
     "forksTotal": 203,
     "forksGained": null,
     "language": "typescript",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
-    "repoId": 2866,
+    "repoId": 2867,
     "fullName": "vernu/textbee",
     "snapshotDate": "2026-07-03",
     "rank": 100,
-    "starsTotal": 2866,
+    "starsTotal": 2867,
     "starsGained": 186,
     "forksTotal": 386,
     "forksGained": null,
     "language": "typescript",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
-    "repoId": 35134,
+    "repoId": 35136,
     "fullName": "refinedev/refine",
     "snapshotDate": "2026-07-03",
     "rank": 101,
-    "starsTotal": 35134,
+    "starsTotal": 35136,
     "starsGained": 143,
     "forksTotal": 3131,
     "forksGained": null,
     "language": "typescript",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
-    "repoId": 90480,
+    "repoId": 90481,
     "fullName": "storybookjs/storybook",
     "snapshotDate": "2026-07-03",
     "rank": 102,
-    "starsTotal": 90480,
+    "starsTotal": 90481,
     "starsGained": 132,
     "forksTotal": 10169,
     "forksGained": null,
     "language": "typescript",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
     "repoId": 24893,
@@ -1233,7 +1233,7 @@
     "forksTotal": 2067,
     "forksGained": null,
     "language": "typescript",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
     "repoId": 56473,
@@ -1245,7 +1245,7 @@
     "forksTotal": 5510,
     "forksGained": null,
     "language": "typescript",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
     "repoId": 119138,
@@ -1257,19 +1257,19 @@
     "forksTotal": 17742,
     "forksGained": null,
     "language": "typescript",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
-    "repoId": 61254,
+    "repoId": 61255,
     "fullName": "koala73/worldmonitor",
     "snapshotDate": "2026-07-03",
     "rank": 106,
-    "starsTotal": 61254,
+    "starsTotal": 61255,
     "starsGained": 1507,
-    "forksTotal": 9532,
+    "forksTotal": 9533,
     "forksGained": null,
     "language": "typescript",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
     "repoId": 61453,
@@ -1281,19 +1281,19 @@
     "forksTotal": 6618,
     "forksGained": null,
     "language": "typescript",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
-    "repoId": 14915,
+    "repoId": 14918,
     "fullName": "tashfeenahmed/freellmapi",
     "snapshotDate": "2026-07-03",
     "rank": 108,
-    "starsTotal": 14915,
+    "starsTotal": 14918,
     "starsGained": 7769,
-    "forksTotal": 2174,
+    "forksTotal": 2176,
     "forksGained": null,
     "language": "typescript",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
     "repoId": 1426,
@@ -1305,19 +1305,19 @@
     "forksTotal": 90,
     "forksGained": null,
     "language": "typescript",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
-    "repoId": 15785,
+    "repoId": 15788,
     "fullName": "can1357/oh-my-pi",
     "snapshotDate": "2026-07-03",
     "rank": 110,
-    "starsTotal": 15785,
+    "starsTotal": 15788,
     "starsGained": 5908,
     "forksTotal": 1408,
     "forksGained": null,
     "language": "typescript",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
     "repoId": 7052,
@@ -1329,7 +1329,7 @@
     "forksTotal": 404,
     "forksGained": null,
     "language": "typescript",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
     "repoId": 3492,
@@ -1341,7 +1341,7 @@
     "forksTotal": 144,
     "forksGained": null,
     "language": "typescript",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
     "repoId": 11333,
@@ -1353,7 +1353,7 @@
     "forksTotal": 3517,
     "forksGained": null,
     "language": "typescript",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
     "repoId": 35728,
@@ -1365,7 +1365,7 @@
     "forksTotal": 4423,
     "forksGained": null,
     "language": "typescript",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
     "repoId": 50430,
@@ -1377,55 +1377,55 @@
     "forksTotal": 3429,
     "forksGained": null,
     "language": "typescript",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
-    "repoId": 58318,
+    "repoId": 58323,
     "fullName": "santifer/career-ops",
     "snapshotDate": "2026-07-03",
     "rank": 116,
-    "starsTotal": 58318,
+    "starsTotal": 58323,
     "starsGained": 994,
     "forksTotal": 11436,
     "forksGained": null,
     "language": "javascript",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
-    "repoId": 87462,
+    "repoId": 87463,
     "fullName": "sveltejs/svelte",
     "snapshotDate": "2026-07-03",
     "rank": 117,
-    "starsTotal": 87462,
+    "starsTotal": 87463,
     "starsGained": 104,
     "forksTotal": 4966,
     "forksGained": null,
     "language": "javascript",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
-    "repoId": 19620,
+    "repoId": 19623,
     "fullName": "decolua/9router",
     "snapshotDate": "2026-07-03",
     "rank": 118,
-    "starsTotal": 19620,
+    "starsTotal": 19623,
     "starsGained": 231,
     "forksTotal": 3174,
     "forksGained": null,
     "language": "javascript",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
-    "repoId": 225527,
+    "repoId": 225533,
     "fullName": "affaan-m/ECC",
     "snapshotDate": "2026-07-03",
     "rank": 119,
-    "starsTotal": 225527,
+    "starsTotal": 225533,
     "starsGained": 664,
-    "forksTotal": 34494,
+    "forksTotal": 34495,
     "forksGained": null,
     "language": "javascript",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
     "repoId": 140320,
@@ -1437,7 +1437,7 @@
     "forksTotal": 31297,
     "forksGained": null,
     "language": "javascript",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
     "repoId": 65833,
@@ -1449,7 +1449,7 @@
     "forksTotal": 9345,
     "forksGained": null,
     "language": "javascript",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
     "repoId": 94672,
@@ -1461,31 +1461,31 @@
     "forksTotal": 12478,
     "forksGained": null,
     "language": "javascript",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
-    "repoId": 43197,
+    "repoId": 43199,
     "fullName": "pbakaus/impeccable",
     "snapshotDate": "2026-07-03",
     "rank": 123,
-    "starsTotal": 43197,
+    "starsTotal": 43199,
     "starsGained": 303,
     "forksTotal": 2431,
     "forksGained": null,
     "language": "javascript",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
-    "repoId": 2390,
+    "repoId": 2395,
     "fullName": "tt-a1i/archify",
     "snapshotDate": "2026-07-03",
     "rank": 124,
-    "starsTotal": 2390,
+    "starsTotal": 2395,
     "starsGained": 484,
     "forksTotal": 145,
     "forksGained": null,
     "language": "javascript",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
     "repoId": 492,
@@ -1497,7 +1497,7 @@
     "forksTotal": 354,
     "forksGained": null,
     "language": "javascript",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
     "repoId": 118053,
@@ -1509,7 +1509,7 @@
     "forksTotal": 35877,
     "forksGained": null,
     "language": "javascript",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
     "repoId": 69235,
@@ -1521,19 +1521,19 @@
     "forksTotal": 23978,
     "forksGained": null,
     "language": "javascript",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
-    "repoId": 36602,
+    "repoId": 36603,
     "fullName": "fastify/fastify",
     "snapshotDate": "2026-07-03",
     "rank": 128,
-    "starsTotal": 36602,
+    "starsTotal": 36603,
     "starsGained": 47,
     "forksTotal": 2759,
     "forksGained": null,
     "language": "javascript",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
     "repoId": 52077,
@@ -1545,43 +1545,43 @@
     "forksTotal": 4762,
     "forksGained": null,
     "language": "javascript",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
-    "repoId": 4667,
+    "repoId": 4668,
     "fullName": "GargantuaX/gemini-watermark-remover",
     "snapshotDate": "2026-07-03",
     "rank": 130,
-    "starsTotal": 4667,
+    "starsTotal": 4668,
     "starsGained": 11,
     "forksTotal": 566,
     "forksGained": null,
     "language": "javascript",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
-    "repoId": 22260,
+    "repoId": 22262,
     "fullName": "Anil-matcha/Open-Generative-AI",
     "snapshotDate": "2026-07-03",
     "rank": 131,
-    "starsTotal": 22260,
+    "starsTotal": 22262,
     "starsGained": 1464,
     "forksTotal": 3783,
     "forksGained": null,
     "language": "javascript",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
-    "repoId": 24434,
+    "repoId": 24435,
     "fullName": "zarazhangrui/frontend-slides",
     "snapshotDate": "2026-07-03",
     "rank": 132,
-    "starsTotal": 24434,
+    "starsTotal": 24435,
     "starsGained": 1339,
     "forksTotal": 1995,
     "forksGained": null,
     "language": "javascript",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
     "repoId": 98529,
@@ -1593,31 +1593,31 @@
     "forksTotal": 32600,
     "forksGained": null,
     "language": "javascript",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
-    "repoId": 3619,
+    "repoId": 3620,
     "fullName": "worldwonderer/oh-story-claudecode",
     "snapshotDate": "2026-07-03",
     "rank": 134,
-    "starsTotal": 3619,
+    "starsTotal": 3620,
     "starsGained": 541,
     "forksTotal": 580,
     "forksGained": null,
     "language": "javascript",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
-    "repoId": 85635,
+    "repoId": 85636,
     "fullName": "thedotmack/claude-mem",
     "snapshotDate": "2026-07-03",
     "rank": 135,
-    "starsTotal": 85635,
+    "starsTotal": 85636,
     "starsGained": 1365,
     "forksTotal": 7402,
     "forksGained": null,
     "language": "javascript",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
     "repoId": 52169,
@@ -1629,7 +1629,7 @@
     "forksTotal": 10541,
     "forksGained": null,
     "language": "javascript",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
     "repoId": 37939,
@@ -1641,7 +1641,7 @@
     "forksTotal": 3075,
     "forksGained": null,
     "language": "javascript",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
     "repoId": 9908,
@@ -1653,7 +1653,7 @@
     "forksTotal": 4459,
     "forksGained": null,
     "language": "javascript",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
     "repoId": 43178,
@@ -1665,7 +1665,7 @@
     "forksTotal": 1601,
     "forksGained": null,
     "language": "javascript",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
     "repoId": 5837,
@@ -1677,7 +1677,7 @@
     "forksTotal": 1229,
     "forksGained": null,
     "language": "javascript",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
     "repoId": 1507,
@@ -1689,7 +1689,7 @@
     "forksTotal": 576,
     "forksGained": null,
     "language": "javascript",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
     "repoId": 17475,
@@ -1701,7 +1701,7 @@
     "forksTotal": 1031,
     "forksGained": null,
     "language": "javascript",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
     "repoId": 38123,
@@ -1713,7 +1713,7 @@
     "forksTotal": 5154,
     "forksGained": null,
     "language": "javascript",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
     "repoId": 20637,
@@ -1725,7 +1725,7 @@
     "forksTotal": 2273,
     "forksGained": null,
     "language": "javascript",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
     "repoId": 1617,
@@ -1737,31 +1737,31 @@
     "forksTotal": 195,
     "forksGained": null,
     "language": "javascript",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
-    "repoId": 530,
+    "repoId": 531,
     "fullName": "ModernRelay/omnigraph",
     "snapshotDate": "2026-07-03",
     "rank": 146,
-    "starsTotal": 530,
+    "starsTotal": 531,
     "starsGained": 47,
     "forksTotal": 46,
     "forksGained": null,
     "language": "rust",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
-    "repoId": 13819,
+    "repoId": 13825,
     "fullName": "Zackriya-Solutions/meetily",
     "snapshotDate": "2026-07-03",
     "rank": 147,
-    "starsTotal": 13819,
+    "starsTotal": 13825,
     "starsGained": 138,
-    "forksTotal": 1523,
+    "forksTotal": 1524,
     "forksGained": null,
     "language": "rust",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
     "repoId": 114286,
@@ -1773,31 +1773,31 @@
     "forksTotal": 15099,
     "forksGained": null,
     "language": "rust",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
-    "repoId": 93563,
+    "repoId": 93564,
     "fullName": "oven-sh/bun",
     "snapshotDate": "2026-07-03",
     "rank": 149,
-    "starsTotal": 93563,
+    "starsTotal": 93564,
     "starsGained": 94,
     "forksTotal": 4747,
     "forksGained": null,
     "language": "rust",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
-    "repoId": 39853,
+    "repoId": 39854,
     "fullName": "GyulyVGC/sniffnet",
     "snapshotDate": "2026-07-03",
     "rank": 150,
-    "starsTotal": 39853,
+    "starsTotal": 39854,
     "starsGained": 112,
     "forksTotal": 1708,
     "forksGained": null,
     "language": "rust",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
     "repoId": 738,
@@ -1809,7 +1809,7 @@
     "forksTotal": 72,
     "forksGained": null,
     "language": "rust",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
     "repoId": 7369,
@@ -1821,31 +1821,31 @@
     "forksTotal": 913,
     "forksGained": null,
     "language": "rust",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
-    "repoId": 107427,
+    "repoId": 107428,
     "fullName": "denoland/deno",
     "snapshotDate": "2026-07-03",
     "rank": 153,
-    "starsTotal": 107427,
+    "starsTotal": 107428,
     "starsGained": 97,
     "forksTotal": 6107,
     "forksGained": null,
     "language": "rust",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
-    "repoId": 336,
+    "repoId": 337,
     "fullName": "macro-inc/macro",
     "snapshotDate": "2026-07-03",
     "rank": 154,
-    "starsTotal": 336,
+    "starsTotal": 337,
     "starsGained": 24,
     "forksTotal": 32,
     "forksGained": null,
     "language": "rust",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
     "repoId": 443,
@@ -1857,7 +1857,7 @@
     "forksTotal": 51,
     "forksGained": null,
     "language": "rust",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
     "repoId": 4105,
@@ -1869,7 +1869,7 @@
     "forksTotal": 277,
     "forksGained": null,
     "language": "rust",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
     "repoId": 847,
@@ -1881,7 +1881,7 @@
     "forksTotal": 48,
     "forksGained": null,
     "language": "rust",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
     "repoId": 3918,
@@ -1893,7 +1893,7 @@
     "forksTotal": 353,
     "forksGained": null,
     "language": "rust",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
     "repoId": 50596,
@@ -1905,19 +1905,19 @@
     "forksTotal": 5432,
     "forksGained": null,
     "language": "rust",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
-    "repoId": 1680,
+    "repoId": 1681,
     "fullName": "raine/workmux",
     "snapshotDate": "2026-07-03",
     "rank": 160,
-    "starsTotal": 1680,
+    "starsTotal": 1681,
     "starsGained": 12,
     "forksTotal": 126,
     "forksGained": null,
     "language": "rust",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
     "repoId": 32600,
@@ -1929,7 +1929,7 @@
     "forksTotal": 1290,
     "forksGained": null,
     "language": "rust",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
     "repoId": 406,
@@ -1941,7 +1941,7 @@
     "forksTotal": 37,
     "forksGained": null,
     "language": "rust",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
     "repoId": 33208,
@@ -1953,7 +1953,7 @@
     "forksTotal": 2043,
     "forksGained": null,
     "language": "rust",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
     "repoId": 8112,
@@ -1965,7 +1965,7 @@
     "forksTotal": 909,
     "forksGained": null,
     "language": "rust",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
     "repoId": 13348,
@@ -1977,19 +1977,19 @@
     "forksTotal": 2450,
     "forksGained": null,
     "language": "rust",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
-    "repoId": 117552,
+    "repoId": 117553,
     "fullName": "rustdesk/rustdesk",
     "snapshotDate": "2026-07-03",
     "rank": 166,
-    "starsTotal": 117552,
+    "starsTotal": 117553,
     "starsGained": 646,
     "forksTotal": 17814,
     "forksGained": null,
     "language": "rust",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
     "repoId": 7335,
@@ -2001,19 +2001,19 @@
     "forksTotal": 502,
     "forksGained": null,
     "language": "rust",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
-    "repoId": 30017,
+    "repoId": 30018,
     "fullName": "jj-vcs/jj",
     "snapshotDate": "2026-07-03",
     "rank": 168,
-    "starsTotal": 30017,
+    "starsTotal": 30018,
     "starsGained": 207,
     "forksTotal": 1115,
     "forksGained": null,
     "language": "rust",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
     "repoId": 43582,
@@ -2025,7 +2025,7 @@
     "forksTotal": 1083,
     "forksGained": null,
     "language": "rust",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
     "repoId": 58140,
@@ -2037,7 +2037,7 @@
     "forksTotal": 3457,
     "forksGained": null,
     "language": "rust",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
     "repoId": 13813,
@@ -2049,7 +2049,7 @@
     "forksTotal": 810,
     "forksGained": null,
     "language": "rust",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
     "repoId": 11630,
@@ -2061,7 +2061,7 @@
     "forksTotal": 1024,
     "forksGained": null,
     "language": "rust",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
     "repoId": 38917,
@@ -2073,7 +2073,7 @@
     "forksTotal": 2929,
     "forksGained": null,
     "language": "rust",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
     "repoId": 37292,
@@ -2085,7 +2085,7 @@
     "forksTotal": 3700,
     "forksGained": null,
     "language": "rust",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
     "repoId": 1865,
@@ -2097,7 +2097,7 @@
     "forksTotal": 182,
     "forksGained": null,
     "language": "rust",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
     "repoId": 11053,
@@ -2109,19 +2109,19 @@
     "forksTotal": 785,
     "forksGained": null,
     "language": "rust",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
-    "repoId": 22566,
+    "repoId": 22568,
     "fullName": "tursodatabase/turso",
     "snapshotDate": "2026-07-03",
     "rank": 177,
-    "starsTotal": 22566,
+    "starsTotal": 22568,
     "starsGained": 3554,
     "forksTotal": 1137,
     "forksGained": null,
     "language": "rust",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
     "repoId": 34119,
@@ -2133,19 +2133,19 @@
     "forksTotal": 1431,
     "forksGained": null,
     "language": "rust",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
-    "repoId": 112753,
+    "repoId": 112759,
     "fullName": "farion1231/cc-switch",
     "snapshotDate": "2026-07-03",
     "rank": 179,
-    "starsTotal": 112753,
+    "starsTotal": 112759,
     "starsGained": 23667,
     "forksTotal": 7488,
     "forksGained": null,
     "language": "rust",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
     "repoId": 3656,
@@ -2157,19 +2157,19 @@
     "forksTotal": 615,
     "forksGained": null,
     "language": "rust",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
-    "repoId": 59113,
+    "repoId": 59118,
     "fullName": "tw93/Pake",
     "snapshotDate": "2026-07-03",
     "rank": 181,
-    "starsTotal": 59113,
+    "starsTotal": 59118,
     "starsGained": 9468,
-    "forksTotal": 11859,
+    "forksTotal": 11861,
     "forksGained": null,
     "language": "rust",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
     "repoId": 8240,
@@ -2181,19 +2181,19 @@
     "forksTotal": 349,
     "forksGained": null,
     "language": "rust",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
-    "repoId": 95307,
+    "repoId": 95309,
     "fullName": "openai/codex",
     "snapshotDate": "2026-07-03",
     "rank": 183,
-    "starsTotal": 95307,
+    "starsTotal": 95309,
     "starsGained": 7501,
     "forksTotal": 14136,
     "forksGained": null,
     "language": "rust",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
     "repoId": 25196,
@@ -2205,19 +2205,19 @@
     "forksTotal": 1052,
     "forksGained": null,
     "language": "rust",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
-    "repoId": 65754,
+    "repoId": 65755,
     "fullName": "BurntSushi/ripgrep",
     "snapshotDate": "2026-07-03",
     "rank": 185,
-    "starsTotal": 65754,
+    "starsTotal": 65755,
     "starsGained": 1838,
     "forksTotal": 2617,
     "forksGained": null,
     "language": "rust",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
     "repoId": 48402,
@@ -2229,19 +2229,19 @@
     "forksTotal": 2209,
     "forksGained": null,
     "language": "rust",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
-    "repoId": 20325,
+    "repoId": 20326,
     "fullName": "cube-js/cube",
     "snapshotDate": "2026-07-03",
     "rank": 187,
-    "starsTotal": 20325,
+    "starsTotal": 20326,
     "starsGained": 248,
     "forksTotal": 2064,
     "forksGained": null,
     "language": "rust",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
     "repoId": 5548,
@@ -2253,19 +2253,19 @@
     "forksTotal": 307,
     "forksGained": null,
     "language": "rust",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
-    "repoId": 23099,
+    "repoId": 23100,
     "fullName": "slint-ui/slint",
     "snapshotDate": "2026-07-03",
     "rank": 189,
-    "starsTotal": 23099,
+    "starsTotal": 23100,
     "starsGained": 389,
     "forksTotal": 919,
     "forksGained": null,
     "language": "rust",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
     "repoId": 21825,
@@ -2277,7 +2277,7 @@
     "forksTotal": 1102,
     "forksGained": null,
     "language": "rust",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
     "repoId": 64925,
@@ -2289,7 +2289,7 @@
     "forksTotal": 10557,
     "forksGained": null,
     "language": "go",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
     "repoId": 134998,
@@ -2301,7 +2301,7 @@
     "forksTotal": 19074,
     "forksGained": null,
     "language": "go",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
     "repoId": 48815,
@@ -2313,7 +2313,7 @@
     "forksTotal": 10387,
     "forksGained": null,
     "language": "go",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
     "repoId": 26057,
@@ -2325,7 +2325,7 @@
     "forksTotal": 1730,
     "forksGained": null,
     "language": "go",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
     "repoId": 123409,
@@ -2337,19 +2337,19 @@
     "forksTotal": 43403,
     "forksGained": null,
     "language": "go",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
-    "repoId": 18231,
+    "repoId": 18238,
     "fullName": "yorukot/superfile",
     "snapshotDate": "2026-07-03",
     "rank": 196,
-    "starsTotal": 18231,
+    "starsTotal": 18238,
     "starsGained": 174,
     "forksTotal": 490,
     "forksGained": null,
     "language": "go",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
     "repoId": 13199,
@@ -2361,7 +2361,7 @@
     "forksTotal": 1516,
     "forksGained": null,
     "language": "go",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
     "repoId": 51199,
@@ -2373,19 +2373,19 @@
     "forksTotal": 21920,
     "forksGained": null,
     "language": "go",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
-    "repoId": 15067,
+    "repoId": 15068,
     "fullName": "larksuite/cli",
     "snapshotDate": "2026-07-03",
     "rank": 199,
-    "starsTotal": 15067,
+    "starsTotal": 15068,
     "starsGained": 49,
     "forksTotal": 1043,
     "forksGained": null,
     "language": "go",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
     "repoId": 12881,
@@ -2397,7 +2397,7 @@
     "forksTotal": 1376,
     "forksGained": null,
     "language": "go",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
     "repoId": 30355,
@@ -2409,19 +2409,19 @@
     "forksTotal": 2103,
     "forksGained": null,
     "language": "go",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
-    "repoId": 29456,
+    "repoId": 29457,
     "fullName": "projectdiscovery/nuclei",
     "snapshotDate": "2026-07-03",
     "rank": 202,
-    "starsTotal": 29456,
+    "starsTotal": 29457,
     "starsGained": 21,
     "forksTotal": 3530,
     "forksGained": null,
     "language": "go",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
     "repoId": 33112,
@@ -2433,7 +2433,7 @@
     "forksTotal": 2713,
     "forksGained": null,
     "language": "go",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
     "repoId": 71781,
@@ -2445,7 +2445,7 @@
     "forksTotal": 18974,
     "forksGained": null,
     "language": "go",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
     "repoId": 18657,
@@ -2457,7 +2457,7 @@
     "forksTotal": 1663,
     "forksGained": null,
     "language": "go",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
     "repoId": 29574,
@@ -2469,31 +2469,31 @@
     "forksTotal": 4267,
     "forksGained": null,
     "language": "go",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
-    "repoId": 26013,
+    "repoId": 26015,
     "fullName": "charmbracelet/crush",
     "snapshotDate": "2026-07-03",
     "rank": 207,
-    "starsTotal": 26013,
+    "starsTotal": 26015,
     "starsGained": 42,
     "forksTotal": 1901,
     "forksGained": null,
     "language": "go",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
-    "repoId": 6623,
+    "repoId": 6624,
     "fullName": "masterking32/MasterDnsVPN",
     "snapshotDate": "2026-07-03",
     "rank": 208,
-    "starsTotal": 6623,
+    "starsTotal": 6624,
     "starsGained": 35,
     "forksTotal": 616,
     "forksGained": null,
     "language": "go",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
     "repoId": 8353,
@@ -2505,19 +2505,19 @@
     "forksTotal": 729,
     "forksGained": null,
     "language": "go",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
-    "repoId": 40877,
+    "repoId": 40880,
     "fullName": "juanfont/headscale",
     "snapshotDate": "2026-07-03",
     "rank": 210,
-    "starsTotal": 40877,
+    "starsTotal": 40880,
     "starsGained": 132,
     "forksTotal": 2252,
     "forksGained": null,
     "language": "go",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
     "repoId": 23301,
@@ -2529,31 +2529,31 @@
     "forksTotal": 7401,
     "forksGained": null,
     "language": "go",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
-    "repoId": 667,
+    "repoId": 668,
     "fullName": "kunchenguid/treehouse",
     "snapshotDate": "2026-07-03",
     "rank": 212,
-    "starsTotal": 667,
+    "starsTotal": 668,
     "starsGained": 275,
     "forksTotal": 71,
     "forksGained": null,
     "language": "go",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
-    "repoId": 81454,
+    "repoId": 81455,
     "fullName": "junegunn/fzf",
     "snapshotDate": "2026-07-03",
     "rank": 213,
-    "starsTotal": 81454,
+    "starsTotal": 81455,
     "starsGained": 241,
     "forksTotal": 2803,
     "forksGained": null,
     "language": "go",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
     "repoId": 36152,
@@ -2565,7 +2565,7 @@
     "forksTotal": 2074,
     "forksGained": null,
     "language": "go",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
     "repoId": 17679,
@@ -2577,19 +2577,19 @@
     "forksTotal": 5831,
     "forksGained": null,
     "language": "go",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
-    "repoId": 13255,
+    "repoId": 13256,
     "fullName": "canopy-network/canopy",
     "snapshotDate": "2026-07-03",
     "rank": 216,
-    "starsTotal": 13255,
+    "starsTotal": 13256,
     "starsGained": 1995,
     "forksTotal": 16103,
     "forksGained": null,
     "language": "go",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
     "repoId": 107761,
@@ -2601,7 +2601,7 @@
     "forksTotal": 15097,
     "forksGained": null,
     "language": "go",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
     "repoId": 79963,
@@ -2613,7 +2613,7 @@
     "forksTotal": 2899,
     "forksGained": null,
     "language": "go",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
     "repoId": 9171,
@@ -2625,7 +2625,7 @@
     "forksTotal": 1292,
     "forksGained": null,
     "language": "go",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
     "repoId": 26678,
@@ -2637,7 +2637,7 @@
     "forksTotal": 1455,
     "forksGained": null,
     "language": "go",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
     "repoId": 2674,
@@ -2649,7 +2649,7 @@
     "forksTotal": 676,
     "forksGained": null,
     "language": "go",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
     "repoId": 177033,
@@ -2661,7 +2661,7 @@
     "forksTotal": 13380,
     "forksGained": null,
     "language": "go",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
     "repoId": 4601,
@@ -2673,19 +2673,19 @@
     "forksTotal": 524,
     "forksGained": null,
     "language": "go",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
-    "repoId": 7901,
+    "repoId": 7904,
     "fullName": "AgentWrapper/agent-orchestrator",
     "snapshotDate": "2026-07-03",
     "rank": 224,
-    "starsTotal": 7901,
+    "starsTotal": 7904,
     "starsGained": 227,
-    "forksTotal": 1109,
+    "forksTotal": 1110,
     "forksGained": null,
     "language": "go",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
     "repoId": 13911,
@@ -2697,7 +2697,7 @@
     "forksTotal": 6028,
     "forksGained": null,
     "language": "go",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
     "repoId": 22914,
@@ -2709,19 +2709,19 @@
     "forksTotal": 2408,
     "forksGained": null,
     "language": "go",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
-    "repoId": 25816,
+    "repoId": 25818,
     "fullName": "esengine/DeepSeek-Reasonix",
     "snapshotDate": "2026-07-03",
     "rank": 227,
-    "starsTotal": 25816,
+    "starsTotal": 25818,
     "starsGained": 9412,
     "forksTotal": 1594,
     "forksGained": null,
     "language": "go",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
     "repoId": 6142,
@@ -2733,7 +2733,7 @@
     "forksTotal": 225,
     "forksGained": null,
     "language": "go",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
     "repoId": 34820,
@@ -2742,10 +2742,10 @@
     "rank": 229,
     "starsTotal": 34820,
     "starsGained": 1037,
-    "forksTotal": 1797,
+    "forksTotal": 1798,
     "forksGained": null,
     "language": "go",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
     "repoId": 6619,
@@ -2757,19 +2757,19 @@
     "forksTotal": 1072,
     "forksGained": null,
     "language": "go",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
-    "repoId": 17720,
+    "repoId": 17721,
     "fullName": "Tencent/WeKnora",
     "snapshotDate": "2026-07-03",
     "rank": 231,
-    "starsTotal": 17720,
+    "starsTotal": 17721,
     "starsGained": 1826,
     "forksTotal": 2379,
     "forksGained": null,
     "language": "go",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
     "repoId": 19354,
@@ -2781,7 +2781,7 @@
     "forksTotal": 2279,
     "forksGained": null,
     "language": "go",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
     "repoId": 11626,
@@ -2793,7 +2793,7 @@
     "forksTotal": 747,
     "forksGained": null,
     "language": "go",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
     "repoId": 5006,
@@ -2805,7 +2805,7 @@
     "forksTotal": 303,
     "forksGained": null,
     "language": "go",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
     "repoId": 10171,
@@ -2817,7 +2817,7 @@
     "forksTotal": 684,
     "forksGained": null,
     "language": "go",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
     "repoId": 84212,
@@ -2829,7 +2829,7 @@
     "forksTotal": 9793,
     "forksGained": null,
     "language": "go",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
     "repoId": 4952,
@@ -2841,7 +2841,7 @@
     "forksTotal": 800,
     "forksGained": null,
     "language": "go",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
     "repoId": 23753,
@@ -2853,7 +2853,7 @@
     "forksTotal": 823,
     "forksGained": null,
     "language": "go",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
     "repoId": 36705,
@@ -2865,7 +2865,7 @@
     "forksTotal": 514,
     "forksGained": null,
     "language": "go",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
     "repoId": 17963,
@@ -2877,7 +2877,7 @@
     "forksTotal": 2260,
     "forksGained": null,
     "language": "go",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
     "repoId": 29948,
@@ -2889,19 +2889,19 @@
     "forksTotal": 7689,
     "forksGained": null,
     "language": "go",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
-    "repoId": 196011,
+    "repoId": 196012,
     "fullName": "tensorflow/tensorflow",
     "snapshotDate": "2026-07-03",
     "rank": 242,
-    "starsTotal": 196011,
+    "starsTotal": 196012,
     "starsGained": 129,
     "forksTotal": 75264,
     "forksGained": null,
     "language": "c++",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
     "repoId": 89577,
@@ -2913,7 +2913,7 @@
     "forksTotal": 39032,
     "forksGained": null,
     "language": "c++",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
     "repoId": 7851,
@@ -2925,7 +2925,7 @@
     "forksTotal": 645,
     "forksGained": null,
     "language": "c++",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
     "repoId": 2345,
@@ -2937,19 +2937,19 @@
     "forksTotal": 1530,
     "forksGained": null,
     "language": "c++",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
-    "repoId": 74258,
+    "repoId": 74259,
     "fullName": "ocornut/imgui",
     "snapshotDate": "2026-07-03",
     "rank": 246,
-    "starsTotal": 74258,
+    "starsTotal": 74259,
     "starsGained": 29,
     "forksTotal": 11841,
     "forksGained": null,
     "language": "c++",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
     "repoId": 29014,
@@ -2961,7 +2961,7 @@
     "forksTotal": 5192,
     "forksGained": null,
     "language": "c++",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
     "repoId": 16267,
@@ -2973,7 +2973,7 @@
     "forksTotal": 1103,
     "forksGained": null,
     "language": "c++",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
     "repoId": 17365,
@@ -2985,19 +2985,19 @@
     "forksTotal": 3044,
     "forksGained": null,
     "language": "c++",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
-    "repoId": 11200,
+    "repoId": 11201,
     "fullName": "nasa/fprime",
     "snapshotDate": "2026-07-03",
     "rank": 250,
-    "starsTotal": 11200,
+    "starsTotal": 11201,
     "starsGained": 71,
     "forksTotal": 1580,
     "forksGained": null,
     "language": "c++",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
     "repoId": 9686,
@@ -3009,7 +3009,7 @@
     "forksTotal": 1559,
     "forksGained": null,
     "language": "c++",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
     "repoId": 44946,
@@ -3021,7 +3021,7 @@
     "forksTotal": 11172,
     "forksGained": null,
     "language": "c++",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
     "repoId": 6022,
@@ -3033,7 +3033,7 @@
     "forksTotal": 1244,
     "forksGained": null,
     "language": "c++",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
     "repoId": 25160,
@@ -3045,7 +3045,7 @@
     "forksTotal": 1425,
     "forksGained": null,
     "language": "c++",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
     "repoId": 5949,
@@ -3057,7 +3057,7 @@
     "forksTotal": 2111,
     "forksGained": null,
     "language": "c++",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
     "repoId": 33807,
@@ -3069,7 +3069,7 @@
     "forksTotal": 1532,
     "forksGained": null,
     "language": "c++",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
     "repoId": 20473,
@@ -3081,19 +3081,19 @@
     "forksTotal": 3242,
     "forksGained": null,
     "language": "c++",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
-    "repoId": 51249,
+    "repoId": 51250,
     "fullName": "ggml-org/whisper.cpp",
     "snapshotDate": "2026-07-03",
     "rank": 258,
-    "starsTotal": 51249,
+    "starsTotal": 51250,
     "starsGained": 35,
     "forksTotal": 5711,
     "forksGained": null,
     "language": "c++",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
     "repoId": 10625,
@@ -3105,7 +3105,7 @@
     "forksTotal": 729,
     "forksGained": null,
     "language": "c++",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
     "repoId": 5919,
@@ -3117,7 +3117,7 @@
     "forksTotal": 1361,
     "forksGained": null,
     "language": "c++",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
     "repoId": 7358,
@@ -3129,7 +3129,7 @@
     "forksTotal": 2096,
     "forksGained": null,
     "language": "c++",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
     "repoId": 27460,
@@ -3141,7 +3141,7 @@
     "forksTotal": 3530,
     "forksGained": null,
     "language": "c++",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
     "repoId": 31657,
@@ -3150,10 +3150,10 @@
     "rank": 263,
     "starsTotal": 31657,
     "starsGained": 171,
-    "forksTotal": 2268,
+    "forksTotal": 2269,
     "forksGained": null,
     "language": "c++",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
     "repoId": 38762,
@@ -3165,19 +3165,19 @@
     "forksTotal": 10812,
     "forksGained": null,
     "language": "c++",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
-    "repoId": 15072,
+    "repoId": 15073,
     "fullName": "PCSX2/pcsx2",
     "snapshotDate": "2026-07-03",
     "rank": 265,
-    "starsTotal": 15072,
+    "starsTotal": 15073,
     "starsGained": 47,
     "forksTotal": 2035,
     "forksGained": null,
     "language": "c++",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
     "repoId": 9048,
@@ -3189,7 +3189,7 @@
     "forksTotal": 329,
     "forksGained": null,
     "language": "c++",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
     "repoId": 10267,
@@ -3201,7 +3201,7 @@
     "forksTotal": 1770,
     "forksGained": null,
     "language": "c++",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
     "repoId": 35950,
@@ -3213,7 +3213,7 @@
     "forksTotal": 6045,
     "forksGained": null,
     "language": "c++",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
     "repoId": 13153,
@@ -3225,7 +3225,7 @@
     "forksTotal": 2372,
     "forksGained": null,
     "language": "c++",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
     "repoId": 30444,
@@ -3237,7 +3237,7 @@
     "forksTotal": 5858,
     "forksGained": null,
     "language": "c++",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
     "repoId": 17491,
@@ -3249,7 +3249,7 @@
     "forksTotal": 1156,
     "forksGained": null,
     "language": "c++",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
     "repoId": 31891,
@@ -3261,7 +3261,7 @@
     "forksTotal": 5726,
     "forksGained": null,
     "language": "c++",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
     "repoId": 3281,
@@ -3273,19 +3273,19 @@
     "forksTotal": 205,
     "forksGained": null,
     "language": "c++",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
-    "repoId": 23472,
+    "repoId": 23473,
     "fullName": "Tencent/ncnn",
     "snapshotDate": "2026-07-03",
     "rank": 274,
-    "starsTotal": 23472,
+    "starsTotal": 23473,
     "starsGained": 60,
-    "forksTotal": 4458,
+    "forksTotal": 4459,
     "forksGained": null,
     "language": "c++",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
     "repoId": 33561,
@@ -3297,7 +3297,7 @@
     "forksTotal": 3353,
     "forksGained": null,
     "language": "c++",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
     "repoId": 12739,
@@ -3309,7 +3309,7 @@
     "forksTotal": 756,
     "forksGained": null,
     "language": "c++",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
     "repoId": 4122,
@@ -3321,7 +3321,7 @@
     "forksTotal": 330,
     "forksGained": null,
     "language": "c++",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
     "repoId": 89517,
@@ -3330,10 +3330,10 @@
     "rank": 278,
     "starsTotal": 89517,
     "starsGained": 1899,
-    "forksTotal": 56669,
+    "forksTotal": 56670,
     "forksGained": null,
     "language": "c++",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
     "repoId": 12788,
@@ -3345,7 +3345,7 @@
     "forksTotal": 956,
     "forksGained": null,
     "language": "c++",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
     "repoId": 12559,
@@ -3357,7 +3357,7 @@
     "forksTotal": 4543,
     "forksGained": null,
     "language": "c++",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
     "repoId": 6431,
@@ -3369,7 +3369,7 @@
     "forksTotal": 685,
     "forksGained": null,
     "language": "c++",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
     "repoId": 1563,
@@ -3381,7 +3381,7 @@
     "forksTotal": 516,
     "forksGained": null,
     "language": "c++",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
     "repoId": 4639,
@@ -3393,7 +3393,7 @@
     "forksTotal": 1998,
     "forksGained": null,
     "language": "c++",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
     "repoId": 10282,
@@ -3405,7 +3405,7 @@
     "forksTotal": 2417,
     "forksGained": null,
     "language": "c++",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
     "repoId": 27414,
@@ -3417,7 +3417,7 @@
     "forksTotal": 1968,
     "forksGained": null,
     "language": "c++",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
     "repoId": 16471,
@@ -3429,7 +3429,7 @@
     "forksTotal": 1532,
     "forksGained": null,
     "language": "c++",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
     "repoId": 2813,
@@ -3441,7 +3441,7 @@
     "forksTotal": 189,
     "forksGained": null,
     "language": "c++",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
     "repoId": 10684,
@@ -3453,7 +3453,7 @@
     "forksTotal": 1100,
     "forksGained": null,
     "language": "c++",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
     "repoId": 28574,
@@ -3465,7 +3465,7 @@
     "forksTotal": 5280,
     "forksGained": null,
     "language": "c++",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
     "repoId": 8028,
@@ -3477,7 +3477,7 @@
     "forksTotal": 1211,
     "forksGained": null,
     "language": "c++",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
     "repoId": 81054,
@@ -3489,7 +3489,7 @@
     "forksTotal": 41941,
     "forksGained": null,
     "language": "java",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
     "repoId": 13301,
@@ -3501,7 +3501,7 @@
     "forksTotal": 2652,
     "forksGained": null,
     "language": "java",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
     "repoId": 3745,
@@ -3513,7 +3513,7 @@
     "forksTotal": 550,
     "forksGained": null,
     "language": "java",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
     "repoId": 85937,
@@ -3525,7 +3525,7 @@
     "forksTotal": 7508,
     "forksGained": null,
     "language": "java",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
     "repoId": 15568,
@@ -3537,7 +3537,7 @@
     "forksTotal": 1320,
     "forksGained": null,
     "language": "java",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
     "repoId": 9797,
@@ -3549,7 +3549,7 @@
     "forksTotal": 3899,
     "forksGained": null,
     "language": "java",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
     "repoId": 7136,
@@ -3561,7 +3561,7 @@
     "forksTotal": 572,
     "forksGained": null,
     "language": "java",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
     "repoId": 24142,
@@ -3573,7 +3573,7 @@
     "forksTotal": 4154,
     "forksGained": null,
     "language": "java",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
     "repoId": 27230,
@@ -3585,7 +3585,7 @@
     "forksTotal": 2645,
     "forksGained": null,
     "language": "java",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
     "repoId": 291,
@@ -3597,7 +3597,7 @@
     "forksTotal": 136,
     "forksGained": null,
     "language": "java",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
     "repoId": 3511,
@@ -3609,7 +3609,7 @@
     "forksTotal": 913,
     "forksGained": null,
     "language": "java",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
     "repoId": 30871,
@@ -3621,31 +3621,31 @@
     "forksTotal": 1672,
     "forksGained": null,
     "language": "java",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
-    "repoId": 49365,
+    "repoId": 49366,
     "fullName": "skylot/jadx",
     "snapshotDate": "2026-07-03",
     "rank": 303,
-    "starsTotal": 49365,
+    "starsTotal": 49366,
     "starsGained": 40,
     "forksTotal": 5579,
     "forksGained": null,
     "language": "java",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
-    "repoId": 128114,
+    "repoId": 128115,
     "fullName": "krahets/hello-algo",
     "snapshotDate": "2026-07-03",
     "rank": 304,
-    "starsTotal": 128114,
+    "starsTotal": 128115,
     "starsGained": 41,
     "forksTotal": 15256,
     "forksGained": null,
     "language": "java",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
     "repoId": 17119,
@@ -3657,7 +3657,7 @@
     "forksTotal": 2289,
     "forksGained": null,
     "language": "java",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
     "repoId": 28095,
@@ -3669,7 +3669,7 @@
     "forksTotal": 3507,
     "forksGained": null,
     "language": "java",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
     "repoId": 15134,
@@ -3681,7 +3681,7 @@
     "forksTotal": 677,
     "forksGained": null,
     "language": "java",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
     "repoId": 25541,
@@ -3693,7 +3693,7 @@
     "forksTotal": 9553,
     "forksGained": null,
     "language": "java",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
     "repoId": 35485,
@@ -3705,7 +3705,7 @@
     "forksTotal": 8587,
     "forksGained": null,
     "language": "java",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
     "repoId": 51504,
@@ -3717,7 +3717,7 @@
     "forksTotal": 11141,
     "forksGained": null,
     "language": "java",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
     "repoId": 33117,
@@ -3726,10 +3726,10 @@
     "rank": 311,
     "starsTotal": 33117,
     "starsGained": 43,
-    "forksTotal": 13302,
+    "forksTotal": 13300,
     "forksGained": null,
     "language": "java",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
     "repoId": 4416,
@@ -3741,7 +3741,7 @@
     "forksTotal": 3446,
     "forksGained": null,
     "language": "java",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
     "repoId": 34254,
@@ -3753,7 +3753,7 @@
     "forksTotal": 8693,
     "forksGained": null,
     "language": "java",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
     "repoId": 14355,
@@ -3765,19 +3765,19 @@
     "forksTotal": 5055,
     "forksGained": null,
     "language": "java",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
-    "repoId": 15589,
+    "repoId": 15590,
     "fullName": "apache/hadoop",
     "snapshotDate": "2026-07-03",
     "rank": 315,
-    "starsTotal": 15589,
+    "starsTotal": 15590,
     "starsGained": 12,
     "forksTotal": 9232,
     "forksGained": null,
     "language": "java",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
     "repoId": 9456,
@@ -3789,7 +3789,7 @@
     "forksTotal": 2299,
     "forksGained": null,
     "language": "java",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
     "repoId": 23044,
@@ -3801,7 +3801,7 @@
     "forksTotal": 13383,
     "forksGained": null,
     "language": "java",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
     "repoId": 39322,
@@ -3813,7 +3813,7 @@
     "forksTotal": 8425,
     "forksGained": null,
     "language": "java",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
     "repoId": 626,
@@ -3825,7 +3825,7 @@
     "forksTotal": 107,
     "forksGained": null,
     "language": "java",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
     "repoId": 70407,
@@ -3837,7 +3837,7 @@
     "forksTotal": 7729,
     "forksGained": null,
     "language": "java",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
     "repoId": 50833,
@@ -3849,7 +3849,7 @@
     "forksTotal": 4268,
     "forksGained": null,
     "language": "java",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
     "repoId": 15292,
@@ -3861,19 +3861,19 @@
     "forksTotal": 3744,
     "forksGained": null,
     "language": "java",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
-    "repoId": 26138,
+    "repoId": 26139,
     "fullName": "apache/flink",
     "snapshotDate": "2026-07-03",
     "rank": 323,
-    "starsTotal": 26138,
+    "starsTotal": 26139,
     "starsGained": 128,
     "forksTotal": 13987,
     "forksGained": null,
     "language": "java",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
     "repoId": 4238,
@@ -3885,7 +3885,7 @@
     "forksTotal": 920,
     "forksGained": null,
     "language": "java",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
     "repoId": 2285,
@@ -3897,7 +3897,7 @@
     "forksTotal": 2578,
     "forksGained": null,
     "language": "java",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
     "repoId": 11845,
@@ -3909,7 +3909,7 @@
     "forksTotal": 2469,
     "forksGained": null,
     "language": "java",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
     "repoId": 22487,
@@ -3921,7 +3921,7 @@
     "forksTotal": 12003,
     "forksGained": null,
     "language": "java",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
     "repoId": 14042,
@@ -3933,7 +3933,7 @@
     "forksTotal": 2442,
     "forksGained": null,
     "language": "java",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
     "repoId": 9148,
@@ -3945,7 +3945,7 @@
     "forksTotal": 2119,
     "forksGained": null,
     "language": "java",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
     "repoId": 3990,
@@ -3957,7 +3957,7 @@
     "forksTotal": 768,
     "forksGained": null,
     "language": "java",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
     "repoId": 840,
@@ -3969,7 +3969,7 @@
     "forksTotal": 313,
     "forksGained": null,
     "language": "java",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
     "repoId": 2880,
@@ -3981,7 +3981,7 @@
     "forksTotal": 850,
     "forksGained": null,
     "language": "java",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
     "repoId": 28457,
@@ -3993,7 +3993,7 @@
     "forksTotal": 1098,
     "forksGained": null,
     "language": "kotlin",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
     "repoId": 4032,
@@ -4005,7 +4005,7 @@
     "forksTotal": 299,
     "forksGained": null,
     "language": "kotlin",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
     "repoId": 58994,
@@ -4017,7 +4017,7 @@
     "forksTotal": 7696,
     "forksGained": null,
     "language": "kotlin",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
     "repoId": 4229,
@@ -4029,7 +4029,7 @@
     "forksTotal": 199,
     "forksGained": null,
     "language": "kotlin",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
     "repoId": 404,
@@ -4041,7 +4041,7 @@
     "forksTotal": 25,
     "forksGained": null,
     "language": "kotlin",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
     "repoId": 9760,
@@ -4053,7 +4053,7 @@
     "forksTotal": 479,
     "forksGained": null,
     "language": "kotlin",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
     "repoId": 21445,
@@ -4065,7 +4065,7 @@
     "forksTotal": 4510,
     "forksGained": null,
     "language": "kotlin",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
     "repoId": 5801,
@@ -4077,7 +4077,7 @@
     "forksTotal": 1234,
     "forksGained": null,
     "language": "kotlin",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
     "repoId": 21663,
@@ -4089,7 +4089,7 @@
     "forksTotal": 1735,
     "forksGained": null,
     "language": "kotlin",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
     "repoId": 4322,
@@ -4101,7 +4101,7 @@
     "forksTotal": 1452,
     "forksGained": null,
     "language": "kotlin",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
     "repoId": 3844,
@@ -4113,7 +4113,7 @@
     "forksTotal": 804,
     "forksGained": null,
     "language": "kotlin",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
     "repoId": 4868,
@@ -4125,7 +4125,7 @@
     "forksTotal": 525,
     "forksGained": null,
     "language": "kotlin",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
     "repoId": 1408,
@@ -4137,7 +4137,7 @@
     "forksTotal": 199,
     "forksGained": null,
     "language": "kotlin",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
     "repoId": 15648,
@@ -4149,7 +4149,7 @@
     "forksTotal": 484,
     "forksGained": null,
     "language": "kotlin",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
     "repoId": 3715,
@@ -4161,7 +4161,7 @@
     "forksTotal": 216,
     "forksGained": null,
     "language": "kotlin",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
     "repoId": 27363,
@@ -4173,7 +4173,7 @@
     "forksTotal": 1270,
     "forksGained": null,
     "language": "kotlin",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
     "repoId": 21782,
@@ -4185,7 +4185,7 @@
     "forksTotal": 1297,
     "forksGained": null,
     "language": "kotlin",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
     "repoId": 5002,
@@ -4197,7 +4197,7 @@
     "forksTotal": 850,
     "forksGained": null,
     "language": "kotlin",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
     "repoId": 1692,
@@ -4209,19 +4209,19 @@
     "forksTotal": 95,
     "forksGained": null,
     "language": "kotlin",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
-    "repoId": 5809,
+    "repoId": 5811,
     "fullName": "rikkahub/rikkahub",
     "snapshotDate": "2026-07-03",
     "rank": 352,
-    "starsTotal": 5809,
+    "starsTotal": 5811,
     "starsGained": 180,
     "forksTotal": 435,
     "forksGained": null,
     "language": "kotlin",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
     "repoId": 3299,
@@ -4233,7 +4233,7 @@
     "forksTotal": 273,
     "forksGained": null,
     "language": "kotlin",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
     "repoId": 3849,
@@ -4245,7 +4245,7 @@
     "forksTotal": 927,
     "forksGained": null,
     "language": "kotlin",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
     "repoId": 4723,
@@ -4257,7 +4257,7 @@
     "forksTotal": 1363,
     "forksGained": null,
     "language": "kotlin",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
     "repoId": 7040,
@@ -4269,7 +4269,7 @@
     "forksTotal": 201,
     "forksGained": null,
     "language": "kotlin",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
     "repoId": 1390,
@@ -4281,31 +4281,31 @@
     "forksTotal": 352,
     "forksGained": null,
     "language": "kotlin",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
-    "repoId": 1656,
+    "repoId": 1657,
     "fullName": "andreknieriem/headunit-revived",
     "snapshotDate": "2026-07-03",
     "rank": 358,
-    "starsTotal": 1656,
+    "starsTotal": 1657,
     "starsGained": 136,
     "forksTotal": 129,
     "forksGained": null,
     "language": "kotlin",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
-    "repoId": 2186,
+    "repoId": 2188,
     "fullName": "EchoMusicApp/Echo-Music",
     "snapshotDate": "2026-07-03",
     "rank": 359,
-    "starsTotal": 2186,
+    "starsTotal": 2188,
     "starsGained": 216,
     "forksTotal": 121,
     "forksGained": null,
     "language": "kotlin",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
     "repoId": 17071,
@@ -4317,7 +4317,7 @@
     "forksTotal": 3660,
     "forksGained": null,
     "language": "kotlin",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
     "repoId": 8143,
@@ -4329,7 +4329,7 @@
     "forksTotal": 618,
     "forksGained": null,
     "language": "kotlin",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
     "repoId": 813,
@@ -4341,7 +4341,7 @@
     "forksTotal": 64,
     "forksGained": null,
     "language": "kotlin",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
     "repoId": 1725,
@@ -4353,7 +4353,7 @@
     "forksTotal": 306,
     "forksGained": null,
     "language": "kotlin",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
     "repoId": 10913,
@@ -4365,7 +4365,7 @@
     "forksTotal": 1864,
     "forksGained": null,
     "language": "kotlin",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
     "repoId": 338,
@@ -4377,7 +4377,7 @@
     "forksTotal": 102,
     "forksGained": null,
     "language": "kotlin",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
     "repoId": 48605,
@@ -4389,7 +4389,7 @@
     "forksTotal": 8164,
     "forksGained": null,
     "language": "kotlin",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
     "repoId": 26869,
@@ -4401,7 +4401,7 @@
     "forksTotal": 3303,
     "forksGained": null,
     "language": "kotlin",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
     "repoId": 2470,
@@ -4413,7 +4413,7 @@
     "forksTotal": 112,
     "forksGained": null,
     "language": "kotlin",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
     "repoId": 46995,
@@ -4425,7 +4425,7 @@
     "forksTotal": 9269,
     "forksGained": null,
     "language": "kotlin",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
     "repoId": 13668,
@@ -4437,7 +4437,7 @@
     "forksTotal": 2758,
     "forksGained": null,
     "language": "kotlin",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
     "repoId": 27050,
@@ -4449,7 +4449,7 @@
     "forksTotal": 2588,
     "forksGained": null,
     "language": "kotlin",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
     "repoId": 3727,
@@ -4461,7 +4461,7 @@
     "forksTotal": 363,
     "forksGained": null,
     "language": "kotlin",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
     "repoId": 53070,
@@ -4473,7 +4473,7 @@
     "forksTotal": 6350,
     "forksGained": null,
     "language": "kotlin",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
     "repoId": 920,
@@ -4485,19 +4485,19 @@
     "forksTotal": 36,
     "forksGained": null,
     "language": "kotlin",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
-    "repoId": 15734,
+    "repoId": 15735,
     "fullName": "steipete/CodexBar",
     "snapshotDate": "2026-07-03",
     "rank": 375,
-    "starsTotal": 15734,
+    "starsTotal": 15735,
     "starsGained": 76,
     "forksTotal": 1319,
     "forksGained": null,
     "language": "swift",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
     "repoId": 1326,
@@ -4509,7 +4509,7 @@
     "forksTotal": 73,
     "forksGained": null,
     "language": "swift",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
     "repoId": 9830,
@@ -4521,7 +4521,7 @@
     "forksTotal": 896,
     "forksGained": null,
     "language": "swift",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
     "repoId": 24645,
@@ -4533,7 +4533,7 @@
     "forksTotal": 4159,
     "forksGained": null,
     "language": "swift",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
     "repoId": 5410,
@@ -4542,10 +4542,10 @@
     "rank": 379,
     "starsTotal": 5410,
     "starsGained": 14,
-    "forksTotal": 763,
+    "forksTotal": 764,
     "forksGained": null,
     "language": "swift",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
     "repoId": 15360,
@@ -4557,7 +4557,7 @@
     "forksTotal": 2001,
     "forksGained": null,
     "language": "swift",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
     "repoId": 22950,
@@ -4569,7 +4569,7 @@
     "forksTotal": 3424,
     "forksGained": null,
     "language": "swift",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
     "repoId": 6288,
@@ -4581,7 +4581,7 @@
     "forksTotal": 190,
     "forksGained": null,
     "language": "swift",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
     "repoId": 26146,
@@ -4593,7 +4593,7 @@
     "forksTotal": 1515,
     "forksGained": null,
     "language": "swift",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
     "repoId": 183,
@@ -4605,7 +4605,7 @@
     "forksTotal": 60,
     "forksGained": null,
     "language": "swift",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
     "repoId": 16625,
@@ -4617,7 +4617,7 @@
     "forksTotal": 2448,
     "forksGained": null,
     "language": "swift",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
     "repoId": 2372,
@@ -4629,7 +4629,7 @@
     "forksTotal": 326,
     "forksGained": null,
     "language": "swift",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
     "repoId": 7092,
@@ -4641,19 +4641,19 @@
     "forksTotal": 367,
     "forksGained": null,
     "language": "swift",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
-    "repoId": 23514,
+    "repoId": 23516,
     "fullName": "manaflow-ai/cmux",
     "snapshotDate": "2026-07-03",
     "rank": 388,
-    "starsTotal": 23514,
+    "starsTotal": 23516,
     "starsGained": 131,
     "forksTotal": 1862,
     "forksGained": null,
     "language": "swift",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
     "repoId": 14781,
@@ -4665,7 +4665,7 @@
     "forksTotal": 1672,
     "forksGained": null,
     "language": "swift",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
     "repoId": 4285,
@@ -4677,7 +4677,7 @@
     "forksTotal": 381,
     "forksGained": null,
     "language": "swift",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
     "repoId": 6309,
@@ -4689,7 +4689,7 @@
     "forksTotal": 343,
     "forksGained": null,
     "language": "swift",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
     "repoId": 2900,
@@ -4701,7 +4701,7 @@
     "forksTotal": 158,
     "forksGained": null,
     "language": "swift",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
     "repoId": 1549,
@@ -4713,19 +4713,19 @@
     "forksTotal": 249,
     "forksGained": null,
     "language": "swift",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
-    "repoId": 5921,
+    "repoId": 5926,
     "fullName": "altic-dev/FluidVoice",
     "snapshotDate": "2026-07-03",
     "rank": 394,
-    "starsTotal": 5921,
+    "starsTotal": 5926,
     "starsGained": 3100,
     "forksTotal": 355,
     "forksGained": null,
     "language": "swift",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
     "repoId": 1630,
@@ -4737,7 +4737,7 @@
     "forksTotal": 137,
     "forksGained": null,
     "language": "swift",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
     "repoId": 2685,
@@ -4749,7 +4749,7 @@
     "forksTotal": 164,
     "forksGained": null,
     "language": "swift",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
     "repoId": 6621,
@@ -4761,7 +4761,7 @@
     "forksTotal": 371,
     "forksGained": null,
     "language": "swift",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
     "repoId": 8517,
@@ -4773,7 +4773,7 @@
     "forksTotal": 972,
     "forksGained": null,
     "language": "swift",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
     "repoId": 8693,
@@ -4785,7 +4785,7 @@
     "forksTotal": 2684,
     "forksGained": null,
     "language": "swift",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
     "repoId": 26783,
@@ -4797,19 +4797,19 @@
     "forksTotal": 3835,
     "forksGained": null,
     "language": "swift",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
-    "repoId": 1892,
+    "repoId": 1893,
     "fullName": "duongductrong/Snapzy",
     "snapshotDate": "2026-07-03",
     "rank": 401,
-    "starsTotal": 1892,
+    "starsTotal": 1893,
     "starsGained": 245,
     "forksTotal": 91,
     "forksGained": null,
     "language": "swift",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
     "repoId": 895,
@@ -4821,7 +4821,7 @@
     "forksTotal": 332,
     "forksGained": null,
     "language": "swift",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
     "repoId": 19643,
@@ -4833,7 +4833,7 @@
     "forksTotal": 2307,
     "forksGained": null,
     "language": "swift",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
     "repoId": 3091,
@@ -4845,7 +4845,7 @@
     "forksTotal": 312,
     "forksGained": null,
     "language": "swift",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
     "repoId": 8781,
@@ -4857,7 +4857,7 @@
     "forksTotal": 318,
     "forksGained": null,
     "language": "swift",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
     "repoId": 70134,
@@ -4869,7 +4869,7 @@
     "forksTotal": 10750,
     "forksGained": null,
     "language": "swift",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
     "repoId": 16002,
@@ -4881,7 +4881,7 @@
     "forksTotal": 741,
     "forksGained": null,
     "language": "swift",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
     "repoId": 6014,
@@ -4893,7 +4893,7 @@
     "forksTotal": 310,
     "forksGained": null,
     "language": "swift",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
     "repoId": 704,
@@ -4905,7 +4905,7 @@
     "forksTotal": 301,
     "forksGained": null,
     "language": "swift",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
     "repoId": 9757,
@@ -4917,7 +4917,7 @@
     "forksTotal": 785,
     "forksGained": null,
     "language": "swift",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
     "repoId": 3984,
@@ -4929,7 +4929,7 @@
     "forksTotal": 531,
     "forksGained": null,
     "language": "swift",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
     "repoId": 34594,
@@ -4941,7 +4941,7 @@
     "forksTotal": 1751,
     "forksGained": null,
     "language": "swift",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
     "repoId": 40173,
@@ -4953,7 +4953,7 @@
     "forksTotal": 1400,
     "forksGained": null,
     "language": "swift",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
     "repoId": 5728,
@@ -4965,7 +4965,7 @@
     "forksTotal": 754,
     "forksGained": null,
     "language": "swift",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
     "repoId": 24355,
@@ -4977,7 +4977,7 @@
     "forksTotal": 2758,
     "forksGained": null,
     "language": "swift",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   },
   {
     "repoId": 1091,
@@ -4989,6 +4989,6 @@
     "forksTotal": 399,
     "forksGained": null,
     "language": "swift",
-    "fetchedAt": "2026-07-03T14:08:14.280Z"
+    "fetchedAt": "2026-07-03T14:21:51.106Z"
   }
 ]
