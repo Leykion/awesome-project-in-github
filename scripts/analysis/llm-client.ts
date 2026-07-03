@@ -84,9 +84,8 @@ export function createLLMClient(config: LLMConfig) {
             body: JSON.stringify({
               model: config.model,
               temperature: 0.2,
-              // 预期输出 JSON 约 300-500 token；上限过大时模型偶发复读失控，
-              // 单次生成可拖满 90s 才因 length 截断失败，调小以快速失败
-              max_tokens: 1500,
+              // 实测该模型常规输出在 1500-4096 token 之间，上限调低会导致大面积 length 截断
+              max_tokens: 4096,
               messages: [
                 { role: "system", content: systemPrompt },
                 { role: "user", content: userPrompt },
