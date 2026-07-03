@@ -34,7 +34,7 @@ const typeLabels: Record<string, string> = {
 
 <a
   href={`/featured/${slug}`}
-  class="featured-card group grid grid-cols-1 sm:grid-cols-[140px_1fr] rounded-[var(--radius-lg)] border border-[var(--color-border)] bg-[var(--color-surface)] overflow-hidden transition-all"
+  class="featured-card group h-full grid grid-cols-1 sm:grid-cols-[140px_1fr] rounded-[var(--radius-lg)] border border-[var(--color-border)] bg-[var(--color-surface)] overflow-hidden transition-all"
   style={`transition-duration: var(--duration-normal); transition-timing-function: var(--ease-out-expo);`}
 >
   <!-- 视觉面板 -->
@@ -42,8 +42,8 @@ const typeLabels: Record<string, string> = {
     <span class="text-5xl">{coverEmoji}</span>
   </div>
 
-  <!-- 编辑内容 -->
-  <div class="p-[var(--space-4)]">
+  <!-- 编辑内容（垂直居中，大卡片跨行拉伸时保持视觉平衡） -->
+  <div class="p-[var(--space-4)] flex flex-col justify-center">
     <div class="flex items-center gap-[var(--space-2)] mb-[var(--space-2)]">
       {isPinned && (
         <span class="inline-flex items-center rounded-[var(--radius-full)] bg-[var(--color-accent-dim)] px-[var(--space-2)] py-0.5 text-[var(--text-xs)] font-medium text-[var(--color-accent)]">

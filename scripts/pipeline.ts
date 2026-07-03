@@ -5,7 +5,16 @@
 
 import type { SyncLogData, SyncLogEntry } from "@gitpulse/shared";
 import { loadConfig } from "./lib/config";
-import { readRepositories, readStats, readSyncLog, writeStats, writeSyncLog } from "./lib/data-io";
+import {
+  readCategories,
+  readRepositories,
+  readStats,
+  readSyncLog,
+  readTrending,
+  writeCategories,
+  writeStats,
+  writeSyncLog,
+} from "./lib/data-io";
 import { aiCurate } from "./pipeline/ai-curate";
 import { buildSearchIndex } from "./pipeline/build-search-index";
 import { cleanupStale } from "./pipeline/cleanup-stale";
@@ -190,6 +199,25 @@ function updateStats(lastSyncAt: string): void {
       languageCounts[repo.language] = (languageCounts[repo.language] ?? 0) + 1;
     }
   }
+
+  // 回写分类统计：repoCount 与 topRepos（按 stars 取前 3，starsGained 取自日趋势快照）
+  const dailyGained = new Map(readTrending("daily").map((s) => [s.fullName, s.starsGained ?? 0]));
+  const categories = readCategories().map((cat) => {
+    const catRepos = repos.filter((r) => r.categorySlug === cat.slug);
+    return {
+      ...cat,
+      repoCount: catRepos.length,
+      topRepos: [...catRepos]
+        .sort((a, b) => b.stars - a.stars)
+        .slice(0, 3)
+        .map((r) => ({
+          fullName: r.fullName,
+          stars: r.stars,
+          starsGained: dailyGained.get(r.fullName) ?? 0,
+        })),
+    };
+  });
+  writeCategories(categories);
 
   // 统计已策展数
   const totalCurations = repos.filter((r) => r.curation !== null).length;
