@@ -1,11 +1,11 @@
 {
   "totalReposTracked": 858,
-  "totalCurations": 336,
+  "totalCurations": 338,
   "categoryCounts": {
-    "ai-agents": 41,
+    "ai-agents": 43,
     "mlops-evaluation": 6,
     "ai-applications": 43,
-    "ai-dev-tools": 54,
+    "ai-dev-tools": 53,
     "datasets-benchmarks": 2,
     "llm-frameworks": 15,
     "model-serving": 16,
@@ -29,7 +29,7 @@
     "Kotlin": 82,
     "Jupyter Notebook": 2
   },
-  "lastSyncAt": "2026-07-03T12:45:55.335Z",
-  "lastCurationAt": "2026-07-03T12:45:55.335Z",
+  "lastSyncAt": "2026-07-03T12:52:37.307Z",
+  "lastCurationAt": "2026-07-03T12:52:37.307Z",
   "syncHealth": "healthy"
 }
