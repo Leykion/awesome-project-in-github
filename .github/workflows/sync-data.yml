@@ -17,6 +17,8 @@ permissions:
 jobs:
   sync-and-deploy:
     runs-on: ubuntu-latest
+    # 兜底超时：正常运行应在 10 分钟内完成，超时说明管道异常
+    timeout-minutes: 30
     steps:
       - name: Checkout
         uses: actions/checkout@v4

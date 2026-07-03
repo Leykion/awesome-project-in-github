@@ -4,6 +4,14 @@
 
 import type { LLMConfig } from "../lib/config";
 
+/** LLM API 认证失败错误（401/403），不可重试，调用方应终止整个策展阶段 */
+export class LLMAuthError extends Error {
+  constructor(message: string) {
+    super(message);
+    this.name = "LLMAuthError";
+  }
+}
+
 interface ChatCompletionResponse {
   choices: Array<{
     message: { content: string | null };
@@ -20,7 +28,7 @@ function classifyError(
   err: unknown,
   httpStatus?: number,
 ): {
-  type: "rate_limit" | "server" | "network" | "timeout" | "unknown";
+  type: "rate_limit" | "server" | "network" | "timeout" | "auth" | "unknown";
   status: number;
   detail: string;
 } {
@@ -28,6 +36,9 @@ function classifyError(
     httpStatus ??
     (err instanceof Error && "status" in err ? (err as unknown as { status: number }).status : 0);
 
+  if (status === 401 || status === 403) {
+    return { type: "auth", status, detail: `authentication failed (${status})` };
+  }
   if (status === 429) {
     return { type: "rate_limit", status, detail: "rate limited by API" };
   }
@@ -111,6 +122,11 @@ export function createLLMClient(config: LLMConfig) {
           console.warn(
             `  LLM API attempt ${attempt}/${maxRetries} failed [type=${type}, status=${status}, elapsed=${elapsed}ms, inputChars=${inputChars}]: ${detail}`,
           );
+
+          // 认证失败不可重试，抛出专用错误以便调用方终止整个阶段
+          if (type === "auth") {
+            throw new LLMAuthError(`LLM API 认证失败 (HTTP ${status}): ${detail}`);
+          }
 
           if (attempt === maxRetries) throw err;
 
