@@ -226,5 +226,81 @@
     "createdAt": "2026-07-02T04:46:09.734Z",
     "updatedAt": "2026-07-02T04:46:09.734Z",
     "publishedAt": "2026-07-02T04:46:09.734Z"
+  },
+  {
+    "id": 4,
+    "title": "2026-07-03 本周上升最快 Top 10",
+    "slug": "weekly-rising-2026-07-03",
+    "description": "2026-07-03 周度最具增长势头的 AI 开源项目精选",
+    "coverEmoji": "🚀",
+    "collectionType": "weekly_digest",
+    "isPublished": true,
+    "isPinned": false,
+    "sortOrder": 0,
+    "repos": [
+      {
+        "repoId": 1031912724,
+        "fullName": "farion1231/cc-switch",
+        "editorialNote": "周星标增长 +23667",
+        "sortOrder": 1
+      },
+      {
+        "repoId": 1162099055,
+        "fullName": "Leonxlnx/taste-skill",
+        "editorialNote": "周星标增长 +23665",
+        "sortOrder": 2
+      },
+      {
+        "repoId": 1140843380,
+        "fullName": "mvanhorn/last30days-skill",
+        "editorialNote": "周星标增长 +21774",
+        "sortOrder": 3
+      },
+      {
+        "repoId": 1182081931,
+        "fullName": "Egonex-AI/Understand-Anything",
+        "editorialNote": "周星标增长 +20876",
+        "sortOrder": 4
+      },
+      {
+        "repoId": 1137078255,
+        "fullName": "colbymchenry/codegraph",
+        "editorialNote": "周星标增长 +19556",
+        "sortOrder": 5
+      },
+      {
+        "repoId": 993475914,
+        "fullName": "apple/container",
+        "editorialNote": "周星标增长 +19269",
+        "sortOrder": 6
+      },
+      {
+        "repoId": 770153867,
+        "fullName": "harry0703/MoneyPrinterTurbo",
+        "editorialNote": "周星标增长 +18098",
+        "sortOrder": 7
+      },
+      {
+        "repoId": 157616880,
+        "fullName": "iptv-org/iptv",
+        "editorialNote": "周星标增长 +13585",
+        "sortOrder": 8
+      },
+      {
+        "repoId": 876286167,
+        "fullName": "lfnovo/open-notebook",
+        "editorialNote": "周星标增长 +10623",
+        "sortOrder": 9
+      },
+      {
+        "repoId": 1166506614,
+        "fullName": "mukul975/Anthropic-Cybersecurity-Skills",
+        "editorialNote": "周星标增长 +10598",
+        "sortOrder": 10
+      }
+    ],
+    "createdAt": "2026-07-03T03:29:36.709Z",
+    "updatedAt": "2026-07-03T03:29:36.709Z",
+    "publishedAt": "2026-07-03T03:29:36.709Z"
   }
 ]
