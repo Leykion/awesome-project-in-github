@@ -18,8 +18,8 @@ import { readRepositories, writeRepositories } from "../lib/data-io";
 /** 重分析冷却期（天）：LLM 成功分析过的仓库在此期间内不重复分析 */
 const CURATION_COOLDOWN_DAYS = 7;
 
-/** LLM 调用并发数 */
-const LLM_CONCURRENCY = 4;
+/** LLM 调用并发数（DeepSeek 单次响应约 45-90s，实测并发 4 无 429，提高以缩短总时长） */
+const LLM_CONCURRENCY = 8;
 
 /** 阶段结果 */
 export interface AiCurateResult {

@@ -17,8 +17,8 @@ permissions:
 jobs:
   sync-and-deploy:
     runs-on: ubuntu-latest
-    # 兜底超时：正常运行应在 10 分钟内完成，超时说明管道异常
-    timeout-minutes: 30
+    # 兜底超时：日常增量运行应在 10 分钟内完成；候选积压时的全量回填约需 20-30 分钟
+    timeout-minutes: 45
     steps:
       - name: Checkout
         uses: actions/checkout@v4
