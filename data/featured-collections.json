@@ -1,81 +1,5 @@
 [
   {
-    "id": 1,
-    "title": "2026-06-30 本周上升最快 Top 10",
-    "slug": "weekly-rising-2026-06-30",
-    "description": "2026-06-30 周度最具增长势头的 AI 开源项目精选",
-    "coverEmoji": "🚀",
-    "collectionType": "weekly_digest",
-    "isPublished": true,
-    "isPinned": false,
-    "sortOrder": 0,
-    "repos": [
-      {
-        "repoId": 888092115,
-        "fullName": "microsoft/markitdown",
-        "editorialNote": "周星标增长 +32813",
-        "sortOrder": 1
-      },
-      {
-        "repoId": 1031912724,
-        "fullName": "farion1231/cc-switch",
-        "editorialNote": "周星标增长 +26466",
-        "sortOrder": 2
-      },
-      {
-        "repoId": 770153867,
-        "fullName": "harry0703/MoneyPrinterTurbo",
-        "editorialNote": "周星标增长 +26117",
-        "sortOrder": 3
-      },
-      {
-        "repoId": 1162099055,
-        "fullName": "Leonxlnx/taste-skill",
-        "editorialNote": "周星标增长 +25764",
-        "sortOrder": 4
-      },
-      {
-        "repoId": 1182081931,
-        "fullName": "Egonex-AI/Understand-Anything",
-        "editorialNote": "周星标增长 +25475",
-        "sortOrder": 5
-      },
-      {
-        "repoId": 1137078255,
-        "fullName": "colbymchenry/codegraph",
-        "editorialNote": "周星标增长 +23413",
-        "sortOrder": 6
-      },
-      {
-        "repoId": 1140843380,
-        "fullName": "mvanhorn/last30days-skill",
-        "editorialNote": "周星标增长 +21128",
-        "sortOrder": 7
-      },
-      {
-        "repoId": 993475914,
-        "fullName": "apple/container",
-        "editorialNote": "周星标增长 +18123",
-        "sortOrder": 8
-      },
-      {
-        "repoId": 1195360525,
-        "fullName": "calesthio/OpenMontage",
-        "editorialNote": "周星标增长 +17483",
-        "sortOrder": 9
-      },
-      {
-        "repoId": 157616880,
-        "fullName": "iptv-org/iptv",
-        "editorialNote": "周星标增长 +13028",
-        "sortOrder": 10
-      }
-    ],
-    "createdAt": "2026-06-30T05:13:24.628Z",
-    "updatedAt": "2026-06-30T05:13:24.628Z",
-    "publishedAt": "2026-06-30T05:13:24.628Z"
-  },
-  {
     "id": 2,
     "title": "2026-07-01 本周上升最快 Top 10",
     "slug": "weekly-rising-2026-07-01",
@@ -302,5 +226,81 @@
     "createdAt": "2026-07-03T03:29:36.709Z",
     "updatedAt": "2026-07-03T03:29:36.709Z",
     "publishedAt": "2026-07-03T03:29:36.709Z"
+  },
+  {
+    "id": 5,
+    "title": "2026-07-04 本周上升最快 Top 10",
+    "slug": "weekly-rising-2026-07-04",
+    "description": "2026-07-04 周度最具增长势头的 AI 开源项目精选",
+    "coverEmoji": "🚀",
+    "collectionType": "weekly_digest",
+    "isPublished": true,
+    "isPinned": false,
+    "sortOrder": 0,
+    "repos": [
+      {
+        "repoId": 1165277268,
+        "fullName": "Panniantong/Agent-Reach",
+        "editorialNote": "周星标增长 +28976",
+        "sortOrder": 1
+      },
+      {
+        "repoId": 1162099055,
+        "fullName": "Leonxlnx/taste-skill",
+        "editorialNote": "周星标增长 +23478",
+        "sortOrder": 2
+      },
+      {
+        "repoId": 1031912724,
+        "fullName": "farion1231/cc-switch",
+        "editorialNote": "周星标增长 +22824",
+        "sortOrder": 3
+      },
+      {
+        "repoId": 1140843380,
+        "fullName": "mvanhorn/last30days-skill",
+        "editorialNote": "周星标增长 +21857",
+        "sortOrder": 4
+      },
+      {
+        "repoId": 993475914,
+        "fullName": "apple/container",
+        "editorialNote": "周星标增长 +19500",
+        "sortOrder": 5
+      },
+      {
+        "repoId": 770153867,
+        "fullName": "harry0703/MoneyPrinterTurbo",
+        "editorialNote": "周星标增长 +17491",
+        "sortOrder": 6
+      },
+      {
+        "repoId": 157616880,
+        "fullName": "iptv-org/iptv",
+        "editorialNote": "周星标增长 +13790",
+        "sortOrder": 7
+      },
+      {
+        "repoId": 876286167,
+        "fullName": "lfnovo/open-notebook",
+        "editorialNote": "周星标增长 +10561",
+        "sortOrder": 8
+      },
+      {
+        "repoId": 1170266927,
+        "fullName": "phuryn/pm-skills",
+        "editorialNote": "周星标增长 +10524",
+        "sortOrder": 9
+      },
+      {
+        "repoId": 1166506614,
+        "fullName": "mukul975/Anthropic-Cybersecurity-Skills",
+        "editorialNote": "周星标增长 +10451",
+        "sortOrder": 10
+      }
+    ],
+    "createdAt": "2026-07-04T03:19:56.476Z",
+    "updatedAt": "2026-07-04T03:19:56.476Z",
+    "publishedAt": "2026-07-04T03:19:56.476Z"
   }
 ]
