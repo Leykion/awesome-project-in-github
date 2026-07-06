@@ -1,11 +1,11 @@
 {
   "totalReposTracked": 1002,
-  "totalCurations": 381,
+  "totalCurations": 383,
   "categoryCounts": {
     "ai-agents": 45,
     "mlops-evaluation": 7,
-    "ai-applications": 50,
-    "ai-dev-tools": 61,
+    "ai-applications": 51,
+    "ai-dev-tools": 62,
     "datasets-benchmarks": 2,
     "llm-frameworks": 15,
     "model-serving": 16,
@@ -30,7 +30,7 @@
     "Jupyter Notebook": 2,
     "C#": 2
   },
-  "lastSyncAt": "2026-07-05T13:49:17.098Z",
-  "lastCurationAt": "2026-07-05T13:49:17.098Z",
+  "lastSyncAt": "2026-07-06T03:43:34.948Z",
+  "lastCurationAt": "2026-07-06T03:43:34.948Z",
   "syncHealth": "healthy"
 }

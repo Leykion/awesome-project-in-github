@@ -1,81 +1,5 @@
 [
   {
-    "id": 3,
-    "title": "2026-07-02 本周上升最快 Top 10",
-    "slug": "weekly-rising-2026-07-02",
-    "description": "2026-07-02 周度最具增长势头的 AI 开源项目精选",
-    "coverEmoji": "🚀",
-    "collectionType": "weekly_digest",
-    "isPublished": true,
-    "isPinned": false,
-    "sortOrder": 0,
-    "repos": [
-      {
-        "repoId": 888092115,
-        "fullName": "microsoft/markitdown",
-        "editorialNote": "周星标增长 +25232",
-        "sortOrder": 1
-      },
-      {
-        "repoId": 1162099055,
-        "fullName": "Leonxlnx/taste-skill",
-        "editorialNote": "周星标增长 +23990",
-        "sortOrder": 2
-      },
-      {
-        "repoId": 1182081931,
-        "fullName": "Egonex-AI/Understand-Anything",
-        "editorialNote": "周星标增长 +22038",
-        "sortOrder": 3
-      },
-      {
-        "repoId": 1140843380,
-        "fullName": "mvanhorn/last30days-skill",
-        "editorialNote": "周星标增长 +21484",
-        "sortOrder": 4
-      },
-      {
-        "repoId": 1137078255,
-        "fullName": "colbymchenry/codegraph",
-        "editorialNote": "周星标增长 +20582",
-        "sortOrder": 5
-      },
-      {
-        "repoId": 993475914,
-        "fullName": "apple/container",
-        "editorialNote": "周星标增长 +19052",
-        "sortOrder": 6
-      },
-      {
-        "repoId": 770153867,
-        "fullName": "harry0703/MoneyPrinterTurbo",
-        "editorialNote": "周星标增长 +19037",
-        "sortOrder": 7
-      },
-      {
-        "repoId": 787076358,
-        "fullName": "firecrawl/firecrawl",
-        "editorialNote": "周星标增长 +16043",
-        "sortOrder": 8
-      },
-      {
-        "repoId": 157616880,
-        "fullName": "iptv-org/iptv",
-        "editorialNote": "周星标增长 +13422",
-        "sortOrder": 9
-      },
-      {
-        "repoId": 1195360525,
-        "fullName": "calesthio/OpenMontage",
-        "editorialNote": "周星标增长 +12624",
-        "sortOrder": 10
-      }
-    ],
-    "createdAt": "2026-07-02T04:46:09.734Z",
-    "updatedAt": "2026-07-02T04:46:09.734Z",
-    "publishedAt": "2026-07-02T04:46:09.734Z"
-  },
-  {
     "id": 4,
     "title": "2026-07-03 本周上升最快 Top 10",
     "slug": "weekly-rising-2026-07-03",
@@ -908,5 +832,81 @@
     "createdAt": "2026-07-05T03:35:46.749Z",
     "updatedAt": "2026-07-05T03:35:46.749Z",
     "publishedAt": "2026-07-05T03:35:46.749Z"
+  },
+  {
+    "id": 16,
+    "title": "2026-07-06 本周上升最快 Top 10",
+    "slug": "weekly-rising-2026-07-06",
+    "description": "2026-07-06 周度最具增长势头的 AI 开源项目精选",
+    "coverEmoji": "🚀",
+    "collectionType": "weekly_digest",
+    "isPublished": true,
+    "isPinned": false,
+    "sortOrder": 0,
+    "repos": [
+      {
+        "repoId": 1165277268,
+        "fullName": "Panniantong/Agent-Reach",
+        "editorialNote": "周星标增长 +30017",
+        "sortOrder": 1
+      },
+      {
+        "repoId": 1140843380,
+        "fullName": "mvanhorn/last30days-skill",
+        "editorialNote": "周星标增长 +21367",
+        "sortOrder": 2
+      },
+      {
+        "repoId": 993475914,
+        "fullName": "apple/container",
+        "editorialNote": "周星标增长 +19954",
+        "sortOrder": 3
+      },
+      {
+        "repoId": 770153867,
+        "fullName": "harry0703/MoneyPrinterTurbo",
+        "editorialNote": "周星标增长 +16547",
+        "sortOrder": 4
+      },
+      {
+        "repoId": 157616880,
+        "fullName": "iptv-org/iptv",
+        "editorialNote": "周星标增长 +14048",
+        "sortOrder": 5
+      },
+      {
+        "repoId": 1170266927,
+        "fullName": "phuryn/pm-skills",
+        "editorialNote": "周星标增长 +10731",
+        "sortOrder": 6
+      },
+      {
+        "repoId": 1075372545,
+        "fullName": "msitarzewski/agency-agents",
+        "editorialNote": "周星标增长 +10637",
+        "sortOrder": 7
+      },
+      {
+        "repoId": 1166506614,
+        "fullName": "mukul975/Anthropic-Cybersecurity-Skills",
+        "editorialNote": "周星标增长 +10363",
+        "sortOrder": 8
+      },
+      {
+        "repoId": 876286167,
+        "fullName": "lfnovo/open-notebook",
+        "editorialNote": "周星标增长 +9499",
+        "sortOrder": 9
+      },
+      {
+        "repoId": 1166102148,
+        "fullName": "DeusData/codebase-memory-mcp",
+        "editorialNote": "周星标增长 +7945",
+        "sortOrder": 10
+      }
+    ],
+    "createdAt": "2026-07-06T03:43:34.885Z",
+    "updatedAt": "2026-07-06T03:43:34.885Z",
+    "publishedAt": "2026-07-06T03:43:34.885Z"
   }
 ]
