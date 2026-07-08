@@ -1,8 +1,8 @@
 {
   "totalReposTracked": 1135,
-  "totalCurations": 418,
+  "totalCurations": 419,
   "categoryCounts": {
-    "ai-agents": 50,
+    "ai-agents": 51,
     "mlops-evaluation": 8,
     "ai-applications": 56,
     "ai-dev-tools": 71,
@@ -30,7 +30,7 @@
     "Jupyter Notebook": 2,
     "C#": 3
   },
-  "lastSyncAt": "2026-07-07T14:46:39.709Z",
-  "lastCurationAt": "2026-07-07T14:46:39.709Z",
+  "lastSyncAt": "2026-07-08T02:51:41.806Z",
+  "lastCurationAt": "2026-07-08T02:51:41.806Z",
   "syncHealth": "healthy"
 }

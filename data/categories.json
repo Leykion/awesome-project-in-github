@@ -9,17 +9,17 @@
     "topRepos": [
       {
         "fullName": "n8n-io/n8n",
-        "stars": 195520,
-        "starsGained": 162
+        "stars": 195583,
+        "starsGained": 148
       },
       {
         "fullName": "microsoft/markitdown",
-        "stars": 163667,
+        "stars": 163794,
         "starsGained": 0
       },
       {
         "fullName": "huggingface/transformers",
-        "stars": 162334,
+        "stars": 162356,
         "starsGained": 0
       }
     ]
@@ -34,17 +34,17 @@
     "topRepos": [
       {
         "fullName": "elastic/elasticsearch",
-        "stars": 77449,
-        "starsGained": 386
+        "stars": 77457,
+        "starsGained": 391
       },
       {
         "fullName": "milvus-io/milvus",
-        "stars": 45118,
+        "stars": 45125,
         "starsGained": 0
       },
       {
         "fullName": "qdrant/qdrant",
-        "stars": 33006,
+        "stars": 33018,
         "starsGained": 0
       }
     ]
@@ -55,22 +55,22 @@
     "description": "自主代理框架和多代理编排系统",
     "icon": "🤖",
     "sortOrder": 3,
-    "repoCount": 50,
+    "repoCount": 51,
     "topRepos": [
       {
         "fullName": "obra/superpowers",
-        "stars": 248455,
+        "stars": 248810,
         "starsGained": 0
       },
       {
         "fullName": "affaan-m/ECC",
-        "stars": 226873,
+        "stars": 227103,
         "starsGained": 0
       },
       {
         "fullName": "NousResearch/hermes-agent",
-        "stars": 210791,
-        "starsGained": 688
+        "stars": 211047,
+        "starsGained": 685
       }
     ]
   },
@@ -84,17 +84,17 @@
     "topRepos": [
       {
         "fullName": "tensorflow/tensorflow",
-        "stars": 196097,
-        "starsGained": 388
+        "stars": 196107,
+        "starsGained": 382
       },
       {
         "fullName": "scikit-learn/scikit-learn",
-        "stars": 66627,
+        "stars": 66630,
         "starsGained": 0
       },
       {
         "fullName": "microsoft/qlib",
-        "stars": 45904,
+        "stars": 45934,
         "starsGained": 0
       }
     ]
@@ -109,18 +109,18 @@
     "topRepos": [
       {
         "fullName": "ollama/ollama",
-        "stars": 175643,
+        "stars": 175679,
         "starsGained": 0
       },
       {
         "fullName": "ggml-org/llama.cpp",
-        "stars": 119554,
-        "starsGained": 125
+        "stars": 119607,
+        "starsGained": 130
       },
       {
         "fullName": "ggml-org/whisper.cpp",
-        "stars": 51393,
-        "starsGained": 43
+        "stars": 51437,
+        "starsGained": 61
       }
     ]
   },
@@ -134,17 +134,17 @@
     "topRepos": [
       {
         "fullName": "react/react",
-        "stars": 246270,
+        "stars": 246278,
         "starsGained": 0
       },
       {
         "fullName": "anthropics/claude-code",
-        "stars": 136671,
+        "stars": 136737,
         "starsGained": 0
       },
       {
         "fullName": "farion1231/cc-switch",
-        "stars": 114309,
+        "stars": 114424,
         "starsGained": 0
       }
     ]
@@ -159,18 +159,18 @@
     "topRepos": [
       {
         "fullName": "Comfy-Org/ComfyUI",
-        "stars": 119757,
+        "stars": 119800,
         "starsGained": 0
       },
       {
         "fullName": "opencv/opencv",
-        "stars": 89656,
-        "starsGained": 48
+        "stars": 89678,
+        "starsGained": 55
       },
       {
         "fullName": "ruvnet/RuView",
-        "stars": 78191,
-        "starsGained": 1122
+        "stars": 78556,
+        "starsGained": 1129
       }
     ]
   },
@@ -184,12 +184,12 @@
     "topRepos": [
       {
         "fullName": "asgeirtj/system_prompts_leaks",
-        "stars": 52541,
-        "starsGained": 1704
+        "stars": 53110,
+        "starsGained": 1691
       },
       {
         "fullName": "chinese-poetry/chinese-poetry",
-        "stars": 52346,
+        "stars": 52351,
         "starsGained": 0
       }
     ]
@@ -204,17 +204,17 @@
     "topRepos": [
       {
         "fullName": "openclaw/openclaw",
-        "stars": 382063,
+        "stars": 382108,
         "starsGained": 0
       },
       {
         "fullName": "firecrawl/firecrawl",
-        "stars": 147003,
+        "stars": 147313,
         "starsGained": 0
       },
       {
         "fullName": "open-webui/open-webui",
-        "stars": 144561,
+        "stars": 144624,
         "starsGained": 0
       }
     ]
