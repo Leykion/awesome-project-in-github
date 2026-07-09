@@ -1,81 +1,5 @@
 [
   {
-    "id": 6,
-    "title": "2026-07-05 本周上升最快 Top 10",
-    "slug": "weekly-rising-2026-07-05",
-    "description": "2026-07-05 周度最具增长势头的 AI 开源项目精选",
-    "coverEmoji": "🚀",
-    "collectionType": "weekly_digest",
-    "isPublished": true,
-    "isPinned": false,
-    "sortOrder": 0,
-    "repos": [
-      {
-        "repoId": 1165277268,
-        "fullName": "Panniantong/Agent-Reach",
-        "editorialNote": "周星标增长 +29397",
-        "sortOrder": 1
-      },
-      {
-        "repoId": 1162099055,
-        "fullName": "Leonxlnx/taste-skill",
-        "editorialNote": "周星标增长 +23500",
-        "sortOrder": 2
-      },
-      {
-        "repoId": 1031912724,
-        "fullName": "farion1231/cc-switch",
-        "editorialNote": "周星标增长 +22008",
-        "sortOrder": 3
-      },
-      {
-        "repoId": 1140843380,
-        "fullName": "mvanhorn/last30days-skill",
-        "editorialNote": "周星标增长 +21849",
-        "sortOrder": 4
-      },
-      {
-        "repoId": 993475914,
-        "fullName": "apple/container",
-        "editorialNote": "周星标增长 +19762",
-        "sortOrder": 5
-      },
-      {
-        "repoId": 770153867,
-        "fullName": "harry0703/MoneyPrinterTurbo",
-        "editorialNote": "周星标增长 +16930",
-        "sortOrder": 6
-      },
-      {
-        "repoId": 157616880,
-        "fullName": "iptv-org/iptv",
-        "editorialNote": "周星标增长 +13918",
-        "sortOrder": 7
-      },
-      {
-        "repoId": 1075372545,
-        "fullName": "msitarzewski/agency-agents",
-        "editorialNote": "周星标增长 +10976",
-        "sortOrder": 8
-      },
-      {
-        "repoId": 1170266927,
-        "fullName": "phuryn/pm-skills",
-        "editorialNote": "周星标增长 +10626",
-        "sortOrder": 9
-      },
-      {
-        "repoId": 876286167,
-        "fullName": "lfnovo/open-notebook",
-        "editorialNote": "周星标增长 +10499",
-        "sortOrder": 10
-      }
-    ],
-    "createdAt": "2026-07-05T03:35:46.749Z",
-    "updatedAt": "2026-07-05T03:35:46.749Z",
-    "publishedAt": "2026-07-05T03:35:46.749Z"
-  },
-  {
     "id": 7,
     "title": "2026-07 LLM Frameworks Top 10",
     "slug": "category-top-llm-frameworks-2026-07",
@@ -908,5 +832,81 @@
     "createdAt": "2026-07-08T02:51:41.736Z",
     "updatedAt": "2026-07-08T02:51:41.736Z",
     "publishedAt": "2026-07-08T02:51:41.736Z"
+  },
+  {
+    "id": 19,
+    "title": "2026-07-09 本周上升最快 Top 10",
+    "slug": "weekly-rising-2026-07-09",
+    "description": "2026-07-09 周度最具增长势头的 AI 开源项目精选",
+    "coverEmoji": "🚀",
+    "collectionType": "weekly_digest",
+    "isPublished": true,
+    "isPinned": false,
+    "sortOrder": 0,
+    "repos": [
+      {
+        "repoId": 1195360525,
+        "fullName": "calesthio/OpenMontage",
+        "editorialNote": "周星标增长 +31078",
+        "sortOrder": 1
+      },
+      {
+        "repoId": 1165277268,
+        "fullName": "Panniantong/Agent-Reach",
+        "editorialNote": "周星标增长 +29819",
+        "sortOrder": 2
+      },
+      {
+        "repoId": 1166102148,
+        "fullName": "DeusData/codebase-memory-mcp",
+        "editorialNote": "周星标增长 +25432",
+        "sortOrder": 3
+      },
+      {
+        "repoId": 993475914,
+        "fullName": "apple/container",
+        "editorialNote": "周星标增长 +20483",
+        "sortOrder": 4
+      },
+      {
+        "repoId": 1131513930,
+        "fullName": "ZhuLinsen/daily_stock_analysis",
+        "editorialNote": "周星标增长 +14822",
+        "sortOrder": 5
+      },
+      {
+        "repoId": 157616880,
+        "fullName": "iptv-org/iptv",
+        "editorialNote": "周星标增长 +14144",
+        "sortOrder": 6
+      },
+      {
+        "repoId": 1187630119,
+        "fullName": "NVIDIA/SkillSpector",
+        "editorialNote": "周星标增长 +11135",
+        "sortOrder": 7
+      },
+      {
+        "repoId": 1170266927,
+        "fullName": "phuryn/pm-skills",
+        "editorialNote": "周星标增长 +10758",
+        "sortOrder": 8
+      },
+      {
+        "repoId": 1032808806,
+        "fullName": "usestrix/strix",
+        "editorialNote": "周星标增长 +10274",
+        "sortOrder": 9
+      },
+      {
+        "repoId": 1180745961,
+        "fullName": "JCodesMore/ai-website-cloner-template",
+        "editorialNote": "周星标增长 +10241",
+        "sortOrder": 10
+      }
+    ],
+    "createdAt": "2026-07-09T03:28:41.333Z",
+    "updatedAt": "2026-07-09T03:28:41.333Z",
+    "publishedAt": "2026-07-09T03:28:41.333Z"
   }
 ]
