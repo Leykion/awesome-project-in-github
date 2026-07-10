@@ -1,10 +1,10 @@
 {
-  "totalReposTracked": 1252,
-  "totalCurations": 460,
+  "totalReposTracked": 1253,
+  "totalCurations": 462,
   "categoryCounts": {
     "ai-agents": 59,
     "mlops-evaluation": 9,
-    "ai-applications": 61,
+    "ai-applications": 62,
     "ai-dev-tools": 76,
     "datasets-benchmarks": 2,
     "llm-frameworks": 14,
@@ -20,7 +20,7 @@
     "HTML": 3,
     "TypeScript": 156,
     "C": 2,
-    "Go": 168,
+    "Go": 169,
     "Java": 152,
     "Clojure": 1,
     "JavaScript": 99,
@@ -32,7 +32,7 @@
     "CSS": 1,
     "Svelte": 1
   },
-  "lastSyncAt": "2026-07-09T15:25:40.873Z",
-  "lastCurationAt": "2026-07-09T15:25:40.873Z",
+  "lastSyncAt": "2026-07-10T03:30:57.482Z",
+  "lastCurationAt": "2026-07-10T03:30:57.482Z",
   "syncHealth": "healthy"
 }
