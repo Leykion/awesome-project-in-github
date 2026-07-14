@@ -606,82 +606,6 @@
     "publishedAt": "2026-07-05T03:35:46.749Z"
   },
   {
-    "id": 20,
-    "title": "2026-07-10 本周上升最快 Top 10",
-    "slug": "weekly-rising-2026-07-10",
-    "description": "2026-07-10 周度最具增长势头的 AI 开源项目精选",
-    "coverEmoji": "🚀",
-    "collectionType": "weekly_digest",
-    "isPublished": true,
-    "isPinned": false,
-    "sortOrder": 0,
-    "repos": [
-      {
-        "repoId": 1195360525,
-        "fullName": "calesthio/OpenMontage",
-        "editorialNote": "周星标增长 +31648",
-        "sortOrder": 1
-      },
-      {
-        "repoId": 1165277268,
-        "fullName": "Panniantong/Agent-Reach",
-        "editorialNote": "周星标增长 +28801",
-        "sortOrder": 2
-      },
-      {
-        "repoId": 1166102148,
-        "fullName": "DeusData/codebase-memory-mcp",
-        "editorialNote": "周星标增长 +26040",
-        "sortOrder": 3
-      },
-      {
-        "repoId": 993475914,
-        "fullName": "apple/container",
-        "editorialNote": "周星标增长 +20582",
-        "sortOrder": 4
-      },
-      {
-        "repoId": 787076358,
-        "fullName": "firecrawl/firecrawl",
-        "editorialNote": "周星标增长 +18345",
-        "sortOrder": 5
-      },
-      {
-        "repoId": 1131513930,
-        "fullName": "ZhuLinsen/daily_stock_analysis",
-        "editorialNote": "周星标增长 +14989",
-        "sortOrder": 6
-      },
-      {
-        "repoId": 157616880,
-        "fullName": "iptv-org/iptv",
-        "editorialNote": "周星标增长 +14536",
-        "sortOrder": 7
-      },
-      {
-        "repoId": 1187630119,
-        "fullName": "NVIDIA/SkillSpector",
-        "editorialNote": "周星标增长 +10971",
-        "sortOrder": 8
-      },
-      {
-        "repoId": 1180745961,
-        "fullName": "JCodesMore/ai-website-cloner-template",
-        "editorialNote": "周星标增长 +10636",
-        "sortOrder": 9
-      },
-      {
-        "repoId": 1166506614,
-        "fullName": "mukul975/Anthropic-Cybersecurity-Skills",
-        "editorialNote": "周星标增长 +10207",
-        "sortOrder": 10
-      }
-    ],
-    "createdAt": "2026-07-10T03:30:57.402Z",
-    "updatedAt": "2026-07-10T03:30:57.402Z",
-    "publishedAt": "2026-07-10T03:30:57.402Z"
-  },
-  {
     "id": 21,
     "title": "2026-07-11 本周上升最快 Top 10",
     "slug": "weekly-rising-2026-07-11",
@@ -908,5 +832,81 @@
     "createdAt": "2026-07-13T02:59:18.111Z",
     "updatedAt": "2026-07-13T02:59:18.111Z",
     "publishedAt": "2026-07-13T02:59:18.111Z"
+  },
+  {
+    "id": 24,
+    "title": "2026-07-14 本周上升最快 Top 10",
+    "slug": "weekly-rising-2026-07-14",
+    "description": "2026-07-14 周度最具增长势头的 AI 开源项目精选",
+    "coverEmoji": "🚀",
+    "collectionType": "weekly_digest",
+    "isPublished": true,
+    "isPinned": false,
+    "sortOrder": 0,
+    "repos": [
+      {
+        "repoId": 1195360525,
+        "fullName": "calesthio/OpenMontage",
+        "editorialNote": "周星标增长 +33392",
+        "sortOrder": 1
+      },
+      {
+        "repoId": 1165277268,
+        "fullName": "Panniantong/Agent-Reach",
+        "editorialNote": "周星标增长 +28900",
+        "sortOrder": 2
+      },
+      {
+        "repoId": 1166102148,
+        "fullName": "DeusData/codebase-memory-mcp",
+        "editorialNote": "周星标增长 +27660",
+        "sortOrder": 3
+      },
+      {
+        "repoId": 1131513930,
+        "fullName": "ZhuLinsen/daily_stock_analysis",
+        "editorialNote": "周星标增长 +14992",
+        "sortOrder": 4
+      },
+      {
+        "repoId": 157616880,
+        "fullName": "iptv-org/iptv",
+        "editorialNote": "周星标增长 +14736",
+        "sortOrder": 5
+      },
+      {
+        "repoId": 993475914,
+        "fullName": "apple/container",
+        "editorialNote": "周星标增长 +11704",
+        "sortOrder": 6
+      },
+      {
+        "repoId": 1180745961,
+        "fullName": "JCodesMore/ai-website-cloner-template",
+        "editorialNote": "周星标增长 +11369",
+        "sortOrder": 7
+      },
+      {
+        "repoId": 1166506614,
+        "fullName": "mukul975/Anthropic-Cybersecurity-Skills",
+        "editorialNote": "周星标增长 +10039",
+        "sortOrder": 8
+      },
+      {
+        "repoId": 679343504,
+        "fullName": "topoteretes/cognee",
+        "editorialNote": "周星标增长 +10013",
+        "sortOrder": 9
+      },
+      {
+        "repoId": 1187630119,
+        "fullName": "NVIDIA/SkillSpector",
+        "editorialNote": "周星标增长 +8987",
+        "sortOrder": 10
+      }
+    ],
+    "createdAt": "2026-07-14T02:40:02.172Z",
+    "updatedAt": "2026-07-14T02:40:02.172Z",
+    "publishedAt": "2026-07-14T02:40:02.172Z"
   }
 ]
