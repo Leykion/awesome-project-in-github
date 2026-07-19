@@ -606,82 +606,6 @@
     "publishedAt": "2026-07-05T03:35:46.749Z"
   },
   {
-    "id": 25,
-    "title": "2026-07-15 本周上升最快 Top 10",
-    "slug": "weekly-rising-2026-07-15",
-    "description": "2026-07-15 周度最具增长势头的 AI 开源项目精选",
-    "coverEmoji": "🚀",
-    "collectionType": "weekly_digest",
-    "isPublished": true,
-    "isPinned": false,
-    "sortOrder": 0,
-    "repos": [
-      {
-        "repoId": 1195360525,
-        "fullName": "calesthio/OpenMontage",
-        "editorialNote": "周星标增长 +33860",
-        "sortOrder": 1
-      },
-      {
-        "repoId": 1165277268,
-        "fullName": "Panniantong/Agent-Reach",
-        "editorialNote": "周星标增长 +28179",
-        "sortOrder": 2
-      },
-      {
-        "repoId": 1166102148,
-        "fullName": "DeusData/codebase-memory-mcp",
-        "editorialNote": "周星标增长 +28030",
-        "sortOrder": 3
-      },
-      {
-        "repoId": 787076358,
-        "fullName": "firecrawl/firecrawl",
-        "editorialNote": "周星标增长 +18945",
-        "sortOrder": 4
-      },
-      {
-        "repoId": 976921297,
-        "fullName": "asgeirtj/system_prompts_leaks",
-        "editorialNote": "周星标增长 +15784",
-        "sortOrder": 5
-      },
-      {
-        "repoId": 1032808806,
-        "fullName": "usestrix/strix",
-        "editorialNote": "周星标增长 +15625",
-        "sortOrder": 6
-      },
-      {
-        "repoId": 1131513930,
-        "fullName": "ZhuLinsen/daily_stock_analysis",
-        "editorialNote": "周星标增长 +15016",
-        "sortOrder": 7
-      },
-      {
-        "repoId": 1185389803,
-        "fullName": "MadsLorentzen/ai-job-search",
-        "editorialNote": "周星标增长 +13195",
-        "sortOrder": 8
-      },
-      {
-        "repoId": 157616880,
-        "fullName": "iptv-org/iptv",
-        "editorialNote": "周星标增长 +13095",
-        "sortOrder": 9
-      },
-      {
-        "repoId": 1180745961,
-        "fullName": "JCodesMore/ai-website-cloner-template",
-        "editorialNote": "周星标增长 +11509",
-        "sortOrder": 10
-      }
-    ],
-    "createdAt": "2026-07-15T02:41:26.774Z",
-    "updatedAt": "2026-07-15T02:41:26.774Z",
-    "publishedAt": "2026-07-15T02:41:26.774Z"
-  },
-  {
     "id": 26,
     "title": "2026-07-16 本周上升最快 Top 10",
     "slug": "weekly-rising-2026-07-16",
@@ -908,5 +832,81 @@
     "createdAt": "2026-07-18T02:48:39.632Z",
     "updatedAt": "2026-07-18T02:48:39.632Z",
     "publishedAt": "2026-07-18T02:48:39.632Z"
+  },
+  {
+    "id": 29,
+    "title": "2026-07-19 本周上升最快 Top 10",
+    "slug": "weekly-rising-2026-07-19",
+    "description": "2026-07-19 周度最具增长势头的 AI 开源项目精选",
+    "coverEmoji": "🚀",
+    "collectionType": "weekly_digest",
+    "isPublished": true,
+    "isPinned": false,
+    "sortOrder": 0,
+    "repos": [
+      {
+        "repoId": 1195360525,
+        "fullName": "calesthio/OpenMontage",
+        "editorialNote": "周星标增长 +34238",
+        "sortOrder": 1
+      },
+      {
+        "repoId": 1166102148,
+        "fullName": "DeusData/codebase-memory-mcp",
+        "editorialNote": "周星标增长 +26274",
+        "sortOrder": 2
+      },
+      {
+        "repoId": 1165277268,
+        "fullName": "Panniantong/Agent-Reach",
+        "editorialNote": "周星标增长 +24089",
+        "sortOrder": 3
+      },
+      {
+        "repoId": 1185389803,
+        "fullName": "MadsLorentzen/ai-job-search",
+        "editorialNote": "周星标增长 +20359",
+        "sortOrder": 4
+      },
+      {
+        "repoId": 1162099055,
+        "fullName": "Leonxlnx/taste-skill",
+        "editorialNote": "周星标增长 +18784",
+        "sortOrder": 5
+      },
+      {
+        "repoId": 1032808806,
+        "fullName": "usestrix/strix",
+        "editorialNote": "周星标增长 +16680",
+        "sortOrder": 6
+      },
+      {
+        "repoId": 976921297,
+        "fullName": "asgeirtj/system_prompts_leaks",
+        "editorialNote": "周星标增长 +15830",
+        "sortOrder": 7
+      },
+      {
+        "repoId": 1131513930,
+        "fullName": "ZhuLinsen/daily_stock_analysis",
+        "editorialNote": "周星标增长 +14982",
+        "sortOrder": 8
+      },
+      {
+        "repoId": 1006414368,
+        "fullName": "OpenCut-app/OpenCut",
+        "editorialNote": "周星标增长 +13319",
+        "sortOrder": 9
+      },
+      {
+        "repoId": 908589694,
+        "fullName": "Zackriya-Solutions/meetily",
+        "editorialNote": "周星标增长 +12829",
+        "sortOrder": 10
+      }
+    ],
+    "createdAt": "2026-07-19T02:55:22.219Z",
+    "updatedAt": "2026-07-19T02:55:22.219Z",
+    "publishedAt": "2026-07-19T02:55:22.219Z"
   }
 ]
