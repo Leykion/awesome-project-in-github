@@ -1,5 +1,5 @@
 {
-  "totalReposTracked": 1826,
+  "totalReposTracked": 1827,
   "totalCurations": 692,
   "categoryCounts": {
     "ai-agents": 91,
@@ -24,7 +24,7 @@
     "Java": 191,
     "Clojure": 1,
     "JavaScript": 164,
-    "Rust": 209,
+    "Rust": 210,
     "C++": 231,
     "Kotlin": 162,
     "Jupyter Notebook": 4,
@@ -40,7 +40,7 @@
     "Batchfile": 1,
     "Assembly": 1
   },
-  "lastSyncAt": "2026-07-22T14:09:09.591Z",
-  "lastCurationAt": "2026-07-22T14:09:09.591Z",
+  "lastSyncAt": "2026-07-23T02:55:44.101Z",
+  "lastCurationAt": "2026-07-23T02:55:44.101Z",
   "syncHealth": "healthy"
 }
