@@ -9,17 +9,17 @@
     "topRepos": [
       {
         "fullName": "microsoft/markitdown",
-        "stars": 168308,
+        "stars": 168477,
         "starsGained": 0
       },
       {
         "fullName": "huggingface/transformers",
-        "stars": 162848,
+        "stars": 162873,
         "starsGained": 0
       },
       {
         "fullName": "langflow-ai/langflow",
-        "stars": 152233,
+        "stars": 152267,
         "starsGained": 0
       }
     ]
@@ -34,17 +34,17 @@
     "topRepos": [
       {
         "fullName": "elastic/elasticsearch",
-        "stars": 77575,
+        "stars": 77580,
         "starsGained": 1073
       },
       {
         "fullName": "meilisearch/meilisearch",
-        "stars": 58696,
+        "stars": 58705,
         "starsGained": 0
       },
       {
         "fullName": "milvus-io/milvus",
-        "stars": 45334,
+        "stars": 45346,
         "starsGained": 0
       }
     ]
@@ -59,17 +59,17 @@
     "topRepos": [
       {
         "fullName": "obra/superpowers",
-        "stars": 259511,
+        "stars": 259889,
         "starsGained": 0
       },
       {
         "fullName": "affaan-m/ECC",
-        "stars": 232259,
+        "stars": 232436,
         "starsGained": 0
       },
       {
         "fullName": "NousResearch/hermes-agent",
-        "stars": 219008,
+        "stars": 219322,
         "starsGained": 0
       }
     ]
@@ -80,21 +80,21 @@
     "description": "模型训练、部署、评估管道",
     "icon": "📊",
     "sortOrder": 4,
-    "repoCount": 14,
+    "repoCount": 15,
     "topRepos": [
       {
         "fullName": "tensorflow/tensorflow",
-        "stars": 196452,
-        "starsGained": 338
+        "stars": 196470,
+        "starsGained": 39
       },
       {
         "fullName": "scikit-learn/scikit-learn",
-        "stars": 66755,
+        "stars": 66762,
         "starsGained": 0
       },
       {
         "fullName": "microsoft/qlib",
-        "stars": 46531,
+        "stars": 46549,
         "starsGained": 0
       }
     ]
@@ -105,21 +105,21 @@
     "description": "LLM 推理引擎和模型服务基础设施",
     "icon": "⚡",
     "sortOrder": 5,
-    "repoCount": 26,
+    "repoCount": 28,
     "topRepos": [
       {
         "fullName": "ollama/ollama",
-        "stars": 176668,
+        "stars": 176701,
         "starsGained": 594
       },
       {
         "fullName": "ggml-org/llama.cpp",
-        "stars": 121299,
+        "stars": 121358,
         "starsGained": 920
       },
       {
         "fullName": "vllm-project/vllm",
-        "stars": 86913,
+        "stars": 86977,
         "starsGained": 0
       }
     ]
@@ -130,21 +130,21 @@
     "description": "AI 原生开发者生产力工具",
     "icon": "🛠️",
     "sortOrder": 6,
-    "repoCount": 112,
+    "repoCount": 114,
     "topRepos": [
       {
         "fullName": "react/react",
-        "stars": 246668,
-        "starsGained": 69
+        "stars": 246678,
+        "starsGained": 0
       },
       {
         "fullName": "anomalyco/opencode",
-        "stars": 188710,
+        "stars": 188893,
         "starsGained": 0
       },
       {
         "fullName": "firecrawl/firecrawl",
-        "stars": 154595,
+        "stars": 154866,
         "starsGained": 0
       }
     ]
@@ -159,17 +159,17 @@
     "topRepos": [
       {
         "fullName": "AUTOMATIC1111/stable-diffusion-webui",
-        "stars": 164234,
+        "stars": 164236,
         "starsGained": 0
       },
       {
         "fullName": "Comfy-Org/ComfyUI",
-        "stars": 121874,
+        "stars": 121955,
         "starsGained": 0
       },
       {
         "fullName": "opencv/opencv",
-        "stars": 90077,
+        "stars": 90091,
         "starsGained": 0
       }
     ]
@@ -184,13 +184,13 @@
     "topRepos": [
       {
         "fullName": "asgeirtj/system_prompts_leaks",
-        "stars": 59770,
+        "stars": 59904,
         "starsGained": 15152
       },
       {
         "fullName": "chinese-poetry/chinese-poetry",
-        "stars": 52790,
-        "starsGained": 825
+        "stars": 52824,
+        "starsGained": 61
       }
     ]
   },
@@ -200,21 +200,21 @@
     "description": "AI 驱动的终端用户应用",
     "icon": "💡",
     "sortOrder": 9,
-    "repoCount": 79,
+    "repoCount": 80,
     "topRepos": [
       {
         "fullName": "openclaw/openclaw",
-        "stars": 383846,
+        "stars": 383898,
         "starsGained": 0
       },
       {
         "fullName": "n8n-io/n8n",
-        "stars": 197533,
+        "stars": 197619,
         "starsGained": 0
       },
       {
         "fullName": "open-webui/open-webui",
-        "stars": 146385,
+        "stars": 146446,
         "starsGained": 0
       }
     ]
