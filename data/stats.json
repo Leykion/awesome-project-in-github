@@ -1,15 +1,15 @@
 {
   "totalReposTracked": 1867,
-  "totalCurations": 701,
+  "totalCurations": 703,
   "categoryCounts": {
     "ai-agents": 91,
     "ai-applications": 80,
-    "ai-dev-tools": 114,
+    "ai-dev-tools": 115,
     "multimodal": 14,
     "datasets-benchmarks": 2,
-    "llm-frameworks": 22,
-    "model-serving": 28,
-    "mlops-evaluation": 15,
+    "llm-frameworks": 21,
+    "model-serving": 29,
+    "mlops-evaluation": 16,
     "vector-databases": 12
   },
   "languageCounts": {
@@ -40,7 +40,7 @@
     "Batchfile": 1,
     "Assembly": 1
   },
-  "lastSyncAt": "2026-07-23T14:14:57.437Z",
-  "lastCurationAt": "2026-07-23T14:14:57.437Z",
+  "lastSyncAt": "2026-07-24T02:53:01.483Z",
+  "lastCurationAt": "2026-07-24T02:53:01.483Z",
   "syncHealth": "healthy"
 }
