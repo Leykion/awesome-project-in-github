@@ -1,9 +1,9 @@
 {
   "totalReposTracked": 1957,
-  "totalCurations": 731,
+  "totalCurations": 732,
   "categoryCounts": {
-    "ai-agents": 94,
-    "ai-applications": 80,
+    "ai-agents": 93,
+    "ai-applications": 81,
     "ai-dev-tools": 120,
     "multimodal": 16,
     "datasets-benchmarks": 2,
@@ -40,7 +40,7 @@
     "Batchfile": 1,
     "Assembly": 1
   },
-  "lastSyncAt": "2026-07-25T13:41:35.587Z",
-  "lastCurationAt": "2026-07-25T13:41:35.587Z",
+  "lastSyncAt": "2026-07-26T02:58:58.366Z",
+  "lastCurationAt": "2026-07-26T02:58:58.366Z",
   "syncHealth": "healthy"
 }
