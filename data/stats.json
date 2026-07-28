@@ -1,8 +1,8 @@
 {
-  "totalReposTracked": 2010,
-  "totalCurations": 760,
+  "totalReposTracked": 2014,
+  "totalCurations": 763,
   "categoryCounts": {
-    "ai-agents": 95,
+    "ai-agents": 97,
     "ai-applications": 83,
     "ai-dev-tools": 127,
     "multimodal": 16,
@@ -15,10 +15,10 @@
   "languageCounts": {
     "Haskell": 1,
     "Shell": 7,
-    "Python": 243,
+    "Python": 244,
     "Swift": 147,
     "HTML": 8,
-    "TypeScript": 246,
+    "TypeScript": 247,
     "C": 4,
     "Go": 272,
     "Java": 217,
@@ -26,7 +26,7 @@
     "JavaScript": 182,
     "Rust": 230,
     "C++": 247,
-    "Kotlin": 177,
+    "Kotlin": 178,
     "Jupyter Notebook": 5,
     "C#": 8,
     "CSS": 2,
@@ -40,7 +40,7 @@
     "Batchfile": 1,
     "Assembly": 1
   },
-  "lastSyncAt": "2026-07-27T14:51:35.955Z",
-  "lastCurationAt": "2026-07-27T14:51:35.955Z",
+  "lastSyncAt": "2026-07-28T02:43:22.685Z",
+  "lastCurationAt": "2026-07-28T02:43:22.685Z",
   "syncHealth": "healthy"
 }
