@@ -1,5 +1,5 @@
 {
-  "totalReposTracked": 2040,
+  "totalReposTracked": 2042,
   "totalCurations": 768,
   "categoryCounts": {
     "ai-agents": 98,
@@ -17,7 +17,7 @@
     "Shell": 7,
     "Python": 247,
     "Swift": 148,
-    "HTML": 8,
+    "HTML": 9,
     "TypeScript": 253,
     "C": 4,
     "Go": 276,
@@ -25,7 +25,7 @@
     "Clojure": 1,
     "JavaScript": 185,
     "Rust": 232,
-    "C++": 250,
+    "C++": 251,
     "Kotlin": 181,
     "Jupyter Notebook": 5,
     "C#": 8,
@@ -40,7 +40,7 @@
     "Batchfile": 1,
     "Assembly": 1
   },
-  "lastSyncAt": "2026-07-28T14:20:42.944Z",
-  "lastCurationAt": "2026-07-28T14:20:42.944Z",
+  "lastSyncAt": "2026-07-29T02:49:47.812Z",
+  "lastCurationAt": "2026-07-29T02:49:47.812Z",
   "syncHealth": "healthy"
 }
