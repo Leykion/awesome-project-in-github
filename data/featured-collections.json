@@ -606,82 +606,6 @@
     "publishedAt": "2026-07-05T03:35:46.749Z"
   },
   {
-    "id": 39,
-    "title": "2026-07-29 本周上升最快 Top 10",
-    "slug": "weekly-rising-2026-07-29",
-    "description": "2026-07-29 周度最具增长势头的 AI 开源项目精选",
-    "coverEmoji": "🚀",
-    "collectionType": "weekly_digest",
-    "isPublished": true,
-    "isPinned": false,
-    "sortOrder": 0,
-    "repos": [
-      {
-        "repoId": 1183888342,
-        "fullName": "stablyai/orca",
-        "editorialNote": "周星标增长 +23282",
-        "sortOrder": 1
-      },
-      {
-        "repoId": 1006414368,
-        "fullName": "OpenCut-app/OpenCut",
-        "editorialNote": "周星标增长 +19507",
-        "sortOrder": 2
-      },
-      {
-        "repoId": 1032808806,
-        "fullName": "usestrix/strix",
-        "editorialNote": "周星标增长 +19164",
-        "sortOrder": 3
-      },
-      {
-        "repoId": 1183325896,
-        "fullName": "emilkowalski/skills",
-        "editorialNote": "周星标增长 +18400",
-        "sortOrder": 4
-      },
-      {
-        "repoId": 1166102148,
-        "fullName": "DeusData/codebase-memory-mcp",
-        "editorialNote": "周星标增长 +17707",
-        "sortOrder": 5
-      },
-      {
-        "repoId": 1162099055,
-        "fullName": "Leonxlnx/taste-skill",
-        "editorialNote": "周星标增长 +16542",
-        "sortOrder": 6
-      },
-      {
-        "repoId": 1184892122,
-        "fullName": "hasaneyldrm/exercises-dataset",
-        "editorialNote": "周星标增长 +16064",
-        "sortOrder": 7
-      },
-      {
-        "repoId": 1222917575,
-        "fullName": "Nutlope/hallmark",
-        "editorialNote": "周星标增长 +15858",
-        "sortOrder": 8
-      },
-      {
-        "repoId": 1174789082,
-        "fullName": "block/buzz",
-        "editorialNote": "周星标增长 +15046",
-        "sortOrder": 9
-      },
-      {
-        "repoId": 1182212878,
-        "fullName": "iOfficeAI/OfficeCLI",
-        "editorialNote": "周星标增长 +14798",
-        "sortOrder": 10
-      }
-    ],
-    "createdAt": "2026-07-29T02:49:47.690Z",
-    "updatedAt": "2026-07-29T02:49:47.690Z",
-    "publishedAt": "2026-07-29T02:49:47.690Z"
-  },
-  {
     "id": 40,
     "title": "2026-07-30 本周上升最快 Top 10",
     "slug": "weekly-rising-2026-07-30",
@@ -908,5 +832,717 @@
     "createdAt": "2026-08-01T03:03:46.081Z",
     "updatedAt": "2026-08-01T03:03:46.081Z",
     "publishedAt": "2026-08-01T03:03:46.081Z"
+  },
+  {
+    "id": 43,
+    "title": "2026-08-02 本周上升最快 Top 10",
+    "slug": "weekly-rising-2026-08-02",
+    "description": "2026-08-02 周度最具增长势头的 AI 开源项目精选",
+    "coverEmoji": "🚀",
+    "collectionType": "weekly_digest",
+    "isPublished": true,
+    "isPinned": false,
+    "sortOrder": 0,
+    "repos": [
+      {
+        "repoId": 1200597263,
+        "fullName": "Graphify-Labs/graphify",
+        "editorialNote": "周星标增长 +25464",
+        "sortOrder": 1
+      },
+      {
+        "repoId": 1183888342,
+        "fullName": "stablyai/orca",
+        "editorialNote": "周星标增长 +25285",
+        "sortOrder": 2
+      },
+      {
+        "repoId": 1006414368,
+        "fullName": "OpenCut-app/OpenCut",
+        "editorialNote": "周星标增长 +19744",
+        "sortOrder": 3
+      },
+      {
+        "repoId": 1183325896,
+        "fullName": "emilkowalski/skills",
+        "editorialNote": "周星标增长 +19576",
+        "sortOrder": 4
+      },
+      {
+        "repoId": 1032808806,
+        "fullName": "usestrix/strix",
+        "editorialNote": "周星标增长 +17847",
+        "sortOrder": 5
+      },
+      {
+        "repoId": 1222917575,
+        "fullName": "Nutlope/hallmark",
+        "editorialNote": "周星标增长 +17116",
+        "sortOrder": 6
+      },
+      {
+        "repoId": 1130564872,
+        "fullName": "koala73/worldmonitor",
+        "editorialNote": "周星标增长 +16936",
+        "sortOrder": 7
+      },
+      {
+        "repoId": 1201173969,
+        "fullName": "JuliusBrussee/caveman",
+        "editorialNote": "周星标增长 +16860",
+        "sortOrder": 8
+      },
+      {
+        "repoId": 1162099055,
+        "fullName": "Leonxlnx/taste-skill",
+        "editorialNote": "周星标增长 +16083",
+        "sortOrder": 9
+      },
+      {
+        "repoId": 1182212878,
+        "fullName": "iOfficeAI/OfficeCLI",
+        "editorialNote": "周星标增长 +15871",
+        "sortOrder": 10
+      }
+    ],
+    "createdAt": "2026-08-02T02:56:47.916Z",
+    "updatedAt": "2026-08-02T02:56:47.916Z",
+    "publishedAt": "2026-08-02T02:56:47.916Z"
+  },
+  {
+    "id": 44,
+    "title": "2026-08 LLM Frameworks Top 10",
+    "slug": "category-top-llm-frameworks-2026-08",
+    "description": "2026-08 LLM Frameworks 分类最佳 AI 开源项目",
+    "coverEmoji": "🔗",
+    "collectionType": "category_top",
+    "isPublished": true,
+    "isPinned": false,
+    "sortOrder": 1,
+    "repos": [
+      {
+        "repoId": 1024118326,
+        "fullName": "Tencent/WeKnora",
+        "editorialNote": null,
+        "sortOrder": 1
+      },
+      {
+        "repoId": 730534580,
+        "fullName": "infiniflow/ragflow",
+        "editorialNote": null,
+        "sortOrder": 2
+      },
+      {
+        "repoId": 798201435,
+        "fullName": "unclecode/crawl4ai",
+        "editorialNote": null,
+        "sortOrder": 3
+      },
+      {
+        "repoId": 701494311,
+        "fullName": "BoundaryML/baml",
+        "editorialNote": null,
+        "sortOrder": 4
+      },
+      {
+        "repoId": 656264456,
+        "fullName": "langchain4j/langchain4j",
+        "editorialNote": null,
+        "sortOrder": 5
+      },
+      {
+        "repoId": 155220641,
+        "fullName": "huggingface/transformers",
+        "editorialNote": null,
+        "sortOrder": 6
+      },
+      {
+        "repoId": 761150311,
+        "fullName": "Zipstack/unstract",
+        "editorialNote": null,
+        "sortOrder": 7
+      },
+      {
+        "repoId": 658928958,
+        "fullName": "ollama/ollama",
+        "editorialNote": null,
+        "sortOrder": 8
+      },
+      {
+        "repoId": 862578138,
+        "fullName": "modelcontextprotocol/typescript-sdk",
+        "editorialNote": null,
+        "sortOrder": 9
+      },
+      {
+        "repoId": 862584018,
+        "fullName": "modelcontextprotocol/python-sdk",
+        "editorialNote": null,
+        "sortOrder": 10
+      }
+    ],
+    "createdAt": "2026-08-02T02:56:47.916Z",
+    "updatedAt": "2026-08-02T02:56:47.916Z",
+    "publishedAt": "2026-08-02T02:56:47.916Z"
+  },
+  {
+    "id": 45,
+    "title": "2026-08 Vector Databases Top 10",
+    "slug": "category-top-vector-databases-2026-08",
+    "description": "2026-08 Vector Databases 分类最佳 AI 开源项目",
+    "coverEmoji": "🗄️",
+    "collectionType": "category_top",
+    "isPublished": true,
+    "isPinned": false,
+    "sortOrder": 2,
+    "repos": [
+      {
+        "repoId": 1110443421,
+        "fullName": "alibaba/zvec",
+        "editorialNote": null,
+        "sortOrder": 1
+      },
+      {
+        "repoId": 507775,
+        "fullName": "elastic/elasticsearch",
+        "editorialNote": null,
+        "sortOrder": 2
+      },
+      {
+        "repoId": 252813491,
+        "fullName": "projectdiscovery/nuclei",
+        "editorialNote": null,
+        "sortOrder": 3
+      },
+      {
+        "repoId": 208728772,
+        "fullName": "milvus-io/milvus",
+        "editorialNote": null,
+        "sortOrder": 4
+      },
+      {
+        "repoId": 268163609,
+        "fullName": "qdrant/qdrant",
+        "editorialNote": null,
+        "sortOrder": 5
+      },
+      {
+        "repoId": 55072677,
+        "fullName": "weaviate/weaviate",
+        "editorialNote": null,
+        "sortOrder": 6
+      },
+      {
+        "repoId": 130688011,
+        "fullName": "meilisearch/meilisearch",
+        "editorialNote": null,
+        "sortOrder": 7
+      },
+      {
+        "repoId": 546206616,
+        "fullName": "chroma-core/chroma",
+        "editorialNote": null,
+        "sortOrder": 8
+      },
+      {
+        "repoId": 893031915,
+        "fullName": "HelixDB/helix-db",
+        "editorialNote": null,
+        "sortOrder": 9
+      },
+      {
+        "repoId": 991431142,
+        "fullName": "memvid/memvid",
+        "editorialNote": null,
+        "sortOrder": 10
+      }
+    ],
+    "createdAt": "2026-08-02T02:56:47.916Z",
+    "updatedAt": "2026-08-02T02:56:47.916Z",
+    "publishedAt": "2026-08-02T02:56:47.916Z"
+  },
+  {
+    "id": 46,
+    "title": "2026-08 AI Agents Top 10",
+    "slug": "category-top-ai-agents-2026-08",
+    "description": "2026-08 AI Agents 分类最佳 AI 开源项目",
+    "coverEmoji": "🤖",
+    "collectionType": "category_top",
+    "isPublished": true,
+    "isPinned": false,
+    "sortOrder": 3,
+    "repos": [
+      {
+        "repoId": 1136590548,
+        "fullName": "affaan-m/ECC",
+        "editorialNote": null,
+        "sortOrder": 1
+      },
+      {
+        "repoId": 1198306812,
+        "fullName": "HKUDS/Vibe-Trading",
+        "editorialNote": null,
+        "sortOrder": 2
+      },
+      {
+        "repoId": 1183888342,
+        "fullName": "stablyai/orca",
+        "editorialNote": null,
+        "sortOrder": 3
+      },
+      {
+        "repoId": 1062458369,
+        "fullName": "alibaba/page-agent",
+        "editorialNote": null,
+        "sortOrder": 4
+      },
+      {
+        "repoId": 846698999,
+        "fullName": "aaif-goose/goose",
+        "editorialNote": null,
+        "sortOrder": 5
+      },
+      {
+        "repoId": 1032808806,
+        "fullName": "usestrix/strix",
+        "editorialNote": null,
+        "sortOrder": 6
+      },
+      {
+        "repoId": 1206553433,
+        "fullName": "TencentCloud/CubeSandbox",
+        "editorialNote": null,
+        "sortOrder": 7
+      },
+      {
+        "repoId": 1171111467,
+        "fullName": "microsoft/agent-governance-toolkit",
+        "editorialNote": null,
+        "sortOrder": 8
+      },
+      {
+        "repoId": 793375104,
+        "fullName": "Shubhamsaboo/awesome-llm-apps",
+        "editorialNote": null,
+        "sortOrder": 9
+      },
+      {
+        "repoId": 1024554267,
+        "fullName": "NousResearch/hermes-agent",
+        "editorialNote": null,
+        "sortOrder": 10
+      }
+    ],
+    "createdAt": "2026-08-02T02:56:47.916Z",
+    "updatedAt": "2026-08-02T02:56:47.916Z",
+    "publishedAt": "2026-08-02T02:56:47.916Z"
+  },
+  {
+    "id": 47,
+    "title": "2026-08 MLOps & Evaluation Top 10",
+    "slug": "category-top-mlops-evaluation-2026-08",
+    "description": "2026-08 MLOps & Evaluation 分类最佳 AI 开源项目",
+    "coverEmoji": "📊",
+    "collectionType": "category_top",
+    "isPublished": true,
+    "isPinned": false,
+    "sortOrder": 4,
+    "repos": [
+      {
+        "repoId": 1032170083,
+        "fullName": "harbor-framework/harbor",
+        "editorialNote": null,
+        "sortOrder": 1
+      },
+      {
+        "repoId": 204164353,
+        "fullName": "kestra-io/kestra",
+        "editorialNote": null,
+        "sortOrder": 2
+      },
+      {
+        "repoId": 642497346,
+        "fullName": "langfuse/langfuse",
+        "editorialNote": null,
+        "sortOrder": 3
+      },
+      {
+        "repoId": 638951438,
+        "fullName": "comet-ml/opik",
+        "editorialNote": null,
+        "sortOrder": 4
+      },
+      {
+        "repoId": 395140743,
+        "fullName": "skypilot-org/skypilot",
+        "editorialNote": null,
+        "sortOrder": 5
+      },
+      {
+        "repoId": 511691380,
+        "fullName": "lance-format/lance",
+        "editorialNote": null,
+        "sortOrder": 6
+      },
+      {
+        "repoId": 826498000,
+        "fullName": "katanemo/plano",
+        "editorialNote": null,
+        "sortOrder": 7
+      },
+      {
+        "repoId": 790916393,
+        "fullName": "NVIDIA/Model-Optimizer",
+        "editorialNote": null,
+        "sortOrder": 8
+      },
+      {
+        "repoId": 139199684,
+        "fullName": "PrefectHQ/prefect",
+        "editorialNote": null,
+        "sortOrder": 9
+      },
+      {
+        "repoId": 287463830,
+        "fullName": "microsoft/qlib",
+        "editorialNote": null,
+        "sortOrder": 10
+      }
+    ],
+    "createdAt": "2026-08-02T02:56:47.916Z",
+    "updatedAt": "2026-08-02T02:56:47.916Z",
+    "publishedAt": "2026-08-02T02:56:47.916Z"
+  },
+  {
+    "id": 48,
+    "title": "2026-08 Model Serving Top 10",
+    "slug": "category-top-model-serving-2026-08",
+    "description": "2026-08 Model Serving 分类最佳 AI 开源项目",
+    "coverEmoji": "⚡",
+    "collectionType": "category_top",
+    "isPublished": true,
+    "isPinned": false,
+    "sortOrder": 5,
+    "repos": [
+      {
+        "repoId": 924058625,
+        "fullName": "vllm-project/vllm-ascend",
+        "editorialNote": null,
+        "sortOrder": 1
+      },
+      {
+        "repoId": 851997597,
+        "fullName": "google-ai-edge/LiteRT",
+        "editorialNote": null,
+        "sortOrder": 2
+      },
+      {
+        "repoId": 612354784,
+        "fullName": "ggml-org/llama.cpp",
+        "editorialNote": null,
+        "sortOrder": 3
+      },
+      {
+        "repoId": 156939672,
+        "fullName": "microsoft/onnxruntime",
+        "editorialNote": null,
+        "sortOrder": 4
+      },
+      {
+        "repoId": 599547518,
+        "fullName": "vllm-project/vllm",
+        "editorialNote": null,
+        "sortOrder": 5
+      },
+      {
+        "repoId": 740303686,
+        "fullName": "sgl-project/sglang",
+        "editorialNote": null,
+        "sortOrder": 6
+      },
+      {
+        "repoId": 807305060,
+        "fullName": "LMCache/LMCache",
+        "editorialNote": null,
+        "sortOrder": 7
+      },
+      {
+        "repoId": 984341155,
+        "fullName": "lemonade-sdk/lemonade",
+        "editorialNote": null,
+        "sortOrder": 8
+      },
+      {
+        "repoId": 942206898,
+        "fullName": "ai-dynamo/dynamo",
+        "editorialNote": null,
+        "sortOrder": 9
+      },
+      {
+        "repoId": 669331976,
+        "fullName": "flashinfer-ai/flashinfer",
+        "editorialNote": null,
+        "sortOrder": 10
+      }
+    ],
+    "createdAt": "2026-08-02T02:56:47.916Z",
+    "updatedAt": "2026-08-02T02:56:47.916Z",
+    "publishedAt": "2026-08-02T02:56:47.916Z"
+  },
+  {
+    "id": 49,
+    "title": "2026-08 AI Dev Tools Top 10",
+    "slug": "category-top-ai-dev-tools-2026-08",
+    "description": "2026-08 AI Dev Tools 分类最佳 AI 开源项目",
+    "coverEmoji": "🛠️",
+    "collectionType": "category_top",
+    "isPublished": true,
+    "isPinned": false,
+    "sortOrder": 6,
+    "repos": [
+      {
+        "repoId": 1157102282,
+        "fullName": "diegosouzapw/OmniRoute",
+        "editorialNote": null,
+        "sortOrder": 1
+      },
+      {
+        "repoId": 898345892,
+        "fullName": "wonderwhy-er/DesktopCommanderMCP",
+        "editorialNote": null,
+        "sortOrder": 2
+      },
+      {
+        "repoId": 1200597263,
+        "fullName": "Graphify-Labs/graphify",
+        "editorialNote": null,
+        "sortOrder": 3
+      },
+      {
+        "repoId": 1167788341,
+        "fullName": "tirth8205/code-review-graph",
+        "editorialNote": null,
+        "sortOrder": 4
+      },
+      {
+        "repoId": 1128204614,
+        "fullName": "1jehuang/jcode",
+        "editorialNote": null,
+        "sortOrder": 5
+      },
+      {
+        "repoId": 1224172037,
+        "fullName": "t8y2/dbx",
+        "editorialNote": null,
+        "sortOrder": 6
+      },
+      {
+        "repoId": 1201173969,
+        "fullName": "JuliusBrussee/caveman",
+        "editorialNote": null,
+        "sortOrder": 7
+      },
+      {
+        "repoId": 1241960226,
+        "fullName": "alibaba/open-code-review",
+        "editorialNote": null,
+        "sortOrder": 8
+      },
+      {
+        "repoId": 1133911335,
+        "fullName": "different-ai/openwork",
+        "editorialNote": null,
+        "sortOrder": 9
+      },
+      {
+        "repoId": 1097346685,
+        "fullName": "pbakaus/impeccable",
+        "editorialNote": null,
+        "sortOrder": 10
+      }
+    ],
+    "createdAt": "2026-08-02T02:56:47.916Z",
+    "updatedAt": "2026-08-02T02:56:47.916Z",
+    "publishedAt": "2026-08-02T02:56:47.916Z"
+  },
+  {
+    "id": 50,
+    "title": "2026-08 Multimodal Top 10",
+    "slug": "category-top-multimodal-2026-08",
+    "description": "2026-08 Multimodal 分类最佳 AI 开源项目",
+    "coverEmoji": "👁️",
+    "collectionType": "category_top",
+    "isPublished": true,
+    "isPinned": false,
+    "sortOrder": 7,
+    "repos": [
+      {
+        "repoId": 541269386,
+        "fullName": "ggml-org/whisper.cpp",
+        "editorialNote": null,
+        "sortOrder": 1
+      },
+      {
+        "repoId": 1141782198,
+        "fullName": "jamiepine/voicebox",
+        "editorialNote": null,
+        "sortOrder": 2
+      },
+      {
+        "repoId": 867866058,
+        "fullName": "moonshine-ai/moonshine",
+        "editorialNote": null,
+        "sortOrder": 3
+      },
+      {
+        "repoId": 191820100,
+        "fullName": "google-ai-edge/mediapipe",
+        "editorialNote": null,
+        "sortOrder": 4
+      },
+      {
+        "repoId": 569959091,
+        "fullName": "modelscope/FunASR",
+        "editorialNote": null,
+        "sortOrder": 5
+      },
+      {
+        "repoId": 114747226,
+        "fullName": "deepfakes/faceswap",
+        "editorialNote": null,
+        "sortOrder": 6
+      },
+      {
+        "repoId": 589831718,
+        "fullName": "Comfy-Org/ComfyUI",
+        "editorialNote": null,
+        "sortOrder": 7
+      },
+      {
+        "repoId": 632024122,
+        "fullName": "MaaXYZ/MaaFramework",
+        "editorialNote": null,
+        "sortOrder": 8
+      },
+      {
+        "repoId": 677953180,
+        "fullName": "leejet/stable-diffusion.cpp",
+        "editorialNote": null,
+        "sortOrder": 9
+      },
+      {
+        "repoId": 479289739,
+        "fullName": "rerun-io/rerun",
+        "editorialNote": null,
+        "sortOrder": 10
+      }
+    ],
+    "createdAt": "2026-08-02T02:56:47.916Z",
+    "updatedAt": "2026-08-02T02:56:47.916Z",
+    "publishedAt": "2026-08-02T02:56:47.916Z"
+  },
+  {
+    "id": 51,
+    "title": "2026-08 Datasets & Benchmarks Top 10",
+    "slug": "category-top-datasets-benchmarks-2026-08",
+    "description": "2026-08 Datasets & Benchmarks 分类最佳 AI 开源项目",
+    "coverEmoji": "📋",
+    "collectionType": "category_top",
+    "isPublished": true,
+    "isPinned": false,
+    "sortOrder": 8,
+    "repos": [
+      {
+        "repoId": 976921297,
+        "fullName": "asgeirtj/system_prompts_leaks",
+        "editorialNote": null,
+        "sortOrder": 1
+      },
+      {
+        "repoId": 1185590488,
+        "fullName": "rohitg00/ai-engineering-from-scratch",
+        "editorialNote": null,
+        "sortOrder": 2
+      }
+    ],
+    "createdAt": "2026-08-02T02:56:47.916Z",
+    "updatedAt": "2026-08-02T02:56:47.916Z",
+    "publishedAt": "2026-08-02T02:56:47.916Z"
+  },
+  {
+    "id": 52,
+    "title": "2026-08 AI Applications Top 10",
+    "slug": "category-top-ai-applications-2026-08",
+    "description": "2026-08 AI Applications 分类最佳 AI 开源项目",
+    "coverEmoji": "💡",
+    "collectionType": "category_top",
+    "isPublished": true,
+    "isPinned": false,
+    "sortOrder": 9,
+    "repos": [
+      {
+        "repoId": 771302083,
+        "fullName": "OpenHands/OpenHands",
+        "editorialNote": null,
+        "sortOrder": 1
+      },
+      {
+        "repoId": 1130564872,
+        "fullName": "koala73/worldmonitor",
+        "editorialNote": null,
+        "sortOrder": 2
+      },
+      {
+        "repoId": 1124219907,
+        "fullName": "HKUDS/DeepTutor",
+        "editorialNote": null,
+        "sortOrder": 3
+      },
+      {
+        "repoId": 817326197,
+        "fullName": "screenpipe/screenpipe",
+        "editorialNote": null,
+        "sortOrder": 4
+      },
+      {
+        "repoId": 1004647857,
+        "fullName": "OpenWhispr/openwhispr",
+        "editorialNote": null,
+        "sortOrder": 5
+      },
+      {
+        "repoId": 916009087,
+        "fullName": "rowboatlabs/rowboat",
+        "editorialNote": null,
+        "sortOrder": 6
+      },
+      {
+        "repoId": 896924279,
+        "fullName": "moeru-ai/airi",
+        "editorialNote": null,
+        "sortOrder": 7
+      },
+      {
+        "repoId": 455229168,
+        "fullName": "immich-app/immich",
+        "editorialNote": null,
+        "sortOrder": 8
+      },
+      {
+        "repoId": 1150380174,
+        "fullName": "ilysenko/codex-desktop-linux",
+        "editorialNote": null,
+        "sortOrder": 9
+      },
+      {
+        "repoId": 708266011,
+        "fullName": "Automattic/harper",
+        "editorialNote": null,
+        "sortOrder": 10
+      }
+    ],
+    "createdAt": "2026-08-02T02:56:47.916Z",
+    "updatedAt": "2026-08-02T02:56:47.916Z",
+    "publishedAt": "2026-08-02T02:56:47.916Z"
   }
 ]
