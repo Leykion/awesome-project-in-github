@@ -5,21 +5,21 @@
     "description": "构建 LLM 驱动应用的框架和库，包括 Chain、Agent、RAG 管道",
     "icon": "🔗",
     "sortOrder": 1,
-    "repoCount": 33,
+    "repoCount": 36,
     "topRepos": [
       {
         "fullName": "ollama/ollama",
-        "stars": 177531,
+        "stars": 177567,
         "starsGained": 768
       },
       {
         "fullName": "microsoft/markitdown",
-        "stars": 170693,
+        "stars": 170769,
         "starsGained": 0
       },
       {
         "fullName": "huggingface/transformers",
-        "stars": 163231,
+        "stars": 163247,
         "starsGained": 0
       }
     ]
@@ -34,17 +34,17 @@
     "topRepos": [
       {
         "fullName": "elastic/elasticsearch",
-        "stars": 77635,
-        "starsGained": 949
+        "stars": 77638,
+        "starsGained": 12
       },
       {
         "fullName": "meilisearch/meilisearch",
-        "stars": 58819,
+        "stars": 58820,
         "starsGained": 0
       },
       {
         "fullName": "milvus-io/milvus",
-        "stars": 45456,
+        "stars": 45463,
         "starsGained": 0
       }
     ]
@@ -55,21 +55,21 @@
     "description": "自主代理框架和多代理编排系统",
     "icon": "🤖",
     "sortOrder": 3,
-    "repoCount": 98,
+    "repoCount": 95,
     "topRepos": [
       {
         "fullName": "obra/superpowers",
-        "stars": 264816,
+        "stars": 264986,
         "starsGained": 0
       },
       {
         "fullName": "affaan-m/ECC",
-        "stars": 236855,
+        "stars": 236927,
         "starsGained": 3944
       },
       {
         "fullName": "NousResearch/hermes-agent",
-        "stars": 223870,
+        "stars": 224101,
         "starsGained": 475
       }
     ]
@@ -84,17 +84,17 @@
     "topRepos": [
       {
         "fullName": "scikit-learn/scikit-learn",
-        "stars": 66851,
+        "stars": 66853,
         "starsGained": 0
       },
       {
         "fullName": "microsoft/qlib",
-        "stars": 46922,
+        "stars": 46936,
         "starsGained": 0
       },
       {
         "fullName": "vnpy/vnpy",
-        "stars": 44113,
+        "stars": 44132,
         "starsGained": 0
       }
     ]
@@ -105,22 +105,22 @@
     "description": "LLM 推理引擎和模型服务基础设施",
     "icon": "⚡",
     "sortOrder": 5,
-    "repoCount": 27,
+    "repoCount": 26,
     "topRepos": [
       {
         "fullName": "ggml-org/llama.cpp",
-        "stars": 122349,
+        "stars": 122405,
         "starsGained": 100
       },
       {
         "fullName": "vllm-project/vllm",
-        "stars": 87887,
+        "stars": 87936,
         "starsGained": 0
       },
       {
         "fullName": "mudler/LocalAI",
-        "stars": 48109,
-        "starsGained": 0
+        "stars": 48123,
+        "starsGained": 284
       }
     ]
   },
@@ -130,22 +130,22 @@
     "description": "AI 原生开发者生产力工具",
     "icon": "🛠️",
     "sortOrder": 6,
-    "repoCount": 125,
+    "repoCount": 126,
     "topRepos": [
       {
         "fullName": "anthropics/claude-code",
-        "stars": 139931,
+        "stars": 139975,
         "starsGained": 0
       },
       {
         "fullName": "github/spec-kit",
-        "stars": 124921,
+        "stars": 124981,
         "starsGained": 0
       },
       {
         "fullName": "farion1231/cc-switch",
-        "stars": 123289,
-        "starsGained": 345
+        "stars": 123482,
+        "starsGained": 0
       }
     ]
   },
@@ -159,17 +159,17 @@
     "topRepos": [
       {
         "fullName": "AUTOMATIC1111/stable-diffusion-webui",
-        "stars": 164337,
+        "stars": 164349,
         "starsGained": 0
       },
       {
         "fullName": "Comfy-Org/ComfyUI",
-        "stars": 123150,
+        "stars": 123198,
         "starsGained": 0
       },
       {
         "fullName": "opencv/opencv",
-        "stars": 90252,
+        "stars": 90254,
         "starsGained": 0
       }
     ]
@@ -184,12 +184,12 @@
     "topRepos": [
       {
         "fullName": "asgeirtj/system_prompts_leaks",
-        "stars": 61868,
+        "stars": 61938,
         "starsGained": 14616
       },
       {
         "fullName": "rohitg00/ai-engineering-from-scratch",
-        "stars": 45441,
+        "stars": 45467,
         "starsGained": 0
       }
     ]
@@ -204,17 +204,17 @@
     "topRepos": [
       {
         "fullName": "openclaw/openclaw",
-        "stars": 384854,
+        "stars": 384904,
         "starsGained": 0
       },
       {
         "fullName": "firecrawl/firecrawl",
-        "stars": 159129,
+        "stars": 159325,
         "starsGained": 0
       },
       {
         "fullName": "open-webui/open-webui",
-        "stars": 147554,
+        "stars": 147586,
         "starsGained": 0
       }
     ]
