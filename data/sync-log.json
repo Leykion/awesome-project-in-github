@@ -1,5 +1,5 @@
 {
-  "lastRun": "2026-08-05T14:18:28.797Z",
+  "lastRun": "2026-08-06T02:43:43.270Z",
   "entries": [
     {
       "jobType": "discover",
@@ -8,75 +8,75 @@
       "reposFailed": 0,
       "rateLimitRemaining": null,
       "errorMessage": null,
-      "durationMs": 39906,
-      "startedAt": "2026-08-05T14:10:50.947Z",
-      "completedAt": "2026-08-05T14:11:30.853Z"
+      "durationMs": 36653,
+      "startedAt": "2026-08-06T02:37:47.121Z",
+      "completedAt": "2026-08-06T02:38:23.774Z"
     },
     {
       "jobType": "enrich",
-      "status": "completed",
-      "reposProcessed": 2070,
-      "reposFailed": 0,
-      "rateLimitRemaining": null,
-      "errorMessage": null,
-      "durationMs": 406305,
-      "startedAt": "2026-08-05T14:11:30.853Z",
-      "completedAt": "2026-08-05T14:18:17.158Z"
-    },
-    {
-      "jobType": "score",
-      "status": "partial",
-      "reposProcessed": 2017,
-      "reposFailed": 53,
-      "rateLimitRemaining": null,
-      "errorMessage": null,
-      "durationMs": 92,
-      "startedAt": "2026-08-05T14:18:17.158Z",
-      "completedAt": "2026-08-05T14:18:17.250Z"
-    },
-    {
-      "jobType": "analyze",
-      "status": "completed",
-      "reposProcessed": 139,
-      "reposFailed": 0,
-      "rateLimitRemaining": null,
-      "errorMessage": null,
-      "durationMs": 11373,
-      "startedAt": "2026-08-05T14:18:17.250Z",
-      "completedAt": "2026-08-05T14:18:28.623Z"
-    },
-    {
-      "jobType": "collection",
-      "status": "completed",
-      "reposProcessed": 0,
-      "reposFailed": 0,
-      "rateLimitRemaining": null,
-      "errorMessage": null,
-      "durationMs": 25,
-      "startedAt": "2026-08-05T14:18:28.623Z",
-      "completedAt": "2026-08-05T14:18:28.648Z"
-    },
-    {
-      "jobType": "cleanup",
-      "status": "completed",
-      "reposProcessed": 4,
-      "reposFailed": 0,
-      "rateLimitRemaining": null,
-      "errorMessage": null,
-      "durationMs": 88,
-      "startedAt": "2026-08-05T14:18:28.648Z",
-      "completedAt": "2026-08-05T14:18:28.736Z"
-    },
-    {
-      "jobType": "discover",
       "status": "completed",
       "reposProcessed": 2066,
       "reposFailed": 0,
       "rateLimitRemaining": null,
       "errorMessage": null,
-      "durationMs": 61,
-      "startedAt": "2026-08-05T14:18:28.736Z",
-      "completedAt": "2026-08-05T14:18:28.797Z"
+      "durationMs": 306510,
+      "startedAt": "2026-08-06T02:38:23.774Z",
+      "completedAt": "2026-08-06T02:43:30.284Z"
+    },
+    {
+      "jobType": "score",
+      "status": "partial",
+      "reposProcessed": 2014,
+      "reposFailed": 52,
+      "rateLimitRemaining": null,
+      "errorMessage": null,
+      "durationMs": 97,
+      "startedAt": "2026-08-06T02:43:30.284Z",
+      "completedAt": "2026-08-06T02:43:30.381Z"
+    },
+    {
+      "jobType": "analyze",
+      "status": "completed",
+      "reposProcessed": 165,
+      "reposFailed": 0,
+      "rateLimitRemaining": null,
+      "errorMessage": null,
+      "durationMs": 12718,
+      "startedAt": "2026-08-06T02:43:30.381Z",
+      "completedAt": "2026-08-06T02:43:43.099Z"
+    },
+    {
+      "jobType": "collection",
+      "status": "completed",
+      "reposProcessed": 1,
+      "reposFailed": 0,
+      "rateLimitRemaining": null,
+      "errorMessage": null,
+      "durationMs": 27,
+      "startedAt": "2026-08-06T02:43:43.099Z",
+      "completedAt": "2026-08-06T02:43:43.126Z"
+    },
+    {
+      "jobType": "cleanup",
+      "status": "completed",
+      "reposProcessed": 22,
+      "reposFailed": 0,
+      "rateLimitRemaining": null,
+      "errorMessage": null,
+      "durationMs": 81,
+      "startedAt": "2026-08-06T02:43:43.126Z",
+      "completedAt": "2026-08-06T02:43:43.207Z"
+    },
+    {
+      "jobType": "discover",
+      "status": "completed",
+      "reposProcessed": 2044,
+      "reposFailed": 0,
+      "rateLimitRemaining": null,
+      "errorMessage": null,
+      "durationMs": 62,
+      "startedAt": "2026-08-06T02:43:43.207Z",
+      "completedAt": "2026-08-06T02:43:43.269Z"
     }
   ]
 }

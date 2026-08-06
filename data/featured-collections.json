@@ -606,82 +606,6 @@
     "publishedAt": "2026-07-05T03:35:46.749Z"
   },
   {
-    "id": 43,
-    "title": "2026-08-02 本周上升最快 Top 10",
-    "slug": "weekly-rising-2026-08-02",
-    "description": "2026-08-02 周度最具增长势头的 AI 开源项目精选",
-    "coverEmoji": "🚀",
-    "collectionType": "weekly_digest",
-    "isPublished": true,
-    "isPinned": false,
-    "sortOrder": 0,
-    "repos": [
-      {
-        "repoId": 1200597263,
-        "fullName": "Graphify-Labs/graphify",
-        "editorialNote": "周星标增长 +25464",
-        "sortOrder": 1
-      },
-      {
-        "repoId": 1183888342,
-        "fullName": "stablyai/orca",
-        "editorialNote": "周星标增长 +25285",
-        "sortOrder": 2
-      },
-      {
-        "repoId": 1006414368,
-        "fullName": "OpenCut-app/OpenCut",
-        "editorialNote": "周星标增长 +19744",
-        "sortOrder": 3
-      },
-      {
-        "repoId": 1183325896,
-        "fullName": "emilkowalski/skills",
-        "editorialNote": "周星标增长 +19576",
-        "sortOrder": 4
-      },
-      {
-        "repoId": 1032808806,
-        "fullName": "usestrix/strix",
-        "editorialNote": "周星标增长 +17847",
-        "sortOrder": 5
-      },
-      {
-        "repoId": 1222917575,
-        "fullName": "Nutlope/hallmark",
-        "editorialNote": "周星标增长 +17116",
-        "sortOrder": 6
-      },
-      {
-        "repoId": 1130564872,
-        "fullName": "koala73/worldmonitor",
-        "editorialNote": "周星标增长 +16936",
-        "sortOrder": 7
-      },
-      {
-        "repoId": 1201173969,
-        "fullName": "JuliusBrussee/caveman",
-        "editorialNote": "周星标增长 +16860",
-        "sortOrder": 8
-      },
-      {
-        "repoId": 1162099055,
-        "fullName": "Leonxlnx/taste-skill",
-        "editorialNote": "周星标增长 +16083",
-        "sortOrder": 9
-      },
-      {
-        "repoId": 1182212878,
-        "fullName": "iOfficeAI/OfficeCLI",
-        "editorialNote": "周星标增长 +15871",
-        "sortOrder": 10
-      }
-    ],
-    "createdAt": "2026-08-02T02:56:47.916Z",
-    "updatedAt": "2026-08-02T02:56:47.916Z",
-    "publishedAt": "2026-08-02T02:56:47.916Z"
-  },
-  {
     "id": 44,
     "title": "2026-08 LLM Frameworks Top 10",
     "slug": "category-top-llm-frameworks-2026-08",
@@ -1544,5 +1468,81 @@
     "createdAt": "2026-08-05T02:40:53.952Z",
     "updatedAt": "2026-08-05T02:40:53.952Z",
     "publishedAt": "2026-08-05T02:40:53.952Z"
+  },
+  {
+    "id": 56,
+    "title": "2026-08-06 本周上升最快 Top 10",
+    "slug": "weekly-rising-2026-08-06",
+    "description": "2026-08-06 周度最具增长势头的 AI 开源项目精选",
+    "coverEmoji": "🚀",
+    "collectionType": "weekly_digest",
+    "isPublished": true,
+    "isPinned": false,
+    "sortOrder": 0,
+    "repos": [
+      {
+        "repoId": 1157102282,
+        "fullName": "diegosouzapw/OmniRoute",
+        "editorialNote": "周星标增长 +29141",
+        "sortOrder": 1
+      },
+      {
+        "repoId": 1183888342,
+        "fullName": "stablyai/orca",
+        "editorialNote": "周星标增长 +26073",
+        "sortOrder": 2
+      },
+      {
+        "repoId": 1200597263,
+        "fullName": "Graphify-Labs/graphify",
+        "editorialNote": "周星标增长 +25465",
+        "sortOrder": 3
+      },
+      {
+        "repoId": 1185389803,
+        "fullName": "MadsLorentzen/ai-job-search",
+        "editorialNote": "周星标增长 +24972",
+        "sortOrder": 4
+      },
+      {
+        "repoId": 1183325896,
+        "fullName": "emilkowalski/skills",
+        "editorialNote": "周星标增长 +20625",
+        "sortOrder": 5
+      },
+      {
+        "repoId": 1006414368,
+        "fullName": "OpenCut-app/OpenCut",
+        "editorialNote": "周星标增长 +19925",
+        "sortOrder": 6
+      },
+      {
+        "repoId": 1222917575,
+        "fullName": "Nutlope/hallmark",
+        "editorialNote": "周星标增长 +18510",
+        "sortOrder": 7
+      },
+      {
+        "repoId": 1130564872,
+        "fullName": "koala73/worldmonitor",
+        "editorialNote": "周星标增长 +18064",
+        "sortOrder": 8
+      },
+      {
+        "repoId": 1182212878,
+        "fullName": "iOfficeAI/OfficeCLI",
+        "editorialNote": "周星标增长 +17505",
+        "sortOrder": 9
+      },
+      {
+        "repoId": 1035029907,
+        "fullName": "earendil-works/pi",
+        "editorialNote": "周星标增长 +16667",
+        "sortOrder": 10
+      }
+    ],
+    "createdAt": "2026-08-06T02:43:43.124Z",
+    "updatedAt": "2026-08-06T02:43:43.124Z",
+    "publishedAt": "2026-08-06T02:43:43.124Z"
   }
 ]
