@@ -5,22 +5,22 @@
     "description": "构建 LLM 驱动应用的框架和库，包括 Chain、Agent、RAG 管道",
     "icon": "🔗",
     "sortOrder": 1,
-    "repoCount": 55,
+    "repoCount": 58,
     "topRepos": [
       {
         "fullName": "ollama/ollama",
-        "stars": 178238,
+        "stars": 178262,
         "starsGained": 94
       },
       {
         "fullName": "microsoft/markitdown",
-        "stars": 172946,
+        "stars": 173101,
         "starsGained": 0
       },
       {
         "fullName": "firecrawl/firecrawl",
-        "stars": 165114,
-        "starsGained": 835
+        "stars": 165587,
+        "starsGained": 1020
       }
     ]
   },
@@ -34,17 +34,17 @@
     "topRepos": [
       {
         "fullName": "meilisearch/meilisearch",
-        "stars": 58926,
+        "stars": 58933,
         "starsGained": 0
       },
       {
         "fullName": "milvus-io/milvus",
-        "stars": 45596,
+        "stars": 45604,
         "starsGained": 0
       },
       {
         "fullName": "servo/servo",
-        "stars": 37669,
+        "stars": 37673,
         "starsGained": 96
       }
     ]
@@ -55,21 +55,21 @@
     "description": "自主代理框架和多代理编排系统",
     "icon": "🤖",
     "sortOrder": 3,
-    "repoCount": 96,
+    "repoCount": 94,
     "topRepos": [
       {
         "fullName": "obra/superpowers",
-        "stars": 270257,
+        "stars": 270568,
         "starsGained": 0
       },
       {
         "fullName": "NousResearch/hermes-agent",
-        "stars": 228487,
+        "stars": 228802,
         "starsGained": 0
       },
       {
-        "fullName": "n8n-io/n8n",
-        "stars": 200145,
+        "fullName": "browser-use/browser-use",
+        "stars": 108763,
         "starsGained": 0
       }
     ]
@@ -84,17 +84,17 @@
     "topRepos": [
       {
         "fullName": "scikit-learn/scikit-learn",
-        "stars": 66941,
+        "stars": 66946,
         "starsGained": 0
       },
       {
         "fullName": "microsoft/qlib",
-        "stars": 47263,
+        "stars": 47296,
         "starsGained": 0
       },
       {
         "fullName": "vnpy/vnpy",
-        "stars": 44383,
+        "stars": 44394,
         "starsGained": 0
       }
     ]
@@ -109,18 +109,18 @@
     "topRepos": [
       {
         "fullName": "ggml-org/llama.cpp",
-        "stars": 123372,
-        "starsGained": 872
+        "stars": 123443,
+        "starsGained": 157
       },
       {
         "fullName": "vllm-project/vllm",
-        "stars": 88707,
+        "stars": 88771,
         "starsGained": 0
       },
       {
         "fullName": "mozilla-ai/llamafile",
-        "stars": 25533,
-        "starsGained": 9
+        "stars": 25536,
+        "starsGained": 0
       }
     ]
   },
@@ -130,21 +130,21 @@
     "description": "AI 原生开发者生产力工具",
     "icon": "🛠️",
     "sortOrder": 6,
-    "repoCount": 136,
+    "repoCount": 139,
     "topRepos": [
       {
         "fullName": "affaan-m/ECC",
-        "stars": 239257,
+        "stars": 239365,
         "starsGained": 261
       },
       {
-        "fullName": "Snailclimb/JavaGuide",
-        "stars": 157671,
-        "starsGained": 0
+        "fullName": "n8n-io/n8n",
+        "stars": 200210,
+        "starsGained": 182
       },
       {
-        "fullName": "anthropics/claude-code",
-        "stars": 140952,
+        "fullName": "Snailclimb/JavaGuide",
+        "stars": 157700,
         "starsGained": 0
       }
     ]
@@ -155,22 +155,22 @@
     "description": "视觉、音频和多模态模型工具",
     "icon": "👁️",
     "sortOrder": 7,
-    "repoCount": 19,
+    "repoCount": 20,
     "topRepos": [
       {
         "fullName": "AUTOMATIC1111/stable-diffusion-webui",
-        "stars": 164465,
+        "stars": 164471,
         "starsGained": 0
       },
       {
         "fullName": "huggingface/transformers",
-        "stars": 163560,
-        "starsGained": 0
+        "stars": 163610,
+        "starsGained": 69
       },
       {
         "fullName": "Comfy-Org/ComfyUI",
-        "stars": 126345,
-        "starsGained": 922
+        "stars": 126709,
+        "starsGained": 2842
       }
     ]
   },
@@ -184,7 +184,7 @@
     "topRepos": [
       {
         "fullName": "rohitg00/ai-engineering-from-scratch",
-        "stars": 46478,
+        "stars": 46520,
         "starsGained": 0
       }
     ]
@@ -195,21 +195,21 @@
     "description": "AI 驱动的终端用户应用",
     "icon": "💡",
     "sortOrder": 9,
-    "repoCount": 65,
+    "repoCount": 60,
     "topRepos": [
       {
         "fullName": "openclaw/openclaw",
-        "stars": 385828,
+        "stars": 385913,
         "starsGained": 0
       },
       {
         "fullName": "Significant-Gravitas/AutoGPT",
-        "stars": 186504,
+        "stars": 186518,
         "starsGained": 805
       },
       {
         "fullName": "microsoft/generative-ai-for-beginners",
-        "stars": 117363,
+        "stars": 117472,
         "starsGained": 0
       }
     ]
