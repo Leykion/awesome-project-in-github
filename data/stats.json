@@ -1,10 +1,10 @@
 {
-  "totalReposTracked": 2155,
-  "totalCurations": 866,
+  "totalReposTracked": 2142,
+  "totalCurations": 865,
   "categoryCounts": {
     "model-serving": 23,
-    "ai-applications": 66,
-    "ai-agents": 97,
+    "ai-applications": 65,
+    "ai-agents": 96,
     "ai-dev-tools": 136,
     "llm-frameworks": 55,
     "mlops-evaluation": 10,
@@ -14,17 +14,17 @@
   },
   "languageCounts": {
     "Haskell": 1,
-    "Python": 281,
+    "Python": 277,
     "Swift": 122,
     "TypeScript": 287,
     "C": 6,
-    "JavaScript": 200,
+    "JavaScript": 199,
     "Java": 209,
     "Clojure": 2,
-    "Rust": 256,
+    "Rust": 255,
     "Go": 311,
-    "C++": 275,
-    "Kotlin": 164,
+    "C++": 274,
+    "Kotlin": 158,
     "Jupyter Notebook": 5,
     "Shell": 6,
     "C#": 6,
@@ -44,7 +44,7 @@
     "Crystal": 1,
     "Roff": 1
   },
-  "lastSyncAt": "2026-08-10T13:18:03.270Z",
-  "lastCurationAt": "2026-08-10T13:18:03.270Z",
+  "lastSyncAt": "2026-08-11T01:54:39.519Z",
+  "lastCurationAt": "2026-08-11T01:54:39.519Z",
   "syncHealth": "healthy"
 }
