@@ -1242,82 +1242,6 @@
     "publishedAt": "2026-08-02T02:56:47.916Z"
   },
   {
-    "id": 62,
-    "title": "2026-08-12 本周上升最快 Top 10",
-    "slug": "weekly-rising-2026-08-12",
-    "description": "2026-08-12 周度最具增长势头的 AI 开源项目精选",
-    "coverEmoji": "🚀",
-    "collectionType": "weekly_digest",
-    "isPublished": true,
-    "isPinned": false,
-    "sortOrder": 0,
-    "repos": [
-      {
-        "repoId": 1148788086,
-        "fullName": "mattpocock/skills",
-        "editorialNote": "周星标增长 +49161",
-        "sortOrder": 1
-      },
-      {
-        "repoId": 1157102282,
-        "fullName": "diegosouzapw/OmniRoute",
-        "editorialNote": "周星标增长 +30582",
-        "sortOrder": 2
-      },
-      {
-        "repoId": 1200597263,
-        "fullName": "Graphify-Labs/graphify",
-        "editorialNote": "周星标增长 +23572",
-        "sortOrder": 3
-      },
-      {
-        "repoId": 1006414368,
-        "fullName": "OpenCut-app/OpenCut",
-        "editorialNote": "周星标增长 +20621",
-        "sortOrder": 4
-      },
-      {
-        "repoId": 1222917575,
-        "fullName": "Nutlope/hallmark",
-        "editorialNote": "周星标增长 +20034",
-        "sortOrder": 5
-      },
-      {
-        "repoId": 1130564872,
-        "fullName": "koala73/worldmonitor",
-        "editorialNote": "周星标增长 +19348",
-        "sortOrder": 6
-      },
-      {
-        "repoId": 1035029907,
-        "fullName": "earendil-works/pi",
-        "editorialNote": "周星标增长 +18096",
-        "sortOrder": 7
-      },
-      {
-        "repoId": 793375104,
-        "fullName": "Shubhamsaboo/awesome-llm-apps",
-        "editorialNote": "周星标增长 +14714",
-        "sortOrder": 8
-      },
-      {
-        "repoId": 1097346685,
-        "fullName": "pbakaus/impeccable",
-        "editorialNote": "周星标增长 +12910",
-        "sortOrder": 9
-      },
-      {
-        "repoId": 1182212878,
-        "fullName": "iOfficeAI/OfficeCLI",
-        "editorialNote": "周星标增长 +12907",
-        "sortOrder": 10
-      }
-    ],
-    "createdAt": "2026-08-12T02:07:45.915Z",
-    "updatedAt": "2026-08-12T02:07:45.915Z",
-    "publishedAt": "2026-08-12T02:07:45.915Z"
-  },
-  {
     "id": 63,
     "title": "2026-08-13 本周上升最快 Top 10",
     "slug": "weekly-rising-2026-08-13",
@@ -1544,5 +1468,81 @@
     "createdAt": "2026-08-15T01:22:33.474Z",
     "updatedAt": "2026-08-15T01:22:33.474Z",
     "publishedAt": "2026-08-15T01:22:33.474Z"
+  },
+  {
+    "id": 66,
+    "title": "2026-08-16 本周上升最快 Top 10",
+    "slug": "weekly-rising-2026-08-16",
+    "description": "2026-08-16 周度最具增长势头的 AI 开源项目精选",
+    "coverEmoji": "🚀",
+    "collectionType": "weekly_digest",
+    "isPublished": true,
+    "isPinned": false,
+    "sortOrder": 0,
+    "repos": [
+      {
+        "repoId": 1148788086,
+        "fullName": "mattpocock/skills",
+        "editorialNote": "周星标增长 +47580",
+        "sortOrder": 1
+      },
+      {
+        "repoId": 1157102282,
+        "fullName": "diegosouzapw/OmniRoute",
+        "editorialNote": "周星标增长 +31196",
+        "sortOrder": 2
+      },
+      {
+        "repoId": 1183888342,
+        "fullName": "stablyai/orca",
+        "editorialNote": "周星标增长 +26744",
+        "sortOrder": 3
+      },
+      {
+        "repoId": 1130564872,
+        "fullName": "koala73/worldmonitor",
+        "editorialNote": "周星标增长 +20570",
+        "sortOrder": 4
+      },
+      {
+        "repoId": 1035029907,
+        "fullName": "earendil-works/pi",
+        "editorialNote": "周星标增长 +19831",
+        "sortOrder": 5
+      },
+      {
+        "repoId": 1222917575,
+        "fullName": "Nutlope/hallmark",
+        "editorialNote": "周星标增长 +18188",
+        "sortOrder": 6
+      },
+      {
+        "repoId": 1237819660,
+        "fullName": "zhaoxuya520/reverse-skill",
+        "editorialNote": "周星标增长 +17376",
+        "sortOrder": 7
+      },
+      {
+        "repoId": 1226123343,
+        "fullName": "virgiliojr94/book-to-skill",
+        "editorialNote": "周星标增长 +13193",
+        "sortOrder": 8
+      },
+      {
+        "repoId": 1097346685,
+        "fullName": "pbakaus/impeccable",
+        "editorialNote": "周星标增长 +12753",
+        "sortOrder": 9
+      },
+      {
+        "repoId": 1032808806,
+        "fullName": "usestrix/strix",
+        "editorialNote": "周星标增长 +10968",
+        "sortOrder": 10
+      }
+    ],
+    "createdAt": "2026-08-16T01:27:34.521Z",
+    "updatedAt": "2026-08-16T01:27:34.521Z",
+    "publishedAt": "2026-08-16T01:27:34.521Z"
   }
 ]
