@@ -1,5 +1,5 @@
 {
-  "lastRun": "2026-08-19T01:23:51.792Z",
+  "lastRun": "2026-08-19T12:55:44.033Z",
   "entries": [
     {
       "jobType": "discover",
@@ -8,75 +8,75 @@
       "reposFailed": 0,
       "rateLimitRemaining": null,
       "errorMessage": null,
-      "durationMs": 34493,
-      "startedAt": "2026-08-19T01:17:29.021Z",
-      "completedAt": "2026-08-19T01:18:03.514Z"
+      "durationMs": 36734,
+      "startedAt": "2026-08-19T12:48:38.898Z",
+      "completedAt": "2026-08-19T12:49:15.632Z"
     },
     {
       "jobType": "enrich",
-      "status": "completed",
-      "reposProcessed": 2260,
-      "reposFailed": 0,
-      "rateLimitRemaining": null,
-      "errorMessage": null,
-      "durationMs": 329192,
-      "startedAt": "2026-08-19T01:18:03.514Z",
-      "completedAt": "2026-08-19T01:23:32.706Z"
-    },
-    {
-      "jobType": "score",
-      "status": "partial",
-      "reposProcessed": 2199,
-      "reposFailed": 61,
-      "rateLimitRemaining": null,
-      "errorMessage": null,
-      "durationMs": 131,
-      "startedAt": "2026-08-19T01:23:32.706Z",
-      "completedAt": "2026-08-19T01:23:32.837Z"
-    },
-    {
-      "jobType": "analyze",
-      "status": "completed",
-      "reposProcessed": 251,
-      "reposFailed": 0,
-      "rateLimitRemaining": null,
-      "errorMessage": null,
-      "durationMs": 18750,
-      "startedAt": "2026-08-19T01:23:32.838Z",
-      "completedAt": "2026-08-19T01:23:51.588Z"
-    },
-    {
-      "jobType": "collection",
-      "status": "completed",
-      "reposProcessed": 1,
-      "reposFailed": 0,
-      "rateLimitRemaining": null,
-      "errorMessage": null,
-      "durationMs": 34,
-      "startedAt": "2026-08-19T01:23:51.588Z",
-      "completedAt": "2026-08-19T01:23:51.622Z"
-    },
-    {
-      "jobType": "cleanup",
-      "status": "completed",
-      "reposProcessed": 10,
-      "reposFailed": 0,
-      "rateLimitRemaining": null,
-      "errorMessage": null,
-      "durationMs": 92,
-      "startedAt": "2026-08-19T01:23:51.622Z",
-      "completedAt": "2026-08-19T01:23:51.714Z"
-    },
-    {
-      "jobType": "discover",
       "status": "completed",
       "reposProcessed": 2250,
       "reposFailed": 0,
       "rateLimitRemaining": null,
       "errorMessage": null,
+      "durationMs": 366927,
+      "startedAt": "2026-08-19T12:49:15.632Z",
+      "completedAt": "2026-08-19T12:55:22.559Z"
+    },
+    {
+      "jobType": "score",
+      "status": "partial",
+      "reposProcessed": 2191,
+      "reposFailed": 59,
+      "rateLimitRemaining": null,
+      "errorMessage": null,
+      "durationMs": 258,
+      "startedAt": "2026-08-19T12:55:22.559Z",
+      "completedAt": "2026-08-19T12:55:22.817Z"
+    },
+    {
+      "jobType": "analyze",
+      "status": "completed",
+      "reposProcessed": 253,
+      "reposFailed": 0,
+      "rateLimitRemaining": null,
+      "errorMessage": null,
+      "durationMs": 21043,
+      "startedAt": "2026-08-19T12:55:22.817Z",
+      "completedAt": "2026-08-19T12:55:43.860Z"
+    },
+    {
+      "jobType": "collection",
+      "status": "completed",
+      "reposProcessed": 0,
+      "reposFailed": 0,
+      "rateLimitRemaining": null,
+      "errorMessage": null,
+      "durationMs": 36,
+      "startedAt": "2026-08-19T12:55:43.860Z",
+      "completedAt": "2026-08-19T12:55:43.896Z"
+    },
+    {
+      "jobType": "cleanup",
+      "status": "completed",
+      "reposProcessed": 1,
+      "reposFailed": 0,
+      "rateLimitRemaining": null,
+      "errorMessage": null,
       "durationMs": 78,
-      "startedAt": "2026-08-19T01:23:51.714Z",
-      "completedAt": "2026-08-19T01:23:51.792Z"
+      "startedAt": "2026-08-19T12:55:43.896Z",
+      "completedAt": "2026-08-19T12:55:43.974Z"
+    },
+    {
+      "jobType": "discover",
+      "status": "completed",
+      "reposProcessed": 2249,
+      "reposFailed": 0,
+      "rateLimitRemaining": null,
+      "errorMessage": null,
+      "durationMs": 59,
+      "startedAt": "2026-08-19T12:55:43.974Z",
+      "completedAt": "2026-08-19T12:55:44.033Z"
     }
   ]
 }
