@@ -1,6 +1,6 @@
 {
-  "totalReposTracked": 2285,
-  "totalCurations": 970,
+  "totalReposTracked": 2283,
+  "totalCurations": 969,
   "categoryCounts": {
     "model-serving": 21,
     "ai-applications": 52,
@@ -14,8 +14,8 @@
   },
   "languageCounts": {
     "Haskell": 1,
-    "Python": 298,
-    "Swift": 142,
+    "Python": 297,
+    "Swift": 141,
     "TypeScript": 314,
     "C": 6,
     "JavaScript": 202,
@@ -43,7 +43,7 @@
     "PLSQL": 1,
     "Mojo": 1
   },
-  "lastSyncAt": "2026-08-21T01:26:31.152Z",
-  "lastCurationAt": "2026-08-21T01:26:31.152Z",
+  "lastSyncAt": "2026-08-21T12:57:17.560Z",
+  "lastCurationAt": "2026-08-21T12:57:17.560Z",
   "syncHealth": "healthy"
 }
