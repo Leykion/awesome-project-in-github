@@ -9,17 +9,17 @@
     "topRepos": [
       {
         "fullName": "ollama/ollama",
-        "stars": 179033,
-        "starsGained": 849
+        "stars": 179065,
+        "starsGained": 831
       },
       {
         "fullName": "microsoft/markitdown",
-        "stars": 174842,
+        "stars": 174950,
         "starsGained": 0
       },
       {
         "fullName": "firecrawl/firecrawl",
-        "stars": 169887,
+        "stars": 170111,
         "starsGained": 0
       }
     ]
@@ -34,17 +34,17 @@
     "topRepos": [
       {
         "fullName": "meilisearch/meilisearch",
-        "stars": 59027,
+        "stars": 59033,
         "starsGained": 0
       },
       {
         "fullName": "milvus-io/milvus",
-        "stars": 45708,
+        "stars": 45716,
         "starsGained": 0
       },
       {
         "fullName": "servo/servo",
-        "stars": 37743,
+        "stars": 37749,
         "starsGained": 0
       }
     ]
@@ -59,17 +59,17 @@
     "topRepos": [
       {
         "fullName": "NousResearch/hermes-agent",
-        "stars": 233354,
+        "stars": 233560,
         "starsGained": 0
       },
       {
         "fullName": "browser-use/browser-use",
-        "stars": 109850,
-        "starsGained": 146
+        "stars": 109889,
+        "starsGained": 137
       },
       {
         "fullName": "TauricResearch/TradingAgents",
-        "stars": 99022,
+        "stars": 99069,
         "starsGained": 0
       }
     ]
@@ -84,17 +84,17 @@
     "topRepos": [
       {
         "fullName": "scikit-learn/scikit-learn",
-        "stars": 66977,
+        "stars": 66987,
         "starsGained": 0
       },
       {
         "fullName": "vnpy/vnpy",
-        "stars": 44635,
+        "stars": 44643,
         "starsGained": 0
       },
       {
         "fullName": "PrefectHQ/prefect",
-        "stars": 23648,
+        "stars": 23649,
         "starsGained": 0
       }
     ]
@@ -109,18 +109,18 @@
     "topRepos": [
       {
         "fullName": "ggml-org/llama.cpp",
-        "stars": 124824,
-        "starsGained": 1224
+        "stars": 124891,
+        "starsGained": 1239
       },
       {
         "fullName": "vllm-project/vllm",
-        "stars": 89522,
+        "stars": 89569,
         "starsGained": 0
       },
       {
         "fullName": "mozilla-ai/llamafile",
-        "stars": 25657,
-        "starsGained": 120
+        "stars": 25660,
+        "starsGained": 125
       }
     ]
   },
@@ -130,22 +130,22 @@
     "description": "AI 原生开发者生产力工具",
     "icon": "🛠️",
     "sortOrder": 6,
-    "repoCount": 157,
+    "repoCount": 158,
     "topRepos": [
       {
+        "fullName": "obra/superpowers",
+        "stars": 274961,
+        "starsGained": 727
+      },
+      {
         "fullName": "affaan-m/ECC",
-        "stars": 241300,
-        "starsGained": 273
+        "stars": 241474,
+        "starsGained": 272
       },
       {
         "fullName": "n8n-io/n8n",
-        "stars": 201305,
+        "stars": 201385,
         "starsGained": 0
-      },
-      {
-        "fullName": "Snailclimb/JavaGuide",
-        "stars": 157912,
-        "starsGained": 268
       }
     ]
   },
@@ -159,17 +159,17 @@
     "topRepos": [
       {
         "fullName": "AUTOMATIC1111/stable-diffusion-webui",
-        "stars": 164596,
+        "stars": 164590,
         "starsGained": 0
       },
       {
         "fullName": "huggingface/transformers",
-        "stars": 164280,
+        "stars": 164286,
         "starsGained": 0
       },
       {
         "fullName": "Comfy-Org/ComfyUI",
-        "stars": 128576,
+        "stars": 128663,
         "starsGained": 0
       }
     ]
@@ -184,12 +184,12 @@
     "topRepos": [
       {
         "fullName": "public-apis/public-apis",
-        "stars": 466763,
-        "starsGained": 10183
+        "stars": 467241,
+        "starsGained": 11259
       },
       {
         "fullName": "harveyai/harvey-labs",
-        "stars": 1227,
+        "stars": 1235,
         "starsGained": 0
       }
     ]
@@ -204,17 +204,17 @@
     "topRepos": [
       {
         "fullName": "openclaw/openclaw",
-        "stars": 386881,
+        "stars": 386917,
         "starsGained": 0
       },
       {
         "fullName": "Significant-Gravitas/AutoGPT",
-        "stars": 186695,
+        "stars": 186690,
         "starsGained": 0
       },
       {
         "fullName": "microsoft/generative-ai-for-beginners",
-        "stars": 118185,
+        "stars": 118224,
         "starsGained": 0
       }
     ]
