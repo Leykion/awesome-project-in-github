@@ -9,17 +9,17 @@
     "topRepos": [
       {
         "fullName": "ollama/ollama",
-        "stars": 179400,
-        "starsGained": 3151
+        "stars": 179428,
+        "starsGained": 3166
       },
       {
         "fullName": "microsoft/markitdown",
-        "stars": 176153,
+        "stars": 176260,
         "starsGained": 0
       },
       {
         "fullName": "firecrawl/firecrawl",
-        "stars": 172123,
+        "stars": 172355,
         "starsGained": 0
       }
     ]
@@ -34,17 +34,17 @@
     "topRepos": [
       {
         "fullName": "meilisearch/meilisearch",
-        "stars": 59085,
+        "stars": 59093,
         "starsGained": 0
       },
       {
         "fullName": "milvus-io/milvus",
-        "stars": 45782,
+        "stars": 45788,
         "starsGained": 0
       },
       {
         "fullName": "servo/servo",
-        "stars": 37791,
+        "stars": 37793,
         "starsGained": 0
       }
     ]
@@ -59,17 +59,17 @@
     "topRepos": [
       {
         "fullName": "NousResearch/hermes-agent",
-        "stars": 236210,
-        "starsGained": 802
+        "stars": 236426,
+        "starsGained": 771
       },
       {
         "fullName": "anthropics/claude-code",
-        "stars": 142947,
+        "stars": 143005,
         "starsGained": 0
       },
       {
         "fullName": "browser-use/browser-use",
-        "stars": 110465,
+        "stars": 110519,
         "starsGained": 0
       }
     ]
@@ -89,12 +89,12 @@
       },
       {
         "fullName": "vnpy/vnpy",
-        "stars": 44750,
+        "stars": 44766,
         "starsGained": 0
       },
       {
         "fullName": "PrefectHQ/prefect",
-        "stars": 23679,
+        "stars": 23685,
         "starsGained": 0
       }
     ]
@@ -109,17 +109,17 @@
     "topRepos": [
       {
         "fullName": "ggml-org/llama.cpp",
-        "stars": 125557,
-        "starsGained": 160
+        "stars": 125639,
+        "starsGained": 182
       },
       {
         "fullName": "vllm-project/vllm",
-        "stars": 89985,
+        "stars": 90034,
         "starsGained": 0
       },
       {
         "fullName": "mozilla-ai/llamafile",
-        "stars": 25688,
+        "stars": 25689,
         "starsGained": 0
       }
     ]
@@ -134,17 +134,17 @@
     "topRepos": [
       {
         "fullName": "obra/superpowers",
-        "stars": 277366,
+        "stars": 277588,
         "starsGained": 0
       },
       {
         "fullName": "affaan-m/ECC",
-        "stars": 243048,
-        "starsGained": 448
+        "stars": 243212,
+        "starsGained": 305
       },
       {
         "fullName": "n8n-io/n8n",
-        "stars": 202370,
+        "stars": 202423,
         "starsGained": 0
       }
     ]
@@ -159,17 +159,17 @@
     "topRepos": [
       {
         "fullName": "AUTOMATIC1111/stable-diffusion-webui",
-        "stars": 164650,
+        "stars": 164666,
         "starsGained": 0
       },
       {
         "fullName": "huggingface/transformers",
-        "stars": 164424,
+        "stars": 164441,
         "starsGained": 0
       },
       {
         "fullName": "Comfy-Org/ComfyUI",
-        "stars": 129884,
+        "stars": 129968,
         "starsGained": 0
       }
     ]
@@ -184,12 +184,12 @@
     "topRepos": [
       {
         "fullName": "public-apis/public-apis",
-        "stars": 470198,
-        "starsGained": 7069
+        "stars": 470474,
+        "starsGained": 6747
       },
       {
         "fullName": "harveyai/harvey-labs",
-        "stars": 1258,
+        "stars": 1260,
         "starsGained": 0
       }
     ]
@@ -200,21 +200,21 @@
     "description": "AI 驱动的终端用户应用",
     "icon": "💡",
     "sortOrder": 9,
-    "repoCount": 48,
+    "repoCount": 47,
     "topRepos": [
       {
         "fullName": "openclaw/openclaw",
-        "stars": 387555,
-        "starsGained": 356
+        "stars": 387611,
+        "starsGained": 327
       },
       {
         "fullName": "Significant-Gravitas/AutoGPT",
-        "stars": 186856,
+        "stars": 186868,
         "starsGained": 0
       },
       {
         "fullName": "microsoft/generative-ai-for-beginners",
-        "stars": 118525,
+        "stars": 118553,
         "starsGained": 0
       }
     ]
