@@ -1,5 +1,5 @@
 {
-  "totalReposTracked": 2372,
+  "totalReposTracked": 2369,
   "totalCurations": 1030,
   "categoryCounts": {
     "model-serving": 22,
@@ -18,18 +18,18 @@
     "Swift": 145,
     "TypeScript": 339,
     "C": 6,
-    "Java": 228,
+    "Java": 227,
     "Clojure": 2,
     "JavaScript": 204,
     "Rust": 276,
     "C++": 313,
-    "Go": 335,
+    "Go": 334,
     "Kotlin": 166,
     "Jupyter Notebook": 4,
     "C#": 4,
     "Shell": 7,
     "MDX": 1,
-    "HTML": 4,
+    "HTML": 3,
     "Batchfile": 1,
     "PHP": 1,
     "Cuda": 1,
@@ -45,7 +45,7 @@
     "CSS": 1,
     "Nim": 1
   },
-  "lastSyncAt": "2026-08-27T22:01:58.662Z",
-  "lastCurationAt": "2026-08-27T22:01:58.662Z",
+  "lastSyncAt": "2026-08-28T10:09:41.651Z",
+  "lastCurationAt": "2026-08-28T10:09:41.651Z",
   "syncHealth": "healthy"
 }
