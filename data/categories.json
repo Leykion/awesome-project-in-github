@@ -9,17 +9,17 @@
     "topRepos": [
       {
         "fullName": "ollama/ollama",
-        "stars": 179838,
-        "starsGained": 3039
+        "stars": 179853,
+        "starsGained": 3019
       },
       {
         "fullName": "microsoft/markitdown",
-        "stars": 177373,
+        "stars": 177424,
         "starsGained": 0
       },
       {
         "fullName": "firecrawl/firecrawl",
-        "stars": 174766,
+        "stars": 174910,
         "starsGained": 0
       }
     ]
@@ -34,17 +34,17 @@
     "topRepos": [
       {
         "fullName": "meilisearch/meilisearch",
-        "stars": 59148,
+        "stars": 59154,
         "starsGained": 0
       },
       {
         "fullName": "milvus-io/milvus",
-        "stars": 45908,
-        "starsGained": 152
+        "stars": 45911,
+        "starsGained": 154
       },
       {
         "fullName": "servo/servo",
-        "stars": 37841,
+        "stars": 37851,
         "starsGained": 0
       }
     ]
@@ -59,17 +59,17 @@
     "topRepos": [
       {
         "fullName": "NousResearch/hermes-agent",
-        "stars": 238917,
+        "stars": 239089,
         "starsGained": 0
       },
       {
         "fullName": "anthropics/claude-code",
-        "stars": 143566,
+        "stars": 143597,
         "starsGained": 0
       },
       {
         "fullName": "browser-use/browser-use",
-        "stars": 111841,
+        "stars": 111878,
         "starsGained": 0
       }
     ]
@@ -84,18 +84,18 @@
     "topRepos": [
       {
         "fullName": "scikit-learn/scikit-learn",
-        "stars": 67112,
+        "stars": 67115,
         "starsGained": 0
       },
       {
         "fullName": "vnpy/vnpy",
-        "stars": 45020,
+        "stars": 45029,
         "starsGained": 0
       },
       {
         "fullName": "PrefectHQ/prefect",
-        "stars": 23733,
-        "starsGained": 12
+        "stars": 23741,
+        "starsGained": 13
       }
     ]
   },
@@ -109,18 +109,18 @@
     "topRepos": [
       {
         "fullName": "ggml-org/llama.cpp",
-        "stars": 126530,
-        "starsGained": 165
+        "stars": 126561,
+        "starsGained": 166
       },
       {
         "fullName": "vllm-project/vllm",
-        "stars": 90614,
+        "stars": 90637,
         "starsGained": 0
       },
       {
         "fullName": "mozilla-ai/llamafile",
-        "stars": 25823,
-        "starsGained": 42
+        "stars": 25829,
+        "starsGained": 43
       }
     ]
   },
@@ -134,17 +134,17 @@
     "topRepos": [
       {
         "fullName": "obra/superpowers",
-        "stars": 280005,
+        "stars": 280122,
         "starsGained": 0
       },
       {
         "fullName": "affaan-m/ECC",
-        "stars": 245114,
-        "starsGained": 548
+        "stars": 245335,
+        "starsGained": 512
       },
       {
         "fullName": "n8n-io/n8n",
-        "stars": 202959,
+        "stars": 202983,
         "starsGained": 0
       }
     ]
@@ -159,17 +159,17 @@
     "topRepos": [
       {
         "fullName": "huggingface/transformers",
-        "stars": 164669,
+        "stars": 164675,
         "starsGained": 0
       },
       {
         "fullName": "Comfy-Org/ComfyUI",
-        "stars": 130900,
-        "starsGained": 8213
+        "stars": 130944,
+        "starsGained": 8247
       },
       {
         "fullName": "opencv/opencv",
-        "stars": 90660,
+        "stars": 90665,
         "starsGained": 0
       }
     ]
@@ -184,8 +184,8 @@
     "topRepos": [
       {
         "fullName": "public-apis/public-apis",
-        "stars": 473695,
-        "starsGained": 20630
+        "stars": 473864,
+        "starsGained": 20955
       },
       {
         "fullName": "harveyai/harvey-labs",
@@ -204,17 +204,17 @@
     "topRepos": [
       {
         "fullName": "openclaw/openclaw",
-        "stars": 388262,
+        "stars": 388360,
         "starsGained": 0
       },
       {
         "fullName": "Significant-Gravitas/AutoGPT",
-        "stars": 187036,
+        "stars": 187044,
         "starsGained": 0
       },
       {
         "fullName": "microsoft/generative-ai-for-beginners",
-        "stars": 118879,
+        "stars": 118896,
         "starsGained": 0
       }
     ]
