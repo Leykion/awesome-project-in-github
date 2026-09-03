@@ -1242,82 +1242,6 @@
     "publishedAt": "2026-08-02T02:56:47.916Z"
   },
   {
-    "id": 80,
-    "title": "2026-08-30 本周上升最快 Top 10",
-    "slug": "weekly-rising-2026-08-30",
-    "description": "2026-08-30 周度最具增长势头的 AI 开源项目精选",
-    "coverEmoji": "🚀",
-    "collectionType": "weekly_digest",
-    "isPublished": true,
-    "isPinned": false,
-    "sortOrder": 0,
-    "repos": [
-      {
-        "repoId": 1157102282,
-        "fullName": "diegosouzapw/OmniRoute",
-        "editorialNote": "周星标增长 +24598",
-        "sortOrder": 1
-      },
-      {
-        "repoId": 1183888342,
-        "fullName": "stablyai/orca",
-        "editorialNote": "周星标增长 +24593",
-        "sortOrder": 2
-      },
-      {
-        "repoId": 1237819660,
-        "fullName": "zhaoxuya520/reverse-skill",
-        "editorialNote": "周星标增长 +21491",
-        "sortOrder": 3
-      },
-      {
-        "repoId": 54346799,
-        "fullName": "public-apis/public-apis",
-        "editorialNote": "周星标增长 +20485",
-        "sortOrder": 4
-      },
-      {
-        "repoId": 1035029907,
-        "fullName": "earendil-works/pi",
-        "editorialNote": "周星标增长 +19239",
-        "sortOrder": 5
-      },
-      {
-        "repoId": 1203558071,
-        "fullName": "TencentCloud/TencentDB-Agent-Memory",
-        "editorialNote": "周星标增长 +15923",
-        "sortOrder": 6
-      },
-      {
-        "repoId": 1174789082,
-        "fullName": "block/buzz",
-        "editorialNote": "周星标增长 +15144",
-        "sortOrder": 7
-      },
-      {
-        "repoId": 1226123343,
-        "fullName": "virgiliojr94/book-to-skill",
-        "editorialNote": "周星标增长 +14775",
-        "sortOrder": 8
-      },
-      {
-        "repoId": 1032808806,
-        "fullName": "usestrix/strix",
-        "editorialNote": "周星标增长 +14036",
-        "sortOrder": 9
-      },
-      {
-        "repoId": 1220744720,
-        "fullName": "freestylefly/awesome-gpt-image-2",
-        "editorialNote": "周星标增长 +13141",
-        "sortOrder": 10
-      }
-    ],
-    "createdAt": "2026-08-30T04:13:17.277Z",
-    "updatedAt": "2026-08-30T04:13:17.277Z",
-    "publishedAt": "2026-08-30T04:13:17.277Z"
-  },
-  {
     "id": 81,
     "title": "2026-08-31 本周上升最快 Top 10",
     "slug": "weekly-rising-2026-08-31",
@@ -1544,5 +1468,81 @@
     "createdAt": "2026-09-02T03:27:51.966Z",
     "updatedAt": "2026-09-02T03:27:51.966Z",
     "publishedAt": "2026-09-02T03:27:51.966Z"
+  },
+  {
+    "id": 84,
+    "title": "2026-09-03 本周上升最快 Top 10",
+    "slug": "weekly-rising-2026-09-03",
+    "description": "2026-09-03 周度最具增长势头的 AI 开源项目精选",
+    "coverEmoji": "🚀",
+    "collectionType": "weekly_digest",
+    "isPublished": true,
+    "isPinned": false,
+    "sortOrder": 0,
+    "repos": [
+      {
+        "repoId": 1211139949,
+        "fullName": "tt-a1i/archify",
+        "editorialNote": "周星标增长 +26626",
+        "sortOrder": 1
+      },
+      {
+        "repoId": 1157102282,
+        "fullName": "diegosouzapw/OmniRoute",
+        "editorialNote": "周星标增长 +23112",
+        "sortOrder": 2
+      },
+      {
+        "repoId": 54346799,
+        "fullName": "public-apis/public-apis",
+        "editorialNote": "周星标增长 +21575",
+        "sortOrder": 3
+      },
+      {
+        "repoId": 965415649,
+        "fullName": "openai/codex",
+        "editorialNote": "周星标增长 +18325",
+        "sortOrder": 4
+      },
+      {
+        "repoId": 1203558071,
+        "fullName": "TencentCloud/TencentDB-Agent-Memory",
+        "editorialNote": "周星标增长 +15189",
+        "sortOrder": 5
+      },
+      {
+        "repoId": 1226123343,
+        "fullName": "virgiliojr94/book-to-skill",
+        "editorialNote": "周星标增长 +12772",
+        "sortOrder": 6
+      },
+      {
+        "repoId": 1238120057,
+        "fullName": "ayghri/i-have-adhd",
+        "editorialNote": "周星标增长 +11252",
+        "sortOrder": 7
+      },
+      {
+        "repoId": 1277471539,
+        "fullName": "bilawalsidhu/gods-eye-view",
+        "editorialNote": "周星标增长 +10679",
+        "sortOrder": 8
+      },
+      {
+        "repoId": 1248194723,
+        "fullName": "AprilNEA/OpenLogi",
+        "editorialNote": "周星标增长 +10586",
+        "sortOrder": 9
+      },
+      {
+        "repoId": 1008304614,
+        "fullName": "semantica-agi/semantica",
+        "editorialNote": "周星标增长 +9973",
+        "sortOrder": 10
+      }
+    ],
+    "createdAt": "2026-09-03T03:29:24.134Z",
+    "updatedAt": "2026-09-03T03:29:24.134Z",
+    "publishedAt": "2026-09-03T03:29:24.134Z"
   }
 ]
