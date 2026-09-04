@@ -1242,82 +1242,6 @@
     "publishedAt": "2026-08-02T02:56:47.916Z"
   },
   {
-    "id": 81,
-    "title": "2026-08-31 本周上升最快 Top 10",
-    "slug": "weekly-rising-2026-08-31",
-    "description": "2026-08-31 周度最具增长势头的 AI 开源项目精选",
-    "coverEmoji": "🚀",
-    "collectionType": "weekly_digest",
-    "isPublished": true,
-    "isPinned": false,
-    "sortOrder": 0,
-    "repos": [
-      {
-        "repoId": 1157102282,
-        "fullName": "diegosouzapw/OmniRoute",
-        "editorialNote": "周星标增长 +24211",
-        "sortOrder": 1
-      },
-      {
-        "repoId": 1183888342,
-        "fullName": "stablyai/orca",
-        "editorialNote": "周星标增长 +24024",
-        "sortOrder": 2
-      },
-      {
-        "repoId": 1237819660,
-        "fullName": "zhaoxuya520/reverse-skill",
-        "editorialNote": "周星标增长 +21984",
-        "sortOrder": 3
-      },
-      {
-        "repoId": 54346799,
-        "fullName": "public-apis/public-apis",
-        "editorialNote": "周星标增长 +20630",
-        "sortOrder": 4
-      },
-      {
-        "repoId": 1035029907,
-        "fullName": "earendil-works/pi",
-        "editorialNote": "周星标增长 +18925",
-        "sortOrder": 5
-      },
-      {
-        "repoId": 1203558071,
-        "fullName": "TencentCloud/TencentDB-Agent-Memory",
-        "editorialNote": "周星标增长 +15913",
-        "sortOrder": 6
-      },
-      {
-        "repoId": 1151702019,
-        "fullName": "firecrawl/pdf-inspector",
-        "editorialNote": "周星标增长 +15341",
-        "sortOrder": 7
-      },
-      {
-        "repoId": 1032808806,
-        "fullName": "usestrix/strix",
-        "editorialNote": "周星标增长 +13968",
-        "sortOrder": 8
-      },
-      {
-        "repoId": 1226123343,
-        "fullName": "virgiliojr94/book-to-skill",
-        "editorialNote": "周星标增长 +13879",
-        "sortOrder": 9
-      },
-      {
-        "repoId": 1174789082,
-        "fullName": "block/buzz",
-        "editorialNote": "周星标增长 +13661",
-        "sortOrder": 10
-      }
-    ],
-    "createdAt": "2026-08-31T04:19:54.573Z",
-    "updatedAt": "2026-08-31T04:19:54.573Z",
-    "publishedAt": "2026-08-31T04:19:54.573Z"
-  },
-  {
     "id": 82,
     "title": "2026-09-01 本周上升最快 Top 10",
     "slug": "weekly-rising-2026-09-01",
@@ -1544,5 +1468,81 @@
     "createdAt": "2026-09-03T03:29:24.134Z",
     "updatedAt": "2026-09-03T03:29:24.134Z",
     "publishedAt": "2026-09-03T03:29:24.134Z"
+  },
+  {
+    "id": 85,
+    "title": "2026-09-04 本周上升最快 Top 10",
+    "slug": "weekly-rising-2026-09-04",
+    "description": "2026-09-04 周度最具增长势头的 AI 开源项目精选",
+    "coverEmoji": "🚀",
+    "collectionType": "weekly_digest",
+    "isPublished": true,
+    "isPinned": false,
+    "sortOrder": 0,
+    "repos": [
+      {
+        "repoId": 1211139949,
+        "fullName": "tt-a1i/archify",
+        "editorialNote": "周星标增长 +24227",
+        "sortOrder": 1
+      },
+      {
+        "repoId": 1157102282,
+        "fullName": "diegosouzapw/OmniRoute",
+        "editorialNote": "周星标增长 +22754",
+        "sortOrder": 2
+      },
+      {
+        "repoId": 54346799,
+        "fullName": "public-apis/public-apis",
+        "editorialNote": "周星标增长 +21701",
+        "sortOrder": 3
+      },
+      {
+        "repoId": 770153867,
+        "fullName": "harry0703/MoneyPrinterTurbo",
+        "editorialNote": "周星标增长 +19566",
+        "sortOrder": 4
+      },
+      {
+        "repoId": 965415649,
+        "fullName": "openai/codex",
+        "editorialNote": "周星标增长 +18297",
+        "sortOrder": 5
+      },
+      {
+        "repoId": 1203558071,
+        "fullName": "TencentCloud/TencentDB-Agent-Memory",
+        "editorialNote": "周星标增长 +14291",
+        "sortOrder": 6
+      },
+      {
+        "repoId": 1226123343,
+        "fullName": "virgiliojr94/book-to-skill",
+        "editorialNote": "周星标增长 +12524",
+        "sortOrder": 7
+      },
+      {
+        "repoId": 1238120057,
+        "fullName": "ayghri/i-have-adhd",
+        "editorialNote": "周星标增长 +10930",
+        "sortOrder": 8
+      },
+      {
+        "repoId": 1248194723,
+        "fullName": "AprilNEA/OpenLogi",
+        "editorialNote": "周星标增长 +10662",
+        "sortOrder": 9
+      },
+      {
+        "repoId": 1277471539,
+        "fullName": "bilawalsidhu/gods-eye-view",
+        "editorialNote": "周星标增长 +10485",
+        "sortOrder": 10
+      }
+    ],
+    "createdAt": "2026-09-04T03:27:47.293Z",
+    "updatedAt": "2026-09-04T03:27:47.293Z",
+    "publishedAt": "2026-09-04T03:27:47.293Z"
   }
 ]
