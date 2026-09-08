@@ -1,6 +1,6 @@
 {
-  "totalReposTracked": 2471,
-  "totalCurations": 1145,
+  "totalReposTracked": 2472,
+  "totalCurations": 1147,
   "categoryCounts": {
     "model-serving": 25,
     "ai-applications": 43,
@@ -22,7 +22,7 @@
     "Clojure": 1,
     "JavaScript": 202,
     "Rust": 300,
-    "C++": 328,
+    "C++": 329,
     "Go": 350,
     "Kotlin": 160,
     "Jupyter Notebook": 3,
@@ -45,7 +45,7 @@
     "LLVM": 1,
     "Zig": 1
   },
-  "lastSyncAt": "2026-09-07T17:32:38.518Z",
-  "lastCurationAt": "2026-09-07T17:32:38.518Z",
+  "lastSyncAt": "2026-09-08T03:35:23.822Z",
+  "lastCurationAt": "2026-09-08T03:35:23.822Z",
   "syncHealth": "healthy"
 }
