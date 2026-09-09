@@ -1,13 +1,13 @@
 {
   "totalReposTracked": 2487,
-  "totalCurations": 1154,
+  "totalCurations": 1156,
   "categoryCounts": {
     "model-serving": 25,
     "ai-applications": 43,
-    "ai-agents": 121,
+    "ai-agents": 120,
     "multimodal": 29,
-    "ai-dev-tools": 190,
-    "llm-frameworks": 106,
+    "ai-dev-tools": 191,
+    "llm-frameworks": 107,
     "mlops-evaluation": 9,
     "vector-databases": 19,
     "datasets-benchmarks": 1
@@ -45,7 +45,7 @@
     "LLVM": 1,
     "Zig": 1
   },
-  "lastSyncAt": "2026-09-08T16:19:29.882Z",
-  "lastCurationAt": "2026-09-08T16:19:29.882Z",
+  "lastSyncAt": "2026-09-09T03:39:14.449Z",
+  "lastCurationAt": "2026-09-09T03:39:14.449Z",
   "syncHealth": "healthy"
 }

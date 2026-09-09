@@ -1242,82 +1242,6 @@
     "publishedAt": "2026-08-02T02:56:47.916Z"
   },
   {
-    "id": 86,
-    "title": "2026-09-05 本周上升最快 Top 10",
-    "slug": "weekly-rising-2026-09-05",
-    "description": "2026-09-05 周度最具增长势头的 AI 开源项目精选",
-    "coverEmoji": "🚀",
-    "collectionType": "weekly_digest",
-    "isPublished": true,
-    "isPinned": false,
-    "sortOrder": 0,
-    "repos": [
-      {
-        "repoId": 1157102282,
-        "fullName": "diegosouzapw/OmniRoute",
-        "editorialNote": "周星标增长 +22230",
-        "sortOrder": 1
-      },
-      {
-        "repoId": 54346799,
-        "fullName": "public-apis/public-apis",
-        "editorialNote": "周星标增长 +21938",
-        "sortOrder": 2
-      },
-      {
-        "repoId": 1211139949,
-        "fullName": "tt-a1i/archify",
-        "editorialNote": "周星标增长 +21896",
-        "sortOrder": 3
-      },
-      {
-        "repoId": 1232493406,
-        "fullName": "PrimeIntellect-ai/prime-agent",
-        "editorialNote": "周星标增长 +19927",
-        "sortOrder": 4
-      },
-      {
-        "repoId": 770153867,
-        "fullName": "harry0703/MoneyPrinterTurbo",
-        "editorialNote": "周星标增长 +19671",
-        "sortOrder": 5
-      },
-      {
-        "repoId": 1220744720,
-        "fullName": "freestylefly/awesome-gpt-image-2",
-        "editorialNote": "周星标增长 +19360",
-        "sortOrder": 6
-      },
-      {
-        "repoId": 1035029907,
-        "fullName": "earendil-works/pi",
-        "editorialNote": "周星标增长 +18772",
-        "sortOrder": 7
-      },
-      {
-        "repoId": 965415649,
-        "fullName": "openai/codex",
-        "editorialNote": "周星标增长 +18307",
-        "sortOrder": 8
-      },
-      {
-        "repoId": 994093166,
-        "fullName": "omacom/omarchy",
-        "editorialNote": "周星标增长 +13961",
-        "sortOrder": 9
-      },
-      {
-        "repoId": 1203558071,
-        "fullName": "TencentCloud/TencentDB-Agent-Memory",
-        "editorialNote": "周星标增长 +12929",
-        "sortOrder": 10
-      }
-    ],
-    "createdAt": "2026-09-05T03:30:05.471Z",
-    "updatedAt": "2026-09-05T03:30:05.471Z",
-    "publishedAt": "2026-09-05T03:30:05.471Z"
-  },
-  {
     "id": 87,
     "title": "2026-09-06 本周上升最快 Top 10",
     "slug": "weekly-rising-2026-09-06",
@@ -2174,5 +2098,81 @@
     "createdAt": "2026-09-08T03:35:23.691Z",
     "updatedAt": "2026-09-08T03:35:23.691Z",
     "publishedAt": "2026-09-08T03:35:23.691Z"
+  },
+  {
+    "id": 99,
+    "title": "2026-09-09 本周上升最快 Top 10",
+    "slug": "weekly-rising-2026-09-09",
+    "description": "2026-09-09 周度最具增长势头的 AI 开源项目精选",
+    "coverEmoji": "🚀",
+    "collectionType": "weekly_digest",
+    "isPublished": true,
+    "isPinned": false,
+    "sortOrder": 0,
+    "repos": [
+      {
+        "repoId": 54346799,
+        "fullName": "public-apis/public-apis",
+        "editorialNote": "周星标增长 +23450",
+        "sortOrder": 1
+      },
+      {
+        "repoId": 770153867,
+        "fullName": "harry0703/MoneyPrinterTurbo",
+        "editorialNote": "周星标增长 +20098",
+        "sortOrder": 2
+      },
+      {
+        "repoId": 1220744720,
+        "fullName": "freestylefly/awesome-gpt-image-2",
+        "editorialNote": "周星标增长 +19654",
+        "sortOrder": 3
+      },
+      {
+        "repoId": 994093166,
+        "fullName": "omacom/omarchy",
+        "editorialNote": "周星标增长 +15226",
+        "sortOrder": 4
+      },
+      {
+        "repoId": 1148788086,
+        "fullName": "mattpocock/skills",
+        "editorialNote": "周星标增长 +13419",
+        "sortOrder": 5
+      },
+      {
+        "repoId": 1211139949,
+        "fullName": "tt-a1i/archify",
+        "editorialNote": "周星标增长 +13318",
+        "sortOrder": 6
+      },
+      {
+        "repoId": 1178737655,
+        "fullName": "THU-MAIC/OpenMAIC",
+        "editorialNote": "周星标增长 +13038",
+        "sortOrder": 7
+      },
+      {
+        "repoId": 1266797999,
+        "fullName": "DietrichGebert/ponytail",
+        "editorialNote": "周星标增长 +12598",
+        "sortOrder": 8
+      },
+      {
+        "repoId": 1267485499,
+        "fullName": "vorssaint/vorssaint-utils",
+        "editorialNote": "周星标增长 +12282",
+        "sortOrder": 9
+      },
+      {
+        "repoId": 1232493406,
+        "fullName": "PrimeIntellect-ai/prime-agent",
+        "editorialNote": "周星标增长 +12120",
+        "sortOrder": 10
+      }
+    ],
+    "createdAt": "2026-09-09T03:39:14.362Z",
+    "updatedAt": "2026-09-09T03:39:14.362Z",
+    "publishedAt": "2026-09-09T03:39:14.362Z"
   }
 ]
