@@ -1242,82 +1242,6 @@
     "publishedAt": "2026-08-02T02:56:47.916Z"
   },
   {
-    "id": 87,
-    "title": "2026-09-06 本周上升最快 Top 10",
-    "slug": "weekly-rising-2026-09-06",
-    "description": "2026-09-06 周度最具增长势头的 AI 开源项目精选",
-    "coverEmoji": "🚀",
-    "collectionType": "weekly_digest",
-    "isPublished": true,
-    "isPinned": false,
-    "sortOrder": 0,
-    "repos": [
-      {
-        "repoId": 54346799,
-        "fullName": "public-apis/public-apis",
-        "editorialNote": "周星标增长 +22282",
-        "sortOrder": 1
-      },
-      {
-        "repoId": 1157102282,
-        "fullName": "diegosouzapw/OmniRoute",
-        "editorialNote": "周星标增长 +21515",
-        "sortOrder": 2
-      },
-      {
-        "repoId": 1232493406,
-        "fullName": "PrimeIntellect-ai/prime-agent",
-        "editorialNote": "周星标增长 +20036",
-        "sortOrder": 3
-      },
-      {
-        "repoId": 770153867,
-        "fullName": "harry0703/MoneyPrinterTurbo",
-        "editorialNote": "周星标增长 +19827",
-        "sortOrder": 4
-      },
-      {
-        "repoId": 1211139949,
-        "fullName": "tt-a1i/archify",
-        "editorialNote": "周星标增长 +19480",
-        "sortOrder": 5
-      },
-      {
-        "repoId": 1220744720,
-        "fullName": "freestylefly/awesome-gpt-image-2",
-        "editorialNote": "周星标增长 +19395",
-        "sortOrder": 6
-      },
-      {
-        "repoId": 994093166,
-        "fullName": "omacom/omarchy",
-        "editorialNote": "周星标增长 +14222",
-        "sortOrder": 7
-      },
-      {
-        "repoId": 1226123343,
-        "fullName": "virgiliojr94/book-to-skill",
-        "editorialNote": "周星标增长 +11917",
-        "sortOrder": 8
-      },
-      {
-        "repoId": 1248194723,
-        "fullName": "AprilNEA/OpenLogi",
-        "editorialNote": "周星标增长 +11323",
-        "sortOrder": 9
-      },
-      {
-        "repoId": 1203558071,
-        "fullName": "TencentCloud/TencentDB-Agent-Memory",
-        "editorialNote": "周星标增长 +11283",
-        "sortOrder": 10
-      }
-    ],
-    "createdAt": "2026-09-06T03:29:06.126Z",
-    "updatedAt": "2026-09-06T03:29:06.126Z",
-    "publishedAt": "2026-09-06T03:29:06.126Z"
-  },
-  {
     "id": 88,
     "title": "2026-09 LLM Frameworks Top 10",
     "slug": "category-top-llm-frameworks-2026-09",
@@ -2174,5 +2098,81 @@
     "createdAt": "2026-09-09T03:39:14.362Z",
     "updatedAt": "2026-09-09T03:39:14.362Z",
     "publishedAt": "2026-09-09T03:39:14.362Z"
+  },
+  {
+    "id": 100,
+    "title": "2026-09-10 本周上升最快 Top 10",
+    "slug": "weekly-rising-2026-09-10",
+    "description": "2026-09-10 周度最具增长势头的 AI 开源项目精选",
+    "coverEmoji": "🚀",
+    "collectionType": "weekly_digest",
+    "isPublished": true,
+    "isPinned": false,
+    "sortOrder": 0,
+    "repos": [
+      {
+        "repoId": 54346799,
+        "fullName": "public-apis/public-apis",
+        "editorialNote": "周星标增长 +23852",
+        "sortOrder": 1
+      },
+      {
+        "repoId": 770153867,
+        "fullName": "harry0703/MoneyPrinterTurbo",
+        "editorialNote": "周星标增长 +20372",
+        "sortOrder": 2
+      },
+      {
+        "repoId": 965415649,
+        "fullName": "openai/codex",
+        "editorialNote": "周星标增长 +18566",
+        "sortOrder": 3
+      },
+      {
+        "repoId": 994093166,
+        "fullName": "omacom/omarchy",
+        "editorialNote": "周星标增长 +15578",
+        "sortOrder": 4
+      },
+      {
+        "repoId": 1148788086,
+        "fullName": "mattpocock/skills",
+        "editorialNote": "周星标增长 +13143",
+        "sortOrder": 5
+      },
+      {
+        "repoId": 1267485499,
+        "fullName": "vorssaint/vorssaint-utils",
+        "editorialNote": "周星标增长 +12822",
+        "sortOrder": 6
+      },
+      {
+        "repoId": 1211139949,
+        "fullName": "tt-a1i/archify",
+        "editorialNote": "周星标增长 +12541",
+        "sortOrder": 7
+      },
+      {
+        "repoId": 1266797999,
+        "fullName": "DietrichGebert/ponytail",
+        "editorialNote": "周星标增长 +12431",
+        "sortOrder": 8
+      },
+      {
+        "repoId": 1248194723,
+        "fullName": "AprilNEA/OpenLogi",
+        "editorialNote": "周星标增长 +12082",
+        "sortOrder": 9
+      },
+      {
+        "repoId": 1206390571,
+        "fullName": "debpalash/VoiceStudio",
+        "editorialNote": "周星标增长 +12027",
+        "sortOrder": 10
+      }
+    ],
+    "createdAt": "2026-09-10T03:37:26.284Z",
+    "updatedAt": "2026-09-10T03:37:26.284Z",
+    "publishedAt": "2026-09-10T03:37:26.284Z"
   }
 ]
