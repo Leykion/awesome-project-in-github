@@ -9,18 +9,18 @@
     "topRepos": [
       {
         "fullName": "microsoft/markitdown",
-        "stars": 185077,
-        "starsGained": 2733
+        "stars": 185174,
+        "starsGained": 2814
       },
       {
         "fullName": "firecrawl/firecrawl",
-        "stars": 181583,
+        "stars": 181726,
         "starsGained": 0
       },
       {
         "fullName": "ollama/ollama",
-        "stars": 181245,
-        "starsGained": 803
+        "stars": 181182,
+        "starsGained": 797
       }
     ]
   },
@@ -34,17 +34,17 @@
     "topRepos": [
       {
         "fullName": "meilisearch/meilisearch",
-        "stars": 59315,
+        "stars": 59320,
         "starsGained": 0
       },
       {
         "fullName": "milvus-io/milvus",
-        "stars": 46143,
-        "starsGained": 537
+        "stars": 46153,
+        "starsGained": 539
       },
       {
         "fullName": "servo/servo",
-        "stars": 38002,
+        "stars": 38003,
         "starsGained": 0
       }
     ]
@@ -59,17 +59,17 @@
     "topRepos": [
       {
         "fullName": "NousResearch/hermes-agent",
-        "stars": 246445,
+        "stars": 246601,
         "starsGained": 0
       },
       {
         "fullName": "anthropics/claude-code",
-        "stars": 145862,
+        "stars": 145927,
         "starsGained": 538
       },
       {
         "fullName": "TauricResearch/TradingAgents",
-        "stars": 107332,
+        "stars": 107343,
         "starsGained": 0
       }
     ]
@@ -84,17 +84,17 @@
     "topRepos": [
       {
         "fullName": "scikit-learn/scikit-learn",
-        "stars": 67283,
+        "stars": 67286,
         "starsGained": 0
       },
       {
         "fullName": "vnpy/vnpy",
-        "stars": 45415,
+        "stars": 45418,
         "starsGained": 0
       },
       {
         "fullName": "PrefectHQ/prefect",
-        "stars": 23855,
+        "stars": 23859,
         "starsGained": 0
       }
     ]
@@ -109,17 +109,17 @@
     "topRepos": [
       {
         "fullName": "ggml-org/llama.cpp",
-        "stars": 128565,
-        "starsGained": 907
+        "stars": 128618,
+        "starsGained": 956
       },
       {
         "fullName": "vllm-project/vllm",
-        "stars": 92016,
+        "stars": 92052,
         "starsGained": 0
       },
       {
         "fullName": "mozilla-ai/llamafile",
-        "stars": 25984,
+        "stars": 25986,
         "starsGained": 0
       }
     ]
@@ -134,18 +134,18 @@
     "topRepos": [
       {
         "fullName": "openclaw/openclaw",
-        "stars": 389971,
+        "stars": 390026,
         "starsGained": 0
       },
       {
         "fullName": "obra/superpowers",
-        "stars": 288002,
-        "starsGained": 4023
+        "stars": 288187,
+        "starsGained": 3821
       },
       {
         "fullName": "affaan-m/ECC",
-        "stars": 261026,
-        "starsGained": 1173
+        "stars": 261266,
+        "starsGained": 1171
       }
     ]
   },
@@ -159,17 +159,17 @@
     "topRepos": [
       {
         "fullName": "huggingface/transformers",
-        "stars": 166297,
+        "stars": 166260,
         "starsGained": 1287
       },
       {
         "fullName": "Comfy-Org/ComfyUI",
-        "stars": 133649,
+        "stars": 133701,
         "starsGained": 0
       },
       {
         "fullName": "opencv/opencv",
-        "stars": 90870,
+        "stars": 90876,
         "starsGained": 0
       }
     ]
@@ -184,8 +184,8 @@
     "topRepos": [
       {
         "fullName": "public-apis/public-apis",
-        "stars": 481143,
-        "starsGained": 20690
+        "stars": 481260,
+        "starsGained": 19150
       }
     ]
   },
@@ -199,17 +199,17 @@
     "topRepos": [
       {
         "fullName": "Significant-Gravitas/AutoGPT",
-        "stars": 187406,
+        "stars": 187421,
         "starsGained": 0
       },
       {
         "fullName": "f/prompts.chat",
-        "stars": 170539,
+        "stars": 170593,
         "starsGained": 0
       },
       {
         "fullName": "microsoft/generative-ai-for-beginners",
-        "stars": 119944,
+        "stars": 119976,
         "starsGained": 0
       }
     ]
