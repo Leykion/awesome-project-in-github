@@ -9,17 +9,17 @@
     "topRepos": [
       {
         "fullName": "microsoft/markitdown",
-        "stars": 186493,
+        "stars": 186611,
         "starsGained": 0
       },
       {
         "fullName": "firecrawl/firecrawl",
-        "stars": 183480,
+        "stars": 183723,
         "starsGained": 0
       },
       {
         "fullName": "ollama/ollama",
-        "stars": 181497,
+        "stars": 181522,
         "starsGained": 0
       }
     ]
@@ -34,17 +34,17 @@
     "topRepos": [
       {
         "fullName": "meilisearch/meilisearch",
-        "stars": 59375,
+        "stars": 59383,
         "starsGained": 0
       },
       {
         "fullName": "milvus-io/milvus",
-        "stars": 46222,
-        "starsGained": 541
+        "stars": 46239,
+        "starsGained": 0
       },
       {
         "fullName": "servo/servo",
-        "stars": 38024,
+        "stars": 38027,
         "starsGained": 0
       }
     ]
@@ -59,17 +59,17 @@
     "topRepos": [
       {
         "fullName": "NousResearch/hermes-agent",
-        "stars": 248147,
+        "stars": 248318,
         "starsGained": 0
       },
       {
         "fullName": "anthropics/claude-code",
-        "stars": 147678,
+        "stars": 147762,
         "starsGained": 2754
       },
       {
         "fullName": "earendil-works/pi",
-        "stars": 108599,
+        "stars": 108866,
         "starsGained": 0
       }
     ]
@@ -84,17 +84,17 @@
     "topRepos": [
       {
         "fullName": "scikit-learn/scikit-learn",
-        "stars": 67350,
+        "stars": 67351,
         "starsGained": 0
       },
       {
         "fullName": "vnpy/vnpy",
-        "stars": 45515,
+        "stars": 45524,
         "starsGained": 0
       },
       {
         "fullName": "PrefectHQ/prefect",
-        "stars": 23900,
+        "stars": 23907,
         "starsGained": 0
       }
     ]
@@ -109,18 +109,18 @@
     "topRepos": [
       {
         "fullName": "ggml-org/llama.cpp",
-        "stars": 129241,
+        "stars": 129316,
         "starsGained": 994
       },
       {
         "fullName": "vllm-project/vllm",
-        "stars": 92460,
+        "stars": 92527,
         "starsGained": 0
       },
       {
         "fullName": "mozilla-ai/llamafile",
-        "stars": 26032,
-        "starsGained": 15
+        "stars": 26035,
+        "starsGained": 8
       }
     ]
   },
@@ -130,21 +130,21 @@
     "description": "AI 原生开发者生产力工具",
     "icon": "🛠️",
     "sortOrder": 6,
-    "repoCount": 210,
+    "repoCount": 209,
     "topRepos": [
       {
         "fullName": "openclaw/openclaw",
-        "stars": 390270,
+        "stars": 390322,
         "starsGained": 0
       },
       {
         "fullName": "obra/superpowers",
-        "stars": 290264,
-        "starsGained": 0
+        "stars": 290531,
+        "starsGained": 528
       },
       {
         "fullName": "affaan-m/ECC",
-        "stars": 265537,
+        "stars": 265990,
         "starsGained": 6904
       }
     ]
@@ -155,22 +155,22 @@
     "description": "视觉、音频和多模态模型工具",
     "icon": "👁️",
     "sortOrder": 7,
-    "repoCount": 32,
+    "repoCount": 33,
     "topRepos": [
       {
         "fullName": "huggingface/transformers",
-        "stars": 166544,
+        "stars": 166562,
         "starsGained": 0
       },
       {
         "fullName": "Comfy-Org/ComfyUI",
-        "stars": 134546,
-        "starsGained": 0
+        "stars": 134684,
+        "starsGained": 203
       },
       {
         "fullName": "opencv/opencv",
-        "stars": 90935,
-        "starsGained": 0
+        "stars": 90945,
+        "starsGained": 114
       }
     ]
   },
@@ -184,7 +184,7 @@
     "topRepos": [
       {
         "fullName": "public-apis/public-apis",
-        "stars": 482380,
+        "stars": 482517,
         "starsGained": 0
       }
     ]
@@ -195,21 +195,21 @@
     "description": "AI 驱动的终端用户应用",
     "icon": "💡",
     "sortOrder": 9,
-    "repoCount": 46,
+    "repoCount": 47,
     "topRepos": [
       {
         "fullName": "Significant-Gravitas/AutoGPT",
-        "stars": 187503,
+        "stars": 187512,
         "starsGained": 0
       },
       {
         "fullName": "f/prompts.chat",
-        "stars": 171051,
+        "stars": 171094,
         "starsGained": 0
       },
       {
         "fullName": "microsoft/generative-ai-for-beginners",
-        "stars": 120321,
+        "stars": 120369,
         "starsGained": 0
       }
     ]
