@@ -1872,82 +1872,6 @@
     "publishedAt": "2026-09-06T03:29:06.126Z"
   },
   {
-    "id": 109,
-    "title": "2026-09-19 本周上升最快 Top 10",
-    "slug": "weekly-rising-2026-09-19",
-    "description": "2026-09-19 周度最具增长势头的 AI 开源项目精选",
-    "coverEmoji": "🚀",
-    "collectionType": "weekly_digest",
-    "isPublished": true,
-    "isPinned": false,
-    "sortOrder": 0,
-    "repos": [
-      {
-        "repoId": 1211139949,
-        "fullName": "tt-a1i/archify",
-        "editorialNote": "周星标增长 +52955",
-        "sortOrder": 1
-      },
-      {
-        "repoId": 1206390571,
-        "fullName": "debpalash/VoiceStudio",
-        "editorialNote": "周星标增长 +22910",
-        "sortOrder": 2
-      },
-      {
-        "repoId": 1220744720,
-        "fullName": "freestylefly/awesome-gpt-image-2",
-        "editorialNote": "周星标增长 +21890",
-        "sortOrder": 3
-      },
-      {
-        "repoId": 1212769188,
-        "fullName": "cathrynlavery/diagram-design",
-        "editorialNote": "周星标增长 +19891",
-        "sortOrder": 4
-      },
-      {
-        "repoId": 965415649,
-        "fullName": "openai/codex",
-        "editorialNote": "周星标增长 +19167",
-        "sortOrder": 5
-      },
-      {
-        "repoId": 54346799,
-        "fullName": "public-apis/public-apis",
-        "editorialNote": "周星标增长 +18338",
-        "sortOrder": 6
-      },
-      {
-        "repoId": 1178737655,
-        "fullName": "THU-MAIC/OpenMAIC",
-        "editorialNote": "周星标增长 +17177",
-        "sortOrder": 7
-      },
-      {
-        "repoId": 994093166,
-        "fullName": "omacom/omarchy",
-        "editorialNote": "周星标增长 +15994",
-        "sortOrder": 8
-      },
-      {
-        "repoId": 1267485499,
-        "fullName": "vorssaint/vorssaint-utils",
-        "editorialNote": "周星标增长 +14343",
-        "sortOrder": 9
-      },
-      {
-        "repoId": 1248194723,
-        "fullName": "AprilNEA/OpenLogi",
-        "editorialNote": "周星标增长 +12953",
-        "sortOrder": 10
-      }
-    ],
-    "createdAt": "2026-09-19T03:41:39.900Z",
-    "updatedAt": "2026-09-19T03:41:39.900Z",
-    "publishedAt": "2026-09-19T03:41:39.900Z"
-  },
-  {
     "id": 110,
     "title": "2026-09-20 本周上升最快 Top 10",
     "slug": "weekly-rising-2026-09-20",
@@ -2174,5 +2098,81 @@
     "createdAt": "2026-09-22T03:51:37.380Z",
     "updatedAt": "2026-09-22T03:51:37.380Z",
     "publishedAt": "2026-09-22T03:51:37.380Z"
+  },
+  {
+    "id": 113,
+    "title": "2026-09-23 本周上升最快 Top 10",
+    "slug": "weekly-rising-2026-09-23",
+    "description": "2026-09-23 周度最具增长势头的 AI 开源项目精选",
+    "coverEmoji": "🚀",
+    "collectionType": "weekly_digest",
+    "isPublished": true,
+    "isPinned": false,
+    "sortOrder": 0,
+    "repos": [
+      {
+        "repoId": 1211139949,
+        "fullName": "tt-a1i/archify",
+        "editorialNote": "周星标增长 +55243",
+        "sortOrder": 1
+      },
+      {
+        "repoId": 1277471539,
+        "fullName": "bilawalsidhu/gods-eye-view",
+        "editorialNote": "周星标增长 +40639",
+        "sortOrder": 2
+      },
+      {
+        "repoId": 1266797999,
+        "fullName": "DietrichGebert/ponytail",
+        "editorialNote": "周星标增长 +37000",
+        "sortOrder": 3
+      },
+      {
+        "repoId": 1238120057,
+        "fullName": "ayghri/i-have-adhd",
+        "editorialNote": "周星标增长 +27313",
+        "sortOrder": 4
+      },
+      {
+        "repoId": 1206390571,
+        "fullName": "debpalash/VoiceStudio",
+        "editorialNote": "周星标增长 +23275",
+        "sortOrder": 5
+      },
+      {
+        "repoId": 1220744720,
+        "fullName": "freestylefly/awesome-gpt-image-2",
+        "editorialNote": "周星标增长 +21688",
+        "sortOrder": 6
+      },
+      {
+        "repoId": 1178737655,
+        "fullName": "THU-MAIC/OpenMAIC",
+        "editorialNote": "周星标增长 +17895",
+        "sortOrder": 7
+      },
+      {
+        "repoId": 1273427276,
+        "fullName": "cloudflare/security-audit-skill",
+        "editorialNote": "周星标增长 +15381",
+        "sortOrder": 8
+      },
+      {
+        "repoId": 994093166,
+        "fullName": "omacom/omarchy",
+        "editorialNote": "周星标增长 +15075",
+        "sortOrder": 9
+      },
+      {
+        "repoId": 1267485499,
+        "fullName": "vorssaint/vorssaint-utils",
+        "editorialNote": "周星标增长 +14810",
+        "sortOrder": 10
+      }
+    ],
+    "createdAt": "2026-09-23T03:51:02.530Z",
+    "updatedAt": "2026-09-23T03:51:02.530Z",
+    "publishedAt": "2026-09-23T03:51:02.530Z"
   }
 ]
