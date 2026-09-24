@@ -1872,82 +1872,6 @@
     "publishedAt": "2026-09-06T03:29:06.126Z"
   },
   {
-    "id": 110,
-    "title": "2026-09-20 本周上升最快 Top 10",
-    "slug": "weekly-rising-2026-09-20",
-    "description": "2026-09-20 周度最具增长势头的 AI 开源项目精选",
-    "coverEmoji": "🚀",
-    "collectionType": "weekly_digest",
-    "isPublished": true,
-    "isPinned": false,
-    "sortOrder": 0,
-    "repos": [
-      {
-        "repoId": 1211139949,
-        "fullName": "tt-a1i/archify",
-        "editorialNote": "周星标增长 +53311",
-        "sortOrder": 1
-      },
-      {
-        "repoId": 1266797999,
-        "fullName": "DietrichGebert/ponytail",
-        "editorialNote": "周星标增长 +37328",
-        "sortOrder": 2
-      },
-      {
-        "repoId": 1206390571,
-        "fullName": "debpalash/VoiceStudio",
-        "editorialNote": "周星标增长 +23139",
-        "sortOrder": 3
-      },
-      {
-        "repoId": 1220744720,
-        "fullName": "freestylefly/awesome-gpt-image-2",
-        "editorialNote": "周星标增长 +21920",
-        "sortOrder": 4
-      },
-      {
-        "repoId": 965415649,
-        "fullName": "openai/codex",
-        "editorialNote": "周星标增长 +19155",
-        "sortOrder": 5
-      },
-      {
-        "repoId": 1212769188,
-        "fullName": "cathrynlavery/diagram-design",
-        "editorialNote": "周星标增长 +18899",
-        "sortOrder": 6
-      },
-      {
-        "repoId": 1178737655,
-        "fullName": "THU-MAIC/OpenMAIC",
-        "editorialNote": "周星标增长 +17316",
-        "sortOrder": 7
-      },
-      {
-        "repoId": 54346799,
-        "fullName": "public-apis/public-apis",
-        "editorialNote": "周星标增长 +16777",
-        "sortOrder": 8
-      },
-      {
-        "repoId": 994093166,
-        "fullName": "omacom/omarchy",
-        "editorialNote": "周星标增长 +15717",
-        "sortOrder": 9
-      },
-      {
-        "repoId": 1241960226,
-        "fullName": "alibaba/open-code-review",
-        "editorialNote": "周星标增长 +15028",
-        "sortOrder": 10
-      }
-    ],
-    "createdAt": "2026-09-20T03:57:28.538Z",
-    "updatedAt": "2026-09-20T03:57:28.538Z",
-    "publishedAt": "2026-09-20T03:57:28.538Z"
-  },
-  {
     "id": 111,
     "title": "2026-09-21 本周上升最快 Top 10",
     "slug": "weekly-rising-2026-09-21",
@@ -2174,5 +2098,81 @@
     "createdAt": "2026-09-23T03:51:02.530Z",
     "updatedAt": "2026-09-23T03:51:02.530Z",
     "publishedAt": "2026-09-23T03:51:02.530Z"
+  },
+  {
+    "id": 114,
+    "title": "2026-09-24 本周上升最快 Top 10",
+    "slug": "weekly-rising-2026-09-24",
+    "description": "2026-09-24 周度最具增长势头的 AI 开源项目精选",
+    "coverEmoji": "🚀",
+    "collectionType": "weekly_digest",
+    "isPublished": true,
+    "isPinned": false,
+    "sortOrder": 0,
+    "repos": [
+      {
+        "repoId": 1211139949,
+        "fullName": "tt-a1i/archify",
+        "editorialNote": "周星标增长 +55857",
+        "sortOrder": 1
+      },
+      {
+        "repoId": 1277471539,
+        "fullName": "bilawalsidhu/gods-eye-view",
+        "editorialNote": "周星标增长 +41118",
+        "sortOrder": 2
+      },
+      {
+        "repoId": 1238120057,
+        "fullName": "ayghri/i-have-adhd",
+        "editorialNote": "周星标增长 +27477",
+        "sortOrder": 3
+      },
+      {
+        "repoId": 1206390571,
+        "fullName": "debpalash/VoiceStudio",
+        "editorialNote": "周星标增长 +23623",
+        "sortOrder": 4
+      },
+      {
+        "repoId": 1220744720,
+        "fullName": "freestylefly/awesome-gpt-image-2",
+        "editorialNote": "周星标增长 +21457",
+        "sortOrder": 5
+      },
+      {
+        "repoId": 1178737655,
+        "fullName": "THU-MAIC/OpenMAIC",
+        "editorialNote": "周星标增长 +18072",
+        "sortOrder": 6
+      },
+      {
+        "repoId": 1273427276,
+        "fullName": "cloudflare/security-audit-skill",
+        "editorialNote": "周星标增长 +15280",
+        "sortOrder": 7
+      },
+      {
+        "repoId": 994093166,
+        "fullName": "omacom/omarchy",
+        "editorialNote": "周星标增长 +14577",
+        "sortOrder": 8
+      },
+      {
+        "repoId": 1079456184,
+        "fullName": "K-Dense-AI/scientific-agent-skills",
+        "editorialNote": "周星标增长 +12304",
+        "sortOrder": 9
+      },
+      {
+        "repoId": 1307001698,
+        "fullName": "FlashML-org/FreeToken",
+        "editorialNote": "周星标增长 +10806",
+        "sortOrder": 10
+      }
+    ],
+    "createdAt": "2026-09-24T03:42:51.538Z",
+    "updatedAt": "2026-09-24T03:42:51.538Z",
+    "publishedAt": "2026-09-24T03:42:51.538Z"
   }
 ]
