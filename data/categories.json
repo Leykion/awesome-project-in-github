@@ -9,17 +9,17 @@
     "topRepos": [
       {
         "fullName": "microsoft/markitdown",
-        "stars": 187278,
+        "stars": 187349,
         "starsGained": 0
       },
       {
         "fullName": "firecrawl/firecrawl",
-        "stars": 185416,
+        "stars": 185611,
         "starsGained": 0
       },
       {
         "fullName": "huggingface/transformers",
-        "stars": 166718,
+        "stars": 166736,
         "starsGained": 0
       }
     ]
@@ -34,17 +34,17 @@
     "topRepos": [
       {
         "fullName": "meilisearch/meilisearch",
-        "stars": 59421,
+        "stars": 59424,
         "starsGained": 0
       },
       {
         "fullName": "milvus-io/milvus",
-        "stars": 46261,
+        "stars": 46265,
         "starsGained": 0
       },
       {
         "fullName": "servo/servo",
-        "stars": 38046,
+        "stars": 38047,
         "starsGained": 0
       }
     ]
@@ -59,17 +59,17 @@
     "topRepos": [
       {
         "fullName": "openclaw/openclaw",
-        "stars": 390645,
+        "stars": 390670,
         "starsGained": 0
       },
       {
         "fullName": "NousResearch/hermes-agent",
-        "stars": 249414,
+        "stars": 249543,
         "starsGained": 0
       },
       {
         "fullName": "browser-use/browser-use",
-        "stars": 116484,
+        "stars": 116533,
         "starsGained": 0
       }
     ]
@@ -84,17 +84,17 @@
     "topRepos": [
       {
         "fullName": "scikit-learn/scikit-learn",
-        "stars": 67399,
+        "stars": 67404,
         "starsGained": 0
       },
       {
         "fullName": "jingyaogong/minimind",
-        "stars": 62742,
-        "starsGained": 7813
+        "stars": 62779,
+        "starsGained": 7876
       },
       {
         "fullName": "vnpy/vnpy",
-        "stars": 45585,
+        "stars": 45603,
         "starsGained": 0
       }
     ]
@@ -109,17 +109,17 @@
     "topRepos": [
       {
         "fullName": "ollama/ollama",
-        "stars": 181806,
+        "stars": 181830,
         "starsGained": 0
       },
       {
         "fullName": "ggml-org/llama.cpp",
-        "stars": 129683,
-        "starsGained": 875
+        "stars": 129729,
+        "starsGained": 846
       },
       {
         "fullName": "vllm-project/vllm",
-        "stars": 92771,
+        "stars": 92824,
         "starsGained": 0
       }
     ]
@@ -134,17 +134,17 @@
     "topRepos": [
       {
         "fullName": "obra/superpowers",
-        "stars": 292121,
+        "stars": 292225,
         "starsGained": 0
       },
       {
         "fullName": "affaan-m/ECC",
-        "stars": 268227,
-        "starsGained": 5522
+        "stars": 268489,
+        "starsGained": 5175
       },
       {
         "fullName": "anomalyco/opencode",
-        "stars": 210377,
+        "stars": 210459,
         "starsGained": 0
       }
     ]
@@ -159,17 +159,17 @@
     "topRepos": [
       {
         "fullName": "Comfy-Org/ComfyUI",
-        "stars": 135182,
+        "stars": 135247,
         "starsGained": 0
       },
       {
         "fullName": "opencv/opencv",
-        "stars": 90986,
+        "stars": 90989,
         "starsGained": 0
       },
       {
         "fullName": "ultralytics/ultralytics",
-        "stars": 62047,
+        "stars": 62052,
         "starsGained": 0
       }
     ]
@@ -180,16 +180,11 @@
     "description": "训练数据、评估基准和排行榜",
     "icon": "📋",
     "sortOrder": 8,
-    "repoCount": 2,
+    "repoCount": 1,
     "topRepos": [
       {
         "fullName": "public-apis/public-apis",
-        "stars": 483749,
-        "starsGained": 0
-      },
-      {
-        "fullName": "freestylefly/awesome-gpt-image-2",
-        "stars": 33597,
+        "stars": 483867,
         "starsGained": 0
       }
     ]
@@ -204,17 +199,17 @@
     "topRepos": [
       {
         "fullName": "Significant-Gravitas/AutoGPT",
-        "stars": 187584,
+        "stars": 187596,
         "starsGained": 0
       },
       {
         "fullName": "f/prompts.chat",
-        "stars": 171405,
+        "stars": 171434,
         "starsGained": 0
       },
       {
         "fullName": "open-webui/open-webui",
-        "stars": 153340,
+        "stars": 153390,
         "starsGained": 0
       }
     ]
