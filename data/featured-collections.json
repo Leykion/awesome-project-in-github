@@ -1872,82 +1872,6 @@
     "publishedAt": "2026-09-06T03:29:06.126Z"
   },
   {
-    "id": 116,
-    "title": "2026-09-26 本周上升最快 Top 10",
-    "slug": "weekly-rising-2026-09-26",
-    "description": "2026-09-26 周度最具增长势头的 AI 开源项目精选",
-    "coverEmoji": "🚀",
-    "collectionType": "weekly_digest",
-    "isPublished": true,
-    "isPinned": false,
-    "sortOrder": 0,
-    "repos": [
-      {
-        "repoId": 1211139949,
-        "fullName": "tt-a1i/archify",
-        "editorialNote": "周星标增长 +56232",
-        "sortOrder": 1
-      },
-      {
-        "repoId": 1277471539,
-        "fullName": "bilawalsidhu/gods-eye-view",
-        "editorialNote": "周星标增长 +40403",
-        "sortOrder": 2
-      },
-      {
-        "repoId": 1266797999,
-        "fullName": "DietrichGebert/ponytail",
-        "editorialNote": "周星标增长 +36118",
-        "sortOrder": 3
-      },
-      {
-        "repoId": 1238120057,
-        "fullName": "ayghri/i-have-adhd",
-        "editorialNote": "周星标增长 +27288",
-        "sortOrder": 4
-      },
-      {
-        "repoId": 1206390571,
-        "fullName": "debpalash/VoiceStudio",
-        "editorialNote": "周星标增长 +24027",
-        "sortOrder": 5
-      },
-      {
-        "repoId": 1178737655,
-        "fullName": "THU-MAIC/OpenMAIC",
-        "editorialNote": "周星标增长 +18282",
-        "sortOrder": 6
-      },
-      {
-        "repoId": 1220744720,
-        "fullName": "freestylefly/awesome-gpt-image-2",
-        "editorialNote": "周星标增长 +16774",
-        "sortOrder": 7
-      },
-      {
-        "repoId": 1079456184,
-        "fullName": "K-Dense-AI/scientific-agent-skills",
-        "editorialNote": "周星标增长 +12419",
-        "sortOrder": 8
-      },
-      {
-        "repoId": 1177402105,
-        "fullName": "heygen-com/hyperframes",
-        "editorialNote": "周星标增长 +10688",
-        "sortOrder": 9
-      },
-      {
-        "repoId": 1267485499,
-        "fullName": "vorssaint/vorssaint-utils",
-        "editorialNote": "周星标增长 +10041",
-        "sortOrder": 10
-      }
-    ],
-    "createdAt": "2026-09-26T04:04:59.108Z",
-    "updatedAt": "2026-09-26T04:04:59.108Z",
-    "publishedAt": "2026-09-26T04:04:59.108Z"
-  },
-  {
     "id": 117,
     "title": "2026-09-27 本周上升最快 Top 10",
     "slug": "weekly-rising-2026-09-27",
@@ -2174,5 +2098,81 @@
     "createdAt": "2026-09-29T04:50:32.357Z",
     "updatedAt": "2026-09-29T04:50:32.357Z",
     "publishedAt": "2026-09-29T04:50:32.357Z"
+  },
+  {
+    "id": 120,
+    "title": "2026-09-30 本周上升最快 Top 10",
+    "slug": "weekly-rising-2026-09-30",
+    "description": "2026-09-30 周度最具增长势头的 AI 开源项目精选",
+    "coverEmoji": "🚀",
+    "collectionType": "weekly_digest",
+    "isPublished": true,
+    "isPinned": false,
+    "sortOrder": 0,
+    "repos": [
+      {
+        "repoId": 1211139949,
+        "fullName": "tt-a1i/archify",
+        "editorialNote": "周星标增长 +45168",
+        "sortOrder": 1
+      },
+      {
+        "repoId": 1277471539,
+        "fullName": "bilawalsidhu/gods-eye-view",
+        "editorialNote": "周星标增长 +33308",
+        "sortOrder": 2
+      },
+      {
+        "repoId": 1266797999,
+        "fullName": "DietrichGebert/ponytail",
+        "editorialNote": "周星标增长 +32714",
+        "sortOrder": 3
+      },
+      {
+        "repoId": 1238120057,
+        "fullName": "ayghri/i-have-adhd",
+        "editorialNote": "周星标增长 +26845",
+        "sortOrder": 4
+      },
+      {
+        "repoId": 1136590548,
+        "fullName": "affaan-m/ECC",
+        "editorialNote": "周星标增长 +26837",
+        "sortOrder": 5
+      },
+      {
+        "repoId": 1241960226,
+        "fullName": "alibaba/open-code-review",
+        "editorialNote": "周星标增长 +21236",
+        "sortOrder": 6
+      },
+      {
+        "repoId": 1178737655,
+        "fullName": "THU-MAIC/OpenMAIC",
+        "editorialNote": "周星标增长 +18126",
+        "sortOrder": 7
+      },
+      {
+        "repoId": 1177402105,
+        "fullName": "heygen-com/hyperframes",
+        "editorialNote": "周星标增长 +11262",
+        "sortOrder": 8
+      },
+      {
+        "repoId": 1312807575,
+        "fullName": "miuuyy/codex-chatgpt-web",
+        "editorialNote": "周星标增长 +10765",
+        "sortOrder": 9
+      },
+      {
+        "repoId": 1079456184,
+        "fullName": "K-Dense-AI/scientific-agent-skills",
+        "editorialNote": "周星标增长 +9692",
+        "sortOrder": 10
+      }
+    ],
+    "createdAt": "2026-09-30T04:34:55.588Z",
+    "updatedAt": "2026-09-30T04:34:55.588Z",
+    "publishedAt": "2026-09-30T04:34:55.588Z"
   }
 ]
