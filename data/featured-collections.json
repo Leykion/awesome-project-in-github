@@ -1872,82 +1872,6 @@
     "publishedAt": "2026-09-06T03:29:06.126Z"
   },
   {
-    "id": 118,
-    "title": "2026-09-28 本周上升最快 Top 10",
-    "slug": "weekly-rising-2026-09-28",
-    "description": "2026-09-28 周度最具增长势头的 AI 开源项目精选",
-    "coverEmoji": "🚀",
-    "collectionType": "weekly_digest",
-    "isPublished": true,
-    "isPinned": false,
-    "sortOrder": 0,
-    "repos": [
-      {
-        "repoId": 1211139949,
-        "fullName": "tt-a1i/archify",
-        "editorialNote": "周星标增长 +51711",
-        "sortOrder": 1
-      },
-      {
-        "repoId": 1277471539,
-        "fullName": "bilawalsidhu/gods-eye-view",
-        "editorialNote": "周星标增长 +37567",
-        "sortOrder": 2
-      },
-      {
-        "repoId": 1238120057,
-        "fullName": "ayghri/i-have-adhd",
-        "editorialNote": "周星标增长 +26939",
-        "sortOrder": 3
-      },
-      {
-        "repoId": 1178737655,
-        "fullName": "THU-MAIC/OpenMAIC",
-        "editorialNote": "周星标增长 +18484",
-        "sortOrder": 4
-      },
-      {
-        "repoId": 1079456184,
-        "fullName": "K-Dense-AI/scientific-agent-skills",
-        "editorialNote": "周星标增长 +11881",
-        "sortOrder": 5
-      },
-      {
-        "repoId": 1312807575,
-        "fullName": "miuuyy/codex-chatgpt-web",
-        "editorialNote": "周星标增长 +10481",
-        "sortOrder": 6
-      },
-      {
-        "repoId": 1267485499,
-        "fullName": "vorssaint/vorssaint-utils",
-        "editorialNote": "周星标增长 +9553",
-        "sortOrder": 7
-      },
-      {
-        "repoId": 1217040185,
-        "fullName": "tashfeenahmed/freellmapi",
-        "editorialNote": "周星标增长 +8468",
-        "sortOrder": 8
-      },
-      {
-        "repoId": 834369920,
-        "fullName": "jingyaogong/minimind",
-        "editorialNote": "周星标增长 +7876",
-        "sortOrder": 9
-      },
-      {
-        "repoId": 1168753718,
-        "fullName": "every-app/open-seo",
-        "editorialNote": "周星标增长 +7792",
-        "sortOrder": 10
-      }
-    ],
-    "createdAt": "2026-09-28T04:18:18.532Z",
-    "updatedAt": "2026-09-28T04:18:18.532Z",
-    "publishedAt": "2026-09-28T04:18:18.532Z"
-  },
-  {
     "id": 119,
     "title": "2026-09-29 本周上升最快 Top 10",
     "slug": "weekly-rising-2026-09-29",
@@ -2174,5 +2098,81 @@
     "createdAt": "2026-10-01T04:47:01.555Z",
     "updatedAt": "2026-10-01T04:47:01.555Z",
     "publishedAt": "2026-10-01T04:47:01.555Z"
+  },
+  {
+    "id": 122,
+    "title": "2026-10-02 本周上升最快 Top 10",
+    "slug": "weekly-rising-2026-10-02",
+    "description": "2026-10-02 周度最具增长势头的 AI 开源项目精选",
+    "coverEmoji": "🚀",
+    "collectionType": "weekly_digest",
+    "isPublished": true,
+    "isPinned": false,
+    "sortOrder": 0,
+    "repos": [
+      {
+        "repoId": 1211139949,
+        "fullName": "tt-a1i/archify",
+        "editorialNote": "周星标增长 +35068",
+        "sortOrder": 1
+      },
+      {
+        "repoId": 1277471539,
+        "fullName": "bilawalsidhu/gods-eye-view",
+        "editorialNote": "周星标增长 +31240",
+        "sortOrder": 2
+      },
+      {
+        "repoId": 1238120057,
+        "fullName": "ayghri/i-have-adhd",
+        "editorialNote": "周星标增长 +26584",
+        "sortOrder": 3
+      },
+      {
+        "repoId": 1136590548,
+        "fullName": "affaan-m/ECC",
+        "editorialNote": "周星标增长 +26450",
+        "sortOrder": 4
+      },
+      {
+        "repoId": 1241960226,
+        "fullName": "alibaba/open-code-review",
+        "editorialNote": "周星标增长 +21646",
+        "sortOrder": 5
+      },
+      {
+        "repoId": 1273427276,
+        "fullName": "cloudflare/security-audit-skill",
+        "editorialNote": "周星标增长 +20736",
+        "sortOrder": 6
+      },
+      {
+        "repoId": 1086419061,
+        "fullName": "vectorize-io/hindsight",
+        "editorialNote": "周星标增长 +17403",
+        "sortOrder": 7
+      },
+      {
+        "repoId": 1206390571,
+        "fullName": "debpalash/VoiceStudio",
+        "editorialNote": "周星标增长 +16114",
+        "sortOrder": 8
+      },
+      {
+        "repoId": 1170821064,
+        "fullName": "paperclipai/paperclip",
+        "editorialNote": "周星标增长 +14335",
+        "sortOrder": 9
+      },
+      {
+        "repoId": 1178737655,
+        "fullName": "THU-MAIC/OpenMAIC",
+        "editorialNote": "周星标增长 +11062",
+        "sortOrder": 10
+      }
+    ],
+    "createdAt": "2026-10-02T04:37:50.830Z",
+    "updatedAt": "2026-10-02T04:37:50.830Z",
+    "publishedAt": "2026-10-02T04:37:50.830Z"
   }
 ]
