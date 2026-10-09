@@ -1,6 +1,6 @@
 {
   "totalReposTracked": 2681,
-  "totalCurations": 1310,
+  "totalCurations": 1312,
   "categoryCounts": {
     "model-serving": 46,
     "ai-applications": 83,
@@ -46,7 +46,7 @@
     "TeX": 1,
     "Makefile": 1
   },
-  "lastSyncAt": "2026-10-08T18:45:32.241Z",
-  "lastCurationAt": "2026-10-08T18:45:32.241Z",
+  "lastSyncAt": "2026-10-09T05:08:43.122Z",
+  "lastCurationAt": "2026-10-09T05:08:43.122Z",
   "syncHealth": "healthy"
 }
