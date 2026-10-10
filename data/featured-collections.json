@@ -2508,82 +2508,6 @@
     "publishedAt": "2026-10-04T04:52:47.727Z"
   },
   {
-    "id": 135,
-    "title": "2026-10-06 本周上升最快 Top 10",
-    "slug": "weekly-rising-2026-10-06",
-    "description": "2026-10-06 周度最具增长势头的 AI 开源项目精选",
-    "coverEmoji": "🚀",
-    "collectionType": "weekly_digest",
-    "isPublished": true,
-    "isPinned": false,
-    "sortOrder": 0,
-    "repos": [
-      {
-        "repoId": 1277471539,
-        "fullName": "bilawalsidhu/gods-eye-view",
-        "editorialNote": "周星标增长 +30235",
-        "sortOrder": 1
-      },
-      {
-        "repoId": 1211139949,
-        "fullName": "tt-a1i/archify",
-        "editorialNote": "周星标增长 +29482",
-        "sortOrder": 2
-      },
-      {
-        "repoId": 1238120057,
-        "fullName": "ayghri/i-have-adhd",
-        "editorialNote": "周星标增长 +26953",
-        "sortOrder": 3
-      },
-      {
-        "repoId": 1136590548,
-        "fullName": "affaan-m/ECC",
-        "editorialNote": "周星标增长 +25740",
-        "sortOrder": 4
-      },
-      {
-        "repoId": 1183888342,
-        "fullName": "stablyai/orca",
-        "editorialNote": "周星标增长 +24112",
-        "sortOrder": 5
-      },
-      {
-        "repoId": 1241960226,
-        "fullName": "alibaba/open-code-review",
-        "editorialNote": "周星标增长 +22242",
-        "sortOrder": 6
-      },
-      {
-        "repoId": 1273427276,
-        "fullName": "cloudflare/security-audit-skill",
-        "editorialNote": "周星标增长 +21789",
-        "sortOrder": 7
-      },
-      {
-        "repoId": 1206390571,
-        "fullName": "debpalash/VoiceStudio",
-        "editorialNote": "周星标增长 +12036",
-        "sortOrder": 8
-      },
-      {
-        "repoId": 1024118326,
-        "fullName": "Tencent/WeKnora",
-        "editorialNote": "周星标增长 +10976",
-        "sortOrder": 9
-      },
-      {
-        "repoId": 888092115,
-        "fullName": "microsoft/markitdown",
-        "editorialNote": "周星标增长 +10845",
-        "sortOrder": 10
-      }
-    ],
-    "createdAt": "2026-10-06T05:27:11.517Z",
-    "updatedAt": "2026-10-06T05:27:11.517Z",
-    "publishedAt": "2026-10-06T05:27:11.517Z"
-  },
-  {
     "id": 136,
     "title": "2026-10-07 本周上升最快 Top 10",
     "slug": "weekly-rising-2026-10-07",
@@ -2810,5 +2734,81 @@
     "createdAt": "2026-10-09T05:08:42.907Z",
     "updatedAt": "2026-10-09T05:08:42.907Z",
     "publishedAt": "2026-10-09T05:08:42.907Z"
+  },
+  {
+    "id": 139,
+    "title": "2026-10-10 本周上升最快 Top 10",
+    "slug": "weekly-rising-2026-10-10",
+    "description": "2026-10-10 周度最具增长势头的 AI 开源项目精选",
+    "coverEmoji": "🚀",
+    "collectionType": "weekly_digest",
+    "isPublished": true,
+    "isPinned": false,
+    "sortOrder": 0,
+    "repos": [
+      {
+        "repoId": 1206390571,
+        "fullName": "debpalash/VoiceStudio",
+        "editorialNote": "周星标增长 +34560",
+        "sortOrder": 1
+      },
+      {
+        "repoId": 1277471539,
+        "fullName": "bilawalsidhu/gods-eye-view",
+        "editorialNote": "周星标增长 +29212",
+        "sortOrder": 2
+      },
+      {
+        "repoId": 1266797999,
+        "fullName": "DietrichGebert/ponytail",
+        "editorialNote": "周星标增长 +27290",
+        "sortOrder": 3
+      },
+      {
+        "repoId": 1086419061,
+        "fullName": "vectorize-io/hindsight",
+        "editorialNote": "周星标增长 +24617",
+        "sortOrder": 4
+      },
+      {
+        "repoId": 1136590548,
+        "fullName": "affaan-m/ECC",
+        "editorialNote": "周星标增长 +22710",
+        "sortOrder": 5
+      },
+      {
+        "repoId": 1170821064,
+        "fullName": "paperclipai/paperclip",
+        "editorialNote": "周星标增长 +19137",
+        "sortOrder": 6
+      },
+      {
+        "repoId": 1209966933,
+        "fullName": "morluto/rea",
+        "editorialNote": "周星标增长 +14927",
+        "sortOrder": 7
+      },
+      {
+        "repoId": 1286080397,
+        "fullName": "JustVugg/colibri",
+        "editorialNote": "周星标增长 +13755",
+        "sortOrder": 8
+      },
+      {
+        "repoId": 1024118326,
+        "fullName": "Tencent/WeKnora",
+        "editorialNote": "周星标增长 +11118",
+        "sortOrder": 9
+      },
+      {
+        "repoId": 1287908540,
+        "fullName": "hydra-db/hydradb",
+        "editorialNote": "周星标增长 +10063",
+        "sortOrder": 10
+      }
+    ],
+    "createdAt": "2026-10-10T04:54:47.846Z",
+    "updatedAt": "2026-10-10T04:54:47.846Z",
+    "publishedAt": "2026-10-10T04:54:47.846Z"
   }
 ]
