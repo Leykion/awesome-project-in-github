@@ -2508,82 +2508,6 @@
     "publishedAt": "2026-10-04T04:52:47.727Z"
   },
   {
-    "id": 136,
-    "title": "2026-10-07 本周上升最快 Top 10",
-    "slug": "weekly-rising-2026-10-07",
-    "description": "2026-10-07 周度最具增长势头的 AI 开源项目精选",
-    "coverEmoji": "🚀",
-    "collectionType": "weekly_digest",
-    "isPublished": true,
-    "isPinned": false,
-    "sortOrder": 0,
-    "repos": [
-      {
-        "repoId": 1277471539,
-        "fullName": "bilawalsidhu/gods-eye-view",
-        "editorialNote": "周星标增长 +30225",
-        "sortOrder": 1
-      },
-      {
-        "repoId": 1211139949,
-        "fullName": "tt-a1i/archify",
-        "editorialNote": "周星标增长 +28776",
-        "sortOrder": 2
-      },
-      {
-        "repoId": 1266797999,
-        "fullName": "DietrichGebert/ponytail",
-        "editorialNote": "周星标增长 +28592",
-        "sortOrder": 3
-      },
-      {
-        "repoId": 1136590548,
-        "fullName": "affaan-m/ECC",
-        "editorialNote": "周星标增长 +25085",
-        "sortOrder": 4
-      },
-      {
-        "repoId": 1183888342,
-        "fullName": "stablyai/orca",
-        "editorialNote": "周星标增长 +24330",
-        "sortOrder": 5
-      },
-      {
-        "repoId": 1086419061,
-        "fullName": "vectorize-io/hindsight",
-        "editorialNote": "周星标增长 +23797",
-        "sortOrder": 6
-      },
-      {
-        "repoId": 1241960226,
-        "fullName": "alibaba/open-code-review",
-        "editorialNote": "周星标增长 +22361",
-        "sortOrder": 7
-      },
-      {
-        "repoId": 1170821064,
-        "fullName": "paperclipai/paperclip",
-        "editorialNote": "周星标增长 +18199",
-        "sortOrder": 8
-      },
-      {
-        "repoId": 1286080397,
-        "fullName": "JustVugg/colibri",
-        "editorialNote": "周星标增长 +13243",
-        "sortOrder": 9
-      },
-      {
-        "repoId": 1024118326,
-        "fullName": "Tencent/WeKnora",
-        "editorialNote": "周星标增长 +11017",
-        "sortOrder": 10
-      }
-    ],
-    "createdAt": "2026-10-07T04:55:19.661Z",
-    "updatedAt": "2026-10-07T04:55:19.661Z",
-    "publishedAt": "2026-10-07T04:55:19.661Z"
-  },
-  {
     "id": 137,
     "title": "2026-10-08 本周上升最快 Top 10",
     "slug": "weekly-rising-2026-10-08",
@@ -2810,5 +2734,81 @@
     "createdAt": "2026-10-10T04:54:47.846Z",
     "updatedAt": "2026-10-10T04:54:47.846Z",
     "publishedAt": "2026-10-10T04:54:47.846Z"
+  },
+  {
+    "id": 140,
+    "title": "2026-10-11 本周上升最快 Top 10",
+    "slug": "weekly-rising-2026-10-11",
+    "description": "2026-10-11 周度最具增长势头的 AI 开源项目精选",
+    "coverEmoji": "🚀",
+    "collectionType": "weekly_digest",
+    "isPublished": true,
+    "isPinned": false,
+    "sortOrder": 0,
+    "repos": [
+      {
+        "repoId": 1206390571,
+        "fullName": "debpalash/VoiceStudio",
+        "editorialNote": "周星标增长 +35194",
+        "sortOrder": 1
+      },
+      {
+        "repoId": 1277471539,
+        "fullName": "bilawalsidhu/gods-eye-view",
+        "editorialNote": "周星标增长 +27862",
+        "sortOrder": 2
+      },
+      {
+        "repoId": 1266797999,
+        "fullName": "DietrichGebert/ponytail",
+        "editorialNote": "周星标增长 +26935",
+        "sortOrder": 3
+      },
+      {
+        "repoId": 1209966933,
+        "fullName": "morluto/rea",
+        "editorialNote": "周星标增长 +25793",
+        "sortOrder": 4
+      },
+      {
+        "repoId": 1086419061,
+        "fullName": "vectorize-io/hindsight",
+        "editorialNote": "周星标增长 +24928",
+        "sortOrder": 5
+      },
+      {
+        "repoId": 1273427276,
+        "fullName": "cloudflare/security-audit-skill",
+        "editorialNote": "周星标增长 +24471",
+        "sortOrder": 6
+      },
+      {
+        "repoId": 1241960226,
+        "fullName": "alibaba/open-code-review",
+        "editorialNote": "周星标增长 +23947",
+        "sortOrder": 7
+      },
+      {
+        "repoId": 1136590548,
+        "fullName": "affaan-m/ECC",
+        "editorialNote": "周星标增长 +22474",
+        "sortOrder": 8
+      },
+      {
+        "repoId": 1170821064,
+        "fullName": "paperclipai/paperclip",
+        "editorialNote": "周星标增长 +19499",
+        "sortOrder": 9
+      },
+      {
+        "repoId": 1286080397,
+        "fullName": "JustVugg/colibri",
+        "editorialNote": "周星标增长 +13894",
+        "sortOrder": 10
+      }
+    ],
+    "createdAt": "2026-10-11T04:39:08.729Z",
+    "updatedAt": "2026-10-11T04:39:08.729Z",
+    "publishedAt": "2026-10-11T04:39:08.729Z"
   }
 ]
