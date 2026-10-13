@@ -1,82 +1,82 @@
 {
-  "lastRun": "2026-10-12T21:10:25.868Z",
+  "lastRun": "2026-10-13T05:58:20.431Z",
   "entries": [
     {
       "jobType": "discover",
       "status": "completed",
-      "reposProcessed": 327,
+      "reposProcessed": 325,
       "reposFailed": 0,
       "rateLimitRemaining": null,
       "errorMessage": null,
-      "durationMs": 36211,
-      "startedAt": "2026-10-12T21:00:25.222Z",
-      "completedAt": "2026-10-12T21:01:01.433Z"
+      "durationMs": 36332,
+      "startedAt": "2026-10-13T05:50:08.472Z",
+      "completedAt": "2026-10-13T05:50:44.804Z"
     },
     {
       "jobType": "enrich",
-      "status": "completed",
-      "reposProcessed": 2703,
-      "reposFailed": 0,
-      "rateLimitRemaining": null,
-      "errorMessage": null,
-      "durationMs": 444376,
-      "startedAt": "2026-10-12T21:01:01.433Z",
-      "completedAt": "2026-10-12T21:08:25.809Z"
-    },
-    {
-      "jobType": "score",
-      "status": "partial",
-      "reposProcessed": 2660,
-      "reposFailed": 43,
-      "rateLimitRemaining": null,
-      "errorMessage": null,
-      "durationMs": 102,
-      "startedAt": "2026-10-12T21:08:25.809Z",
-      "completedAt": "2026-10-12T21:08:25.911Z"
-    },
-    {
-      "jobType": "analyze",
-      "status": "completed",
-      "reposProcessed": 26,
-      "reposFailed": 0,
-      "rateLimitRemaining": null,
-      "errorMessage": null,
-      "durationMs": 119751,
-      "startedAt": "2026-10-12T21:08:25.911Z",
-      "completedAt": "2026-10-12T21:10:25.662Z"
-    },
-    {
-      "jobType": "collection",
-      "status": "completed",
-      "reposProcessed": 0,
-      "reposFailed": 0,
-      "rateLimitRemaining": null,
-      "errorMessage": null,
-      "durationMs": 47,
-      "startedAt": "2026-10-12T21:10:25.662Z",
-      "completedAt": "2026-10-12T21:10:25.709Z"
-    },
-    {
-      "jobType": "cleanup",
-      "status": "completed",
-      "reposProcessed": 11,
-      "reposFailed": 0,
-      "rateLimitRemaining": null,
-      "errorMessage": null,
-      "durationMs": 91,
-      "startedAt": "2026-10-12T21:10:25.709Z",
-      "completedAt": "2026-10-12T21:10:25.800Z"
-    },
-    {
-      "jobType": "discover",
       "status": "completed",
       "reposProcessed": 2692,
       "reposFailed": 0,
       "rateLimitRemaining": null,
       "errorMessage": null,
-      "durationMs": 68,
-      "startedAt": "2026-10-12T21:10:25.800Z",
-      "completedAt": "2026-10-12T21:10:25.868Z"
+      "durationMs": 422735,
+      "startedAt": "2026-10-13T05:50:44.804Z",
+      "completedAt": "2026-10-13T05:57:47.539Z"
+    },
+    {
+      "jobType": "score",
+      "status": "partial",
+      "reposProcessed": 2652,
+      "reposFailed": 40,
+      "rateLimitRemaining": null,
+      "errorMessage": null,
+      "durationMs": 118,
+      "startedAt": "2026-10-13T05:57:47.539Z",
+      "completedAt": "2026-10-13T05:57:47.657Z"
+    },
+    {
+      "jobType": "analyze",
+      "status": "completed",
+      "reposProcessed": 4,
+      "reposFailed": 0,
+      "rateLimitRemaining": null,
+      "errorMessage": null,
+      "durationMs": 32530,
+      "startedAt": "2026-10-13T05:57:47.657Z",
+      "completedAt": "2026-10-13T05:58:20.187Z"
+    },
+    {
+      "jobType": "collection",
+      "status": "completed",
+      "reposProcessed": 1,
+      "reposFailed": 0,
+      "rateLimitRemaining": null,
+      "errorMessage": null,
+      "durationMs": 47,
+      "startedAt": "2026-10-13T05:58:20.187Z",
+      "completedAt": "2026-10-13T05:58:20.234Z"
+    },
+    {
+      "jobType": "cleanup",
+      "status": "completed",
+      "reposProcessed": 2,
+      "reposFailed": 0,
+      "rateLimitRemaining": null,
+      "errorMessage": null,
+      "durationMs": 113,
+      "startedAt": "2026-10-13T05:58:20.235Z",
+      "completedAt": "2026-10-13T05:58:20.348Z"
+    },
+    {
+      "jobType": "discover",
+      "status": "completed",
+      "reposProcessed": 2690,
+      "reposFailed": 0,
+      "rateLimitRemaining": null,
+      "errorMessage": null,
+      "durationMs": 83,
+      "startedAt": "2026-10-13T05:58:20.348Z",
+      "completedAt": "2026-10-13T05:58:20.431Z"
     }
   ]
 }
