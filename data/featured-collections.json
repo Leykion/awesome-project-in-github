@@ -2508,82 +2508,6 @@
     "publishedAt": "2026-10-04T04:52:47.727Z"
   },
   {
-    "id": 142,
-    "title": "2026-10-13 本周上升最快 Top 10",
-    "slug": "weekly-rising-2026-10-13",
-    "description": "2026-10-13 周度最具增长势头的 AI 开源项目精选",
-    "coverEmoji": "🚀",
-    "collectionType": "weekly_digest",
-    "isPublished": true,
-    "isPinned": false,
-    "sortOrder": 0,
-    "repos": [
-      {
-        "repoId": 1209966933,
-        "fullName": "morluto/rea",
-        "editorialNote": "周星标增长 +45327",
-        "sortOrder": 1
-      },
-      {
-        "repoId": 1206390571,
-        "fullName": "debpalash/VoiceStudio",
-        "editorialNote": "周星标增长 +37110",
-        "sortOrder": 2
-      },
-      {
-        "repoId": 1322250666,
-        "fullName": "boykopovar/AnyPS5",
-        "editorialNote": "周星标增长 +27263",
-        "sortOrder": 3
-      },
-      {
-        "repoId": 1266797999,
-        "fullName": "DietrichGebert/ponytail",
-        "editorialNote": "周星标增长 +26382",
-        "sortOrder": 4
-      },
-      {
-        "repoId": 1273427276,
-        "fullName": "cloudflare/security-audit-skill",
-        "editorialNote": "周星标增长 +25873",
-        "sortOrder": 5
-      },
-      {
-        "repoId": 1086419061,
-        "fullName": "vectorize-io/hindsight",
-        "editorialNote": "周星标增长 +25557",
-        "sortOrder": 6
-      },
-      {
-        "repoId": 1241960226,
-        "fullName": "alibaba/open-code-review",
-        "editorialNote": "周星标增长 +24317",
-        "sortOrder": 7
-      },
-      {
-        "repoId": 1136590548,
-        "fullName": "affaan-m/ECC",
-        "editorialNote": "周星标增长 +22583",
-        "sortOrder": 8
-      },
-      {
-        "repoId": 1170821064,
-        "fullName": "paperclipai/paperclip",
-        "editorialNote": "周星标增长 +20601",
-        "sortOrder": 9
-      },
-      {
-        "repoId": 1185590488,
-        "fullName": "rohitg00/ai-engineering-from-scratch",
-        "editorialNote": "周星标增长 +13880",
-        "sortOrder": 10
-      }
-    ],
-    "createdAt": "2026-10-13T05:58:20.231Z",
-    "updatedAt": "2026-10-13T05:58:20.231Z",
-    "publishedAt": "2026-10-13T05:58:20.231Z"
-  },
-  {
     "id": 143,
     "title": "2026-10-14 本周上升最快 Top 10",
     "slug": "weekly-rising-2026-10-14",
@@ -2810,5 +2734,81 @@
     "createdAt": "2026-10-16T03:41:06.819Z",
     "updatedAt": "2026-10-16T03:41:06.819Z",
     "publishedAt": "2026-10-16T03:41:06.819Z"
+  },
+  {
+    "id": 146,
+    "title": "2026-10-17 本周上升最快 Top 10",
+    "slug": "weekly-rising-2026-10-17",
+    "description": "2026-10-17 周度最具增长势头的 AI 开源项目精选",
+    "coverEmoji": "🚀",
+    "collectionType": "weekly_digest",
+    "isPublished": true,
+    "isPinned": false,
+    "sortOrder": 0,
+    "repos": [
+      {
+        "repoId": 1209966933,
+        "fullName": "morluto/rea",
+        "editorialNote": "周星标增长 +248962",
+        "sortOrder": 1
+      },
+      {
+        "repoId": 1086419061,
+        "fullName": "vectorize-io/hindsight",
+        "editorialNote": "周星标增长 +26912",
+        "sortOrder": 2
+      },
+      {
+        "repoId": 1266797999,
+        "fullName": "DietrichGebert/ponytail",
+        "editorialNote": "周星标增长 +26034",
+        "sortOrder": 3
+      },
+      {
+        "repoId": 1273427276,
+        "fullName": "cloudflare/security-audit-skill",
+        "editorialNote": "周星标增长 +24844",
+        "sortOrder": 4
+      },
+      {
+        "repoId": 1170821064,
+        "fullName": "paperclipai/paperclip",
+        "editorialNote": "周星标增长 +22617",
+        "sortOrder": 5
+      },
+      {
+        "repoId": 1277471539,
+        "fullName": "bilawalsidhu/gods-eye-view",
+        "editorialNote": "周星标增长 +21971",
+        "sortOrder": 6
+      },
+      {
+        "repoId": 1322250666,
+        "fullName": "boykopovar/AnyPS5",
+        "editorialNote": "周星标增长 +20518",
+        "sortOrder": 7
+      },
+      {
+        "repoId": 476507964,
+        "fullName": "storytold/artcraft",
+        "editorialNote": "周星标增长 +20267",
+        "sortOrder": 8
+      },
+      {
+        "repoId": 1241960226,
+        "fullName": "alibaba/open-code-review",
+        "editorialNote": "周星标增长 +17022",
+        "sortOrder": 9
+      },
+      {
+        "repoId": 1165277268,
+        "fullName": "Panniantong/Agent-Reach",
+        "editorialNote": "周星标增长 +16286",
+        "sortOrder": 10
+      }
+    ],
+    "createdAt": "2026-10-17T03:34:17.203Z",
+    "updatedAt": "2026-10-17T03:34:17.203Z",
+    "publishedAt": "2026-10-17T03:34:17.203Z"
   }
 ]
