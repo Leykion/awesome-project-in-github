@@ -2508,82 +2508,6 @@
     "publishedAt": "2026-10-04T04:52:47.727Z"
   },
   {
-    "id": 144,
-    "title": "2026-10-15 本周上升最快 Top 10",
-    "slug": "weekly-rising-2026-10-15",
-    "description": "2026-10-15 周度最具增长势头的 AI 开源项目精选",
-    "coverEmoji": "🚀",
-    "collectionType": "weekly_digest",
-    "isPublished": true,
-    "isPinned": false,
-    "sortOrder": 0,
-    "repos": [
-      {
-        "repoId": 1209966933,
-        "fullName": "morluto/rea",
-        "editorialNote": "周星标增长 +41034",
-        "sortOrder": 1
-      },
-      {
-        "repoId": 1322250666,
-        "fullName": "boykopovar/AnyPS5",
-        "editorialNote": "周星标增长 +28240",
-        "sortOrder": 2
-      },
-      {
-        "repoId": 1273427276,
-        "fullName": "cloudflare/security-audit-skill",
-        "editorialNote": "周星标增长 +26509",
-        "sortOrder": 3
-      },
-      {
-        "repoId": 1266797999,
-        "fullName": "DietrichGebert/ponytail",
-        "editorialNote": "周星标增长 +26368",
-        "sortOrder": 4
-      },
-      {
-        "repoId": 1086419061,
-        "fullName": "vectorize-io/hindsight",
-        "editorialNote": "周星标增长 +26274",
-        "sortOrder": 5
-      },
-      {
-        "repoId": 1241960226,
-        "fullName": "alibaba/open-code-review",
-        "editorialNote": "周星标增长 +23047",
-        "sortOrder": 6
-      },
-      {
-        "repoId": 1136590548,
-        "fullName": "affaan-m/ECC",
-        "editorialNote": "周星标增长 +22689",
-        "sortOrder": 7
-      },
-      {
-        "repoId": 1170821064,
-        "fullName": "paperclipai/paperclip",
-        "editorialNote": "周星标增长 +21643",
-        "sortOrder": 8
-      },
-      {
-        "repoId": 1165277268,
-        "fullName": "Panniantong/Agent-Reach",
-        "editorialNote": "周星标增长 +16930",
-        "sortOrder": 9
-      },
-      {
-        "repoId": 1185590488,
-        "fullName": "rohitg00/ai-engineering-from-scratch",
-        "editorialNote": "周星标增长 +14754",
-        "sortOrder": 10
-      }
-    ],
-    "createdAt": "2026-10-15T03:45:58.936Z",
-    "updatedAt": "2026-10-15T03:45:58.936Z",
-    "publishedAt": "2026-10-15T03:45:58.936Z"
-  },
-  {
     "id": 145,
     "title": "2026-10-16 本周上升最快 Top 10",
     "slug": "weekly-rising-2026-10-16",
@@ -2810,5 +2734,81 @@
     "createdAt": "2026-10-18T03:35:20.648Z",
     "updatedAt": "2026-10-18T03:35:20.648Z",
     "publishedAt": "2026-10-18T03:35:20.648Z"
+  },
+  {
+    "id": 148,
+    "title": "2026-10-19 本周上升最快 Top 10",
+    "slug": "weekly-rising-2026-10-19",
+    "description": "2026-10-19 周度最具增长势头的 AI 开源项目精选",
+    "coverEmoji": "🚀",
+    "collectionType": "weekly_digest",
+    "isPublished": true,
+    "isPinned": false,
+    "sortOrder": 0,
+    "repos": [
+      {
+        "repoId": 1209966933,
+        "fullName": "morluto/rea",
+        "editorialNote": "周星标增长 +229268",
+        "sortOrder": 1
+      },
+      {
+        "repoId": 1086419061,
+        "fullName": "vectorize-io/hindsight",
+        "editorialNote": "周星标增长 +27550",
+        "sortOrder": 2
+      },
+      {
+        "repoId": 1170821064,
+        "fullName": "paperclipai/paperclip",
+        "editorialNote": "周星标增长 +23340",
+        "sortOrder": 3
+      },
+      {
+        "repoId": 1136590548,
+        "fullName": "affaan-m/ECC",
+        "editorialNote": "周星标增长 +23080",
+        "sortOrder": 4
+      },
+      {
+        "repoId": 1273427276,
+        "fullName": "cloudflare/security-audit-skill",
+        "editorialNote": "周星标增长 +19109",
+        "sortOrder": 5
+      },
+      {
+        "repoId": 1329849289,
+        "fullName": "lexmount/moli",
+        "editorialNote": "周星标增长 +17705",
+        "sortOrder": 6
+      },
+      {
+        "repoId": 1165277268,
+        "fullName": "Panniantong/Agent-Reach",
+        "editorialNote": "周星标增长 +16509",
+        "sortOrder": 7
+      },
+      {
+        "repoId": 476507964,
+        "fullName": "storytold/artcraft",
+        "editorialNote": "周星标增长 +16379",
+        "sortOrder": 8
+      },
+      {
+        "repoId": 1185590488,
+        "fullName": "rohitg00/ai-engineering-from-scratch",
+        "editorialNote": "周星标增长 +16300",
+        "sortOrder": 9
+      },
+      {
+        "repoId": 1322250666,
+        "fullName": "boykopovar/AnyPS5",
+        "editorialNote": "周星标增长 +14224",
+        "sortOrder": 10
+      }
+    ],
+    "createdAt": "2026-10-19T03:46:12.479Z",
+    "updatedAt": "2026-10-19T03:46:12.479Z",
+    "publishedAt": "2026-10-19T03:46:12.479Z"
   }
 ]
