@@ -3,10 +3,10 @@
   "totalCurations": 1365,
   "categoryCounts": {
     "model-serving": 49,
-    "ai-applications": 87,
-    "ai-agents": 186,
-    "ai-dev-tools": 211,
-    "llm-frameworks": 95,
+    "ai-applications": 84,
+    "ai-agents": 184,
+    "ai-dev-tools": 214,
+    "llm-frameworks": 97,
     "datasets-benchmarks": 2,
     "mlops-evaluation": 12,
     "multimodal": 30,
@@ -16,11 +16,11 @@
     "Haskell": 1,
     "Python": 381,
     "Swift": 150,
-    "TypeScript": 437,
+    "TypeScript": 440,
     "C": 8,
     "Clojure": 1,
     "Rust": 354,
-    "JavaScript": 229,
+    "JavaScript": 226,
     "HTML": 3,
     "C++": 353,
     "Go": 390,
@@ -44,7 +44,7 @@
     "Dart": 1,
     "Assembly": 1
   },
-  "lastSyncAt": "2026-10-19T18:36:50.986Z",
-  "lastCurationAt": "2026-10-19T18:36:50.986Z",
+  "lastSyncAt": "2026-10-20T03:57:17.298Z",
+  "lastCurationAt": "2026-10-20T03:57:17.298Z",
   "syncHealth": "healthy"
 }
