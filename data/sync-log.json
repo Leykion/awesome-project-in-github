@@ -1,82 +1,82 @@
 {
-  "lastRun": "2026-10-22T16:56:48.051Z",
+  "lastRun": "2026-10-23T03:52:38.558Z",
   "entries": [
     {
       "jobType": "discover",
       "status": "completed",
-      "reposProcessed": 330,
+      "reposProcessed": 331,
       "reposFailed": 0,
       "rateLimitRemaining": null,
       "errorMessage": null,
-      "durationMs": 43841,
-      "startedAt": "2026-10-22T16:46:15.080Z",
-      "completedAt": "2026-10-22T16:46:58.921Z"
+      "durationMs": 40063,
+      "startedAt": "2026-10-23T03:44:06.220Z",
+      "completedAt": "2026-10-23T03:44:46.283Z"
     },
     {
       "jobType": "enrich",
       "status": "completed",
-      "reposProcessed": 2732,
+      "reposProcessed": 2724,
       "reposFailed": 0,
       "rateLimitRemaining": null,
       "errorMessage": null,
-      "durationMs": 573635,
-      "startedAt": "2026-10-22T16:46:58.921Z",
-      "completedAt": "2026-10-22T16:56:32.556Z"
+      "durationMs": 454949,
+      "startedAt": "2026-10-23T03:44:46.283Z",
+      "completedAt": "2026-10-23T03:52:21.232Z"
     },
     {
       "jobType": "score",
       "status": "partial",
-      "reposProcessed": 2690,
+      "reposProcessed": 2682,
       "reposFailed": 42,
       "rateLimitRemaining": null,
       "errorMessage": null,
-      "durationMs": 120,
-      "startedAt": "2026-10-22T16:56:32.556Z",
-      "completedAt": "2026-10-22T16:56:32.676Z"
+      "durationMs": 94,
+      "startedAt": "2026-10-23T03:52:21.232Z",
+      "completedAt": "2026-10-23T03:52:21.326Z"
     },
     {
       "jobType": "analyze",
       "status": "completed",
-      "reposProcessed": 174,
+      "reposProcessed": 181,
       "reposFailed": 0,
       "rateLimitRemaining": null,
       "errorMessage": null,
-      "durationMs": 15133,
-      "startedAt": "2026-10-22T16:56:32.676Z",
-      "completedAt": "2026-10-22T16:56:47.809Z"
+      "durationMs": 17120,
+      "startedAt": "2026-10-23T03:52:21.326Z",
+      "completedAt": "2026-10-23T03:52:38.446Z"
     },
     {
       "jobType": "collection",
+      "status": "completed",
+      "reposProcessed": 1,
+      "reposFailed": 0,
+      "rateLimitRemaining": null,
+      "errorMessage": null,
+      "durationMs": 27,
+      "startedAt": "2026-10-23T03:52:38.446Z",
+      "completedAt": "2026-10-23T03:52:38.473Z"
+    },
+    {
+      "jobType": "cleanup",
       "status": "completed",
       "reposProcessed": 0,
       "reposFailed": 0,
       "rateLimitRemaining": null,
       "errorMessage": null,
-      "durationMs": 43,
-      "startedAt": "2026-10-22T16:56:47.809Z",
-      "completedAt": "2026-10-22T16:56:47.852Z"
-    },
-    {
-      "jobType": "cleanup",
-      "status": "completed",
-      "reposProcessed": 9,
-      "reposFailed": 0,
-      "rateLimitRemaining": null,
-      "errorMessage": null,
-      "durationMs": 126,
-      "startedAt": "2026-10-22T16:56:47.852Z",
-      "completedAt": "2026-10-22T16:56:47.978Z"
+      "durationMs": 42,
+      "startedAt": "2026-10-23T03:52:38.473Z",
+      "completedAt": "2026-10-23T03:52:38.515Z"
     },
     {
       "jobType": "discover",
       "status": "completed",
-      "reposProcessed": 2723,
+      "reposProcessed": 2724,
       "reposFailed": 0,
       "rateLimitRemaining": null,
       "errorMessage": null,
-      "durationMs": 73,
-      "startedAt": "2026-10-22T16:56:47.978Z",
-      "completedAt": "2026-10-22T16:56:48.051Z"
+      "durationMs": 43,
+      "startedAt": "2026-10-23T03:52:38.515Z",
+      "completedAt": "2026-10-23T03:52:38.558Z"
     }
   ]
 }
