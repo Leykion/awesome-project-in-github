@@ -5,21 +5,21 @@
     "description": "构建 LLM 驱动应用的框架和库，包括 Chain、Agent、RAG 管道",
     "icon": "🔗",
     "sortOrder": 1,
-    "repoCount": 103,
+    "repoCount": 108,
     "topRepos": [
       {
+        "fullName": "ollama/ollama",
+        "stars": 184507,
+        "starsGained": 1387
+      },
+      {
         "fullName": "DietrichGebert/ponytail",
-        "stars": 174587,
-        "starsGained": 1870
+        "stars": 174875,
+        "starsGained": 1575
       },
       {
-        "fullName": "huggingface/transformers",
-        "stars": 168033,
-        "starsGained": 0
-      },
-      {
-        "fullName": "langflow-ai/langflow",
-        "stars": 155969,
+        "fullName": "open-webui/open-webui",
+        "stars": 156596,
         "starsGained": 0
       }
     ]
@@ -34,17 +34,17 @@
     "topRepos": [
       {
         "fullName": "elastic/elasticsearch",
-        "stars": 78343,
-        "starsGained": 7
+        "stars": 78354,
+        "starsGained": 17
       },
       {
         "fullName": "meilisearch/meilisearch",
-        "stars": 59641,
+        "stars": 59643,
         "starsGained": 0
       },
       {
         "fullName": "milvus-io/milvus",
-        "stars": 46461,
+        "stars": 46463,
         "starsGained": 0
       }
     ]
@@ -55,22 +55,22 @@
     "description": "自主代理框架和多代理编排系统",
     "icon": "🤖",
     "sortOrder": 3,
-    "repoCount": 183,
+    "repoCount": 181,
     "topRepos": [
       {
         "fullName": "obra/superpowers",
-        "stars": 304106,
+        "stars": 304285,
         "starsGained": 0
       },
       {
         "fullName": "NousResearch/hermes-agent",
-        "stars": 256468,
+        "stars": 256561,
         "starsGained": 0
       },
       {
         "fullName": "firecrawl/firecrawl",
-        "stars": 194569,
-        "starsGained": 431
+        "stars": 194721,
+        "starsGained": 430
       }
     ]
   },
@@ -80,21 +80,21 @@
     "description": "模型训练、部署、评估管道",
     "icon": "📊",
     "sortOrder": 4,
-    "repoCount": 12,
+    "repoCount": 10,
     "topRepos": [
       {
         "fullName": "scikit-learn/scikit-learn",
-        "stars": 67877,
+        "stars": 67883,
         "starsGained": 0
       },
       {
         "fullName": "vnpy/vnpy",
-        "stars": 46011,
+        "stars": 46018,
         "starsGained": 0
       },
       {
-        "fullName": "langfuse/langfuse",
-        "stars": 36262,
+        "fullName": "ifixai-ai/iFixAi",
+        "stars": 33793,
         "starsGained": 0
       }
     ]
@@ -105,22 +105,22 @@
     "description": "LLM 推理引擎和模型服务基础设施",
     "icon": "⚡",
     "sortOrder": 5,
-    "repoCount": 48,
+    "repoCount": 43,
     "topRepos": [
       {
-        "fullName": "ollama/ollama",
-        "stars": 184452,
-        "starsGained": 1419
-      },
-      {
         "fullName": "ggml-org/llama.cpp",
-        "stars": 132130,
+        "stars": 132172,
         "starsGained": 0
       },
       {
         "fullName": "vllm-project/vllm",
-        "stars": 95233,
-        "starsGained": 111
+        "stars": 95258,
+        "starsGained": 108
+      },
+      {
+        "fullName": "JustVugg/colibri",
+        "stars": 43639,
+        "starsGained": 0
       }
     ]
   },
@@ -130,22 +130,22 @@
     "description": "AI 原生开发者生产力工具",
     "icon": "🛠️",
     "sortOrder": 6,
-    "repoCount": 214,
+    "repoCount": 217,
     "topRepos": [
       {
         "fullName": "openclaw/openclaw",
-        "stars": 392855,
+        "stars": 392891,
         "starsGained": 0
       },
       {
         "fullName": "morluto/rea",
-        "stars": 371613,
-        "starsGained": 106341
+        "stars": 373790,
+        "starsGained": 88243
       },
       {
         "fullName": "affaan-m/ECC",
-        "stars": 287101,
-        "starsGained": 22715
+        "stars": 287417,
+        "starsGained": 22804
       }
     ]
   },
@@ -155,21 +155,21 @@
     "description": "视觉、音频和多模态模型工具",
     "icon": "👁️",
     "sortOrder": 7,
-    "repoCount": 33,
+    "repoCount": 34,
     "topRepos": [
       {
-        "fullName": "Comfy-Org/ComfyUI",
-        "stars": 142273,
-        "starsGained": 4375
-      },
-      {
-        "fullName": "ruvnet/RuView",
-        "stars": 99281,
+        "fullName": "huggingface/transformers",
+        "stars": 168050,
         "starsGained": 0
       },
       {
-        "fullName": "opencv/opencv",
-        "stars": 91314,
+        "fullName": "Comfy-Org/ComfyUI",
+        "stars": 142384,
+        "starsGained": 4531
+      },
+      {
+        "fullName": "ruvnet/RuView",
+        "stars": 99330,
         "starsGained": 0
       }
     ]
@@ -184,12 +184,12 @@
     "topRepos": [
       {
         "fullName": "public-apis/public-apis",
-        "stars": 491612,
+        "stars": 491694,
         "starsGained": 0
       },
       {
         "fullName": "asgeirtj/system_prompts_leaks",
-        "stars": 70100,
+        "stars": 70116,
         "starsGained": 0
       }
     ]
@@ -204,17 +204,17 @@
     "topRepos": [
       {
         "fullName": "n8n-io/n8n",
-        "stars": 208393,
+        "stars": 208428,
         "starsGained": 0
       },
       {
         "fullName": "Significant-Gravitas/AutoGPT",
-        "stars": 187718,
+        "stars": 187722,
         "starsGained": 0
       },
       {
         "fullName": "f/prompts.chat",
-        "stars": 174190,
+        "stars": 174270,
         "starsGained": 0
       }
     ]
