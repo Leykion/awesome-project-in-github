@@ -1,5 +1,5 @@
 {
-  "lastRun": "2026-10-24T15:40:32.873Z",
+  "lastRun": "2026-10-25T03:44:14.071Z",
   "entries": [
     {
       "jobType": "discover",
@@ -8,75 +8,75 @@
       "reposFailed": 0,
       "rateLimitRemaining": null,
       "errorMessage": null,
-      "durationMs": 37631,
-      "startedAt": "2026-10-24T15:31:32.068Z",
-      "completedAt": "2026-10-24T15:32:09.700Z"
+      "durationMs": 33767,
+      "startedAt": "2026-10-25T03:35:37.733Z",
+      "completedAt": "2026-10-25T03:36:11.500Z"
     },
     {
       "jobType": "enrich",
-      "status": "completed",
-      "reposProcessed": 2756,
-      "reposFailed": 0,
-      "rateLimitRemaining": null,
-      "errorMessage": null,
-      "durationMs": 482032,
-      "startedAt": "2026-10-24T15:32:09.700Z",
-      "completedAt": "2026-10-24T15:40:11.732Z"
-    },
-    {
-      "jobType": "score",
-      "status": "partial",
-      "reposProcessed": 2713,
-      "reposFailed": 43,
-      "rateLimitRemaining": null,
-      "errorMessage": null,
-      "durationMs": 119,
-      "startedAt": "2026-10-24T15:40:11.732Z",
-      "completedAt": "2026-10-24T15:40:11.851Z"
-    },
-    {
-      "jobType": "analyze",
-      "status": "completed",
-      "reposProcessed": 248,
-      "reposFailed": 0,
-      "rateLimitRemaining": null,
-      "errorMessage": null,
-      "durationMs": 20837,
-      "startedAt": "2026-10-24T15:40:11.851Z",
-      "completedAt": "2026-10-24T15:40:32.688Z"
-    },
-    {
-      "jobType": "collection",
-      "status": "completed",
-      "reposProcessed": 0,
-      "reposFailed": 0,
-      "rateLimitRemaining": null,
-      "errorMessage": null,
-      "durationMs": 37,
-      "startedAt": "2026-10-24T15:40:32.688Z",
-      "completedAt": "2026-10-24T15:40:32.725Z"
-    },
-    {
-      "jobType": "cleanup",
-      "status": "completed",
-      "reposProcessed": 3,
-      "reposFailed": 0,
-      "rateLimitRemaining": null,
-      "errorMessage": null,
-      "durationMs": 87,
-      "startedAt": "2026-10-24T15:40:32.725Z",
-      "completedAt": "2026-10-24T15:40:32.812Z"
-    },
-    {
-      "jobType": "discover",
       "status": "completed",
       "reposProcessed": 2753,
       "reposFailed": 0,
       "rateLimitRemaining": null,
       "errorMessage": null,
-      "durationMs": 61,
-      "startedAt": "2026-10-24T15:40:32.812Z",
-      "completedAt": "2026-10-24T15:40:32.873Z"
+      "durationMs": 459214,
+      "startedAt": "2026-10-25T03:36:11.501Z",
+      "completedAt": "2026-10-25T03:43:50.715Z"
+    },
+    {
+      "jobType": "score",
+      "status": "partial",
+      "reposProcessed": 2710,
+      "reposFailed": 43,
+      "rateLimitRemaining": null,
+      "errorMessage": null,
+      "durationMs": 120,
+      "startedAt": "2026-10-25T03:43:50.715Z",
+      "completedAt": "2026-10-25T03:43:50.835Z"
+    },
+    {
+      "jobType": "analyze",
+      "status": "completed",
+      "reposProcessed": 247,
+      "reposFailed": 0,
+      "rateLimitRemaining": null,
+      "errorMessage": null,
+      "durationMs": 22993,
+      "startedAt": "2026-10-25T03:43:50.835Z",
+      "completedAt": "2026-10-25T03:44:13.828Z"
+    },
+    {
+      "jobType": "collection",
+      "status": "completed",
+      "reposProcessed": 1,
+      "reposFailed": 0,
+      "rateLimitRemaining": null,
+      "errorMessage": null,
+      "durationMs": 45,
+      "startedAt": "2026-10-25T03:44:13.828Z",
+      "completedAt": "2026-10-25T03:44:13.873Z"
+    },
+    {
+      "jobType": "cleanup",
+      "status": "completed",
+      "reposProcessed": 14,
+      "reposFailed": 0,
+      "rateLimitRemaining": null,
+      "errorMessage": null,
+      "durationMs": 125,
+      "startedAt": "2026-10-25T03:44:13.873Z",
+      "completedAt": "2026-10-25T03:44:13.998Z"
+    },
+    {
+      "jobType": "discover",
+      "status": "completed",
+      "reposProcessed": 2739,
+      "reposFailed": 0,
+      "rateLimitRemaining": null,
+      "errorMessage": null,
+      "durationMs": 73,
+      "startedAt": "2026-10-25T03:44:13.998Z",
+      "completedAt": "2026-10-25T03:44:14.071Z"
     }
   ]
 }
