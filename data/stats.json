@@ -1,5 +1,5 @@
 {
-  "totalReposTracked": 2749,
+  "totalReposTracked": 2748,
   "totalCurations": 1395,
   "categoryCounts": {
     "model-serving": 42,
@@ -14,9 +14,9 @@
   },
   "languageCounts": {
     "Haskell": 1,
-    "Python": 391,
+    "Python": 389,
     "Swift": 146,
-    "TypeScript": 453,
+    "TypeScript": 454,
     "C": 9,
     "Clojure": 1,
     "Rust": 356,
@@ -45,7 +45,7 @@
     "Visual Basic .NET": 1,
     "CSS": 1
   },
-  "lastSyncAt": "2026-10-26T18:32:04.519Z",
-  "lastCurationAt": "2026-10-26T18:32:04.519Z",
+  "lastSyncAt": "2026-10-27T04:12:03.023Z",
+  "lastCurationAt": "2026-10-27T04:12:03.023Z",
   "syncHealth": "healthy"
 }

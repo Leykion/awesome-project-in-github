@@ -2508,82 +2508,6 @@
     "publishedAt": "2026-10-04T04:52:47.727Z"
   },
   {
-    "id": 152,
-    "title": "2026-10-23 本周上升最快 Top 10",
-    "slug": "weekly-rising-2026-10-23",
-    "description": "2026-10-23 周度最具增长势头的 AI 开源项目精选",
-    "coverEmoji": "🚀",
-    "collectionType": "weekly_digest",
-    "isPublished": true,
-    "isPinned": false,
-    "sortOrder": 0,
-    "repos": [
-      {
-        "repoId": 1209966933,
-        "fullName": "morluto/rea",
-        "editorialNote": "周星标增长 +106341",
-        "sortOrder": 1
-      },
-      {
-        "repoId": 1086419061,
-        "fullName": "vectorize-io/hindsight",
-        "editorialNote": "周星标增长 +28067",
-        "sortOrder": 2
-      },
-      {
-        "repoId": 1170821064,
-        "fullName": "paperclipai/paperclip",
-        "editorialNote": "周星标增长 +25127",
-        "sortOrder": 3
-      },
-      {
-        "repoId": 1136590548,
-        "fullName": "affaan-m/ECC",
-        "editorialNote": "周星标增长 +22715",
-        "sortOrder": 4
-      },
-      {
-        "repoId": 1329849289,
-        "fullName": "lexmount/moli",
-        "editorialNote": "周星标增长 +18429",
-        "sortOrder": 5
-      },
-      {
-        "repoId": 1185590488,
-        "fullName": "rohitg00/ai-engineering-from-scratch",
-        "editorialNote": "周星标增长 +17489",
-        "sortOrder": 6
-      },
-      {
-        "repoId": 1165277268,
-        "fullName": "Panniantong/Agent-Reach",
-        "editorialNote": "周星标增长 +16831",
-        "sortOrder": 7
-      },
-      {
-        "repoId": 1097346685,
-        "fullName": "pbakaus/impeccable",
-        "editorialNote": "周星标增长 +15375",
-        "sortOrder": 8
-      },
-      {
-        "repoId": 1305213943,
-        "fullName": "DuarteSantos8/openGym",
-        "editorialNote": "周星标增长 +13705",
-        "sortOrder": 9
-      },
-      {
-        "repoId": 1206390571,
-        "fullName": "debpalash/VoiceStudio",
-        "editorialNote": "周星标增长 +13581",
-        "sortOrder": 10
-      }
-    ],
-    "createdAt": "2026-10-23T03:52:38.471Z",
-    "updatedAt": "2026-10-23T03:52:38.471Z",
-    "publishedAt": "2026-10-23T03:52:38.471Z"
-  },
-  {
     "id": 153,
     "title": "2026-10-24 本周上升最快 Top 10",
     "slug": "weekly-rising-2026-10-24",
@@ -2810,5 +2734,81 @@
     "createdAt": "2026-10-26T03:47:07.011Z",
     "updatedAt": "2026-10-26T03:47:07.011Z",
     "publishedAt": "2026-10-26T03:47:07.011Z"
+  },
+  {
+    "id": 156,
+    "title": "2026-10-27 本周上升最快 Top 10",
+    "slug": "weekly-rising-2026-10-27",
+    "description": "2026-10-27 周度最具增长势头的 AI 开源项目精选",
+    "coverEmoji": "🚀",
+    "collectionType": "weekly_digest",
+    "isPublished": true,
+    "isPinned": false,
+    "sortOrder": 0,
+    "repos": [
+      {
+        "repoId": 1322250666,
+        "fullName": "boykopovar/AnyPS5",
+        "editorialNote": "周星标增长 +47450",
+        "sortOrder": 1
+      },
+      {
+        "repoId": 1266797999,
+        "fullName": "DietrichGebert/ponytail",
+        "editorialNote": "周星标增长 +31644",
+        "sortOrder": 2
+      },
+      {
+        "repoId": 1170821064,
+        "fullName": "paperclipai/paperclip",
+        "editorialNote": "周星标增长 +21863",
+        "sortOrder": 3
+      },
+      {
+        "repoId": 1329849289,
+        "fullName": "lexmount/moli",
+        "editorialNote": "周星标增长 +19052",
+        "sortOrder": 4
+      },
+      {
+        "repoId": 1185590488,
+        "fullName": "rohitg00/ai-engineering-from-scratch",
+        "editorialNote": "周星标增长 +16611",
+        "sortOrder": 5
+      },
+      {
+        "repoId": 1273427276,
+        "fullName": "cloudflare/security-audit-skill",
+        "editorialNote": "周星标增长 +16593",
+        "sortOrder": 6
+      },
+      {
+        "repoId": 173228436,
+        "fullName": "NationalSecurityAgency/ghidra",
+        "editorialNote": "周星标增长 +15099",
+        "sortOrder": 7
+      },
+      {
+        "repoId": 1305213943,
+        "fullName": "DuarteSantos8/openGym",
+        "editorialNote": "周星标增长 +14777",
+        "sortOrder": 8
+      },
+      {
+        "repoId": 1217040185,
+        "fullName": "tashfeenahmed/freellmapi",
+        "editorialNote": "周星标增长 +13270",
+        "sortOrder": 9
+      },
+      {
+        "repoId": 1166129534,
+        "fullName": "NVIDIA/OpenShell",
+        "editorialNote": "周星标增长 +11321",
+        "sortOrder": 10
+      }
+    ],
+    "createdAt": "2026-10-27T04:12:02.802Z",
+    "updatedAt": "2026-10-27T04:12:02.802Z",
+    "publishedAt": "2026-10-27T04:12:02.802Z"
   }
 ]
