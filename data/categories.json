@@ -9,17 +9,17 @@
     "topRepos": [
       {
         "fullName": "ollama/ollama",
-        "stars": 185001,
-        "starsGained": 1459
+        "stars": 185048,
+        "starsGained": 1173
       },
       {
         "fullName": "DietrichGebert/ponytail",
-        "stars": 177936,
-        "starsGained": 31644
+        "stars": 178336,
+        "starsGained": 32214
       },
       {
         "fullName": "open-webui/open-webui",
-        "stars": 156951,
+        "stars": 156993,
         "starsGained": 0
       }
     ]
@@ -34,17 +34,17 @@
     "topRepos": [
       {
         "fullName": "meilisearch/meilisearch",
-        "stars": 59684,
+        "stars": 59690,
         "starsGained": 0
       },
       {
         "fullName": "milvus-io/milvus",
-        "stars": 46500,
+        "stars": 46507,
         "starsGained": 0
       },
       {
         "fullName": "volcengine/OpenViking",
-        "stars": 40960,
+        "stars": 40977,
         "starsGained": 0
       }
     ]
@@ -59,17 +59,17 @@
     "topRepos": [
       {
         "fullName": "obra/superpowers",
-        "stars": 306198,
-        "starsGained": 608
+        "stars": 306607,
+        "starsGained": 617
       },
       {
         "fullName": "NousResearch/hermes-agent",
-        "stars": 257667,
+        "stars": 257805,
         "starsGained": 0
       },
       {
         "fullName": "firecrawl/firecrawl",
-        "stars": 195983,
+        "stars": 196132,
         "starsGained": 0
       }
     ]
@@ -84,17 +84,17 @@
     "topRepos": [
       {
         "fullName": "scikit-learn/scikit-learn",
-        "stars": 67961,
+        "stars": 67970,
         "starsGained": 0
       },
       {
         "fullName": "vnpy/vnpy",
-        "stars": 46104,
+        "stars": 46113,
         "starsGained": 0
       },
       {
         "fullName": "ifixai-ai/iFixAi",
-        "stars": 35806,
+        "stars": 36066,
         "starsGained": 0
       }
     ]
@@ -109,17 +109,17 @@
     "topRepos": [
       {
         "fullName": "ggml-org/llama.cpp",
-        "stars": 132545,
+        "stars": 132582,
         "starsGained": 0
       },
       {
         "fullName": "vllm-project/vllm",
-        "stars": 95697,
-        "starsGained": 1527
+        "stars": 95727,
+        "starsGained": 1404
       },
       {
         "fullName": "JustVugg/colibri",
-        "stars": 44177,
+        "stars": 44384,
         "starsGained": 0
       }
     ]
@@ -130,22 +130,22 @@
     "description": "AI 原生开发者生产力工具",
     "icon": "🛠️",
     "sortOrder": 6,
-    "repoCount": 222,
+    "repoCount": 223,
     "topRepos": [
       {
         "fullName": "morluto/rea",
-        "stars": 396182,
+        "stars": 398202,
         "starsGained": 0
       },
       {
         "fullName": "openclaw/openclaw",
-        "stars": 393201,
+        "stars": 393231,
         "starsGained": 0
       },
       {
         "fullName": "affaan-m/ECC",
-        "stars": 290599,
-        "starsGained": 1183
+        "stars": 291032,
+        "starsGained": 1165
       }
     ]
   },
@@ -159,17 +159,17 @@
     "topRepos": [
       {
         "fullName": "huggingface/transformers",
-        "stars": 168243,
+        "stars": 168265,
         "starsGained": 0
       },
       {
         "fullName": "Comfy-Org/ComfyUI",
-        "stars": 143517,
+        "stars": 143613,
         "starsGained": 0
       },
       {
         "fullName": "opencv/opencv",
-        "stars": 91342,
+        "stars": 91353,
         "starsGained": 0
       }
     ]
@@ -184,12 +184,12 @@
     "topRepos": [
       {
         "fullName": "public-apis/public-apis",
-        "stars": 492642,
+        "stars": 492764,
         "starsGained": 0
       },
       {
         "fullName": "asgeirtj/system_prompts_leaks",
-        "stars": 70306,
+        "stars": 70329,
         "starsGained": 0
       }
     ]
@@ -204,17 +204,17 @@
     "topRepos": [
       {
         "fullName": "n8n-io/n8n",
-        "stars": 208782,
+        "stars": 208821,
         "starsGained": 0
       },
       {
         "fullName": "Significant-Gravitas/AutoGPT",
-        "stars": 187788,
+        "stars": 187794,
         "starsGained": 0
       },
       {
         "fullName": "f/prompts.chat",
-        "stars": 174767,
+        "stars": 174844,
         "starsGained": 0
       }
     ]
