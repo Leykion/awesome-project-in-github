@@ -1,10 +1,10 @@
 {
-  "totalReposTracked": 2765,
+  "totalReposTracked": 2766,
   "totalCurations": 1405,
   "categoryCounts": {
     "model-serving": 41,
-    "ai-applications": 68,
-    "ai-agents": 187,
+    "ai-applications": 67,
+    "ai-agents": 188,
     "multimodal": 35,
     "ai-dev-tools": 226,
     "llm-frameworks": 111,
@@ -16,7 +16,7 @@
     "Haskell": 1,
     "Python": 394,
     "Swift": 144,
-    "TypeScript": 459,
+    "TypeScript": 460,
     "C": 8,
     "Clojure": 1,
     "Rust": 358,
@@ -44,7 +44,7 @@
     "CSS": 1,
     "Markdown": 1
   },
-  "lastSyncAt": "2026-10-29T18:18:41.918Z",
-  "lastCurationAt": "2026-10-29T18:18:41.918Z",
+  "lastSyncAt": "2026-10-30T04:54:25.289Z",
+  "lastCurationAt": "2026-10-30T04:54:25.289Z",
   "syncHealth": "healthy"
 }

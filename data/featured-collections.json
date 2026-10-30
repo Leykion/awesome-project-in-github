@@ -2508,82 +2508,6 @@
     "publishedAt": "2026-10-04T04:52:47.727Z"
   },
   {
-    "id": 155,
-    "title": "2026-10-26 本周上升最快 Top 10",
-    "slug": "weekly-rising-2026-10-26",
-    "description": "2026-10-26 周度最具增长势头的 AI 开源项目精选",
-    "coverEmoji": "🚀",
-    "collectionType": "weekly_digest",
-    "isPublished": true,
-    "isPinned": false,
-    "sortOrder": 0,
-    "repos": [
-      {
-        "repoId": 1322250666,
-        "fullName": "boykopovar/AnyPS5",
-        "editorialNote": "周星标增长 +47363",
-        "sortOrder": 1
-      },
-      {
-        "repoId": 1086419061,
-        "fullName": "vectorize-io/hindsight",
-        "editorialNote": "周星标增长 +25486",
-        "sortOrder": 2
-      },
-      {
-        "repoId": 1170821064,
-        "fullName": "paperclipai/paperclip",
-        "editorialNote": "周星标增长 +24081",
-        "sortOrder": 3
-      },
-      {
-        "repoId": 1136590548,
-        "fullName": "affaan-m/ECC",
-        "editorialNote": "周星标增长 +22882",
-        "sortOrder": 4
-      },
-      {
-        "repoId": 1329849289,
-        "fullName": "lexmount/moli",
-        "editorialNote": "周星标增长 +18837",
-        "sortOrder": 5
-      },
-      {
-        "repoId": 1165277268,
-        "fullName": "Panniantong/Agent-Reach",
-        "editorialNote": "周星标增长 +17531",
-        "sortOrder": 6
-      },
-      {
-        "repoId": 1185590488,
-        "fullName": "rohitg00/ai-engineering-from-scratch",
-        "editorialNote": "周星标增长 +16847",
-        "sortOrder": 7
-      },
-      {
-        "repoId": 173228436,
-        "fullName": "NationalSecurityAgency/ghidra",
-        "editorialNote": "周星标增长 +14822",
-        "sortOrder": 8
-      },
-      {
-        "repoId": 1305213943,
-        "fullName": "DuarteSantos8/openGym",
-        "editorialNote": "周星标增长 +14409",
-        "sortOrder": 9
-      },
-      {
-        "repoId": 1217040185,
-        "fullName": "tashfeenahmed/freellmapi",
-        "editorialNote": "周星标增长 +12957",
-        "sortOrder": 10
-      }
-    ],
-    "createdAt": "2026-10-26T03:47:07.011Z",
-    "updatedAt": "2026-10-26T03:47:07.011Z",
-    "publishedAt": "2026-10-26T03:47:07.011Z"
-  },
-  {
     "id": 156,
     "title": "2026-10-27 本周上升最快 Top 10",
     "slug": "weekly-rising-2026-10-27",
@@ -2810,5 +2734,81 @@
     "createdAt": "2026-10-29T04:54:05.760Z",
     "updatedAt": "2026-10-29T04:54:05.760Z",
     "publishedAt": "2026-10-29T04:54:05.760Z"
+  },
+  {
+    "id": 159,
+    "title": "2026-10-30 本周上升最快 Top 10",
+    "slug": "weekly-rising-2026-10-30",
+    "description": "2026-10-30 周度最具增长势头的 AI 开源项目精选",
+    "coverEmoji": "🚀",
+    "collectionType": "weekly_digest",
+    "isPublished": true,
+    "isPinned": false,
+    "sortOrder": 0,
+    "repos": [
+      {
+        "repoId": 1206390571,
+        "fullName": "debpalash/VoiceStudio",
+        "editorialNote": "周星标增长 +47778",
+        "sortOrder": 1
+      },
+      {
+        "repoId": 1322250666,
+        "fullName": "boykopovar/AnyPS5",
+        "editorialNote": "周星标增长 +47350",
+        "sortOrder": 2
+      },
+      {
+        "repoId": 1266797999,
+        "fullName": "DietrichGebert/ponytail",
+        "editorialNote": "周星标增长 +33063",
+        "sortOrder": 3
+      },
+      {
+        "repoId": 1136590548,
+        "fullName": "affaan-m/ECC",
+        "editorialNote": "周星标增长 +24663",
+        "sortOrder": 4
+      },
+      {
+        "repoId": 1177402105,
+        "fullName": "heygen-com/hyperframes",
+        "editorialNote": "周星标增长 +21520",
+        "sortOrder": 5
+      },
+      {
+        "repoId": 1165277268,
+        "fullName": "Panniantong/Agent-Reach",
+        "editorialNote": "周星标增长 +20593",
+        "sortOrder": 6
+      },
+      {
+        "repoId": 1329849289,
+        "fullName": "lexmount/moli",
+        "editorialNote": "周星标增长 +19569",
+        "sortOrder": 7
+      },
+      {
+        "repoId": 173228436,
+        "fullName": "NationalSecurityAgency/ghidra",
+        "editorialNote": "周星标增长 +16113",
+        "sortOrder": 8
+      },
+      {
+        "repoId": 1305213943,
+        "fullName": "DuarteSantos8/openGym",
+        "editorialNote": "周星标增长 +15794",
+        "sortOrder": 9
+      },
+      {
+        "repoId": 1170821064,
+        "fullName": "paperclipai/paperclip",
+        "editorialNote": "周星标增长 +14927",
+        "sortOrder": 10
+      }
+    ],
+    "createdAt": "2026-10-30T04:54:25.174Z",
+    "updatedAt": "2026-10-30T04:54:25.174Z",
+    "publishedAt": "2026-10-30T04:54:25.174Z"
   }
 ]
