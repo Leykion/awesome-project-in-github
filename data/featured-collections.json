@@ -2508,82 +2508,6 @@
     "publishedAt": "2026-10-04T04:52:47.727Z"
   },
   {
-    "id": 157,
-    "title": "2026-10-28 本周上升最快 Top 10",
-    "slug": "weekly-rising-2026-10-28",
-    "description": "2026-10-28 周度最具增长势头的 AI 开源项目精选",
-    "coverEmoji": "🚀",
-    "collectionType": "weekly_digest",
-    "isPublished": true,
-    "isPinned": false,
-    "sortOrder": 0,
-    "repos": [
-      {
-        "repoId": 1206390571,
-        "fullName": "debpalash/VoiceStudio",
-        "editorialNote": "周星标增长 +52726",
-        "sortOrder": 1
-      },
-      {
-        "repoId": 1322250666,
-        "fullName": "boykopovar/AnyPS5",
-        "editorialNote": "周星标增长 +47484",
-        "sortOrder": 2
-      },
-      {
-        "repoId": 1266797999,
-        "fullName": "DietrichGebert/ponytail",
-        "editorialNote": "周星标增长 +32214",
-        "sortOrder": 3
-      },
-      {
-        "repoId": 1177402105,
-        "fullName": "heygen-com/hyperframes",
-        "editorialNote": "周星标增长 +20501",
-        "sortOrder": 4
-      },
-      {
-        "repoId": 1170821064,
-        "fullName": "paperclipai/paperclip",
-        "editorialNote": "周星标增长 +19922",
-        "sortOrder": 5
-      },
-      {
-        "repoId": 1165277268,
-        "fullName": "Panniantong/Agent-Reach",
-        "editorialNote": "周星标增长 +19461",
-        "sortOrder": 6
-      },
-      {
-        "repoId": 1329849289,
-        "fullName": "lexmount/moli",
-        "editorialNote": "周星标增长 +19309",
-        "sortOrder": 7
-      },
-      {
-        "repoId": 1273427276,
-        "fullName": "cloudflare/security-audit-skill",
-        "editorialNote": "周星标增长 +16388",
-        "sortOrder": 8
-      },
-      {
-        "repoId": 173228436,
-        "fullName": "NationalSecurityAgency/ghidra",
-        "editorialNote": "周星标增长 +15456",
-        "sortOrder": 9
-      },
-      {
-        "repoId": 1305213943,
-        "fullName": "DuarteSantos8/openGym",
-        "editorialNote": "周星标增长 +15159",
-        "sortOrder": 10
-      }
-    ],
-    "createdAt": "2026-10-28T04:37:55.817Z",
-    "updatedAt": "2026-10-28T04:37:55.817Z",
-    "publishedAt": "2026-10-28T04:37:55.817Z"
-  },
-  {
     "id": 158,
     "title": "2026-10-29 本周上升最快 Top 10",
     "slug": "weekly-rising-2026-10-29",
@@ -2810,5 +2734,711 @@
     "createdAt": "2026-10-31T04:38:08.064Z",
     "updatedAt": "2026-10-31T04:38:08.064Z",
     "publishedAt": "2026-10-31T04:38:08.064Z"
+  },
+  {
+    "id": 161,
+    "title": "2026-11-01 本周上升最快 Top 10",
+    "slug": "weekly-rising-2026-11-01",
+    "description": "2026-11-01 周度最具增长势头的 AI 开源项目精选",
+    "coverEmoji": "🚀",
+    "collectionType": "weekly_digest",
+    "isPublished": true,
+    "isPinned": false,
+    "sortOrder": 0,
+    "repos": [
+      {
+        "repoId": 1322250666,
+        "fullName": "boykopovar/AnyPS5",
+        "editorialNote": "周星标增长 +47757",
+        "sortOrder": 1
+      },
+      {
+        "repoId": 1206390571,
+        "fullName": "debpalash/VoiceStudio",
+        "editorialNote": "周星标增长 +47234",
+        "sortOrder": 2
+      },
+      {
+        "repoId": 1177402105,
+        "fullName": "heygen-com/hyperframes",
+        "editorialNote": "周星标增长 +22303",
+        "sortOrder": 3
+      },
+      {
+        "repoId": 1165277268,
+        "fullName": "Panniantong/Agent-Reach",
+        "editorialNote": "周星标增长 +21482",
+        "sortOrder": 4
+      },
+      {
+        "repoId": 1329849289,
+        "fullName": "lexmount/moli",
+        "editorialNote": "周星标增长 +19859",
+        "sortOrder": 5
+      },
+      {
+        "repoId": 173228436,
+        "fullName": "NationalSecurityAgency/ghidra",
+        "editorialNote": "周星标增长 +16685",
+        "sortOrder": 6
+      },
+      {
+        "repoId": 1185590488,
+        "fullName": "rohitg00/ai-engineering-from-scratch",
+        "editorialNote": "周星标增长 +14370",
+        "sortOrder": 7
+      },
+      {
+        "repoId": 1222917575,
+        "fullName": "Nutlope/hallmark",
+        "editorialNote": "周星标增长 +12062",
+        "sortOrder": 8
+      },
+      {
+        "repoId": 1273427276,
+        "fullName": "cloudflare/security-audit-skill",
+        "editorialNote": "周星标增长 +11908",
+        "sortOrder": 9
+      },
+      {
+        "repoId": 1144520675,
+        "fullName": "Alishahryar1/free-claude-code",
+        "editorialNote": "周星标增长 +9713",
+        "sortOrder": 10
+      }
+    ],
+    "createdAt": "2026-11-01T04:57:56.451Z",
+    "updatedAt": "2026-11-01T04:57:56.451Z",
+    "publishedAt": "2026-11-01T04:57:56.451Z"
+  },
+  {
+    "id": 162,
+    "title": "2026-11 LLM Frameworks Top 10",
+    "slug": "category-top-llm-frameworks-2026-11",
+    "description": "2026-11 LLM Frameworks 分类最佳 AI 开源项目",
+    "coverEmoji": "🔗",
+    "collectionType": "category_top",
+    "isPublished": true,
+    "isPinned": false,
+    "sortOrder": 1,
+    "repos": [
+      {
+        "repoId": 897268988,
+        "fullName": "thesysdev/openui",
+        "editorialNote": null,
+        "sortOrder": 1
+      },
+      {
+        "repoId": 642497346,
+        "fullName": "langfuse/langfuse",
+        "editorialNote": null,
+        "sortOrder": 2
+      },
+      {
+        "repoId": 730534580,
+        "fullName": "infiniflow/ragflow",
+        "editorialNote": null,
+        "sortOrder": 3
+      },
+      {
+        "repoId": 1124219907,
+        "fullName": "HKUDS/DeepTutor",
+        "editorialNote": null,
+        "sortOrder": 4
+      },
+      {
+        "repoId": 1266797999,
+        "fullName": "DietrichGebert/ponytail",
+        "editorialNote": null,
+        "sortOrder": 5
+      },
+      {
+        "repoId": 1024118326,
+        "fullName": "Tencent/WeKnora",
+        "editorialNote": null,
+        "sortOrder": 6
+      },
+      {
+        "repoId": 633927609,
+        "fullName": "promptfoo/promptfoo",
+        "editorialNote": null,
+        "sortOrder": 7
+      },
+      {
+        "repoId": 1188180267,
+        "fullName": "mnfst/awesome-free-llm-apis",
+        "editorialNote": null,
+        "sortOrder": 8
+      },
+      {
+        "repoId": 658928958,
+        "fullName": "ollama/ollama",
+        "editorialNote": null,
+        "sortOrder": 9
+      },
+      {
+        "repoId": 458648791,
+        "fullName": "paperless-ngx/paperless-ngx",
+        "editorialNote": null,
+        "sortOrder": 10
+      }
+    ],
+    "createdAt": "2026-11-01T04:57:56.451Z",
+    "updatedAt": "2026-11-01T04:57:56.451Z",
+    "publishedAt": "2026-11-01T04:57:56.451Z"
+  },
+  {
+    "id": 163,
+    "title": "2026-11 Vector Databases Top 10",
+    "slug": "category-top-vector-databases-2026-11",
+    "description": "2026-11 Vector Databases 分类最佳 AI 开源项目",
+    "coverEmoji": "🗄️",
+    "collectionType": "category_top",
+    "isPublished": true,
+    "isPinned": false,
+    "sortOrder": 2,
+    "repos": [
+      {
+        "repoId": 79317191,
+        "fullName": "typesense/typesense",
+        "editorialNote": null,
+        "sortOrder": 1
+      },
+      {
+        "repoId": 19816070,
+        "fullName": "MariaDB/server",
+        "editorialNote": null,
+        "sortOrder": 2
+      },
+      {
+        "repoId": 208728772,
+        "fullName": "milvus-io/milvus",
+        "editorialNote": null,
+        "sortOrder": 3
+      },
+      {
+        "repoId": 660776503,
+        "fullName": "paradedb/paradedb",
+        "editorialNote": null,
+        "sortOrder": 4
+      },
+      {
+        "repoId": 268163609,
+        "fullName": "qdrant/qdrant",
+        "editorialNote": null,
+        "sortOrder": 5
+      },
+      {
+        "repoId": 55072677,
+        "fullName": "weaviate/weaviate",
+        "editorialNote": null,
+        "sortOrder": 6
+      },
+      {
+        "repoId": 546206616,
+        "fullName": "chroma-core/chroma",
+        "editorialNote": null,
+        "sortOrder": 7
+      },
+      {
+        "repoId": 130688011,
+        "fullName": "meilisearch/meilisearch",
+        "editorialNote": null,
+        "sortOrder": 8
+      },
+      {
+        "repoId": 607441698,
+        "fullName": "lancedb/lancedb",
+        "editorialNote": null,
+        "sortOrder": 9
+      },
+      {
+        "repoId": 1128123594,
+        "fullName": "volcengine/OpenViking",
+        "editorialNote": null,
+        "sortOrder": 10
+      }
+    ],
+    "createdAt": "2026-11-01T04:57:56.451Z",
+    "updatedAt": "2026-11-01T04:57:56.451Z",
+    "publishedAt": "2026-11-01T04:57:56.451Z"
+  },
+  {
+    "id": 164,
+    "title": "2026-11 AI Agents Top 10",
+    "slug": "category-top-ai-agents-2026-11",
+    "description": "2026-11 AI Agents 分类最佳 AI 开源项目",
+    "coverEmoji": "🤖",
+    "collectionType": "category_top",
+    "isPublished": true,
+    "isPinned": false,
+    "sortOrder": 3,
+    "repos": [
+      {
+        "repoId": 1309102418,
+        "fullName": "makecindy/cindy",
+        "editorialNote": null,
+        "sortOrder": 1
+      },
+      {
+        "repoId": 995029641,
+        "fullName": "ruvnet/ruflo",
+        "editorialNote": null,
+        "sortOrder": 2
+      },
+      {
+        "repoId": 909213664,
+        "fullName": "TauricResearch/TradingAgents",
+        "editorialNote": null,
+        "sortOrder": 3
+      },
+      {
+        "repoId": 664013991,
+        "fullName": "gitroomhq/postiz-app",
+        "editorialNote": null,
+        "sortOrder": 4
+      },
+      {
+        "repoId": 204164353,
+        "fullName": "kestra-io/kestra",
+        "editorialNote": null,
+        "sortOrder": 5
+      },
+      {
+        "repoId": 1269603321,
+        "fullName": "androoAGI/starnet",
+        "editorialNote": null,
+        "sortOrder": 6
+      },
+      {
+        "repoId": 1165277268,
+        "fullName": "Panniantong/Agent-Reach",
+        "editorialNote": null,
+        "sortOrder": 7
+      },
+      {
+        "repoId": 968197216,
+        "fullName": "google-gemini/gemini-cli",
+        "editorialNote": null,
+        "sortOrder": 8
+      },
+      {
+        "repoId": 1332461149,
+        "fullName": "nightly-labs/openbot",
+        "editorialNote": null,
+        "sortOrder": 9
+      },
+      {
+        "repoId": 1224575142,
+        "fullName": "Orkas-AI/Orkas",
+        "editorialNote": null,
+        "sortOrder": 10
+      }
+    ],
+    "createdAt": "2026-11-01T04:57:56.451Z",
+    "updatedAt": "2026-11-01T04:57:56.451Z",
+    "publishedAt": "2026-11-01T04:57:56.451Z"
+  },
+  {
+    "id": 165,
+    "title": "2026-11 MLOps & Evaluation Top 10",
+    "slug": "category-top-mlops-evaluation-2026-11",
+    "description": "2026-11 MLOps & Evaluation 分类最佳 AI 开源项目",
+    "coverEmoji": "📊",
+    "collectionType": "category_top",
+    "isPublished": true,
+    "isPinned": false,
+    "sortOrder": 4,
+    "repos": [
+      {
+        "repoId": 395140743,
+        "fullName": "skypilot-org/skypilot",
+        "editorialNote": null,
+        "sortOrder": 1
+      },
+      {
+        "repoId": 100982449,
+        "fullName": "argoproj/argo-workflows",
+        "editorialNote": null,
+        "sortOrder": 2
+      },
+      {
+        "repoId": 139199684,
+        "fullName": "PrefectHQ/prefect",
+        "editorialNote": null,
+        "sortOrder": 3
+      },
+      {
+        "repoId": 843222,
+        "fullName": "scikit-learn/scikit-learn",
+        "editorialNote": null,
+        "sortOrder": 4
+      },
+      {
+        "repoId": 920603619,
+        "fullName": "PrimeIntellect-ai/verifiers",
+        "editorialNote": null,
+        "sortOrder": 5
+      },
+      {
+        "repoId": 1004140701,
+        "fullName": "THUDM/slime",
+        "editorialNote": null,
+        "sortOrder": 6
+      },
+      {
+        "repoId": 872005985,
+        "fullName": "OpenDCAI/DataFlow",
+        "editorialNote": null,
+        "sortOrder": 7
+      },
+      {
+        "repoId": 31522041,
+        "fullName": "vnpy/vnpy",
+        "editorialNote": null,
+        "sortOrder": 8
+      },
+      {
+        "repoId": 1265594250,
+        "fullName": "facebook/rebalancer",
+        "editorialNote": null,
+        "sortOrder": 9
+      }
+    ],
+    "createdAt": "2026-11-01T04:57:56.451Z",
+    "updatedAt": "2026-11-01T04:57:56.451Z",
+    "publishedAt": "2026-11-01T04:57:56.451Z"
+  },
+  {
+    "id": 166,
+    "title": "2026-11 Model Serving Top 10",
+    "slug": "category-top-model-serving-2026-11",
+    "description": "2026-11 Model Serving 分类最佳 AI 开源项目",
+    "coverEmoji": "⚡",
+    "collectionType": "category_top",
+    "isPublished": true,
+    "isPinned": false,
+    "sortOrder": 5,
+    "repos": [
+      {
+        "repoId": 1007360921,
+        "fullName": "trymirai/uzu",
+        "editorialNote": null,
+        "sortOrder": 1
+      },
+      {
+        "repoId": 978078885,
+        "fullName": "llm-d/llm-d-router",
+        "editorialNote": null,
+        "sortOrder": 2
+      },
+      {
+        "repoId": 612354784,
+        "fullName": "ggml-org/llama.cpp",
+        "editorialNote": null,
+        "sortOrder": 3
+      },
+      {
+        "repoId": 569959091,
+        "fullName": "modelscope/FunASR",
+        "editorialNote": null,
+        "sortOrder": 4
+      },
+      {
+        "repoId": 599547518,
+        "fullName": "vllm-project/vllm",
+        "editorialNote": null,
+        "sortOrder": 5
+      },
+      {
+        "repoId": 807305060,
+        "fullName": "LMCache/LMCache",
+        "editorialNote": null,
+        "sortOrder": 6
+      },
+      {
+        "repoId": 924058625,
+        "fullName": "vllm-project/vllm-ascend",
+        "editorialNote": null,
+        "sortOrder": 7
+      },
+      {
+        "repoId": 799049436,
+        "fullName": "gpustack/gpustack",
+        "editorialNote": null,
+        "sortOrder": 8
+      },
+      {
+        "repoId": 208145128,
+        "fullName": "iree-org/iree",
+        "editorialNote": null,
+        "sortOrder": 9
+      },
+      {
+        "repoId": 679366051,
+        "fullName": "NVIDIA/TensorRT-LLM",
+        "editorialNote": null,
+        "sortOrder": 10
+      }
+    ],
+    "createdAt": "2026-11-01T04:57:56.451Z",
+    "updatedAt": "2026-11-01T04:57:56.451Z",
+    "publishedAt": "2026-11-01T04:57:56.451Z"
+  },
+  {
+    "id": 167,
+    "title": "2026-11 AI Dev Tools Top 10",
+    "slug": "category-top-ai-dev-tools-2026-11",
+    "description": "2026-11 AI Dev Tools 分类最佳 AI 开源项目",
+    "coverEmoji": "🛠️",
+    "collectionType": "category_top",
+    "isPublished": true,
+    "isPinned": false,
+    "sortOrder": 6,
+    "repos": [
+      {
+        "repoId": 1177402105,
+        "fullName": "heygen-com/hyperframes",
+        "editorialNote": null,
+        "sortOrder": 1
+      },
+      {
+        "repoId": 1206390571,
+        "fullName": "debpalash/VoiceStudio",
+        "editorialNote": null,
+        "sortOrder": 2
+      },
+      {
+        "repoId": 1136590548,
+        "fullName": "affaan-m/ECC",
+        "editorialNote": null,
+        "sortOrder": 3
+      },
+      {
+        "repoId": 1048065319,
+        "fullName": "thedotmack/claude-mem",
+        "editorialNote": null,
+        "sortOrder": 4
+      },
+      {
+        "repoId": 1164477708,
+        "fullName": "mksglu/context-mode",
+        "editorialNote": null,
+        "sortOrder": 5
+      },
+      {
+        "repoId": 1187630119,
+        "fullName": "NVIDIA/SkillSpector",
+        "editorialNote": null,
+        "sortOrder": 6
+      },
+      {
+        "repoId": 1284653133,
+        "fullName": "xerj-org/xerj",
+        "editorialNote": null,
+        "sortOrder": 7
+      },
+      {
+        "repoId": 1047320420,
+        "fullName": "bethington/ghidra-mcp",
+        "editorialNote": null,
+        "sortOrder": 8
+      },
+      {
+        "repoId": 850267588,
+        "fullName": "78/xiaozhi-esp32",
+        "editorialNote": null,
+        "sortOrder": 9
+      },
+      {
+        "repoId": 1092407718,
+        "fullName": "macro-inc/macro",
+        "editorialNote": null,
+        "sortOrder": 10
+      }
+    ],
+    "createdAt": "2026-11-01T04:57:56.451Z",
+    "updatedAt": "2026-11-01T04:57:56.451Z",
+    "publishedAt": "2026-11-01T04:57:56.451Z"
+  },
+  {
+    "id": 168,
+    "title": "2026-11 Multimodal Top 10",
+    "slug": "category-top-multimodal-2026-11",
+    "description": "2026-11 Multimodal 分类最佳 AI 开源项目",
+    "coverEmoji": "👁️",
+    "collectionType": "category_top",
+    "isPublished": true,
+    "isPinned": false,
+    "sortOrder": 7,
+    "repos": [
+      {
+        "repoId": 1092047360,
+        "fullName": "luongnv89/claude-howto",
+        "editorialNote": null,
+        "sortOrder": 1
+      },
+      {
+        "repoId": 155220641,
+        "fullName": "huggingface/transformers",
+        "editorialNote": null,
+        "sortOrder": 2
+      },
+      {
+        "repoId": 740303686,
+        "fullName": "sgl-project/sglang",
+        "editorialNote": null,
+        "sortOrder": 3
+      },
+      {
+        "repoId": 1304469751,
+        "fullName": "anomalyco/hex",
+        "editorialNote": null,
+        "sortOrder": 4
+      },
+      {
+        "repoId": 1195360525,
+        "fullName": "calesthio/OpenMontage",
+        "editorialNote": null,
+        "sortOrder": 5
+      },
+      {
+        "repoId": 589831718,
+        "fullName": "Comfy-Org/ComfyUI",
+        "editorialNote": null,
+        "sortOrder": 6
+      },
+      {
+        "repoId": 725205304,
+        "fullName": "unslothai/unsloth",
+        "editorialNote": null,
+        "sortOrder": 7
+      },
+      {
+        "repoId": 525592995,
+        "fullName": "invoke-ai/InvokeAI",
+        "editorialNote": null,
+        "sortOrder": 8
+      },
+      {
+        "repoId": 535360445,
+        "fullName": "ultralytics/ultralytics",
+        "editorialNote": null,
+        "sortOrder": 9
+      },
+      {
+        "repoId": 677953180,
+        "fullName": "leejet/stable-diffusion.cpp",
+        "editorialNote": null,
+        "sortOrder": 10
+      }
+    ],
+    "createdAt": "2026-11-01T04:57:56.451Z",
+    "updatedAt": "2026-11-01T04:57:56.451Z",
+    "publishedAt": "2026-11-01T04:57:56.451Z"
+  },
+  {
+    "id": 169,
+    "title": "2026-11 Datasets & Benchmarks Top 10",
+    "slug": "category-top-datasets-benchmarks-2026-11",
+    "description": "2026-11 Datasets & Benchmarks 分类最佳 AI 开源项目",
+    "coverEmoji": "📋",
+    "collectionType": "category_top",
+    "isPublished": true,
+    "isPinned": false,
+    "sortOrder": 8,
+    "repos": [
+      {
+        "repoId": 976921297,
+        "fullName": "asgeirtj/system_prompts_leaks",
+        "editorialNote": null,
+        "sortOrder": 1
+      },
+      {
+        "repoId": 54346799,
+        "fullName": "public-apis/public-apis",
+        "editorialNote": null,
+        "sortOrder": 2
+      }
+    ],
+    "createdAt": "2026-11-01T04:57:56.451Z",
+    "updatedAt": "2026-11-01T04:57:56.451Z",
+    "publishedAt": "2026-11-01T04:57:56.451Z"
+  },
+  {
+    "id": 170,
+    "title": "2026-11 AI Applications Top 10",
+    "slug": "category-top-ai-applications-2026-11",
+    "description": "2026-11 AI Applications 分类最佳 AI 开源项目",
+    "coverEmoji": "💡",
+    "collectionType": "category_top",
+    "isPublished": true,
+    "isPinned": false,
+    "sortOrder": 9,
+    "repos": [
+      {
+        "repoId": 575865240,
+        "fullName": "AstrBotDevs/AstrBot",
+        "editorialNote": null,
+        "sortOrder": 1
+      },
+      {
+        "repoId": 214587193,
+        "fullName": "supabase/supabase",
+        "editorialNote": null,
+        "sortOrder": 2
+      },
+      {
+        "repoId": 1004647857,
+        "fullName": "OpenWhispr/openwhispr",
+        "editorialNote": null,
+        "sortOrder": 3
+      },
+      {
+        "repoId": 828119367,
+        "fullName": "yamadashy/repomix",
+        "editorialNote": null,
+        "sortOrder": 4
+      },
+      {
+        "repoId": 643445235,
+        "fullName": "lobehub/lobehub",
+        "editorialNote": null,
+        "sortOrder": 5
+      },
+      {
+        "repoId": 771302083,
+        "fullName": "OpenHands/OpenHands",
+        "editorialNote": null,
+        "sortOrder": 6
+      },
+      {
+        "repoId": 633262635,
+        "fullName": "onyx-dot-app/onyx",
+        "editorialNote": null,
+        "sortOrder": 7
+      },
+      {
+        "repoId": 764723738,
+        "fullName": "Skyvern-AI/skyvern",
+        "editorialNote": null,
+        "sortOrder": 8
+      },
+      {
+        "repoId": 1033778670,
+        "fullName": "iOfficeAI/AionUi",
+        "editorialNote": null,
+        "sortOrder": 9
+      },
+      {
+        "repoId": 600596928,
+        "fullName": "danny-avila/LibreChat",
+        "editorialNote": null,
+        "sortOrder": 10
+      }
+    ],
+    "createdAt": "2026-11-01T04:57:56.451Z",
+    "updatedAt": "2026-11-01T04:57:56.451Z",
+    "publishedAt": "2026-11-01T04:57:56.451Z"
   }
 ]
