@@ -2508,82 +2508,6 @@
     "publishedAt": "2026-10-04T04:52:47.727Z"
   },
   {
-    "id": 159,
-    "title": "2026-10-30 本周上升最快 Top 10",
-    "slug": "weekly-rising-2026-10-30",
-    "description": "2026-10-30 周度最具增长势头的 AI 开源项目精选",
-    "coverEmoji": "🚀",
-    "collectionType": "weekly_digest",
-    "isPublished": true,
-    "isPinned": false,
-    "sortOrder": 0,
-    "repos": [
-      {
-        "repoId": 1206390571,
-        "fullName": "debpalash/VoiceStudio",
-        "editorialNote": "周星标增长 +47778",
-        "sortOrder": 1
-      },
-      {
-        "repoId": 1322250666,
-        "fullName": "boykopovar/AnyPS5",
-        "editorialNote": "周星标增长 +47350",
-        "sortOrder": 2
-      },
-      {
-        "repoId": 1266797999,
-        "fullName": "DietrichGebert/ponytail",
-        "editorialNote": "周星标增长 +33063",
-        "sortOrder": 3
-      },
-      {
-        "repoId": 1136590548,
-        "fullName": "affaan-m/ECC",
-        "editorialNote": "周星标增长 +24663",
-        "sortOrder": 4
-      },
-      {
-        "repoId": 1177402105,
-        "fullName": "heygen-com/hyperframes",
-        "editorialNote": "周星标增长 +21520",
-        "sortOrder": 5
-      },
-      {
-        "repoId": 1165277268,
-        "fullName": "Panniantong/Agent-Reach",
-        "editorialNote": "周星标增长 +20593",
-        "sortOrder": 6
-      },
-      {
-        "repoId": 1329849289,
-        "fullName": "lexmount/moli",
-        "editorialNote": "周星标增长 +19569",
-        "sortOrder": 7
-      },
-      {
-        "repoId": 173228436,
-        "fullName": "NationalSecurityAgency/ghidra",
-        "editorialNote": "周星标增长 +16113",
-        "sortOrder": 8
-      },
-      {
-        "repoId": 1305213943,
-        "fullName": "DuarteSantos8/openGym",
-        "editorialNote": "周星标增长 +15794",
-        "sortOrder": 9
-      },
-      {
-        "repoId": 1170821064,
-        "fullName": "paperclipai/paperclip",
-        "editorialNote": "周星标增长 +14927",
-        "sortOrder": 10
-      }
-    ],
-    "createdAt": "2026-10-30T04:54:25.174Z",
-    "updatedAt": "2026-10-30T04:54:25.174Z",
-    "publishedAt": "2026-10-30T04:54:25.174Z"
-  },
-  {
     "id": 160,
     "title": "2026-10-31 本周上升最快 Top 10",
     "slug": "weekly-rising-2026-10-31",
@@ -3440,5 +3364,81 @@
     "createdAt": "2026-11-02T05:01:18.102Z",
     "updatedAt": "2026-11-02T05:01:18.102Z",
     "publishedAt": "2026-11-02T05:01:18.102Z"
+  },
+  {
+    "id": 172,
+    "title": "2026-11-03 本周上升最快 Top 10",
+    "slug": "weekly-rising-2026-11-03",
+    "description": "2026-11-03 周度最具增长势头的 AI 开源项目精选",
+    "coverEmoji": "🚀",
+    "collectionType": "weekly_digest",
+    "isPublished": true,
+    "isPinned": false,
+    "sortOrder": 0,
+    "repos": [
+      {
+        "repoId": 1209966933,
+        "fullName": "morluto/rea",
+        "editorialNote": "周星标增长 +422104",
+        "sortOrder": 1
+      },
+      {
+        "repoId": 1206390571,
+        "fullName": "debpalash/VoiceStudio",
+        "editorialNote": "周星标增长 +47605",
+        "sortOrder": 2
+      },
+      {
+        "repoId": 1222527844,
+        "fullName": "ifixai-ai/iFixAi",
+        "editorialNote": "周星标增长 +27487",
+        "sortOrder": 3
+      },
+      {
+        "repoId": 1165277268,
+        "fullName": "Panniantong/Agent-Reach",
+        "editorialNote": "周星标增长 +20448",
+        "sortOrder": 4
+      },
+      {
+        "repoId": 1329849289,
+        "fullName": "lexmount/moli",
+        "editorialNote": "周星标增长 +18772",
+        "sortOrder": 5
+      },
+      {
+        "repoId": 1305213943,
+        "fullName": "DuarteSantos8/openGym",
+        "editorialNote": "周星标增长 +17321",
+        "sortOrder": 6
+      },
+      {
+        "repoId": 173228436,
+        "fullName": "NationalSecurityAgency/ghidra",
+        "editorialNote": "周星标增长 +17043",
+        "sortOrder": 7
+      },
+      {
+        "repoId": 1284653133,
+        "fullName": "xerj-org/xerj",
+        "editorialNote": "周星标增长 +17029",
+        "sortOrder": 8
+      },
+      {
+        "repoId": 1217040185,
+        "fullName": "tashfeenahmed/freellmapi",
+        "editorialNote": "周星标增长 +16329",
+        "sortOrder": 9
+      },
+      {
+        "repoId": 1097346685,
+        "fullName": "pbakaus/impeccable",
+        "editorialNote": "周星标增长 +11754",
+        "sortOrder": 10
+      }
+    ],
+    "createdAt": "2026-11-03T05:49:50.702Z",
+    "updatedAt": "2026-11-03T05:49:50.702Z",
+    "publishedAt": "2026-11-03T05:49:50.702Z"
   }
 ]
