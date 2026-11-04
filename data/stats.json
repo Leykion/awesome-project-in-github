@@ -1,6 +1,6 @@
 {
   "totalReposTracked": 2778,
-  "totalCurations": 1423,
+  "totalCurations": 1424,
   "categoryCounts": {
     "model-serving": 47,
     "ai-applications": 83,
@@ -46,7 +46,7 @@
     "CSS": 1,
     "Markdown": 1
   },
-  "lastSyncAt": "2026-11-03T19:24:46.153Z",
-  "lastCurationAt": "2026-11-03T19:24:46.153Z",
+  "lastSyncAt": "2026-11-04T05:21:16.036Z",
+  "lastCurationAt": "2026-11-04T05:21:16.036Z",
   "syncHealth": "healthy"
 }

@@ -9,17 +9,17 @@
     "topRepos": [
       {
         "fullName": "DietrichGebert/ponytail",
-        "stars": 183603,
+        "stars": 183892,
         "starsGained": 0
       },
       {
         "fullName": "huggingface/transformers",
-        "stars": 168496,
+        "stars": 168519,
         "starsGained": 0
       },
       {
         "fullName": "langgenius/dify",
-        "stars": 160335,
+        "stars": 160364,
         "starsGained": 0
       }
     ]
@@ -34,17 +34,17 @@
     "topRepos": [
       {
         "fullName": "supabase/supabase",
-        "stars": 114479,
-        "starsGained": 3783
+        "stars": 114495,
+        "starsGained": 3777
       },
       {
         "fullName": "meilisearch/meilisearch",
-        "stars": 59765,
+        "stars": 59772,
         "starsGained": 0
       },
       {
         "fullName": "milvus-io/milvus",
-        "stars": 46574,
+        "stars": 46578,
         "starsGained": 0
       }
     ]
@@ -59,17 +59,17 @@
     "topRepos": [
       {
         "fullName": "morluto/rea",
-        "stars": 426400,
-        "starsGained": 422104
+        "stars": 427828,
+        "starsGained": 426427
       },
       {
         "fullName": "NousResearch/hermes-agent",
-        "stars": 260200,
+        "stars": 260297,
         "starsGained": 0
       },
       {
         "fullName": "firecrawl/firecrawl",
-        "stars": 198267,
+        "stars": 198382,
         "starsGained": 0
       }
     ]
@@ -84,17 +84,17 @@
     "topRepos": [
       {
         "fullName": "scikit-learn/scikit-learn",
-        "stars": 67991,
+        "stars": 68003,
         "starsGained": 0
       },
       {
         "fullName": "BerriAI/litellm",
-        "stars": 62637,
+        "stars": 62660,
         "starsGained": 0
       },
       {
         "fullName": "vnpy/vnpy",
-        "stars": 46218,
+        "stars": 46223,
         "starsGained": 0
       }
     ]
@@ -109,17 +109,17 @@
     "topRepos": [
       {
         "fullName": "ollama/ollama",
-        "stars": 185798,
-        "starsGained": 956
+        "stars": 185837,
+        "starsGained": 932
       },
       {
         "fullName": "ggml-org/llama.cpp",
-        "stars": 133276,
+        "stars": 133313,
         "starsGained": 0
       },
       {
         "fullName": "vllm-project/vllm",
-        "stars": 96235,
+        "stars": 96263,
         "starsGained": 0
       }
     ]
@@ -134,18 +134,18 @@
     "topRepos": [
       {
         "fullName": "openclaw/openclaw",
-        "stars": 393844,
+        "stars": 393868,
         "starsGained": 0
       },
       {
         "fullName": "obra/superpowers",
-        "stars": 311763,
-        "starsGained": 5956
+        "stars": 311982,
+        "starsGained": 5994
       },
       {
         "fullName": "affaan-m/ECC",
-        "stars": 296393,
-        "starsGained": 6201
+        "stars": 296664,
+        "starsGained": 6053
       }
     ]
   },
@@ -159,17 +159,17 @@
     "topRepos": [
       {
         "fullName": "Comfy-Org/ComfyUI",
-        "stars": 144841,
+        "stars": 144908,
         "starsGained": 0
       },
       {
         "fullName": "debpalash/VoiceStudio",
-        "stars": 99888,
-        "starsGained": 47605
+        "stars": 100250,
+        "starsGained": 48168
       },
       {
         "fullName": "opencv/opencv",
-        "stars": 91428,
+        "stars": 91436,
         "starsGained": 0
       }
     ]
@@ -184,7 +184,7 @@
     "topRepos": [
       {
         "fullName": "asgeirtj/system_prompts_leaks",
-        "stars": 70704,
+        "stars": 70721,
         "starsGained": 0
       }
     ]
@@ -199,17 +199,17 @@
     "topRepos": [
       {
         "fullName": "Significant-Gravitas/AutoGPT",
-        "stars": 187886,
+        "stars": 187893,
         "starsGained": 0
       },
       {
         "fullName": "f/prompts.chat",
-        "stars": 175711,
+        "stars": 175743,
         "starsGained": 0
       },
       {
         "fullName": "open-webui/open-webui",
-        "stars": 157665,
+        "stars": 157705,
         "starsGained": 0
       }
     ]
