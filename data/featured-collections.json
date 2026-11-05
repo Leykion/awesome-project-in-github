@@ -2508,82 +2508,6 @@
     "publishedAt": "2026-10-04T04:52:47.727Z"
   },
   {
-    "id": 161,
-    "title": "2026-11-01 本周上升最快 Top 10",
-    "slug": "weekly-rising-2026-11-01",
-    "description": "2026-11-01 周度最具增长势头的 AI 开源项目精选",
-    "coverEmoji": "🚀",
-    "collectionType": "weekly_digest",
-    "isPublished": true,
-    "isPinned": false,
-    "sortOrder": 0,
-    "repos": [
-      {
-        "repoId": 1322250666,
-        "fullName": "boykopovar/AnyPS5",
-        "editorialNote": "周星标增长 +47757",
-        "sortOrder": 1
-      },
-      {
-        "repoId": 1206390571,
-        "fullName": "debpalash/VoiceStudio",
-        "editorialNote": "周星标增长 +47234",
-        "sortOrder": 2
-      },
-      {
-        "repoId": 1177402105,
-        "fullName": "heygen-com/hyperframes",
-        "editorialNote": "周星标增长 +22303",
-        "sortOrder": 3
-      },
-      {
-        "repoId": 1165277268,
-        "fullName": "Panniantong/Agent-Reach",
-        "editorialNote": "周星标增长 +21482",
-        "sortOrder": 4
-      },
-      {
-        "repoId": 1329849289,
-        "fullName": "lexmount/moli",
-        "editorialNote": "周星标增长 +19859",
-        "sortOrder": 5
-      },
-      {
-        "repoId": 173228436,
-        "fullName": "NationalSecurityAgency/ghidra",
-        "editorialNote": "周星标增长 +16685",
-        "sortOrder": 6
-      },
-      {
-        "repoId": 1185590488,
-        "fullName": "rohitg00/ai-engineering-from-scratch",
-        "editorialNote": "周星标增长 +14370",
-        "sortOrder": 7
-      },
-      {
-        "repoId": 1222917575,
-        "fullName": "Nutlope/hallmark",
-        "editorialNote": "周星标增长 +12062",
-        "sortOrder": 8
-      },
-      {
-        "repoId": 1273427276,
-        "fullName": "cloudflare/security-audit-skill",
-        "editorialNote": "周星标增长 +11908",
-        "sortOrder": 9
-      },
-      {
-        "repoId": 1144520675,
-        "fullName": "Alishahryar1/free-claude-code",
-        "editorialNote": "周星标增长 +9713",
-        "sortOrder": 10
-      }
-    ],
-    "createdAt": "2026-11-01T04:57:56.451Z",
-    "updatedAt": "2026-11-01T04:57:56.451Z",
-    "publishedAt": "2026-11-01T04:57:56.451Z"
-  },
-  {
     "id": 162,
     "title": "2026-11 LLM Frameworks Top 10",
     "slug": "category-top-llm-frameworks-2026-11",
@@ -3440,5 +3364,81 @@
     "createdAt": "2026-11-04T05:21:15.827Z",
     "updatedAt": "2026-11-04T05:21:15.827Z",
     "publishedAt": "2026-11-04T05:21:15.827Z"
+  },
+  {
+    "id": 174,
+    "title": "2026-11-05 本周上升最快 Top 10",
+    "slug": "weekly-rising-2026-11-05",
+    "description": "2026-11-05 周度最具增长势头的 AI 开源项目精选",
+    "coverEmoji": "🚀",
+    "collectionType": "weekly_digest",
+    "isPublished": true,
+    "isPinned": false,
+    "sortOrder": 0,
+    "repos": [
+      {
+        "repoId": 1209966933,
+        "fullName": "morluto/rea",
+        "editorialNote": "周星标增长 +430285",
+        "sortOrder": 1
+      },
+      {
+        "repoId": 1206390571,
+        "fullName": "debpalash/VoiceStudio",
+        "editorialNote": "周星标增长 +48420",
+        "sortOrder": 2
+      },
+      {
+        "repoId": 1322250666,
+        "fullName": "boykopovar/AnyPS5",
+        "editorialNote": "周星标增长 +47878",
+        "sortOrder": 3
+      },
+      {
+        "repoId": 476507964,
+        "fullName": "storytold/artcraft",
+        "editorialNote": "周星标增长 +36697",
+        "sortOrder": 4
+      },
+      {
+        "repoId": 1273427276,
+        "fullName": "cloudflare/security-audit-skill",
+        "editorialNote": "周星标增长 +34859",
+        "sortOrder": 5
+      },
+      {
+        "repoId": 1183888342,
+        "fullName": "stablyai/orca",
+        "editorialNote": "周星标增长 +31136",
+        "sortOrder": 6
+      },
+      {
+        "repoId": 1177402105,
+        "fullName": "heygen-com/hyperframes",
+        "editorialNote": "周星标增长 +22621",
+        "sortOrder": 7
+      },
+      {
+        "repoId": 1165277268,
+        "fullName": "Panniantong/Agent-Reach",
+        "editorialNote": "周星标增长 +18799",
+        "sortOrder": 8
+      },
+      {
+        "repoId": 173228436,
+        "fullName": "NationalSecurityAgency/ghidra",
+        "editorialNote": "周星标增长 +17528",
+        "sortOrder": 9
+      },
+      {
+        "repoId": 1284653133,
+        "fullName": "xerj-org/xerj",
+        "editorialNote": "周星标增长 +17273",
+        "sortOrder": 10
+      }
+    ],
+    "createdAt": "2026-11-05T05:43:02.792Z",
+    "updatedAt": "2026-11-05T05:43:02.792Z",
+    "publishedAt": "2026-11-05T05:43:02.792Z"
   }
 ]
