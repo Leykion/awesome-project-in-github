@@ -9,17 +9,17 @@
     "topRepos": [
       {
         "fullName": "huggingface/transformers",
-        "stars": 168573,
+        "stars": 168575,
         "starsGained": 0
       },
       {
         "fullName": "langgenius/dify",
-        "stars": 160474,
+        "stars": 160506,
         "starsGained": 0
       },
       {
         "fullName": "langflow-ai/langflow",
-        "stars": 156362,
+        "stars": 156368,
         "starsGained": 0
       }
     ]
@@ -34,17 +34,17 @@
     "topRepos": [
       {
         "fullName": "supabase/supabase",
-        "stars": 114575,
-        "starsGained": 3787
+        "stars": 114588,
+        "starsGained": 3804
       },
       {
         "fullName": "elastic/elasticsearch",
-        "stars": 78500,
+        "stars": 78498,
         "starsGained": 117
       },
       {
         "fullName": "meilisearch/meilisearch",
-        "stars": 59793,
+        "stars": 59792,
         "starsGained": 0
       }
     ]
@@ -59,17 +59,17 @@
     "topRepos": [
       {
         "fullName": "morluto/rea",
-        "stars": 433870,
-        "starsGained": 430285
+        "stars": 435147,
+        "starsGained": 430792
       },
       {
         "fullName": "NousResearch/hermes-agent",
-        "stars": 260825,
+        "stars": 260945,
         "starsGained": 0
       },
       {
         "fullName": "firecrawl/firecrawl",
-        "stars": 198925,
+        "stars": 199019,
         "starsGained": 0
       }
     ]
@@ -84,17 +84,17 @@
     "topRepos": [
       {
         "fullName": "scikit-learn/scikit-learn",
-        "stars": 68025,
+        "stars": 68020,
         "starsGained": 0
       },
       {
         "fullName": "BerriAI/litellm",
-        "stars": 62779,
+        "stars": 62802,
         "starsGained": 0
       },
       {
         "fullName": "vnpy/vnpy",
-        "stars": 46247,
+        "stars": 46249,
         "starsGained": 0
       }
     ]
@@ -109,17 +109,17 @@
     "topRepos": [
       {
         "fullName": "ollama/ollama",
-        "stars": 186019,
-        "starsGained": 929
+        "stars": 186045,
+        "starsGained": 924
       },
       {
         "fullName": "ggml-org/llama.cpp",
-        "stars": 133470,
-        "starsGained": 811
+        "stars": 133505,
+        "starsGained": 794
       },
       {
         "fullName": "vllm-project/vllm",
-        "stars": 96403,
+        "stars": 96427,
         "starsGained": 0
       }
     ]
@@ -134,18 +134,18 @@
     "topRepos": [
       {
         "fullName": "openclaw/openclaw",
-        "stars": 393982,
+        "stars": 394002,
         "starsGained": 0
       },
       {
         "fullName": "obra/superpowers",
-        "stars": 312924,
-        "starsGained": 5565
+        "stars": 313126,
+        "starsGained": 5131
       },
       {
         "fullName": "affaan-m/ECC",
-        "stars": 297760,
-        "starsGained": 5811
+        "stars": 297981,
+        "starsGained": 5542
       }
     ]
   },
@@ -159,17 +159,17 @@
     "topRepos": [
       {
         "fullName": "Comfy-Org/ComfyUI",
-        "stars": 145211,
+        "stars": 145276,
         "starsGained": 0
       },
       {
         "fullName": "debpalash/VoiceStudio",
-        "stars": 101777,
-        "starsGained": 48420
+        "stars": 102120,
+        "starsGained": 48803
       },
       {
         "fullName": "opencv/opencv",
-        "stars": 91470,
+        "stars": 91472,
         "starsGained": 0
       }
     ]
@@ -184,7 +184,7 @@
     "topRepos": [
       {
         "fullName": "asgeirtj/system_prompts_leaks",
-        "stars": 70854,
+        "stars": 70897,
         "starsGained": 0
       }
     ]
@@ -199,17 +199,17 @@
     "topRepos": [
       {
         "fullName": "Significant-Gravitas/AutoGPT",
-        "stars": 187912,
+        "stars": 187915,
         "starsGained": 0
       },
       {
         "fullName": "f/prompts.chat",
-        "stars": 175888,
+        "stars": 175926,
         "starsGained": 0
       },
       {
         "fullName": "open-webui/open-webui",
-        "stars": 157856,
+        "stars": 157886,
         "starsGained": 0
       }
     ]
