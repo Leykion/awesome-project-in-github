@@ -3138,82 +3138,6 @@
     "publishedAt": "2026-11-01T04:57:56.451Z"
   },
   {
-    "id": 173,
-    "title": "2026-11-04 本周上升最快 Top 10",
-    "slug": "weekly-rising-2026-11-04",
-    "description": "2026-11-04 周度最具增长势头的 AI 开源项目精选",
-    "coverEmoji": "🚀",
-    "collectionType": "weekly_digest",
-    "isPublished": true,
-    "isPinned": false,
-    "sortOrder": 0,
-    "repos": [
-      {
-        "repoId": 1209966933,
-        "fullName": "morluto/rea",
-        "editorialNote": "周星标增长 +426427",
-        "sortOrder": 1
-      },
-      {
-        "repoId": 1206390571,
-        "fullName": "debpalash/VoiceStudio",
-        "editorialNote": "周星标增长 +48168",
-        "sortOrder": 2
-      },
-      {
-        "repoId": 1322250666,
-        "fullName": "boykopovar/AnyPS5",
-        "editorialNote": "周星标增长 +47969",
-        "sortOrder": 3
-      },
-      {
-        "repoId": 1177402105,
-        "fullName": "heygen-com/hyperframes",
-        "editorialNote": "周星标增长 +22387",
-        "sortOrder": 4
-      },
-      {
-        "repoId": 1165277268,
-        "fullName": "Panniantong/Agent-Reach",
-        "editorialNote": "周星标增长 +19446",
-        "sortOrder": 5
-      },
-      {
-        "repoId": 1305213943,
-        "fullName": "DuarteSantos8/openGym",
-        "editorialNote": "周星标增长 +17532",
-        "sortOrder": 6
-      },
-      {
-        "repoId": 173228436,
-        "fullName": "NationalSecurityAgency/ghidra",
-        "editorialNote": "周星标增长 +17325",
-        "sortOrder": 7
-      },
-      {
-        "repoId": 1284653133,
-        "fullName": "xerj-org/xerj",
-        "editorialNote": "周星标增长 +17149",
-        "sortOrder": 8
-      },
-      {
-        "repoId": 1217040185,
-        "fullName": "tashfeenahmed/freellmapi",
-        "editorialNote": "周星标增长 +16812",
-        "sortOrder": 9
-      },
-      {
-        "repoId": 1158722119,
-        "fullName": "addyosmani/agent-skills",
-        "editorialNote": "周星标增长 +12738",
-        "sortOrder": 10
-      }
-    ],
-    "createdAt": "2026-11-04T05:21:15.827Z",
-    "updatedAt": "2026-11-04T05:21:15.827Z",
-    "publishedAt": "2026-11-04T05:21:15.827Z"
-  },
-  {
     "id": 174,
     "title": "2026-11-05 本周上升最快 Top 10",
     "slug": "weekly-rising-2026-11-05",
@@ -3440,5 +3364,81 @@
     "createdAt": "2026-11-07T05:08:57.321Z",
     "updatedAt": "2026-11-07T05:08:57.321Z",
     "publishedAt": "2026-11-07T05:08:57.321Z"
+  },
+  {
+    "id": 177,
+    "title": "2026-11-08 本周上升最快 Top 10",
+    "slug": "weekly-rising-2026-11-08",
+    "description": "2026-11-08 周度最具增长势头的 AI 开源项目精选",
+    "coverEmoji": "🚀",
+    "collectionType": "weekly_digest",
+    "isPublished": true,
+    "isPinned": false,
+    "sortOrder": 0,
+    "repos": [
+      {
+        "repoId": 1209966933,
+        "fullName": "morluto/rea",
+        "editorialNote": "周星标增长 +429845",
+        "sortOrder": 1
+      },
+      {
+        "repoId": 1206390571,
+        "fullName": "debpalash/VoiceStudio",
+        "editorialNote": "周星标增长 +49671",
+        "sortOrder": 2
+      },
+      {
+        "repoId": 1322250666,
+        "fullName": "boykopovar/AnyPS5",
+        "editorialNote": "周星标增长 +43690",
+        "sortOrder": 3
+      },
+      {
+        "repoId": 476507964,
+        "fullName": "storytold/artcraft",
+        "editorialNote": "周星标增长 +35633",
+        "sortOrder": 4
+      },
+      {
+        "repoId": 1177402105,
+        "fullName": "heygen-com/hyperframes",
+        "editorialNote": "周星标增长 +22531",
+        "sortOrder": 5
+      },
+      {
+        "repoId": 523325759,
+        "fullName": "hmjz100/LinkSwift",
+        "editorialNote": "周星标增长 +17587",
+        "sortOrder": 6
+      },
+      {
+        "repoId": 173228436,
+        "fullName": "NationalSecurityAgency/ghidra",
+        "editorialNote": "周星标增长 +17554",
+        "sortOrder": 7
+      },
+      {
+        "repoId": 1284653133,
+        "fullName": "xerj-org/xerj",
+        "editorialNote": "周星标增长 +17208",
+        "sortOrder": 8
+      },
+      {
+        "repoId": 1153130349,
+        "fullName": "pingdotgg/t3code",
+        "editorialNote": "周星标增长 +17100",
+        "sortOrder": 9
+      },
+      {
+        "repoId": 1161958643,
+        "fullName": "vercel-labs/agent-desktop",
+        "editorialNote": "周星标增长 +16924",
+        "sortOrder": 10
+      }
+    ],
+    "createdAt": "2026-11-08T05:03:15.556Z",
+    "updatedAt": "2026-11-08T05:03:15.556Z",
+    "publishedAt": "2026-11-08T05:03:15.556Z"
   }
 ]
