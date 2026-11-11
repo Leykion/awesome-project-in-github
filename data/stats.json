@@ -1,5 +1,5 @@
 {
-  "totalReposTracked": 2808,
+  "totalReposTracked": 2807,
   "totalCurations": 1468,
   "categoryCounts": {
     "ai-applications": 96,
@@ -14,7 +14,7 @@
   },
   "languageCounts": {
     "Haskell": 1,
-    "Python": 422,
+    "Python": 421,
     "Swift": 137,
     "TypeScript": 470,
     "C": 8,
@@ -45,7 +45,7 @@
     "CSS": 1,
     "Markdown": 1
   },
-  "lastSyncAt": "2026-11-10T19:37:45.267Z",
-  "lastCurationAt": "2026-11-10T19:37:45.267Z",
+  "lastSyncAt": "2026-11-11T05:11:53.024Z",
+  "lastCurationAt": "2026-11-11T05:11:53.024Z",
   "syncHealth": "healthy"
 }

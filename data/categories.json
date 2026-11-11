@@ -9,17 +9,17 @@
     "topRepos": [
       {
         "fullName": "huggingface/transformers",
-        "stars": 168741,
+        "stars": 168772,
         "starsGained": 0
       },
       {
         "fullName": "langgenius/dify",
-        "stars": 160872,
+        "stars": 160920,
         "starsGained": 0
       },
       {
         "fullName": "langflow-ai/langflow",
-        "stars": 156509,
+        "stars": 156515,
         "starsGained": 0
       }
     ]
@@ -34,17 +34,17 @@
     "topRepos": [
       {
         "fullName": "supabase/supabase",
-        "stars": 114750,
+        "stars": 114773,
         "starsGained": 0
       },
       {
         "fullName": "elastic/elasticsearch",
-        "stars": 78550,
-        "starsGained": 127
+        "stars": 78572,
+        "starsGained": 126
       },
       {
         "fullName": "meilisearch/meilisearch",
-        "stars": 59833,
+        "stars": 59838,
         "starsGained": 0
       }
     ]
@@ -59,17 +59,17 @@
     "topRepos": [
       {
         "fullName": "NousResearch/hermes-agent",
-        "stars": 262400,
+        "stars": 262507,
         "starsGained": 0
       },
       {
         "fullName": "firecrawl/firecrawl",
-        "stars": 200447,
+        "stars": 200623,
         "starsGained": 0
       },
       {
         "fullName": "anthropics/claude-code",
-        "stars": 155195,
+        "stars": 155223,
         "starsGained": 0
       }
     ]
@@ -84,17 +84,17 @@
     "topRepos": [
       {
         "fullName": "unslothai/unsloth",
-        "stars": 79290,
+        "stars": 79305,
         "starsGained": 0
       },
       {
         "fullName": "scikit-learn/scikit-learn",
-        "stars": 68127,
+        "stars": 68139,
         "starsGained": 0
       },
       {
         "fullName": "vnpy/vnpy",
-        "stars": 46321,
+        "stars": 46327,
         "starsGained": 0
       }
     ]
@@ -109,17 +109,17 @@
     "topRepos": [
       {
         "fullName": "ollama/ollama",
-        "stars": 186560,
+        "stars": 186596,
         "starsGained": 4871
       },
       {
         "fullName": "ggml-org/llama.cpp",
-        "stars": 133940,
+        "stars": 133989,
         "starsGained": 120
       },
       {
         "fullName": "vllm-project/vllm",
-        "stars": 96683,
+        "stars": 96701,
         "starsGained": 0
       }
     ]
@@ -134,17 +134,17 @@
     "topRepos": [
       {
         "fullName": "morluto/rea",
-        "stars": 449536,
-        "starsGained": 413718
+        "stars": 450551,
+        "starsGained": 389832
       },
       {
         "fullName": "mattpocock/skills",
-        "stars": 320726,
-        "starsGained": 1223
+        "stars": 321131,
+        "starsGained": 1225
       },
       {
         "fullName": "obra/superpowers",
-        "stars": 315645,
+        "stars": 315837,
         "starsGained": 0
       }
     ]
@@ -159,13 +159,13 @@
     "topRepos": [
       {
         "fullName": "Comfy-Org/ComfyUI",
-        "stars": 146158,
-        "starsGained": 9870
+        "stars": 146237,
+        "starsGained": 9885
       },
       {
         "fullName": "debpalash/VoiceStudio",
-        "stars": 107092,
-        "starsGained": 50585
+        "stars": 107436,
+        "starsGained": 50753
       },
       {
         "fullName": "opencv/opencv",
@@ -184,7 +184,7 @@
     "topRepos": [
       {
         "fullName": "asgeirtj/system_prompts_leaks",
-        "stars": 71142,
+        "stars": 71163,
         "starsGained": 0
       }
     ]
@@ -199,17 +199,17 @@
     "topRepos": [
       {
         "fullName": "openclaw/openclaw",
-        "stars": 394300,
+        "stars": 394311,
         "starsGained": 0
       },
       {
         "fullName": "Significant-Gravitas/AutoGPT",
-        "stars": 187985,
+        "stars": 187987,
         "starsGained": 0
       },
       {
         "fullName": "f/prompts.chat",
-        "stars": 176833,
+        "stars": 176856,
         "starsGained": 0
       }
     ]
