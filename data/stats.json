@@ -1,5 +1,5 @@
 {
-  "totalReposTracked": 2833,
+  "totalReposTracked": 2830,
   "totalCurations": 1477,
   "categoryCounts": {
     "ai-applications": 100,
@@ -15,16 +15,16 @@
   "languageCounts": {
     "Haskell": 1,
     "Python": 423,
-    "Swift": 142,
+    "Swift": 141,
     "TypeScript": 477,
     "C": 9,
     "Clojure": 1,
     "Rust": 360,
     "Go": 390,
-    "JavaScript": 232,
+    "JavaScript": 231,
     "HTML": 2,
     "C++": 353,
-    "Java": 236,
+    "Java": 235,
     "Kotlin": 159,
     "Elixir": 1,
     "Jupyter Notebook": 5,
@@ -46,7 +46,7 @@
     "Markdown": 1,
     "Objective-C": 1
   },
-  "lastSyncAt": "2026-11-12T19:51:09.871Z",
-  "lastCurationAt": "2026-11-12T19:51:09.871Z",
+  "lastSyncAt": "2026-11-13T05:39:23.530Z",
+  "lastCurationAt": "2026-11-13T05:39:23.530Z",
   "syncHealth": "healthy"
 }

@@ -9,17 +9,17 @@
     "topRepos": [
       {
         "fullName": "huggingface/transformers",
-        "stars": 168911,
+        "stars": 168938,
         "starsGained": 98
       },
       {
         "fullName": "langgenius/dify",
-        "stars": 161053,
+        "stars": 161072,
         "starsGained": 0
       },
       {
         "fullName": "langflow-ai/langflow",
-        "stars": 156572,
+        "stars": 156585,
         "starsGained": 0
       }
     ]
@@ -34,17 +34,17 @@
     "topRepos": [
       {
         "fullName": "elastic/elasticsearch",
-        "stars": 78670,
-        "starsGained": 70
+        "stars": 78683,
+        "starsGained": 68
       },
       {
         "fullName": "meilisearch/meilisearch",
-        "stars": 59843,
+        "stars": 59850,
         "starsGained": 0
       },
       {
         "fullName": "milvus-io/milvus",
-        "stars": 46650,
+        "stars": 46653,
         "starsGained": 0
       }
     ]
@@ -59,17 +59,17 @@
     "topRepos": [
       {
         "fullName": "NousResearch/hermes-agent",
-        "stars": 262932,
+        "stars": 263023,
         "starsGained": 0
       },
       {
         "fullName": "firecrawl/firecrawl",
-        "stars": 201239,
+        "stars": 201331,
         "starsGained": 0
       },
       {
         "fullName": "anthropics/claude-code",
-        "stars": 155429,
+        "stars": 155478,
         "starsGained": 0
       }
     ]
@@ -84,17 +84,17 @@
     "topRepos": [
       {
         "fullName": "unslothai/unsloth",
-        "stars": 79388,
+        "stars": 79408,
         "starsGained": 0
       },
       {
         "fullName": "scikit-learn/scikit-learn",
-        "stars": 68156,
+        "stars": 68159,
         "starsGained": 0
       },
       {
         "fullName": "vnpy/vnpy",
-        "stars": 46355,
+        "stars": 46354,
         "starsGained": 0
       }
     ]
@@ -109,17 +109,17 @@
     "topRepos": [
       {
         "fullName": "ollama/ollama",
-        "stars": 186800,
-        "starsGained": 4849
+        "stars": 186831,
+        "starsGained": 4867
       },
       {
         "fullName": "ggml-org/llama.cpp",
-        "stars": 134448,
-        "starsGained": 287
+        "stars": 134666,
+        "starsGained": 176
       },
       {
         "fullName": "vllm-project/vllm",
-        "stars": 96830,
+        "stars": 96848,
         "starsGained": 0
       }
     ]
@@ -134,17 +134,17 @@
     "topRepos": [
       {
         "fullName": "morluto/rea",
-        "stars": 454926,
-        "starsGained": 366818
+        "stars": 455782,
+        "starsGained": 325178
       },
       {
         "fullName": "mattpocock/skills",
-        "stars": 322890,
-        "starsGained": 9575
+        "stars": 323169,
+        "starsGained": 8731
       },
       {
         "fullName": "obra/superpowers",
-        "stars": 316701,
+        "stars": 316892,
         "starsGained": 0
       }
     ]
@@ -159,18 +159,18 @@
     "topRepos": [
       {
         "fullName": "Comfy-Org/ComfyUI",
-        "stars": 146503,
-        "starsGained": 9945
+        "stars": 146559,
+        "starsGained": 9873
       },
       {
         "fullName": "debpalash/VoiceStudio",
-        "stars": 109061,
-        "starsGained": 50619
+        "stars": 109363,
+        "starsGained": 49960
       },
       {
         "fullName": "opencv/opencv",
-        "stars": 91547,
-        "starsGained": 125
+        "stars": 91551,
+        "starsGained": 120
       }
     ]
   },
@@ -184,7 +184,7 @@
     "topRepos": [
       {
         "fullName": "asgeirtj/system_prompts_leaks",
-        "stars": 71273,
+        "stars": 71301,
         "starsGained": 0
       }
     ]
@@ -199,13 +199,13 @@
     "topRepos": [
       {
         "fullName": "openclaw/openclaw",
-        "stars": 394404,
+        "stars": 394414,
         "starsGained": 0
       },
       {
         "fullName": "n8n-io/n8n",
-        "stars": 210317,
-        "starsGained": 220
+        "stars": 210344,
+        "starsGained": 167
       },
       {
         "fullName": "Significant-Gravitas/AutoGPT",

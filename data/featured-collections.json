@@ -3138,82 +3138,6 @@
     "publishedAt": "2026-11-01T04:57:56.451Z"
   },
   {
-    "id": 178,
-    "title": "2026-11-09 本周上升最快 Top 10",
-    "slug": "weekly-rising-2026-11-09",
-    "description": "2026-11-09 周度最具增长势头的 AI 开源项目精选",
-    "coverEmoji": "🚀",
-    "collectionType": "weekly_digest",
-    "isPublished": true,
-    "isPinned": false,
-    "sortOrder": 0,
-    "repos": [
-      {
-        "repoId": 1209966933,
-        "fullName": "morluto/rea",
-        "editorialNote": "周星标增长 +425123",
-        "sortOrder": 1
-      },
-      {
-        "repoId": 1206390571,
-        "fullName": "debpalash/VoiceStudio",
-        "editorialNote": "周星标增长 +50169",
-        "sortOrder": 2
-      },
-      {
-        "repoId": 1273427276,
-        "fullName": "cloudflare/security-audit-skill",
-        "editorialNote": "周星标增长 +40289",
-        "sortOrder": 3
-      },
-      {
-        "repoId": 1322250666,
-        "fullName": "boykopovar/AnyPS5",
-        "editorialNote": "周星标增长 +39354",
-        "sortOrder": 4
-      },
-      {
-        "repoId": 476507964,
-        "fullName": "storytold/artcraft",
-        "editorialNote": "周星标增长 +33780",
-        "sortOrder": 5
-      },
-      {
-        "repoId": 1183888342,
-        "fullName": "stablyai/orca",
-        "editorialNote": "周星标增长 +32085",
-        "sortOrder": 6
-      },
-      {
-        "repoId": 1097346685,
-        "fullName": "pbakaus/impeccable",
-        "editorialNote": "周星标增长 +28008",
-        "sortOrder": 7
-      },
-      {
-        "repoId": 1177402105,
-        "fullName": "heygen-com/hyperframes",
-        "editorialNote": "周星标增长 +22360",
-        "sortOrder": 8
-      },
-      {
-        "repoId": 173228436,
-        "fullName": "NationalSecurityAgency/ghidra",
-        "editorialNote": "周星标增长 +17344",
-        "sortOrder": 9
-      },
-      {
-        "repoId": 1284653133,
-        "fullName": "xerj-org/xerj",
-        "editorialNote": "周星标增长 +16914",
-        "sortOrder": 10
-      }
-    ],
-    "createdAt": "2026-11-09T05:19:53.491Z",
-    "updatedAt": "2026-11-09T05:19:53.491Z",
-    "publishedAt": "2026-11-09T05:19:53.491Z"
-  },
-  {
     "id": 179,
     "title": "2026-11-10 本周上升最快 Top 10",
     "slug": "weekly-rising-2026-11-10",
@@ -3440,5 +3364,81 @@
     "createdAt": "2026-11-12T06:17:07.611Z",
     "updatedAt": "2026-11-12T06:17:07.611Z",
     "publishedAt": "2026-11-12T06:17:07.611Z"
+  },
+  {
+    "id": 182,
+    "title": "2026-11-13 本周上升最快 Top 10",
+    "slug": "weekly-rising-2026-11-13",
+    "description": "2026-11-13 周度最具增长势头的 AI 开源项目精选",
+    "coverEmoji": "🚀",
+    "collectionType": "weekly_digest",
+    "isPublished": true,
+    "isPinned": false,
+    "sortOrder": 0,
+    "repos": [
+      {
+        "repoId": 1209966933,
+        "fullName": "morluto/rea",
+        "editorialNote": "周星标增长 +325178",
+        "sortOrder": 1
+      },
+      {
+        "repoId": 1206390571,
+        "fullName": "debpalash/VoiceStudio",
+        "editorialNote": "周星标增长 +49960",
+        "sortOrder": 2
+      },
+      {
+        "repoId": 1183888342,
+        "fullName": "stablyai/orca",
+        "editorialNote": "周星标增长 +33538",
+        "sortOrder": 3
+      },
+      {
+        "repoId": 1153130349,
+        "fullName": "pingdotgg/t3code",
+        "editorialNote": "周星标增长 +30926",
+        "sortOrder": 4
+      },
+      {
+        "repoId": 1097346685,
+        "fullName": "pbakaus/impeccable",
+        "editorialNote": "周星标增长 +29165",
+        "sortOrder": 5
+      },
+      {
+        "repoId": 1136590548,
+        "fullName": "affaan-m/ECC",
+        "editorialNote": "周星标增长 +25575",
+        "sortOrder": 6
+      },
+      {
+        "repoId": 1222917575,
+        "fullName": "Nutlope/hallmark",
+        "editorialNote": "周星标增长 +24106",
+        "sortOrder": 7
+      },
+      {
+        "repoId": 1177402105,
+        "fullName": "heygen-com/hyperframes",
+        "editorialNote": "周星标增长 +22251",
+        "sortOrder": 8
+      },
+      {
+        "repoId": 1162099055,
+        "fullName": "Leonxlnx/taste-skill",
+        "editorialNote": "周星标增长 +19580",
+        "sortOrder": 9
+      },
+      {
+        "repoId": 523325759,
+        "fullName": "hmjz100/LinkSwift",
+        "editorialNote": "周星标增长 +18459",
+        "sortOrder": 10
+      }
+    ],
+    "createdAt": "2026-11-13T05:39:23.362Z",
+    "updatedAt": "2026-11-13T05:39:23.362Z",
+    "publishedAt": "2026-11-13T05:39:23.362Z"
   }
 ]
