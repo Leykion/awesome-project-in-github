@@ -3138,82 +3138,6 @@
     "publishedAt": "2026-11-01T04:57:56.451Z"
   },
   {
-    "id": 184,
-    "title": "2026-11-15 本周上升最快 Top 10",
-    "slug": "weekly-rising-2026-11-15",
-    "description": "2026-11-15 周度最具增长势头的 AI 开源项目精选",
-    "coverEmoji": "🚀",
-    "collectionType": "weekly_digest",
-    "isPublished": true,
-    "isPinned": false,
-    "sortOrder": 0,
-    "repos": [
-      {
-        "repoId": 1209966933,
-        "fullName": "morluto/rea",
-        "editorialNote": "周星标增长 +236618",
-        "sortOrder": 1
-      },
-      {
-        "repoId": 1206390571,
-        "fullName": "debpalash/VoiceStudio",
-        "editorialNote": "周星标增长 +46324",
-        "sortOrder": 2
-      },
-      {
-        "repoId": 1273427276,
-        "fullName": "cloudflare/security-audit-skill",
-        "editorialNote": "周星标增长 +43171",
-        "sortOrder": 3
-      },
-      {
-        "repoId": 1183888342,
-        "fullName": "stablyai/orca",
-        "editorialNote": "周星标增长 +33348",
-        "sortOrder": 4
-      },
-      {
-        "repoId": 1153130349,
-        "fullName": "pingdotgg/t3code",
-        "editorialNote": "周星标增长 +32857",
-        "sortOrder": 5
-      },
-      {
-        "repoId": 1097346685,
-        "fullName": "pbakaus/impeccable",
-        "editorialNote": "周星标增长 +29487",
-        "sortOrder": 6
-      },
-      {
-        "repoId": 1222917575,
-        "fullName": "Nutlope/hallmark",
-        "editorialNote": "周星标增长 +25013",
-        "sortOrder": 7
-      },
-      {
-        "repoId": 1177402105,
-        "fullName": "heygen-com/hyperframes",
-        "editorialNote": "周星标增长 +21361",
-        "sortOrder": 8
-      },
-      {
-        "repoId": 1162099055,
-        "fullName": "Leonxlnx/taste-skill",
-        "editorialNote": "周星标增长 +20043",
-        "sortOrder": 9
-      },
-      {
-        "repoId": 1124219907,
-        "fullName": "HKUDS/DeepTutor",
-        "editorialNote": "周星标增长 +18077",
-        "sortOrder": 10
-      }
-    ],
-    "createdAt": "2026-11-15T05:24:23.064Z",
-    "updatedAt": "2026-11-15T05:24:23.064Z",
-    "publishedAt": "2026-11-15T05:24:23.064Z"
-  },
-  {
     "id": 185,
     "title": "2026-11-16 本周上升最快 Top 10",
     "slug": "weekly-rising-2026-11-16",
@@ -3440,5 +3364,81 @@
     "createdAt": "2026-11-18T06:29:34.084Z",
     "updatedAt": "2026-11-18T06:29:34.084Z",
     "publishedAt": "2026-11-18T06:29:34.084Z"
+  },
+  {
+    "id": 188,
+    "title": "2026-11-19 本周上升最快 Top 10",
+    "slug": "weekly-rising-2026-11-19",
+    "description": "2026-11-19 周度最具增长势头的 AI 开源项目精选",
+    "coverEmoji": "🚀",
+    "collectionType": "weekly_digest",
+    "isPublished": true,
+    "isPinned": false,
+    "sortOrder": 0,
+    "repos": [
+      {
+        "repoId": 1273427276,
+        "fullName": "cloudflare/security-audit-skill",
+        "editorialNote": "周星标增长 +44600",
+        "sortOrder": 1
+      },
+      {
+        "repoId": 1153130349,
+        "fullName": "pingdotgg/t3code",
+        "editorialNote": "周星标增长 +36872",
+        "sortOrder": 2
+      },
+      {
+        "repoId": 1097346685,
+        "fullName": "pbakaus/impeccable",
+        "editorialNote": "周星标增长 +30662",
+        "sortOrder": 3
+      },
+      {
+        "repoId": 1222917575,
+        "fullName": "Nutlope/hallmark",
+        "editorialNote": "周星标增长 +27295",
+        "sortOrder": 4
+      },
+      {
+        "repoId": 1161958643,
+        "fullName": "vercel-labs/agent-desktop",
+        "editorialNote": "周星标增长 +23599",
+        "sortOrder": 5
+      },
+      {
+        "repoId": 1177402105,
+        "fullName": "heygen-com/hyperframes",
+        "editorialNote": "周星标增长 +20375",
+        "sortOrder": 6
+      },
+      {
+        "repoId": 1331261687,
+        "fullName": "milind-soni/OpenMausBot",
+        "editorialNote": "周星标增长 +20270",
+        "sortOrder": 7
+      },
+      {
+        "repoId": 1162099055,
+        "fullName": "Leonxlnx/taste-skill",
+        "editorialNote": "周星标增长 +20055",
+        "sortOrder": 8
+      },
+      {
+        "repoId": 162998479,
+        "fullName": "sherlock-project/sherlock",
+        "editorialNote": "周星标增长 +20046",
+        "sortOrder": 9
+      },
+      {
+        "repoId": 1124219907,
+        "fullName": "HKUDS/DeepTutor",
+        "editorialNote": "周星标增长 +19065",
+        "sortOrder": 10
+      }
+    ],
+    "createdAt": "2026-11-19T06:30:02.007Z",
+    "updatedAt": "2026-11-19T06:30:02.007Z",
+    "publishedAt": "2026-11-19T06:30:02.007Z"
   }
 ]
