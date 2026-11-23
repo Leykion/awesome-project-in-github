@@ -9,17 +9,17 @@
     "topRepos": [
       {
         "fullName": "huggingface/transformers",
-        "stars": 169405,
+        "stars": 169273,
         "starsGained": 0
       },
       {
         "fullName": "langgenius/dify",
-        "stars": 161712,
+        "stars": 161763,
         "starsGained": 0
       },
       {
         "fullName": "langflow-ai/langflow",
-        "stars": 156858,
+        "stars": 156885,
         "starsGained": 0
       }
     ]
@@ -34,17 +34,17 @@
     "topRepos": [
       {
         "fullName": "elastic/elasticsearch",
-        "stars": 78792,
+        "stars": 78719,
         "starsGained": 453
       },
       {
         "fullName": "meilisearch/meilisearch",
-        "stars": 59965,
+        "stars": 59977,
         "starsGained": 0
       },
       {
         "fullName": "milvus-io/milvus",
-        "stars": 46721,
+        "stars": 46726,
         "starsGained": 0
       }
     ]
@@ -59,17 +59,17 @@
     "topRepos": [
       {
         "fullName": "NousResearch/hermes-agent",
-        "stars": 265494,
+        "stars": 265660,
         "starsGained": 0
       },
       {
         "fullName": "anthropics/claude-code",
-        "stars": 156738,
+        "stars": 156823,
         "starsGained": 0
       },
       {
         "fullName": "stablyai/orca",
-        "stars": 133378,
+        "stars": 134454,
         "starsGained": 0
       }
     ]
@@ -84,7 +84,7 @@
     "topRepos": [
       {
         "fullName": "tensorflow/tensorflow",
-        "stars": 201784,
+        "stars": 201708,
         "starsGained": 0
       },
       {
@@ -94,7 +94,7 @@
       },
       {
         "fullName": "ifixai-ai/iFixAi",
-        "stars": 46885,
+        "stars": 46980,
         "starsGained": 0
       }
     ]
@@ -105,21 +105,21 @@
     "description": "LLM 推理引擎和模型服务基础设施",
     "icon": "⚡",
     "sortOrder": 5,
-    "repoCount": 57,
+    "repoCount": 58,
     "topRepos": [
       {
         "fullName": "ollama/ollama",
-        "stars": 187896,
+        "stars": 187907,
         "starsGained": 4407
       },
       {
         "fullName": "ggml-org/llama.cpp",
-        "stars": 136144,
+        "stars": 136082,
         "starsGained": 1526
       },
       {
         "fullName": "vllm-project/vllm",
-        "stars": 97377,
+        "stars": 97422,
         "starsGained": 0
       }
     ]
@@ -130,22 +130,22 @@
     "description": "AI 原生开发者生产力工具",
     "icon": "🛠️",
     "sortOrder": 6,
-    "repoCount": 239,
+    "repoCount": 240,
     "topRepos": [
       {
         "fullName": "morluto/rea",
-        "stars": 474476,
+        "stars": 475541,
         "starsGained": 0
       },
       {
         "fullName": "mattpocock/skills",
-        "stars": 330725,
+        "stars": 331355,
         "starsGained": 0
       },
       {
         "fullName": "obra/superpowers",
-        "stars": 324362,
-        "starsGained": 788
+        "stars": 325023,
+        "starsGained": 838
       }
     ]
   },
@@ -159,17 +159,17 @@
     "topRepos": [
       {
         "fullName": "Comfy-Org/ComfyUI",
-        "stars": 148184,
+        "stars": 148291,
         "starsGained": 0
       },
       {
         "fullName": "debpalash/VoiceStudio",
-        "stars": 116670,
+        "stars": 117130,
         "starsGained": 0
       },
       {
         "fullName": "opencv/opencv",
-        "stars": 91693,
+        "stars": 91694,
         "starsGained": 0
       }
     ]
@@ -184,7 +184,7 @@
     "topRepos": [
       {
         "fullName": "asgeirtj/system_prompts_leaks",
-        "stars": 72461,
+        "stars": 72512,
         "starsGained": 0
       }
     ]
@@ -199,17 +199,17 @@
     "topRepos": [
       {
         "fullName": "openclaw/openclaw",
-        "stars": 395071,
+        "stars": 395112,
         "starsGained": 0
       },
       {
         "fullName": "n8n-io/n8n",
-        "stars": 211869,
+        "stars": 211829,
         "starsGained": 0
       },
       {
         "fullName": "Significant-Gravitas/AutoGPT",
-        "stars": 188144,
+        "stars": 188156,
         "starsGained": 0
       }
     ]
