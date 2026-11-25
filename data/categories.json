@@ -34,8 +34,8 @@
     "topRepos": [
       {
         "fullName": "elastic/elasticsearch",
-        "stars": 78759,
-        "starsGained": 453
+        "stars": 78777,
+        "starsGained": 313
       },
       {
         "fullName": "meilisearch/meilisearch",
@@ -109,13 +109,13 @@
     "topRepos": [
       {
         "fullName": "ollama/ollama",
-        "stars": 188000,
-        "starsGained": 4364
+        "stars": 188045,
+        "starsGained": 4293
       },
       {
         "fullName": "ggml-org/llama.cpp",
-        "stars": 136137,
-        "starsGained": 1455
+        "stars": 136183,
+        "starsGained": 1265
       },
       {
         "fullName": "vllm-project/vllm",
@@ -144,8 +144,8 @@
       },
       {
         "fullName": "obra/superpowers",
-        "stars": 325727,
-        "starsGained": 1006
+        "stars": 326039,
+        "starsGained": 1003
       }
     ]
   },
